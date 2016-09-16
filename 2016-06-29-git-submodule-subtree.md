@@ -19,6 +19,21 @@ git subtree push  --prefix=<prefix> <repository> <ref>
 git subtree split --prefix=<prefix> <commit...>
 ```
 
+## example
+
+originのmaster branchに_book folderをsubtreeとして追加
+
+```
+git subtree add   --prefix=_book origin master
+```
+
+
+
 ## options
 
 + --squash : example/dist directoryのcommitを一つのまとめてくれる
+
+
+# References
+
++ [git subtree使ってみた](http://qiita.com/taizawa/items/64dddf308150c1317705)

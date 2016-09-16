@@ -1,0 +1,30 @@
+{
+  "name": "moreta.github.io",
+  "version": "1.0.0",
+  "description": "moreta's tech note",
+  "main": "index.js",
+  "dependencies": {
+    "rimraf": "^2.3.4",
+    "gitbook-cli": "^2.3.0",
+    "gitbook-plugin-asciitree": "^1.0.9",
+    "gitbook-plugin-page-treeview": "^2.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "docs:clean": "rimraf _book",
+    "docs:prepare": "gitbook install",
+    "docs:build": "npm run docs:prepare && gitbook build",
+    "docs:watch": "npm run docs:prepare && gitbook serve",
+    "docs:publish": "npm run docs:clean && npm run docs:build && git subtree push --prefix _book origin master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moreta/moreta.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moreta/moreta.github.io/issues"
+  },
+  "homepage": "https://github.com/moreta/moreta.github.io#readme"
+}
