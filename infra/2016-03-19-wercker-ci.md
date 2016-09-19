@@ -32,9 +32,14 @@ install系
 + CLI
   + Running builds locally
     + localでもbuildできる
++ box
 + workflow
 + pipeline
++ step
 
+## Box
+
+wercker pipeline を実行する
 
 ## workflow
 
@@ -99,9 +104,8 @@ stepを作る前にscript stepで出来ないのか検討しよう。
 
 + services can be databases, queue servers
 
-# Docs
 
-## environment variables
+# environment variables
 
 + <http://devcenter.wercker.com/docs/environment-variables/index.html>
 + <http://devcenter.wercker.com/docs/environment-variables/creating-env-vars.html<
@@ -161,5 +165,7 @@ react appをs3へdeployしてみる
 First, need to install cli.
 
 
-
 # References
+
++ [best practices](http://old-devcenter.wercker.com/articles/bestpractices/index.html)
++ [qiita - Wercker Best Practice #wercker](http://qiita.com/tbpgr/items/58b548887d2d27f43ff2)
