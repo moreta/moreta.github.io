@@ -8,3 +8,5 @@ tags: slack, webhook
 
 1. <https://lunchmate.slack.com/apps> ここからincoming-webhooksで検索する
 2. Add configuration
+3. Post to Channelでメッセージをpushするchannelを選択
+4. Add Incoming WebHooks integration
