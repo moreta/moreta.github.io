@@ -1,13 +1,13 @@
 ---
-title: CI
+title: Wercker CI
 date: 2016-03-19
-tags: ci
+tags: ci, wercker
 ---
 
 
 # CI's
 
-cloud系 
+cloud系
 
 + AppVeyor
 + CircleCI
@@ -19,7 +19,7 @@ cloud系
 + wercker
 
 install系
- 
+
 + gitlab CI
 
 
@@ -32,18 +32,39 @@ install系
 + CLI
   + Running builds locally
     + localでもbuildできる
- flow
++ workflow
++ pipeline
+
+
+## workflow
 
 ![wercker workflow](https://dl.dropboxusercontent.com/u/21522805/blog/cloudservice/wercker-workflow-local-dev-cloud.png)
+
++ [workflows introduction](http://devcenter.wercker.com/learn/workflows/introduction.html)
++ Defines the sequence of pipelines. Allows for branching (one pipeline completion results in the triggering of multiple pipelines), and limiting to a specific Git branch
+  + pipelineたちのsequenceを定義
+  + ブランチングができる
+    + 意図つのpipllineが終わったら、他の複数のpipelineをtrggerできたり、
+    + 特定git branchに限定することもできる
+
+### workflowの例
+
+![workflow_branch_deploy](https://dl.dropboxusercontent.com/u/21522805/blog/wercker/workflow_branch_deploy.png)
+
+1. commitのよってbuildがtriggerされる
+2. triggerしたbranchがdevelopmentであれば、developmentへdeploy
+3. triggerしたbranchがmasterであれば、stagingへdeploy
+
 
 ## pipeline
 
 + The pipeline is the heart and soul of wercker
 + Build pipelines are triggered when new code is committed to your source control provider
++ Series of steps defined in your wercker.yml file. Can be kicked off by a commit to a specific branch, or on successful completion of another pipeline (via chaining)
 
 ## step
 
-<http://devcenter.wercker.com/docs/steps/index.html>
+[Steps](http://devcenter.wercker.com/docs/steps/index.html)
 
 Steps make up the wercker pipeline and can either be executed in the build or deploy phase within the pipeline.
 
@@ -54,7 +75,17 @@ Steps make up the wercker pipeline and can either be executed in the build or de
 
 ### script step
 
++ custom step
++ bash scriptで入れることができる
++ name, codeが必要
 
+```
+- script:
+    name: echo python information
+    code: |
+      echo "python version $(python --version) running"
+      echo "pip version $(pip --version) running"
+```
 
 ### creating step
 
@@ -80,7 +111,7 @@ stepを作る前にscript stepで出来ないのか検討しよう。
 
 
 # やってみよう
- 
+
 ## setting and build on wercker
 
 + accountを連動すると自動にsshkeyがbitbucketに入るようになっている
@@ -132,9 +163,3 @@ First, need to install cli.
 
 
 # References
-
-
-
-
-
-
