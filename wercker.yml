@@ -38,8 +38,3 @@ build:
     - slack-notifier:
         url: $SLACK_WEBHOOK_URL
         username: wercker
-completed-notifiy:
-  steps:
-    - slack-notifier:
-        url: $SLACK_WEBHOOK_URL
-        username: wercker

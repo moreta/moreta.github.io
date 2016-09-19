@@ -37,6 +37,8 @@ install系
 + pipeline
 + step
 
+workflow > pipeline > stepの単位で含まれている
+
 ## Box
 
 wercker pipeline を実行する
