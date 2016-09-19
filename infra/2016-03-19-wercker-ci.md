@@ -166,8 +166,14 @@ react appをs3へdeployしてみる
 
 First, need to install cli.
 
+# Plugin
+
+## github gh-pages
+
+<https://github.com/lvivier/step-gh-pages>
+
 
 # References
 
-+ [best practices](http://old-devcenter.wercker.com/articles/bestpractices/index.html)
 + [qiita - Wercker Best Practice #wercker](http://qiita.com/tbpgr/items/58b548887d2d27f43ff2)
++ [official docs](http://devcenter.wercker.com/docs/index.html)
