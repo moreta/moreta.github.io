@@ -17,7 +17,7 @@ box: node
     # - mongo
     # http://devcenter.wercker.com/docs/services/mongodb.html
 
-no-response-timeout: 15
+no-response-timeout: 40
 build:
   # The steps that will be executed on build
   # Steps make up the actions in your pipeline

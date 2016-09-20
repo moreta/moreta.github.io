@@ -102,6 +102,19 @@ stepを作る前にscript stepで出来ないのか検討しよう。
 
 + どんな言語でもできるがbashやgolangをおすすめしている
 
+## build
+
+### timeoutエラーの場合
+
+<http://devcenter.wercker.com/docs/faq/how-to-bypass-timeouts.html>
+
+```
+# wercker.yml
+box: node
+...
+no-response-timeout: 15 # defaut 5分を変更する max 60分
+```
+
 ## Services
 
 + services can be databases, queue servers
