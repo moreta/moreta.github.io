@@ -1,5 +1,5 @@
 ---
-title: Java Stream API
+title: Java8 Stream API
 date: 2016-08-04
 tags: stream, java, java8
 ---
@@ -23,6 +23,29 @@ tags: stream, java, java8
 ## 参考
 
 + [Java8 Stream でお手軽に並列処理しよう](http://www.techscore.com/blog/2016/01/04/java8-stream-%E3%81%A7%E3%81%8A%E6%89%8B%E8%BB%BD%E3%81%AB%E4%B8%A6%E5%88%97%E5%87%A6%E7%90%86%E3%81%97%E3%82%88%E3%81%86/)
+
+
+## Sample
+
+### stream instanceを作成
+
+```java
+// java.util.stream.Stream#of
+Stream<String> stream = Stream.of("A", "B", "C")
+
+// java.util.Arrays#stream
+String<String> stream = Arrays.stream(new String[] {"A", "B", "C"})
+
+// java.util.Collection#stream
+List<String> list = Arrays.asList("A", "B", "C")
+Stream<String> stream = list.stream();
+
+// java.lang.CharSequence#chars
+String str = "ABC";
+IntStream streamf = str.chars()
+```
+
+### Stream#forEach
 
 
 
