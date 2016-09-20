@@ -166,14 +166,17 @@ react appをs3へdeployしてみる
 
 First, need to install cli.
 
-# Plugin
+# Push to github for Github Page
 
-## github gh-pages
+以下の２つのリンクの方法がある
 
-<https://github.com/lvivier/step-gh-pages>
++ [Using wercker to publish to Github pages](http://blog.wercker.com/2013/07/25/Using-wercker-to-publish-to-GitHub-pages.html)
++ [Plugin を使う方法](https://github.com/lvivier/step-gh-pages)
 
+でPluginよりは、Tutorialの方法が柔軟性が高い
 
 # References
 
 + [qiita - Wercker Best Practice #wercker](http://qiita.com/tbpgr/items/58b548887d2d27f43ff2)
 + [official docs](http://devcenter.wercker.com/docs/index.html)
++ [Using wercker to publish to Github pages](http://blog.wercker.com/2013/07/25/Using-wercker-to-publish-to-GitHub-pages.html)
