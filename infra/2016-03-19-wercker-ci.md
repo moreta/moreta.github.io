@@ -173,7 +173,12 @@ react appをs3へdeployしてみる
 もし、環境によってs3のbuckerを分けるとしたら
 
 
+## deploy to github
 
+token
+```
+https://{TOKEN}@github.com/{ACCOUNT}/{REPOSITORY}.git
+```
 
 ## local build
 
