@@ -4,7 +4,16 @@ date: 2014-01-17
 tags: xcode
 ---
 
+Xcode
+--------------
 
+# Basic
+
+## Xcode Project vs. Xcode Workspace - Differences
+
+<http://stackoverflow.com/questions/21631313/xcode-project-vs-xcode-workspace-differences>
+
+# Shortcut
 
 ## GO TO Implement(カーソル下にある変数/メソッドの定義場所に移動)
 command + click OR Command + control + j
@@ -20,7 +29,7 @@ command + click OR Command + control + j
 Command + Control + ↑ or Command + Control + ↓
 
 
-## ファイル名を指定して移動する
+## ファイル名で検索
 
 Command + Shift + o
 
@@ -33,7 +42,3 @@ Command + Control + ← (履歴を戻る) / Command + Control + → (履歴を�
 
 1. finderでファイルを移動
 2. file inspectorのLocationを変更
-
-
-# Apple LLVM 5.1 Error
-

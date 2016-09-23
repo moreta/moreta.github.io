@@ -1,64 +1,19 @@
----
-title: iOS Cocoapods & libs
-date: 2014-01-21
-tags: ios, cocoapod, opensource
----
 
-# ま、基本的なのはsame with ruby gem
-
-1. <http://guides.cocoapods.org/using/getting-started.html>
-2. <http://guides.cocoapods.org/using/using-cocoapods.html>
-
-# gallery site
+# pods gallery site
 
 * <http://cocoapods.org/>
 * <http://code4app.net/>
 
+# for Swift
 
-`sudo gem install cocoapods`
++ [Alamofire - Elegant HTTP Networking in Swift](https://github.com/Alamofire/Alamofire)
 
-特別な理由がなげればsudoなしでいい
-rvmなど使っているならsudoを使ったらpathの問題で`Could not find 'cocoapods' (>= 0)`のようなエラーになったりする
+# pods
 
-`gem install cocoapods`
-
-
-
-
-`touch PodFile`
-`emacs PodFile`
-
-
-
-```
-platform :ios, '6.0'
-
-pod 'ObjectiveSugar', '~> 1.1.0'
-pod 'RestKit', '~> 0.22.0'
-pod 'Facebook-iOS-SDK', '~> 3.12.0'
-pod 'SBJson', '~> 4.0.0'
-pod 'TestFlightSDK', '3.0.0'
-pod 'google-plus-ios-sdk', '~> 1.5.0'
-```
-
-`pod install`
-
-
-## cocoapod list
-
-<http://namaraii.com/archives/6210>
-
-## cocoapod rank
-
-でも、かならずこれがいいとはいえない
-<https://gist.github.com/luvtechno/8842522>
-
-### color
-
-<https://github.com/bennyguitar/Colours>
-
-## bootstrap & theme
-<https://github.com/Pixate/pixate-freestyle-ios>
++ [cocoapod list](http://namaraii.com/archives/6210)
++ [cocoapod rank](https://gist.github.com/luvtechno/8842522)
++ [color](https://github.com/bennyguitar/Colours)
++ [bootstrap & theme](https://github.com/Pixate/pixate-freestyle-ios)
 
 ## totorial | intro
 
@@ -107,7 +62,7 @@ rm -rf .cocoapods/
 cd your_project
 pod install
 ```
-=======
+
 # error
 
 
@@ -117,7 +72,7 @@ pod install
 
 
 
-# Podfile
+# Podfile sample
 
 
 ```
@@ -186,6 +141,5 @@ pod 'vfrReader' #An open source PDF file reader/viewer for iOS.
 
 ## その他
 
-* (ios7 sample)[http://code4app.net/ios/iOS7-Sampler/5254b2186803faba0d000003]
-* (ios7 actionsheet sample)[https://github.com/ianb821/IBActionSheet]
-
+* [ios7 sample](http://code4app.net/ios/iOS7-Sampler/5254b2186803faba0d000003)
+* [ios7 actionsheet sample](https://github.com/ianb821/IBActionSheet)
