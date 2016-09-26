@@ -2,7 +2,16 @@
 
 * [Introduction](README.md)
 
+### Design UI
 
+* [決済関連](design/ui/checkout.md)
+
+
+### Chat Bot
+
+* [Facebook Messenger Bot](chatbot/facebook_messenger.md)
+* [LINE Bot](chatbot/facebook_messenger.md)
+*
 ### javascript
 
 * [2013-11-01-new-analytics-code.md](javascript/2013-11-01-new-analytics-code.md)
@@ -281,13 +290,14 @@
 * [2016-08-13-git-tag.md](git/2016-08-13-git-tag.md)
 * [2016-09-05-git-branch.md](git/2016-09-05-git-branch.md)
 * [2016-09-05-git-commit-message.md](git/2016-09-05-git-commit-message.md)
-* [2016-09-17-gitbook.md](git/2016-09-17-gitbook.md)
+* [gitbook](git/gitbook.md)
 
 ### Infra
 
-* [wercker-ci.md](infra/wercker-ci.md)
-* [firebase.md](infra/firebase.md)
-* [slack-webhook.md](infra/slack-webhook.md)
+* [wercker-ci](infra/wercker-ci.md)
+* [firebase](infra/firebase.md)
+* [slack webhook](infra/slack-webhook.md)
+* [Cluster manager](infra/cluster-manager.md)
 * [2013-11-19-google-api.md](infra/2013-11-19-google-api.md)
 * [2013-11-19-google-map-api.md](infra/2013-11-19-google-map-api.md)
 * [2013-11-19-mail.md](infra/2013-11-19-mail.md)
