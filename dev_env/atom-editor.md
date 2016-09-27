@@ -5,25 +5,21 @@ tags: atom, editor
 ---
 
 
-## plugin
+# Packages
 
-### テーマ
-
-とちらかを使う。
-
-* flatland dark
-* seti
-
-
-### emacs-mode
-
-キーマッピング
+```sh
+apm install nuclide
+apm install regex-railroad-diagram
+apm install markdown-table-formatter
+apm install markdown-writer
+apm install atom-beautify
+```
 
 ### markdown
 
 preview
 
-* ctrl + shift + M
+* `ctrl + shift + M`
 
 
 ### file-icons
@@ -66,9 +62,10 @@ tree viewをclickをするとタブが開く、または選択される
 
 #### case toggle
 
-Keypress    Command
-cmd + K, cmd + U    Transform to Uppercase
-cmd + K, cmd + L    Transform to Lowercase
+| Keypress         | Command                |
+|:-----------------|:-----------------------|
+| cmd + K, cmd + U | Transform to Uppercase |
+| cmd + K, cmd + L | Transform to Lowercase |
 
 ### General
 
@@ -278,7 +275,6 @@ Select to top/bottom of document
   "cmd-j cmd-t": "markdown-writer:jump-to-next-table-cell"
   "cmd-j cmd-f": "markdown-writer:format-table"
 ```
-
 
 # 参照リンク
 

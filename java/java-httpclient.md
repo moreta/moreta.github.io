@@ -1,5 +1,7 @@
 # Apache HttpClient
 
+新しく使うなら [okhttp](http://square.github.io/okhttp/)を使った方がいい
+
 ## 4.3からは
 
 + HttpClientのオブジェクトを利用するのはHttpClientBuilderを利用する

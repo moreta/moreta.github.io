@@ -2,7 +2,6 @@
 
 
 
-
 # References
 
 + [JavaSE(JDK)をインストールしたら必ずやっておきたい設定](http://qiita.com/tool-taro/items/1d3787e786c6d2ebfedd)

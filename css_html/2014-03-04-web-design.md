@@ -12,6 +12,6 @@ Web Component Designs集
 
 + <http://css-tricks.com/float-labels-css/>
 
-### floating label
+### floating label        
 
 + <https://gist.github.com/hozaka/9224469>

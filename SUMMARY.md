@@ -11,7 +11,8 @@
 
 * [Facebook Messenger Bot](chatbot/facebook_messenger.md)
 * [LINE Bot](chatbot/facebook_messenger.md)
-*
+
+
 ### javascript
 
 * [2013-11-01-new-analytics-code.md](javascript/2013-11-01-new-analytics-code.md)
@@ -128,11 +129,15 @@
 
 ### java
 
+* [java8 basic](java/2016-08-25-java8.md)
 * [java8 stream api](java/java8-stream-api.md)
-* [java generic](java/java-generic.md)
-* [2016-08-25-java8.md](java/2016-08-25-java8.md)
-* [java Unit Test - mockito](java/java-unit-test-mockito.md)
-* [java Unit Test - powermock](java/java-unit-test-powermock.md)
+* [generic](java/java-generic.md)
+* [Unit Test - mockito](java/java-unit-test-mockito.md)
+* [Unit Test - powermock](java/java-unit-test-powermock.md)
+* [OkHttp](java/java-okhttp.md)
+* [Httpclient](java/java-httpclient.md)
+* [JCE](java/java-jce.md)
+* [JDBC Connection](java/java-jdbc-connection.md)
 * [2014-07-27-java-anonymous-class.md](java/2014-07-27-java-anonymous-class.md)
 * [2014-07-28-maven.md](java/2014-07-28-maven.md)
 * [2015-12-24-java-calendar.md](java/2015-12-24-java-calendar.md)
@@ -509,6 +514,7 @@
 ### Dev environment
 
 * [xcode.md](dev_env/xcode.md)
+* [atom editor](dev_env/atom-editor.md)
 * [2013-10-28-mac-mavericks-java6.md](dev_env/2013-10-28-mac-mavericks-java6.md)
 * [2013-11-05-mac-ip.md](dev_env/2013-11-05-mac-ip.md)
 * [2013-11-20-emacs-command.md](dev_env/2013-11-20-emacs-command.md)
@@ -528,7 +534,6 @@
 * [2014-09-10-mac-xcode-commandline.md](dev_env/2014-09-10-mac-xcode-commandline.md)
 * [2014-09-23-redmine_with_postgresql.md](dev_env/2014-09-23-redmine_with_postgresql.md)
 * [2014-09-23-redmine_with_sqlite3.md](dev_env/2014-09-23-redmine_with_sqlite3.md)
-* [2014-11-02-atom-editor.md](dev_env/2014-11-02-atom-editor.md)
 * [2015-01-27-alfred.md](dev_env/2015-01-27-alfred.md)
 * [2015-12-15-jetbrain-editor-custom-shortcut.md](dev_env/2015-12-15-jetbrain-editor-custom-shortcut.md)
 * [2015-12-15-sketch.md](dev_env/2015-12-15-sketch.md)
