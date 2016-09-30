@@ -25,9 +25,17 @@ tags: stream, java, java8
 + [Java8 Stream でお手軽に並列処理しよう](http://www.techscore.com/blog/2016/01/04/java8-stream-%E3%81%A7%E3%81%8A%E6%89%8B%E8%BB%BD%E3%81%AB%E4%B8%A6%E5%88%97%E5%87%A6%E7%90%86%E3%81%97%E3%82%88%E3%81%86/)
 
 
-## Sample
+### Stream instanceを取得
 
-### stream instanceを作成
++ [Java8 の Stream 取得方法あれこれ](http://etc9.hatenablog.com/entry/2015/05/07/195629)
++ Iteratorから
++ 配列から
++ Enumeration から
++ 文字列から
++ Stream#iterate
++ Stream#generate
+
+examples
 
 ```java
 // java.util.stream.Stream#of
@@ -47,6 +55,12 @@ IntStream streamf = str.chars()
 
 ### Stream#forEach
 
+### Stream#flatMap
+
++ [Java 8 flatMap example](https://www.mkyong.com/java8/java-8-flatmap-example/)
++ Collectionの中にネストしたCollectionがある場合
++ mapはCollectionの要素を取り出して変換を行うメソッドで
++ flatMapはCollectionの要素を取り出してStreamへの変換を行う
 
 
 # References

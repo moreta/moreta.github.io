@@ -303,6 +303,7 @@
 * [firebase](infra/firebase.md)
 * [slack webhook](infra/slack-webhook.md)
 * [Cluster manager](infra/cluster-manager.md)
+* [Load Balancer](infra/load-balancer.md)
 * [2013-11-19-google-api.md](infra/2013-11-19-google-api.md)
 * [2013-11-19-google-map-api.md](infra/2013-11-19-google-map-api.md)
 * [2013-11-19-mail.md](infra/2013-11-19-mail.md)
