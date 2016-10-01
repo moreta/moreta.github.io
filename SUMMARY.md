@@ -35,7 +35,7 @@
 * [2014-05-09-polymer.md](javascript/2014-05-09-polymer.md)
 * [2014-05-10-angular-dart.md](javascript/2014-05-10-angular-dart.md)
 * [2014-05-11-chrome-extension.md](javascript/2014-05-11-chrome-extension.md)
-* [2014-05-27-javascript-dangers-stopping-event-propagation.md](javascript/2014-05-27-javascript-dangers-stopping-event-propagation.md)
+* [javascript dangers stopping event propagation](javascript/2014-05-27-javascript-dangers-stopping-event-propagation.md)
 * [2014-06-28-svg.md](javascript/2014-06-28-svg.md)
 * [2014-07-14-websocket.md](javascript/2014-07-14-websocket.md)
 * [2014-07-27-chrome-app.md](javascript/2014-07-27-chrome-app.md)
@@ -321,7 +321,6 @@
 * [2014-05-20-postfix.md](infra/2014-05-20-postfix.md)
 * [2014-05-20-server-log.md](infra/2014-05-20-server-log.md)
 * [2014-05-21-aws-dynamoDB.md](infra/2014-05-21-aws-dynamoDB.md)
-* [2014-05-21-unix-command.md](infra/2014-05-21-unix-command.md)
 * [2014-05-24-cors-cross-origin-resource-sharing.md](infra/2014-05-24-cors-cross-origin-resource-sharing.md)
 * [2014-05-25-api.md](infra/2014-05-25-api.md)
 * [2014-05-26-pid.md](infra/2014-05-26-pid.md)
@@ -341,12 +340,9 @@
 * [2014-08-02-dovecot-with-postgres.md](infra/2014-08-02-dovecot-with-postgres.md)
 * [2014-08-02-sasl.md](infra/2014-08-02-sasl.md)
 * [2014-08-03-pam-authentication.md](infra/2014-08-03-pam-authentication.md)
-* [2014-09-23-unix-user.md](infra/2014-09-23-unix-user.md)
 * [2014-10-20-aws-mail.md](infra/2014-10-20-aws-mail.md)
-* [2014-10-20-unix-network-connection.md](infra/2014-10-20-unix-network-connection.md)
 * [2014-10-21-assets-on-cloud.md](infra/2014-10-21-assets-on-cloud.md)
 * [2014-11-04-network-ipaddress-cidr.md](infra/2014-11-04-network-ipaddress-cidr.md)
-* [2014-11-24-linux-chkconfig.md](infra/2014-11-24-linux-chkconfig.md)
 * [2015-02-07-unbuntu-server-setting-log.md](infra/2015-02-07-unbuntu-server-setting-log.md)
 * [2015-03-08-ubuntu.md](infra/2015-03-08-ubuntu.md)
 * [2015-12-05-gcp-google-cloud-platform.md](infra/2015-12-05-gcp-google-cloud-platform.md)
@@ -359,9 +355,6 @@
 * [2016-03-21-aws-s3.md](infra/2016-03-21-aws-s3.md)
 * [2016-04-12-anacron.md](infra/2016-04-12-anacron.md)
 * [2016-06-12-aws-lambda.md](infra/2016-06-12-aws-lambda.md)
-* [2016-06-19-curl.md](infra/2016-06-19-curl.md)
-* [2016-06-24-unix-ps.md](infra/2016-06-24-unix-ps.md)
-* [2016-06-24-unix-screen.md](infra/2016-06-24-unix-screen.md)
 * [2016-06-28-fish-shell.md](infra/2016-06-28-fish-shell.md)
 * [2016-07-13-gcp-deploy-rails.md](infra/2016-07-13-gcp-deploy-rails.md)
 * [2016-07-13-gcp-server-setting.md](infra/2016-07-13-gcp-server-setting.md)
@@ -371,8 +364,6 @@
 * [2016-07-21-gcp-compute-engine.md](infra/2016-07-21-gcp-compute-engine.md)
 * [2016-07-22-centos.md](infra/2016-07-22-centos.md)
 * [2016-07-26-mongodb-with-docker.md](infra/2016-07-26-mongodb-with-docker.md)
-* [2016-07-29-unix-file.md](infra/2016-07-29-unix-file.md)
-* [2016-07-29-unix-top.md](infra/2016-07-29-unix-top.md)
 * [2016-08-29-falcor.md](infra/2016-08-29-falcor.md)
 * [2016-09-06-oracle-RAC.md](infra/2016-09-06-oracle-RAC.md)
 * [2016-09-07-docker-oracle.md](infra/2016-09-07-docker-oracle.md)
@@ -562,7 +553,20 @@
 
 ### GO
 
-* [2016-06-13-go-lang.md](go/2016-06-13-go-lang.md)
+* [GO Lang](go/go-lang.md)
+
+### UNIX
+
+* [sed](unix/sed.md)
+* [curl](unix/curl.md)
+* [file](unix/file.md)
+* [top](unix/top.md)
+* [other commands](unix/other-commands.md)
+* [ps](unix/ps.md)
+* [screen](unix/screen.md)
+* [chkconfig](unix/chkconfig.md)
+* [user](unix/user.md)
+* [network-connection](unix/network-connection.md)
 
 ### default
 
