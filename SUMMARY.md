@@ -299,6 +299,7 @@
 
 ### Infra
 
+* [ci](infra/ci.md)
 * [wercker-ci](infra/wercker-ci.md)
 * [firebase](infra/firebase.md)
 * [slack webhook](infra/slack-webhook.md)
