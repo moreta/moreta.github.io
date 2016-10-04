@@ -4,26 +4,8 @@ date: 2016-03-19
 tags: ci, wercker
 ---
 
-
-# CI's
-
-cloud系
-
-+ AppVeyor
-+ CircleCI
-+ Drone IO
-+ Magnum CI
-+ semaphore
-+ shippable
-+ Travis CI
-+ wercker
-
-install系
-
-+ gitlab CI
-
-
-# wercker
+wercker CI
+================
 
 ## basics
 
