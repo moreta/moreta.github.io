@@ -105,7 +105,7 @@ private HogeEnum hoge;
 + <http://itdoc.hitachi.co.jp/manuals/link/cosmi_v0870/APR4/EU260113.HTM>
 + <http://javabeat.net/jpa-annotations-temporal/>
 + 時刻を表す型（java.util.Dateおよびjava.util.Calendar）を持つ永続化プロパティまたは永続化フィールドに指定するアノテーションです。@Basicとともに使用できます。
-+ ただし，@Versionと@Temporalは同時に指定できません。どちらかのアノテーションだけを指定してください。適用可能要素は，メソッドとフィールドです。
++ ただし，`@Version`と@`Temporal`は同時に指定できません。どちらかのアノテーションだけを指定してください。適用可能要素は，メソッドとフィールドです。
 
 + TemporalType.DATE：java.sql.Dataと同じです。
 + TemporalType.TIME：java.sql.Timeと同じです。
@@ -185,6 +185,17 @@ public class YourEntityClass {
 ### `@PrePersist`
 
 ### `@PreUpdate`
+
+## `@Version`
+
++ JPAの楽観ロックを使うため
+
+以下のようなsqlが発行される
+
+```
+where id=?
+and version=?
+```
 
 # CookBook
 
