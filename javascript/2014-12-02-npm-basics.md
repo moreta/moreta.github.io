@@ -10,6 +10,10 @@ tags: npm
 npm install -g npm
 ```
 
+## git repositoryをinstall
+
+<https://docs.npmjs.com/files/package.json#git-urls-as-dependencies>
+
 # npm自体の install or update
 
 `npm install -g npm`
