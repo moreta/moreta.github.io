@@ -1,10 +1,12 @@
 ---
-
-title: "Get rid of Nokogiri LibXML warning on OSX"
+title: Get rid of Nokogiri LibXML warning on OSX
 date: 2013-10-25 00:23
 comments: true
 tags: rails, mac
-----------------
+---
+
+Get rid of Nokogiri LibXML warning on OSX
+====================================
 
 
 # 前に
@@ -32,7 +34,7 @@ OSXをアップグレードするときによく発生する
 
 <http://nokogiri.org/tutorials/installing_nokogiri.html>
 
-``` sh
+```sh
 #gem uninstall nokogiri libxml-ruby # libxml-rubyはインストールされてないので下のを使う
 gem uninstall nokogiri
 
@@ -62,7 +64,7 @@ gem install nokogiri -- --with-xml2-include=/usr/local/Cellar/libxml2/2.9.1/incl
 
 bundleを利用してインストールするには
 
-```
+```sh
 bundle config build.nokogiri -- --with-xml2-include=/usr/local/Cellar/libxml2/2.9.1/include/libxml2 --with-xml2-lib=/usr/local/Cellar/libxml2/2.9.1/lib --with-xslt-dir=/usr/local/Cellar/libxslt/1.1.28 --with-iconv-include=/usr/local/Cellar/libiconv/1.14/include --with-iconv-lib=/usr/local/Cellar/libiconv/1.14/lib--with-xml2-dir=/usr --with-xslt-dir=/opt/local --with-iconv-dir=/opt/local
 bundle
 ```
@@ -73,7 +75,8 @@ bundle
 ### WARNING: Nokogiri was built against LibXML version 2.9.1, but has dynamically loaded 2.9.0
 
 これでしてみて
-```
+
+```sh
 gem uninstall nokogiri
 bundle install
 ```
@@ -82,10 +85,10 @@ bundle install
 Gemfileで
 gem 'rails'のすぐ下にnokogiriをおく。
 
-~~~
+```sh
 gem 'rails', '3.2.13'
 gem 'nokogiri'
-~~~
+```
 
 
 # おまけ
@@ -102,10 +105,10 @@ gem 'nokogiri'
 
 you are using clang / LLVM to build ruby - this is only experimentally supported, you need to use gcc-4.2 which is not LLVM based, this is described pretty good in rvm requirements:
 
-~~~sh
+```sh
 rvm get head     # get the latest update with the new requirements
 rvm requirements # read carefully and follow instructions!
-~~~
+```
 
 ### g++4.2がない!と怒られた場合
 
@@ -116,7 +119,7 @@ gcc --version
 Apple LLVM version 5.0 (clang-500.2.79) (based on LLVM 3.3svn)
 ```
 
-```
+```sh
 g++ --version
 Apple LLVM version 5.0 (clang-500.2.79) (based on LLVM 3.3svn)
 ```
@@ -127,16 +130,16 @@ gcc 及び g++ へのシンボリックリンクを作成する
 
 前述のとおり、gcc と g++ はインストールされているけど、うまく参照できていないだけだったので、シンボリックリンクを作成しました。
 
-```
-sudo ln -sf /usr/bin/g++-4.2 /usr/bin/g++ 
-sudo ln -sf /usr/bin/gcc-4.2 /usr/bin/gcc 
+```sh
+sudo ln -sf /usr/bin/g++-4.2 /usr/bin/g++
+sudo ln -sf /usr/bin/gcc-4.2 /usr/bin/gcc
 ```
 
 または
 
-```
-sudo ln -sf /usr/llvm-gcc-4.2/bin/llvm-g++-4.2 /usr/bin/g++ 
-sudo ln -sf /usr/llvm-gcc-4.2/bin/llvm-gcc-4.2 /usr/bin/gcc 
+```sh
+sudo ln -sf /usr/llvm-gcc-4.2/bin/llvm-g++-4.2 /usr/bin/g++
+sudo ln -sf /usr/llvm-gcc-4.2/bin/llvm-gcc-4.2 /usr/bin/gcc
 ```
 
 これでmiddlemanがinitできた
@@ -144,7 +147,7 @@ sudo ln -sf /usr/llvm-gcc-4.2/bin/llvm-gcc-4.2 /usr/bin/gcc
 
 ### 他、インストール方法
 
-```
+```sh
 gem install nokogiri -- --use-system-libraries
 
 If you are using Bundler, tell it to use the option:
@@ -152,4 +155,3 @@ If you are using Bundler, tell it to use the option:
 bundle config build.nokogiri --use-system-libraries
 bundle install
 ```
- 

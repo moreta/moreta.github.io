@@ -15,6 +15,7 @@
 
 ### javascript
 
+* [npm basics](javascript/npm-basics.md)
 * [2013-11-01-new-analytics-code.md](javascript/2013-11-01-new-analytics-code.md)
 * [2013-11-18-drap-and-drop-file-upload.md](javascript/2013-11-18-drap-and-drop-file-upload.md)
 * [2013-11-19-javascript-date-object.md](javascript/2013-11-19-javascript-date-object.md)
@@ -44,7 +45,6 @@
 * [2014-11-15-vuejs.md](javascript/2014-11-15-vuejs.md)
 * [2014-11-16-superagent.md](javascript/2014-11-16-superagent.md)
 * [2014-12-01-webpack.md](javascript/2014-12-01-webpack.md)
-* [2014-12-02-npm-basics.md](javascript/2014-12-02-npm-basics.md)
 * [2015-06-22-react.md](javascript/2015-06-22-react.md)
 * [2015-06-27-javascript-strict.md](javascript/2015-06-27-javascript-strict.md)
 * [2015-06-27-javascript-web-storage.md](javascript/2015-06-27-javascript-web-storage.md)
@@ -235,9 +235,8 @@
 
 ### rails
 
-
+* [nokogiri libxml warning on osx](rails/nokogiri-libxml-warning-on-osx.md)
 * [2013-10-05-rails-scss-at-import-error.md](rails/2013-10-05-rails-scss-at-import-error.md)
-* [2013-10-25-get-rid-of-nokogiri-libxml-warning-on-osx.md](rails/2013-10-25-get-rid-of-nokogiri-libxml-warning-on-osx.md)
 * [2013-11-14-rails-date.md](rails/2013-11-14-rails-date.md)
 * [2013-11-19-rails-exception.md](rails/2013-11-19-rails-exception.md)
 * [2013-11-22-rails-capistrano.md](rails/2013-11-22-rails-capistrano.md)
