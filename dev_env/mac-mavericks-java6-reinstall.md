@@ -1,5 +1,5 @@
 ---
-title: "Mac OS X Mavericks Java6 Reinstall"
+title: Mac OS X Mavericks Java6 Reinstall
 date: 2013-10-28
 tags: mac, java
 ---
