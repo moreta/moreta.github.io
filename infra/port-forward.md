@@ -1,9 +1,11 @@
 ---
-title: port forward
+title: Port forward
 date: 2014-07-21
 tags: ipfw, mac, port-forword, iptable
---------------------------------------
+---
 
+Port forward
+============
 
 
 
@@ -17,7 +19,7 @@ Linuxまたは OSXでは 1024以下のポートをrootではないユーザー�
 
 <http://wiki.apache.org/tomcat/TomcatOnMacOS>
 
-```
+```sh
 sudo ipfw list # 設定状況を確認
 sudo ipfw add 100 fwd 127.0.0.1,8080 tcp from any to any 80 in
 sudo ipfw flush # 設定を戻す
