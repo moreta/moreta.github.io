@@ -507,7 +507,7 @@
 
 * [xcode.md](dev_env/xcode.md)
 * [atom editor](dev_env/atom-editor.md)
-* [2013-10-28-mac-mavericks-java6.md](dev_env/2013-10-28-mac-mavericks-java6.md)
+* [macOS mavericks java6 Reinstall](dev_env/mac-mavericks-java6-reinstall.md)
 * [2013-11-05-mac-ip.md](dev_env/2013-11-05-mac-ip.md)
 * [2013-11-20-emacs-command.md](dev_env/2013-11-20-emacs-command.md)
 * [2013-11-20-emacs.md](dev_env/2013-11-20-emacs.md)

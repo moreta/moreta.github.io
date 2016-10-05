@@ -2,7 +2,7 @@
 title: "Mac OS X Mavericks Java6 Reinstall"
 date: 2013-10-28
 tags: mac, java
----------------
+---
 
 Mavericksでアップグレードしたらjava sdk6がなくなった！
 
@@ -35,6 +35,3 @@ Java for
 
 4. Download & Install
 Java for OS X 2013-005 Developer Package.dmgをインストール
-
-
-
