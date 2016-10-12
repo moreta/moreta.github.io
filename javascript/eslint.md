@@ -1,8 +1,5 @@
----
-title: ESLint
-date: 2016-01-17
-tags: js, linting, eslint 
----
+ESLint
+==========
 
 
 # Error level
@@ -12,3 +9,11 @@ tags: js, linting, eslint
 + 2 - turn the rule on as an error (exit code will be 1)
 
 
+# extends
+
+あらかじめ定義したのをextendsして使う
+
+```js
+// https://github.com/vuejs/eslint-config-vue
+  extends: 'vue',
+```

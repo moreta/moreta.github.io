@@ -16,6 +16,7 @@
 ### javascript
 
 * [npm basics](javascript/npm-basics.md)
+* [eslint](javascript/eslint.md)
 * [2013-11-01-new-analytics-code.md](javascript/2013-11-01-new-analytics-code.md)
 * [2013-11-18-drap-and-drop-file-upload.md](javascript/2013-11-18-drap-and-drop-file-upload.md)
 * [2013-11-19-javascript-date-object.md](javascript/2013-11-19-javascript-date-object.md)
@@ -85,7 +86,6 @@
 * [2016-01-11-react-context.md](javascript/2016-01-11-react-context.md)
 * [2016-01-13-javascirpt-file-api.md](javascript/2016-01-13-javascirpt-file-api.md)
 * [2016-01-16-nodejs-promise.md](javascript/2016-01-16-nodejs-promise.md)
-* [2016-01-17-eslint.md](javascript/2016-01-17-eslint.md)
 * [2016-01-17-javascript-multi-threading.md](javascript/2016-01-17-javascript-multi-threading.md)
 * [2016-01-19-javascript-array.md](javascript/2016-01-19-javascript-array.md)
 * [2016-01-20-nodejs-job-scheduler.md](javascript/2016-01-20-nodejs-job-scheduler.md)
