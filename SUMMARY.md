@@ -287,7 +287,8 @@
 
 ### git
 
-* [2014-01-28-git.md](git/2014-01-28-git.md)
+* [git](git/git.md)
+* [gitbook](git/gitbook.md)
 * [2014-04-15-git-gitignore.md](git/2014-04-15-git-gitignore.md)
 * [2014-04-25-git-tig.md](git/2014-04-25-git-tig.md)
 * [2014-11-30-github.md](git/2014-11-30-github.md)
@@ -296,7 +297,6 @@
 * [2016-08-13-git-tag.md](git/2016-08-13-git-tag.md)
 * [2016-09-05-git-branch.md](git/2016-09-05-git-branch.md)
 * [2016-09-05-git-commit-message.md](git/2016-09-05-git-commit-message.md)
-* [gitbook](git/gitbook.md)
 
 ### Infra
 

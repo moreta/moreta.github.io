@@ -95,7 +95,11 @@ git tag -d <tagname>
 git push origin --tags
 ```
 
+## tagからブランチを作成
 
+```
+git checkout -b v1 refs/tags/v1.2.1
+```
 
 # push
 
