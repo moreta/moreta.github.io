@@ -15,6 +15,7 @@
 
 ### javascript
 
+* [yarn - better npm](javascript/yarn.md)
 * [npm basics](javascript/npm-basics.md)
 * [eslint](javascript/eslint.md)
 * [grid editable table](javascript/grid-editable-table.md)
