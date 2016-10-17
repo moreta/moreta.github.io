@@ -9,14 +9,15 @@
 
 ### Chat Bot
 
-* [Facebook Messenger Bot](chatbot/facebook_messenger.md)
-* [LINE Bot](chatbot/facebook_messenger.md)
+* [Facebook Messenger Bot](chatbot/facebook_messenger_bot.md)
+* [LINE Bot](chatbot/line_bot.md)
 
 
 ### javascript
 
 * [npm basics](javascript/npm-basics.md)
 * [eslint](javascript/eslint.md)
+* [High Order Compopent](javascript/high-order-component.md)
 * [2013-11-01-new-analytics-code.md](javascript/2013-11-01-new-analytics-code.md)
 * [2013-11-18-drap-and-drop-file-upload.md](javascript/2013-11-18-drap-and-drop-file-upload.md)
 * [2013-11-19-javascript-date-object.md](javascript/2013-11-19-javascript-date-object.md)
@@ -508,6 +509,7 @@
 * [xcode.md](dev_env/xcode.md)
 * [atom editor](dev_env/atom-editor.md)
 * [macOS mavericks java6 Reinstall](dev_env/mac-mavericks-java6-reinstall.md)
+* [Current directory server](dev_env/current-directory-server.md)
 * [2013-11-05-mac-ip.md](dev_env/2013-11-05-mac-ip.md)
 * [2013-11-20-emacs-command.md](dev_env/2013-11-20-emacs-command.md)
 * [2013-11-20-emacs.md](dev_env/2013-11-20-emacs.md)
@@ -517,7 +519,6 @@
 * [2014-02-08-mac-dev-env.md](dev_env/2014-02-08-mac-dev-env.md)
 * [2014-02-11-css-box.md](dev_env/2014-02-11-css-box.md)
 * [2014-03-28-mac-brew.md](dev_env/2014-03-28-mac-brew.md)
-* [2014-04-28-current-directory-server.md](dev_env/2014-04-28-current-directory-server.md)
 * [2014-05-13-eclipse-editor.md](dev_env/2014-05-13-eclipse-editor.md)
 * [2014-05-20-vi.md](dev_env/2014-05-20-vi.md)
 * [2014-06-14-middleman.md](dev_env/2014-06-14-middleman.md)
