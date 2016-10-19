@@ -21,6 +21,7 @@
 * [grid editable table](javascript/grid-editable-table.md)
 * [pivot table](javascript/pivot-table.md)
 * [file download](javascript/file-donwload.md)
+* [ES2015 - es6](javascript/es2015.md)
 * [2013-11-01-new-analytics-code.md](javascript/2013-11-01-new-analytics-code.md)
 * [2013-11-18-drap-and-drop-file-upload.md](javascript/2013-11-18-drap-and-drop-file-upload.md)
 * [2013-11-19-javascript-date-object.md](javascript/2013-11-19-javascript-date-object.md)
@@ -46,7 +47,6 @@
 * [2014-07-14-websocket.md](javascript/2014-07-14-websocket.md)
 * [2014-07-27-chrome-app.md](javascript/2014-07-27-chrome-app.md)
 * [2014-07-27-polymer-element.md](javascript/2014-07-27-polymer-element.md)
-* [2014-11-15-vuejs.md](javascript/2014-11-15-vuejs.md)
 * [2014-11-16-superagent.md](javascript/2014-11-16-superagent.md)
 * [2014-12-01-webpack.md](javascript/2014-12-01-webpack.md)
 * [2015-06-22-react.md](javascript/2015-06-22-react.md)
@@ -68,7 +68,6 @@
 * [2015-12-04-hapijs-authentication.md](javascript/2015-12-04-hapijs-authentication.md)
 * [2015-12-04-nodejs-server-forever.md](javascript/2015-12-04-nodejs-server-forever.md)
 * [2015-12-05-javascript-libraries.md](javascript/2015-12-05-javascript-libraries.md)
-* [2015-12-07-es6.md](javascript/2015-12-07-es6.md)
 * [2015-12-08-gulp.md](javascript/2015-12-08-gulp.md)
 * [2015-12-08-lodash.md](javascript/2015-12-08-lodash.md)
 * [2015-12-08-nodejs-basics.md](javascript/2015-12-08-nodejs-basics.md)
@@ -112,7 +111,6 @@
 * [2016-03-22-javascript-scope.md](javascript/2016-03-22-javascript-scope.md)
 * [2016-05-24-npm-publishing-package.md](javascript/2016-05-24-npm-publishing-package.md)
 * [2016-05-29-javascript-scroll.md](javascript/2016-05-29-javascript-scroll.md)
-* [2016-07-08-vue-cli.md](javascript/2016-07-08-vue-cli.md)
 * [2016-07-19-javascript-datetimepicker.md](javascript/2016-07-19-javascript-datetimepicker.md)
 * [2016-08-12-webpack-html-webpack-plugin.md](javascript/2016-08-12-webpack-html-webpack-plugin.md)
 * [2016-08-13-react-cli.md](javascript/2016-08-13-react-cli.md)
@@ -129,6 +127,13 @@
 * [2016-09-09-react-router.md](javascript/2016-09-09-react-router.md)
 * [2016-09-10-immutablejs.md](javascript/2016-09-10-immutablejs.md)
 * [2016-09-10-react-storyboard.md](javascript/2016-09-10-react-storyboard.md)
+
+#### vuejs
+
+* [2014-11-15-vuejs.md](javascript/vue/vue-vuejs.md)
+* [2016-07-08-vue-cli.md](javascript/vue/vue-cli.md)
+* [2016-07-08-vue-cli.md](javascript/vue/vue-vuex.md)
+*
 
 ### java
 
