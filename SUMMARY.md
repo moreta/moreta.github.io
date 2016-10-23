@@ -4,7 +4,7 @@
 
 ### Design & UI
 
-* [決済関連](design/checkout.md)
+* [check - 決済関連](design/checkout.md)
 * [sketch3](design/sketch3.md)
 
 ### Chat Bot
@@ -135,7 +135,6 @@
 * [2014-11-15-vuejs.md](javascript/vue/vue-vuejs.md)
 * [2016-07-08-vue-cli.md](javascript/vue/vue-cli.md)
 * [2016-07-08-vue-cli.md](javascript/vue/vue-vuex.md)
-*
 
 ### java
 
@@ -148,6 +147,7 @@
 * [Httpclient](java/java-httpclient.md)
 * [JCE](java/java-jce.md)
 * [JDBC Connection](java/java-jdbc-connection.md)
+* [RxJava](java/rx-java.md)
 * [2014-07-27-java-anonymous-class.md](java/2014-07-27-java-anonymous-class.md)
 * [2014-07-28-maven.md](java/2014-07-28-maven.md)
 * [2015-12-24-java-calendar.md](java/2015-12-24-java-calendar.md)
@@ -254,7 +254,6 @@
 * [2013-12-16-rails-form.md](rails/2013-12-16-rails-form.md)
 * [2013-12-16-rails-rails4.md](rails/2013-12-16-rails-rails4.md)
 * [2013-12-17-rails-performance.md](rails/2013-12-17-rails-performance.md)
-* [2013-12-18-aws-redis-with-rails.md](rails/2013-12-18-aws-redis-with-rails.md)
 * [2013-12-18-rails-rails3.md](rails/2013-12-18-rails-rails3.md)
 * [2013-12-24-rails-activerecord.md](rails/2013-12-24-rails-activerecord.md)
 * [2013-12-25-rails-ssl.md](rails/2013-12-25-rails-ssl.md)
@@ -307,6 +306,21 @@
 * [2016-09-05-git-branch.md](git/2016-09-05-git-branch.md)
 * [2016-09-05-git-commit-message.md](git/2016-09-05-git-commit-message.md)
 
+### AWS
+
+* [lambda](aws/aws-lambda.md)
+* [API Gateway](aws-api-gateway.md)
+* [2013-12-17-aws-rds.md](aws/2013-12-17-aws-rds.md)
+* [2014-05-15-aws-auth-scaling-load-balance.md](aws/2014-05-15-aws-auth-scaling-load-balance.md)
+* [2014-05-15-aws-cloudfront.md](aws/2014-05-15-aws-cloudfront.md)
+* [2014-05-21-aws-dynamoDB.md](aws/2014-05-21-aws-dynamoDB.md)
+* [2014-05-30-aws-price.md](aws/2014-05-30-aws-price.md)
+* [2014-06-07-aws-deploy.md](aws/2014-06-07-aws-deploy.md)
+* [2014-06-10-aws-elasticache.md](aws/2014-06-10-aws-elasticache.md)
+* [2014-10-20-aws-mail.md](aws/2014-10-20-aws-mail.md)
+* [2016-03-21-aws-s3.md](aws/2016-03-21-aws-s3.md)
+* [2013-12-18-aws-redis-with-rails.md](aws/2013-12-18-aws-redis-with-rails.md)
+
 ### Infra
 
 * [ci](infra/ci.md)
@@ -321,24 +335,16 @@
 * [2013-11-19-mail.md](infra/2013-11-19-mail.md)
 * [2013-11-21-mail-mandrill.md](infra/2013-11-21-mail-mandrill.md)
 * [2013-12-15-ssl.md](infra/2013-12-15-ssl.md)
-* [2013-12-17-aws-rds.md](infra/2013-12-17-aws-rds.md)
 * [2013-12-17-linux-directory.md](infra/2013-12-17-linux-directory.md)
 * [2014-01-01-nginx-config.md](infra/2014-01-01-nginx-config.md)
 * [2014-04-14-vpn.md](infra/2014-04-14-vpn.md)
-* [2014-04-15-aws-cloudfront.md](infra/2014-04-15-aws-cloudfront.md)
 * [2014-04-17-network.md](infra/2014-04-17-network.md)
-* [2014-05-15-aws-auth-scaling-load-balance.md](infra/2014-05-15-aws-auth-scaling-load-balance.md)
-* [2014-05-15-aws-cloudfront.md](infra/2014-05-15-aws-cloudfront.md)
 * [2014-05-20-postfix.md](infra/2014-05-20-postfix.md)
 * [2014-05-20-server-log.md](infra/2014-05-20-server-log.md)
-* [2014-05-21-aws-dynamoDB.md](infra/2014-05-21-aws-dynamoDB.md)
 * [2014-05-24-cors-cross-origin-resource-sharing.md](infra/2014-05-24-cors-cross-origin-resource-sharing.md)
 * [2014-05-25-api.md](infra/2014-05-25-api.md)
 * [2014-05-26-pid.md](infra/2014-05-26-pid.md)
-* [2014-05-30-aws-price.md](infra/2014-05-30-aws-price.md)
 * [2014-06-03-docker.md](infra/2014-06-03-docker.md)
-* [2014-06-07-aws-deploy.md](infra/2014-06-07-aws-deploy.md)
-* [2014-06-10-aws-elasticache.md](infra/2014-06-10-aws-elasticache.md)
 * [2014-07-14-chef.md](infra/2014-07-14-chef.md)
 * [2014-07-14-http2.md](infra/2014-07-14-http2.md)
 * [2014-07-14-vagrant.md](infra/2014-07-14-vagrant.md)
@@ -350,7 +356,6 @@
 * [2014-08-02-dovecot-with-postgres.md](infra/2014-08-02-dovecot-with-postgres.md)
 * [2014-08-02-sasl.md](infra/2014-08-02-sasl.md)
 * [2014-08-03-pam-authentication.md](infra/2014-08-03-pam-authentication.md)
-* [2014-10-20-aws-mail.md](infra/2014-10-20-aws-mail.md)
 * [2014-10-21-assets-on-cloud.md](infra/2014-10-21-assets-on-cloud.md)
 * [2014-11-04-network-ipaddress-cidr.md](infra/2014-11-04-network-ipaddress-cidr.md)
 * [2015-02-07-unbuntu-server-setting-log.md](infra/2015-02-07-unbuntu-server-setting-log.md)
@@ -362,9 +367,7 @@
 * [2015-12-15-heroku.md](infra/2015-12-15-heroku.md)
 * [2015-12-15-redis.md](infra/2015-12-15-redis.md)
 * [2016-01-28-linux-signal.md](infra/2016-01-28-linux-signal.md)
-* [2016-03-21-aws-s3.md](infra/2016-03-21-aws-s3.md)
 * [2016-04-12-anacron.md](infra/2016-04-12-anacron.md)
-* [2016-06-12-aws-lambda.md](infra/2016-06-12-aws-lambda.md)
 * [2016-06-28-fish-shell.md](infra/2016-06-28-fish-shell.md)
 * [2016-07-13-gcp-deploy-rails.md](infra/2016-07-13-gcp-deploy-rails.md)
 * [2016-07-13-gcp-server-setting.md](infra/2016-07-13-gcp-server-setting.md)
@@ -377,7 +380,10 @@
 * [2016-09-06-oracle-RAC.md](infra/2016-09-06-oracle-RAC.md)
 * [2016-09-07-docker-oracle.md](infra/2016-09-07-docker-oracle.md)
 
-### database
+
+### security
+
+* [Web HTTPs](security/web-https.md)
 
 ### others
 
