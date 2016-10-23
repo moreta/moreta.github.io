@@ -225,6 +225,19 @@ Select to top/bottom of document
 
 `cmd+shipt+p sort line`
 
+## PlantUML Viewer
+
+http://qiita.com/nakahashi/items/3d88655f055ca6a2617c
+
+```sh
+apm install plantuml-viewer # viewer
+apm install language-plantuml # syntax highlighting
+```
+
+GraphvizのInstallも必要
+
+<http://www.graphviz.org/Download_macos.php>
+
 # Config
 
 ## white space

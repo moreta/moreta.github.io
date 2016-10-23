@@ -2,10 +2,10 @@
 
 * [Introduction](README.md)
 
-### Design UI
+### Design & UI
 
-* [決済関連](design/ui/checkout.md)
-
+* [決済関連](design/checkout.md)
+* [sketch3](design/sketch3.md)
 
 ### Chat Bot
 
@@ -23,6 +23,7 @@
 * [pivot table](javascript/pivot-table.md)
 * [file download](javascript/file-donwload.md)
 * [ES2015 - es6](javascript/es2015.md)
+* [socket.io](javascrit/socketio.md)
 * [2013-11-01-new-analytics-code.md](javascript/2013-11-01-new-analytics-code.md)
 * [2013-11-18-drap-and-drop-file-upload.md](javascript/2013-11-18-drap-and-drop-file-upload.md)
 * [2013-11-19-javascript-date-object.md](javascript/2013-11-19-javascript-date-object.md)
@@ -187,6 +188,7 @@
 
 ### ruby
 
+* [gem](ruby/ruby-gem.md)
 * [2016-09-19-ruby-socket.md](ruby/2016-09-19-ruby-socket.md)
 * [2016-07-29-ruby-thread-and-fiber.md](ruby/2016-07-29-ruby-thread-and-fiber.md)
 * [2016-07-29-ruby-splat-operator.md](ruby/2016-07-29-ruby-splat-operator.md)
@@ -215,7 +217,6 @@
 * [2014-08-17-gem-kage.md](ruby/2014-08-17-gem-kage.md)
 * [2014-08-14-ruby-openstruct.md](ruby/2014-08-14-ruby-openstruct.md)
 * [2014-08-05-eventmachine.md](ruby/2014-08-05-eventmachine.md)
-* [2014-08-03-ruby-gem.md](ruby/2014-08-03-ruby-gem.md)
 * [2014-07-12-ruby-debug.md](ruby/2014-07-12-ruby-debug.md)
 * [2014-07-11-gem-pg-nokogiri.md](ruby/2014-07-11-gem-pg-nokogiri.md)
 * [2014-07-10-capistrano3-command-cookbook.md](ruby/2014-07-10-capistrano3-command-cookbook.md)
@@ -223,7 +224,6 @@
 * [2014-06-07-ruby-graph.md](ruby/2014-06-07-ruby-graph.md)
 * [2014-06-03-capistrano2_upgrade_to_capistrano3.md](ruby/2014-06-03-capistrano2_upgrade_to_capistrano3.md)
 * [2014-05-28-ruby-random.md](ruby/2014-05-28-ruby-random.md)
-* [2014-05-13-parallel.md](ruby/2014-05-13-parallel.md)
 * [2014-03-04-ruby-alias.md](ruby/2014-03-04-ruby-alias.md)
 * [2014-02-28-ruby-proc-lambda-block.md](ruby/2014-02-28-ruby-proc-lambda-block.md)
 * [2014-02-20-barcode.md](ruby/2014-02-20-barcode.md)
@@ -296,6 +296,8 @@
 
 * [git](git/git.md)
 * [gitbook](git/gitbook.md)
+* [Github-page-with-middleman](git/github-page-with-middleman.md)
+* [Github-page-with-octopress](git/github-page-with-octopress.md)
 * [2014-04-15-git-gitignore.md](git/2014-04-15-git-gitignore.md)
 * [2014-04-25-git-tig.md](git/2014-04-25-git-tig.md)
 * [2014-11-30-github.md](git/2014-11-30-github.md)
@@ -366,7 +368,6 @@
 * [2016-06-28-fish-shell.md](infra/2016-06-28-fish-shell.md)
 * [2016-07-13-gcp-deploy-rails.md](infra/2016-07-13-gcp-deploy-rails.md)
 * [2016-07-13-gcp-server-setting.md](infra/2016-07-13-gcp-server-setting.md)
-* [2016-07-13-ssh-rsa.md](infra/2016-07-13-ssh-rsa.md)
 * [2016-07-13-webtask.md](infra/2016-07-13-webtask.md)
 * [2016-07-20-google-cloud-sdk.md](infra/2016-07-20-google-cloud-sdk.md)
 * [2016-07-21-gcp-compute-engine.md](infra/2016-07-21-gcp-compute-engine.md)
@@ -380,15 +381,18 @@
 
 ### others
 
-* [socket](others/2012-05-13-socket.md)
-* [Develope Cost Calculate](2016-09-14-develope-cost-calculate.md)
-* [Github-page-with-middleman](others/2013-10-01-github-page-with-middleman.md)
-* [Github-page-with-octopress](others/2013-10-02-github-page-with-octopress.md)
+* [socket](others/socket.md)
+* [Develope Cost Calculate](others/develope-cost-calculate.md)
+* [parallel](others/parallel.md)
+* [coding font](others/coding-font.md)
 
 ### ios
 
 * [xcode](ios/xcode.md)
 * [swift tutorial](ios/swift-tutorial.md)
+* [swift & ruby compare](ios/swift-ruby-compare.md)
+* [push通知](ios/APNS.md)
+* [realtime update](ios/realtime-update.md)
 * [cocoapods](ios/ios-cocoapods.md)
 * [cocoapods libraries](ios/ios-cocoapods-libararies.md)
 * [2013-10-03-ios-uicolor.md](ios/2013-10-03-ios-uicolor.md)
@@ -537,7 +541,6 @@
 * [2014-09-23-redmine_with_sqlite3.md](dev_env/2014-09-23-redmine_with_sqlite3.md)
 * [2015-01-27-alfred.md](dev_env/2015-01-27-alfred.md)
 * [2015-12-15-jetbrain-editor-custom-shortcut.md](dev_env/2015-12-15-jetbrain-editor-custom-shortcut.md)
-* [2015-12-15-sketch.md](dev_env/2015-12-15-sketch.md)
 * [2015-12-26-api-test-tools.md](dev_env/2015-12-26-api-test-tools.md)
 * [2016-02-08-jetbrain-editor-settings-and-tip.md](dev_env/2016-02-08-jetbrain-editor-settings-and-tip.md)
 * [2016-02-11-jetbrain-editor-watcher.md](dev_env/2016-02-11-jetbrain-editor-watcher.md)
@@ -575,6 +578,7 @@
 * [chkconfig](unix/chkconfig.md)
 * [user](unix/user.md)
 * [network-connection](unix/network-connection.md)
+* [ssh](unix/ssh.md)
 
 ### default
 
@@ -587,7 +591,6 @@
 * [2014-05-10-programming-design-pattern.md](default/2014-05-10-programming-design-pattern.md)
 * [2014-05-19-regexp.md](default/2014-05-19-regexp.md)
 * [2014-06-10-ie-vm-test.md](default/2014-06-10-ie-vm-test.md)
-* [2014-06-16-ssh.md](default/2014-06-16-ssh.md)
 * [2014-06-29-numbers.md](default/2014-06-29-numbers.md)
 * [2014-07-17-svn-and-git-html.md](default/2014-07-17-svn-and-git-html.md)
 * [2014-08-10-accounts-and-finance.md](default/2014-08-10-accounts-and-finance.md)
