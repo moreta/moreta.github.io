@@ -227,7 +227,7 @@ Select to top/bottom of document
 
 ## PlantUML Viewer
 
-http://qiita.com/nakahashi/items/3d88655f055ca6a2617c
+<http://qiita.com/nakahashi/items/3d88655f055ca6a2617c>
 
 ```sh
 apm install plantuml-viewer # viewer

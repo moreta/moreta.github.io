@@ -310,6 +310,7 @@
 
 * [lambda](aws/aws-lambda.md)
 * [API Gateway](aws-api-gateway.md)
+* [SNS - Simple Notification Service](aws-sns.md)
 * [2013-12-17-aws-rds.md](aws/2013-12-17-aws-rds.md)
 * [2014-05-15-aws-auth-scaling-load-balance.md](aws/2014-05-15-aws-auth-scaling-load-balance.md)
 * [2014-05-15-aws-cloudfront.md](aws/2014-05-15-aws-cloudfront.md)
@@ -391,6 +392,7 @@
 * [Develope Cost Calculate](others/develope-cost-calculate.md)
 * [parallel](others/parallel.md)
 * [coding font](others/coding-font.md)
+* [WEB PAYMENTS AT W3C](others/web-payment-at-w3c.md)
 
 ### ios
 
