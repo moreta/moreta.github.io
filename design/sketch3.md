@@ -5,14 +5,14 @@ tags: sketch, design
 ---
 
 
-Sketch
+Sketch 3
 ===========
 
 # plugins
 
 + <https://designcode.io/sketch>
 
-## install 
+## install
 
 <http://sketchtoolbox.com/>を利用
 
@@ -29,6 +29,12 @@ Sketch
 ### Content generator
 
 + <https://github.com/timuric/Content-generator-sketch-plugin>
+
+### Slicer
+
+Sketch slicing helper
+
++ <https://github.com/ozzik/Slicer>
 
 # wireframe
 
@@ -74,3 +80,6 @@ Sketch
 | Enter Group - グループを開く・入る                  | enter                    |
 | Exit Gruop - グループを出る・アートボードを選択する | esc                      |
 | show layout                                         | ctrl + L                         |
+
+
+# Tutorials

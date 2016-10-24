@@ -2,10 +2,10 @@
 
 * [Introduction](README.md)
 
-### Design UI
+### Design & UI
 
-* [決済関連](design/ui/checkout.md)
-
+* [check - 決済関連](design/checkout.md)
+* [sketch3](design/sketch3.md)
 
 ### Chat Bot
 
@@ -21,7 +21,9 @@
 * [High Order Compopent](javascript/high-order-component.md)
 * [grid editable table](javascript/grid-editable-table.md)
 * [pivot table](javascript/pivot-table.md)
-* [file download](javascript/file-download.md)
+* [file download](javascript/file-donwload.md)
+* [ES2015 - es6](javascript/es2015.md)
+* [socket.io](javascrit/socketio.md)
 * [2013-11-01-new-analytics-code.md](javascript/2013-11-01-new-analytics-code.md)
 * [2013-11-18-drap-and-drop-file-upload.md](javascript/2013-11-18-drap-and-drop-file-upload.md)
 * [2013-11-19-javascript-date-object.md](javascript/2013-11-19-javascript-date-object.md)
@@ -47,7 +49,6 @@
 * [2014-07-14-websocket.md](javascript/2014-07-14-websocket.md)
 * [2014-07-27-chrome-app.md](javascript/2014-07-27-chrome-app.md)
 * [2014-07-27-polymer-element.md](javascript/2014-07-27-polymer-element.md)
-* [2014-11-15-vuejs.md](javascript/2014-11-15-vuejs.md)
 * [2014-11-16-superagent.md](javascript/2014-11-16-superagent.md)
 * [2014-12-01-webpack.md](javascript/2014-12-01-webpack.md)
 * [2015-06-22-react.md](javascript/2015-06-22-react.md)
@@ -69,7 +70,6 @@
 * [2015-12-04-hapijs-authentication.md](javascript/2015-12-04-hapijs-authentication.md)
 * [2015-12-04-nodejs-server-forever.md](javascript/2015-12-04-nodejs-server-forever.md)
 * [2015-12-05-javascript-libraries.md](javascript/2015-12-05-javascript-libraries.md)
-* [2015-12-07-es6.md](javascript/2015-12-07-es6.md)
 * [2015-12-08-gulp.md](javascript/2015-12-08-gulp.md)
 * [2015-12-08-lodash.md](javascript/2015-12-08-lodash.md)
 * [2015-12-08-nodejs-basics.md](javascript/2015-12-08-nodejs-basics.md)
@@ -113,7 +113,6 @@
 * [2016-03-22-javascript-scope.md](javascript/2016-03-22-javascript-scope.md)
 * [2016-05-24-npm-publishing-package.md](javascript/2016-05-24-npm-publishing-package.md)
 * [2016-05-29-javascript-scroll.md](javascript/2016-05-29-javascript-scroll.md)
-* [2016-07-08-vue-cli.md](javascript/2016-07-08-vue-cli.md)
 * [2016-07-19-javascript-datetimepicker.md](javascript/2016-07-19-javascript-datetimepicker.md)
 * [2016-08-12-webpack-html-webpack-plugin.md](javascript/2016-08-12-webpack-html-webpack-plugin.md)
 * [2016-08-13-react-cli.md](javascript/2016-08-13-react-cli.md)
@@ -131,6 +130,12 @@
 * [2016-09-10-immutablejs.md](javascript/2016-09-10-immutablejs.md)
 * [2016-09-10-react-storyboard.md](javascript/2016-09-10-react-storyboard.md)
 
+#### vuejs
+
+* [2014-11-15-vuejs.md](javascript/vue/vue-vuejs.md)
+* [2016-07-08-vue-cli.md](javascript/vue/vue-cli.md)
+* [2016-07-08-vue-cli.md](javascript/vue/vue-vuex.md)
+
 ### java
 
 * [java8 basic](java/2016-08-25-java8.md)
@@ -143,6 +148,7 @@
 * [Httpclient](java/java-httpclient.md)
 * [JCE](java/java-jce.md)
 * [JDBC Connection](java/java-jdbc-connection.md)
+* [RxJava](java/rx-java.md)
 * [2014-07-27-java-anonymous-class.md](java/2014-07-27-java-anonymous-class.md)
 * [2014-07-28-maven.md](java/2014-07-28-maven.md)
 * [2015-12-24-java-calendar.md](java/2015-12-24-java-calendar.md)
@@ -183,6 +189,7 @@
 
 ### ruby
 
+* [gem](ruby/ruby-gem.md)
 * [2016-09-19-ruby-socket.md](ruby/2016-09-19-ruby-socket.md)
 * [2016-07-29-ruby-thread-and-fiber.md](ruby/2016-07-29-ruby-thread-and-fiber.md)
 * [2016-07-29-ruby-splat-operator.md](ruby/2016-07-29-ruby-splat-operator.md)
@@ -211,7 +218,6 @@
 * [2014-08-17-gem-kage.md](ruby/2014-08-17-gem-kage.md)
 * [2014-08-14-ruby-openstruct.md](ruby/2014-08-14-ruby-openstruct.md)
 * [2014-08-05-eventmachine.md](ruby/2014-08-05-eventmachine.md)
-* [2014-08-03-ruby-gem.md](ruby/2014-08-03-ruby-gem.md)
 * [2014-07-12-ruby-debug.md](ruby/2014-07-12-ruby-debug.md)
 * [2014-07-11-gem-pg-nokogiri.md](ruby/2014-07-11-gem-pg-nokogiri.md)
 * [2014-07-10-capistrano3-command-cookbook.md](ruby/2014-07-10-capistrano3-command-cookbook.md)
@@ -219,7 +225,6 @@
 * [2014-06-07-ruby-graph.md](ruby/2014-06-07-ruby-graph.md)
 * [2014-06-03-capistrano2_upgrade_to_capistrano3.md](ruby/2014-06-03-capistrano2_upgrade_to_capistrano3.md)
 * [2014-05-28-ruby-random.md](ruby/2014-05-28-ruby-random.md)
-* [2014-05-13-parallel.md](ruby/2014-05-13-parallel.md)
 * [2014-03-04-ruby-alias.md](ruby/2014-03-04-ruby-alias.md)
 * [2014-02-28-ruby-proc-lambda-block.md](ruby/2014-02-28-ruby-proc-lambda-block.md)
 * [2014-02-20-barcode.md](ruby/2014-02-20-barcode.md)
@@ -250,7 +255,6 @@
 * [2013-12-16-rails-form.md](rails/2013-12-16-rails-form.md)
 * [2013-12-16-rails-rails4.md](rails/2013-12-16-rails-rails4.md)
 * [2013-12-17-rails-performance.md](rails/2013-12-17-rails-performance.md)
-* [2013-12-18-aws-redis-with-rails.md](rails/2013-12-18-aws-redis-with-rails.md)
 * [2013-12-18-rails-rails3.md](rails/2013-12-18-rails-rails3.md)
 * [2013-12-24-rails-activerecord.md](rails/2013-12-24-rails-activerecord.md)
 * [2013-12-25-rails-ssl.md](rails/2013-12-25-rails-ssl.md)
@@ -292,6 +296,8 @@
 
 * [git](git/git.md)
 * [gitbook](git/gitbook.md)
+* [Github-page-with-middleman](git/github-page-with-middleman.md)
+* [Github-page-with-octopress](git/github-page-with-octopress.md)
 * [2014-04-15-git-gitignore.md](git/2014-04-15-git-gitignore.md)
 * [2014-04-25-git-tig.md](git/2014-04-25-git-tig.md)
 * [2014-11-30-github.md](git/2014-11-30-github.md)
@@ -300,6 +306,22 @@
 * [2016-08-13-git-tag.md](git/2016-08-13-git-tag.md)
 * [2016-09-05-git-branch.md](git/2016-09-05-git-branch.md)
 * [2016-09-05-git-commit-message.md](git/2016-09-05-git-commit-message.md)
+
+### AWS
+
+* [lambda](aws/aws-lambda.md)
+* [API Gateway](aws-api-gateway.md)
+* [SNS - Simple Notification Service](aws-sns.md)
+* [2013-12-17-aws-rds.md](aws/2013-12-17-aws-rds.md)
+* [2014-05-15-aws-auth-scaling-load-balance.md](aws/2014-05-15-aws-auth-scaling-load-balance.md)
+* [2014-05-15-aws-cloudfront.md](aws/2014-05-15-aws-cloudfront.md)
+* [2014-05-21-aws-dynamoDB.md](aws/2014-05-21-aws-dynamoDB.md)
+* [2014-05-30-aws-price.md](aws/2014-05-30-aws-price.md)
+* [2014-06-07-aws-deploy.md](aws/2014-06-07-aws-deploy.md)
+* [2014-06-10-aws-elasticache.md](aws/2014-06-10-aws-elasticache.md)
+* [2014-10-20-aws-mail.md](aws/2014-10-20-aws-mail.md)
+* [2016-03-21-aws-s3.md](aws/2016-03-21-aws-s3.md)
+* [2013-12-18-aws-redis-with-rails.md](aws/2013-12-18-aws-redis-with-rails.md)
 
 ### Infra
 
@@ -315,24 +337,16 @@
 * [2013-11-19-mail.md](infra/2013-11-19-mail.md)
 * [2013-11-21-mail-mandrill.md](infra/2013-11-21-mail-mandrill.md)
 * [2013-12-15-ssl.md](infra/2013-12-15-ssl.md)
-* [2013-12-17-aws-rds.md](infra/2013-12-17-aws-rds.md)
 * [2013-12-17-linux-directory.md](infra/2013-12-17-linux-directory.md)
 * [2014-01-01-nginx-config.md](infra/2014-01-01-nginx-config.md)
 * [2014-04-14-vpn.md](infra/2014-04-14-vpn.md)
-* [2014-04-15-aws-cloudfront.md](infra/2014-04-15-aws-cloudfront.md)
 * [2014-04-17-network.md](infra/2014-04-17-network.md)
-* [2014-05-15-aws-auth-scaling-load-balance.md](infra/2014-05-15-aws-auth-scaling-load-balance.md)
-* [2014-05-15-aws-cloudfront.md](infra/2014-05-15-aws-cloudfront.md)
 * [2014-05-20-postfix.md](infra/2014-05-20-postfix.md)
 * [2014-05-20-server-log.md](infra/2014-05-20-server-log.md)
-* [2014-05-21-aws-dynamoDB.md](infra/2014-05-21-aws-dynamoDB.md)
 * [2014-05-24-cors-cross-origin-resource-sharing.md](infra/2014-05-24-cors-cross-origin-resource-sharing.md)
 * [2014-05-25-api.md](infra/2014-05-25-api.md)
 * [2014-05-26-pid.md](infra/2014-05-26-pid.md)
-* [2014-05-30-aws-price.md](infra/2014-05-30-aws-price.md)
 * [2014-06-03-docker.md](infra/2014-06-03-docker.md)
-* [2014-06-07-aws-deploy.md](infra/2014-06-07-aws-deploy.md)
-* [2014-06-10-aws-elasticache.md](infra/2014-06-10-aws-elasticache.md)
 * [2014-07-14-chef.md](infra/2014-07-14-chef.md)
 * [2014-07-14-http2.md](infra/2014-07-14-http2.md)
 * [2014-07-14-vagrant.md](infra/2014-07-14-vagrant.md)
@@ -344,7 +358,6 @@
 * [2014-08-02-dovecot-with-postgres.md](infra/2014-08-02-dovecot-with-postgres.md)
 * [2014-08-02-sasl.md](infra/2014-08-02-sasl.md)
 * [2014-08-03-pam-authentication.md](infra/2014-08-03-pam-authentication.md)
-* [2014-10-20-aws-mail.md](infra/2014-10-20-aws-mail.md)
 * [2014-10-21-assets-on-cloud.md](infra/2014-10-21-assets-on-cloud.md)
 * [2014-11-04-network-ipaddress-cidr.md](infra/2014-11-04-network-ipaddress-cidr.md)
 * [2015-02-07-unbuntu-server-setting-log.md](infra/2015-02-07-unbuntu-server-setting-log.md)
@@ -356,13 +369,10 @@
 * [2015-12-15-heroku.md](infra/2015-12-15-heroku.md)
 * [2015-12-15-redis.md](infra/2015-12-15-redis.md)
 * [2016-01-28-linux-signal.md](infra/2016-01-28-linux-signal.md)
-* [2016-03-21-aws-s3.md](infra/2016-03-21-aws-s3.md)
 * [2016-04-12-anacron.md](infra/2016-04-12-anacron.md)
-* [2016-06-12-aws-lambda.md](infra/2016-06-12-aws-lambda.md)
 * [2016-06-28-fish-shell.md](infra/2016-06-28-fish-shell.md)
 * [2016-07-13-gcp-deploy-rails.md](infra/2016-07-13-gcp-deploy-rails.md)
 * [2016-07-13-gcp-server-setting.md](infra/2016-07-13-gcp-server-setting.md)
-* [2016-07-13-ssh-rsa.md](infra/2016-07-13-ssh-rsa.md)
 * [2016-07-13-webtask.md](infra/2016-07-13-webtask.md)
 * [2016-07-20-google-cloud-sdk.md](infra/2016-07-20-google-cloud-sdk.md)
 * [2016-07-21-gcp-compute-engine.md](infra/2016-07-21-gcp-compute-engine.md)
@@ -372,19 +382,26 @@
 * [2016-09-06-oracle-RAC.md](infra/2016-09-06-oracle-RAC.md)
 * [2016-09-07-docker-oracle.md](infra/2016-09-07-docker-oracle.md)
 
-### database
+
+### security
+
+* [Web HTTPs](security/web-https.md)
 
 ### others
 
-* [socket](others/2012-05-13-socket.md)
-* [Develope Cost Calculate](2016-09-14-develope-cost-calculate.md)
-* [Github-page-with-middleman](others/2013-10-01-github-page-with-middleman.md)
-* [Github-page-with-octopress](others/2013-10-02-github-page-with-octopress.md)
+* [socket](others/socket.md)
+* [Develope Cost Calculate](others/develope-cost-calculate.md)
+* [parallel](others/parallel.md)
+* [coding font](others/coding-font.md)
+* [WEB PAYMENTS AT W3C](others/web-payment-at-w3c.md)
 
 ### ios
 
 * [xcode](ios/xcode.md)
 * [swift tutorial](ios/swift-tutorial.md)
+* [swift & ruby compare](ios/swift-ruby-compare.md)
+* [push通知](ios/APNS.md)
+* [realtime update](ios/realtime-update.md)
 * [cocoapods](ios/ios-cocoapods.md)
 * [cocoapods libraries](ios/ios-cocoapods-libararies.md)
 * [2013-10-03-ios-uicolor.md](ios/2013-10-03-ios-uicolor.md)
@@ -533,7 +550,6 @@
 * [2014-09-23-redmine_with_sqlite3.md](dev_env/2014-09-23-redmine_with_sqlite3.md)
 * [2015-01-27-alfred.md](dev_env/2015-01-27-alfred.md)
 * [2015-12-15-jetbrain-editor-custom-shortcut.md](dev_env/2015-12-15-jetbrain-editor-custom-shortcut.md)
-* [2015-12-15-sketch.md](dev_env/2015-12-15-sketch.md)
 * [2015-12-26-api-test-tools.md](dev_env/2015-12-26-api-test-tools.md)
 * [2016-02-08-jetbrain-editor-settings-and-tip.md](dev_env/2016-02-08-jetbrain-editor-settings-and-tip.md)
 * [2016-02-11-jetbrain-editor-watcher.md](dev_env/2016-02-11-jetbrain-editor-watcher.md)
@@ -571,6 +587,7 @@
 * [chkconfig](unix/chkconfig.md)
 * [user](unix/user.md)
 * [network-connection](unix/network-connection.md)
+* [ssh](unix/ssh.md)
 
 ### default
 
@@ -583,7 +600,6 @@
 * [2014-05-10-programming-design-pattern.md](default/2014-05-10-programming-design-pattern.md)
 * [2014-05-19-regexp.md](default/2014-05-19-regexp.md)
 * [2014-06-10-ie-vm-test.md](default/2014-06-10-ie-vm-test.md)
-* [2014-06-16-ssh.md](default/2014-06-16-ssh.md)
 * [2014-06-29-numbers.md](default/2014-06-29-numbers.md)
 * [2014-07-17-svn-and-git-html.md](default/2014-07-17-svn-and-git-html.md)
 * [2014-08-10-accounts-and-finance.md](default/2014-08-10-accounts-and-finance.md)

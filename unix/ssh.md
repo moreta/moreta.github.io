@@ -4,11 +4,19 @@ date: 2014-06-16
 tags: ssh, ssh-agent-forward, 多段ssh, ProxyCommand
 ---
 
-# 参考
+SSH
+=======
 
-* <http://www.xmisao.com/2013/10/08/ssh-proxy-command.html>
-* <http://qiita.com/ik-fib/items/12e4fab4478e360a82a1>
-* <http://d.hatena.ne.jp/tkng/20110225/1298596697>
+# 鍵作成
+
+```
+ssh-keygen -t rsa
+```
+ssh keyを生成するときには idをしていするのがいい
+
+```
+ssh-keygen -t rsa -C "id"
+```
 
 
 # 多段ssh
@@ -60,14 +68,6 @@ Host *example.com
   ForwardAgent yes
 ```
 
-## setup ssh
-
-ssh keyを生成するときには idをしていするのがいい
-
-```
-ssh-keygen -t rsa -C "VLBILBA1501"
-```
-
 
 # TODO
 
@@ -84,3 +84,10 @@ ssh-keygen -t rsa -C "VLBILBA1501"
 
 chmod 700 .ssh
 chmod 600 .ssh/*
+
+
+# 参考
+
+* <http://www.xmisao.com/2013/10/08/ssh-proxy-command.html>
+* <http://qiita.com/ik-fib/items/12e4fab4478e360a82a1>
+* <http://d.hatena.ne.jp/tkng/20110225/1298596697>
