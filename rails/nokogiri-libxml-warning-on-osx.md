@@ -5,6 +5,43 @@ comments: true
 tags: rails, mac
 ---
 
+2016/10/25追記
+============
+
+# nokorigi installに必要lib
+
++ libxml2
++ libxslt
++ libiconv
+
+手順
+
+```
+# nokogiriを削除
+gem uninstall nokogiri
+
+# brewを最新に
+brew doctor       # インストール内容が最新かチェック
+brew update       # ログにupdateの記述があったときに行う
+brew upgrade      # 利用可能なアップデート版をアップグレード
+
+brew tap homebrew/dupes                   # リポジトリの追加を行います
+brew install libxml2 libxslt libiconv     # 必須ファイルのインストール
+brew link --force libxml2            # meltediceさんからのフィードバック
+brew link --force libxslt            # meltediceさんからのフィードバック
+
+# nokogiri install
+gem install nokogiri -- --use-system-libraries --with-iconv-dir="$(brew --prefix libiconv)" --with-xml2-config="$(brew --prefix libxml2)/bin/xml2-config" --with-xslt-config="$(brew --prefix libxslt)/bin/xslt-config"
+# nokogiri check
+nokogiri 1.6.2.1
+```
+
+# References
+
+[Mac OS X Mavericksで”gem i nokogiri”失敗の解決方法](http://qiita.com/t_732_twit/items/a7956a170b1694f7ffc2)
+
+
+
 Get rid of Nokogiri LibXML warning on OSX
 ====================================
 

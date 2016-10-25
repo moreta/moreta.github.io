@@ -1,12 +1,13 @@
 ---
-title: "image magick"
+title: Image magick
 date: 2013-11-27
 tags: aws, centos, imagemagick
 ---
 
 
 # 基本的にCentOS系列なら以下で十分
-``` sh
+
+```sh
 yum install ImageMagick
 yum install ImageMagick-devel
 ```
@@ -15,7 +16,7 @@ yum install ImageMagick-devel
 
 #### imagemagicに必要なライブラリを全部インストールしておく場合
 
-``` sh
+```sh
 yum -y install gcc
 yum -y install gcc-c++
 yum -y install bzip2-devel
@@ -35,23 +36,21 @@ yum -y install lcms-devel
 yum -y install libxml2-devel
 ```
 
-libxml2 is missing
-
-#### yum installでimagemagickの依頼性あるライブラリをインストールする。
-
-``` sh
-yum install ImageMagick
-yum install ImageMagick-devel
-```
-
 # 削除
 
-``` sh
+```sh
 yum remove ImageMagick
 yum remove ImageMagick-devel
 ```
 
-# 参考
-<http://forum.directadmin.com/showthread.php?t=44449&page=1>
-<http://blog.fkei.me/2012/06/awsamazon-linux-201203imagemagickpython.html>
-<http://akkunchoi.github.com/imagemagick-rmagick-centos.html>
+# macOS Install
+
+```sh
+brew install imagemagick
+```
+
+# References
+
++ <http://forum.directadmin.com/showthread.php?t=44449&page=1>
++ <http://blog.fkei.me/2012/06/awsamazon-linux-201203imagemagickpython.html>
++ <http://akkunchoi.github.com/imagemagick-rmagick-centos.html>

@@ -4,8 +4,6 @@ date: 2014-07-11
 tags: postgresql, gem, nokogiri
 ---
 
-
-
 Enterprise PostgresでPostgresqlをインストール後、
 既存のpostgresqlを削除したらエラーがでる
 

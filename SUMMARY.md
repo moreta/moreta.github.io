@@ -189,6 +189,7 @@
 ### ruby
 
 * [gem](ruby/ruby-gem.md)
+* [TinyTDS](ruby/gem-tiny-tds-sqlserver.md)
 * [2016-09-19-ruby-socket.md](ruby/2016-09-19-ruby-socket.md)
 * [2016-07-29-ruby-thread-and-fiber.md](ruby/2016-07-29-ruby-thread-and-fiber.md)
 * [2016-07-29-ruby-splat-operator.md](ruby/2016-07-29-ruby-splat-operator.md)
@@ -236,7 +237,6 @@
 * [2013-12-02-ruby-nil.md](ruby/2013-12-02-ruby-nil.md)
 * [2013-12-02-ruby-dynamic-dispatch.md](ruby/2013-12-02-ruby-dynamic-dispatch.md)
 * [2013-11-27-ruby-rails-server.md](ruby/2013-11-27-ruby-rails-server.md)
-* [2013-11-27-imagemagick.md](ruby/2013-11-27-imagemagick.md)
 * [2013-11-14-ruby-keyword-parameter.md](ruby/2013-11-14-ruby-keyword-parameter.md)
 * [2013-11-07-carrierwave.md](ruby/2013-11-07-carrierwave.md)
 * [2013-11-05-ruby-class.md](ruby/2013-11-05-ruby-class.md)
@@ -587,6 +587,7 @@
 * [user](unix/user.md)
 * [network-connection](unix/network-connection.md)
 * [ssh](unix/ssh.md)
+* [Imagemagick](unix/imagemagick.md)
 
 ### default
 
