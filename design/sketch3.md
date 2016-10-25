@@ -36,10 +36,9 @@ Sketch slicing helper
 
 + <https://github.com/ozzik/Slicer>
 
-# wireframe
+### Renameit
 
-+ <https://github.com/wendzhue/wz_wireframe_kit_sketch>
-
+Quickly rename layers or artboards
 
 # Basics
 

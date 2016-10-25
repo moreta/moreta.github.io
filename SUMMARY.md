@@ -170,6 +170,7 @@
 
 ### spring
 
+* [Configuring Spring Scheduler At run time based on db values](spring/spring-scheduler-by-db-value.md)
 * [2014-07-27-spring-framework.md](spring/2014-07-27-spring-framework.md)
 * [2015-01-14-spring-transaction.md](spring/2015-01-14-spring-transaction.md)
 * [2016-03-22-spring-with-ibatis.md](spring/2016-03-22-spring-with-ibatis.md)
