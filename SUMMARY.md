@@ -51,15 +51,12 @@
 * [2014-07-27-polymer-element.md](javascript/2014-07-27-polymer-element.md)
 * [2014-11-16-superagent.md](javascript/2014-11-16-superagent.md)
 * [2014-12-01-webpack.md](javascript/2014-12-01-webpack.md)
-* [2015-06-22-react.md](javascript/2015-06-22-react.md)
 * [2015-06-27-javascript-strict.md](javascript/2015-06-27-javascript-strict.md)
 * [2015-06-27-javascript-web-storage.md](javascript/2015-06-27-javascript-web-storage.md)
-* [2015-06-28-react-environment.md](javascript/2015-06-28-react-environment.md)
 * [2015-07-11-javascript-basic.md](javascript/2015-07-11-javascript-basic.md)
 * [2015-07-12-javascript-event-delegation-work.md](javascript/2015-07-12-javascript-event-delegation-work.md)
 * [2015-11-24-amazon-affiliate.md](javascript/2015-11-24-amazon-affiliate.md)
 * [2015-11-24-nodejs-loopback.md](javascript/2015-11-24-nodejs-loopback.md)
-* [2015-11-24-react-social-login.md](javascript/2015-11-24-react-social-login.md)
 * [2015-12-01-nodejs-express.md](javascript/2015-12-01-nodejs-express.md)
 * [2015-12-01-nodejs-hapijs.md](javascript/2015-12-01-nodejs-hapijs.md)
 * [2015-12-01-nodejs-koa.md](javascript/2015-12-01-nodejs-koa.md)
@@ -76,31 +73,22 @@
 * [2015-12-09-nodejs-deploy.md](javascript/2015-12-09-nodejs-deploy.md)
 * [2015-12-14-jwt-json-web-token.md](javascript/2015-12-14-jwt-json-web-token.md)
 * [2015-12-17-js-undefined_and_null.md](javascript/2015-12-17-js-undefined_and_null.md)
-* [2015-12-20-react-style.md](javascript/2015-12-20-react-style.md)
-* [2015-12-21-redux.md](javascript/2015-12-21-redux.md)
-* [2015-12-22-react-animation.md](javascript/2015-12-22-react-animation.md)
 * [2015-12-24-javascritp-polyfill.md](javascript/2015-12-24-javascritp-polyfill.md)
-* [2015-12-24-react-best-practice.md](javascript/2015-12-24-react-best-practice.md)
-* [2015-12-24-react-performance.md](javascript/2015-12-24-react-performance.md)
 * [2015-12-25-javascript-fetch-api.md](javascript/2015-12-25-javascript-fetch-api.md)
 * [2015-12-26-electron.md](javascript/2015-12-26-electron.md)
 * [2015-12-26-javascript-stream.md](javascript/2015-12-26-javascript-stream.md)
 * [2015-12-26-progressive-web-app.md](javascript/2015-12-26-progressive-web-app.md)
 * [2015-12-28-npm-packages.md](javascript/2015-12-28-npm-packages.md)
-* [2016-01-11-react-context.md](javascript/2016-01-11-react-context.md)
 * [2016-01-13-javascirpt-file-api.md](javascript/2016-01-13-javascirpt-file-api.md)
 * [2016-01-16-nodejs-promise.md](javascript/2016-01-16-nodejs-promise.md)
 * [2016-01-17-javascript-multi-threading.md](javascript/2016-01-17-javascript-multi-threading.md)
 * [2016-01-19-javascript-array.md](javascript/2016-01-19-javascript-array.md)
-* [2016-01-20-nodejs-job-scheduler.md](javascript/2016-01-20-nodejs-job-scheduler.md)
 * [2016-01-21-osjs-Javascript-cloud-web-desktop-platform.md](javascript/2016-01-21-osjs-Javascript-cloud-web-desktop-platform.md)
-* [2016-01-22-job-scheduler.md](javascript/2016-01-22-job-scheduler.md)
 * [2016-01-22-nodejs-log.md](javascript/2016-01-22-nodejs-log.md)
 * [2016-01-29-nodejs-agenda.md](javascript/2016-01-29-nodejs-agenda.md)
 * [2016-01-29-nodejs-encryption-decryption.md](javascript/2016-01-29-nodejs-encryption-decryption.md)
 * [2016-01-29-nodejs-resque.md](javascript/2016-01-29-nodejs-resque.md)
 * [2016-01-29-npm-script.md](javascript/2016-01-29-npm-script.md)
-* [2016-01-29-react-starter-kit.md](javascript/2016-01-29-react-starter-kit.md)
 * [2016-01-31-nodejs-actionhero.md](javascript/2016-01-31-nodejs-actionhero.md)
 * [2016-01-31-nodejs-logging.md](javascript/2016-01-31-nodejs-logging.md)
 * [2016-01-31-nodejs-rest-frameworks.md](javascript/2016-01-31-nodejs-rest-frameworks.md)
@@ -115,26 +103,40 @@
 * [2016-05-29-javascript-scroll.md](javascript/2016-05-29-javascript-scroll.md)
 * [2016-07-19-javascript-datetimepicker.md](javascript/2016-07-19-javascript-datetimepicker.md)
 * [2016-08-12-webpack-html-webpack-plugin.md](javascript/2016-08-12-webpack-html-webpack-plugin.md)
-* [2016-08-13-react-cli.md](javascript/2016-08-13-react-cli.md)
-* [2016-08-14-react-boilplate.md](javascript/2016-08-14-react-boilplate.md)
 * [2016-08-17-draftjs.md](javascript/2016-08-17-draftjs.md)
 * [2016-08-17-jq-json-processor-beautify.md](javascript/2016-08-17-jq-json-processor-beautify.md)
 * [2016-08-18-formatjs-javascript-internationalization.md](javascript/2016-08-18-formatjs-javascript-internationalization.md)
 * [2016-08-23-clipboard.md](javascript/2016-08-23-clipboard.md)
 * [2016-08-25-draftjs-library.md](javascript/2016-08-25-draftjs-library.md)
-* [2016-08-28-react-functional-css.md](javascript/2016-08-28-react-functional-css.md)
-* [2016-08-28-react-native.md](javascript/2016-08-28-react-native.md)
 * [2016-08-28-webpack-dashboard.md](javascript/2016-08-28-webpack-dashboard.md)
-* [2016-08-29-react-multi-step-form.md](javascript/2016-08-29-react-multi-step-form.md)
-* [2016-09-09-react-router.md](javascript/2016-09-09-react-router.md)
 * [2016-09-10-immutablejs.md](javascript/2016-09-10-immutablejs.md)
-* [2016-09-10-react-storyboard.md](javascript/2016-09-10-react-storyboard.md)
 
-#### vuejs
 
-* [2014-11-15-vuejs.md](javascript/vue/vue-vuejs.md)
-* [2016-07-08-vue-cli.md](javascript/vue/vue-cli.md)
-* [2016-07-08-vue-cli.md](javascript/vue/vue-vuex.md)
+### vue.js
+
+* [vuejs](vue/vue-vuejs.md)
+* [vue-cli](vue/vue-cli.md)
+* [vuex](vue/vuex.md)
+
+### React
+
+* [react](react/react.md)
+* [redux](react/edux.md)
+* [react-animation](react/react-animation.md)
+* [react-best-practice](react/react-best-practice.md)
+* [react-performance](react/react-performance.md)
+* [react-cli](react/react-cli.md)
+* [react boilerplate](react/react-boilplate.md)
+* [react-environment](react/react-environment.md)
+* [react-storyboard](react/react-storyboard.md)
+* [react-multi-step-form](react/react-multi-step-form.md)
+* [react-router](react/react-router.md)
+* [react-functional-css](react/react-functional-css.md)
+* [react-native](react/react-native.md)
+* [react-starter-kit](react/react-starter-kit.md)
+* [react-social-login](react/react-social-login.md)
+* [react-context](react/react-context.md)
+* [react-style](react/react-style.md)
 
 ### java
 
@@ -149,6 +151,7 @@
 * [JCE](java/java-jce.md)
 * [JDBC Connection](java/java-jdbc-connection.md)
 * [RxJava](java/rx-java.md)
+* [Heap Memory](java/heap-memory.md)
 * [2014-07-27-java-anonymous-class.md](java/2014-07-27-java-anonymous-class.md)
 * [2014-07-28-maven.md](java/2014-07-28-maven.md)
 * [2015-12-24-java-calendar.md](java/2015-12-24-java-calendar.md)
@@ -168,24 +171,29 @@
 ### spring
 
 * [2014-07-27-spring-framework.md](spring/2014-07-27-spring-framework.md)
-* [2014-07-28-spring-batch.md](spring/2014-07-28-spring-batch.md)
 * [2015-01-14-spring-transaction.md](spring/2015-01-14-spring-transaction.md)
-* [2016-02-08-spring-batch-execution-context.md](spring/2016-02-08-spring-batch-execution-context.md)
 * [2016-03-22-spring-with-ibatis.md](spring/2016-03-22-spring-with-ibatis.md)
-* [2016-04-08-spring-batch-itemreader-itemwriter.md](spring/2016-04-08-spring-batch-itemreader-itemwriter.md)
 * [2016-04-09-spring-boot.md](spring/2016-04-09-spring-boot.md)
 * [2016-05-10-spring-dynamic-datasource.md](spring/2016-05-10-spring-dynamic-datasource.md)
 * [2016-06-29-spring-HATEOAS.md](spring/2016-06-29-spring-HATEOAS.md)
-* [2016-07-11-spring-batch-job-parameter-extractor.md](spring/2016-07-11-spring-batch-job-parameter-extractor.md)
 * [2016-07-25-spring-mvc.md](spring/2016-07-25-spring-mvc.md)
 * [2016-07-28-spring-autowire.md](spring/2016-07-28-spring-autowire.md)
-* [2016-08-05-spring-batch-unit-test.md](spring/2016-08-05-spring-batch-unit-test.md)
 * [2016-08-13-spring-annotation.md](spring/2016-08-13-spring-annotation.md)
 * [2016-08-29-spring-mvc.md](spring/2016-08-29-spring-mvc.md)
 * [2016-08-30-spring-boot-rest.md](spring/2016-08-30-spring-boot-rest.md)
 * [spring JPA](spring/2016-08-30-spring-jpa.md)
 * [2016-09-15-spring-scheduling.md](spring/2016-09-15-spring-scheduling.md)
 * [2016-09-16-spring-rest-template.md](spring/2016-09-16-spring-rest-template.md)
+
+#### spring batch
+
+* [spring batch](spring_batch/2014-07-28-spring-batch.md)
+* [spring batch Parallelization](spring_batch/spring-batch-parallelization.md)
+* [2016-02-08-spring-batch-execution-context.md](spring/2016-02-08-spring-batch-execution-context.md)
+* [2016-04-08-spring-batch-itemreader-itemwriter.md](spring/2016-04-08-spring-batch-itemreader-itemwriter.md)
+* [2016-07-11-spring-batch-job-parameter-extractor.md](spring/2016-07-11-spring-batch-job-parameter-extractor.md)
+* [2016-08-05-spring-batch-unit-test.md](spring/2016-08-05-spring-batch-unit-test.md)
+
 
 ### ruby
 
@@ -306,6 +314,12 @@
 * [2016-08-13-git-tag.md](git/2016-08-13-git-tag.md)
 * [2016-09-05-git-branch.md](git/2016-09-05-git-branch.md)
 * [2016-09-05-git-commit-message.md](git/2016-09-05-git-commit-message.md)
+
+### batch
+
+* [Job Management](batch/job-management.md)
+* [Job scheduler for Node.js](batch/job-scheduler-for-nodejs.md)
+* [Job scheduler](javascript/job-scheduler.md)
 
 ### AWS
 
