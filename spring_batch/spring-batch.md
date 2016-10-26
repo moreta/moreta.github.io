@@ -228,7 +228,7 @@ public class JobLauncherController {
 
 ##### AutomaticJobRegistrar
 
-```
+```xml
 <bean class="org.spr...AutomaticJobRegistrar">
    <property name="applicationContextFactories">
       <bean class="org.spr...ClasspathXmlApplicationContextsFactoryBean">
@@ -251,6 +251,7 @@ public class JobLauncherController {
 # ItemReader & ItemWriters
 
 + <http://moreta.github.io/2016/04/08/spring-batch-itemreader-itemwriter/>
++ [IbatisPagingItemReader](https://sites.google.com/site/soracane/home/springnitsuite/spring-batch/6-batchi-shori-no-jissai-no-sanpuru--dbyomikomi)
 
 
 # Annotation

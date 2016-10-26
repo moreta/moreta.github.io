@@ -6,7 +6,7 @@ tags: mongodb
 
 # トランザクション問題を回避する
 
-MongoDBを使ってAtomicな処理をするには? 
+MongoDBを使ってAtomicな処理をするには?
 
 ## mongodbのatomic保証
 
@@ -21,7 +21,8 @@ MongoDBを使ってAtomicな処理をするには?
 details部分だけが違う
 
 book
-```json
+
+```js
 {
   _id: ObjectId('53d7beec4e32fd3514fbd027'),
   type: 'book'
@@ -37,7 +38,8 @@ book
 ```
 
 dvd
-```json
+
+```js
 {
   _id: ObjectId('53d7beec4e32fd3514fbd028'),
   type: 'dvd'
@@ -71,15 +73,15 @@ dvd
 + MongoDBはドキュメントあたり最大16MBという制限があるので、どこまでもドキュメントが大きくなるような設計はNG
 + 16MB以内に抑え、padding分以上増えないように設計しようとすると、基本的にはreferenceを選択
 + 基本はreference、データが小さく検索性を考えればembedです
-+ あらかじめ、reference先のデータを検索にすることがわかっている場合は、検索要素をembedすることで対応 
- 
++ あらかじめ、reference先のデータを検索にすることがわかっている場合は、検索要素をembedすることで対応
+
 ## example
 
 embed
 
 productコレクション（embed）
 
-```json
+```js
 {
   _id: ObjectId("53d84d8dbef6458e5cf693ed"),
   name: 'New T-shirts'
@@ -101,7 +103,7 @@ reference
 product, skuコレクション（reference）
 
 
-```json
+```js
 // product
 {
   _id: ObjectId("53d84d8dbef6458e5cf693ed"),
@@ -142,7 +144,7 @@ db.products.find({ $in: ids });
 
 あらかじめ、reference先のデータを検索にすることがわかっている場合は、検索要素をembedすることで対応します。
 
-```json
+```js
 // product
 {
   _id: ObjectId("53d84d8dbef6458e5cf693ed"),
