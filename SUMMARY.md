@@ -545,11 +545,16 @@
 * [2016-08-25-html-tips.md](css_html/2016-08-25-html-tips.md)
 * [2016-08-28-tachyons-css.md](css_html/2016-08-28-tachyons-css.md)
 
+### MacOS
+
+* [brew](macos/mac-brew.md)
+* [brew Packages](macos/mac-brew-packages.md)
+* [macOS mavericks java6 Reinstall](macos/mac-mavericks-java6-reinstall.md)
+
 ### Dev environment
 
 * [xcode.md](dev_env/xcode.md)
 * [atom editor](dev_env/atom-editor.md)
-* [macOS mavericks java6 Reinstall](dev_env/mac-mavericks-java6-reinstall.md)
 * [Current directory server](dev_env/current-directory-server.md)
 * [2013-11-05-mac-ip.md](dev_env/2013-11-05-mac-ip.md)
 * [2013-11-20-emacs-command.md](dev_env/2013-11-20-emacs-command.md)
@@ -559,7 +564,6 @@
 * [2013-12-05-mac-tip.md](dev_env/2013-12-05-mac-tip.md)
 * [2014-02-08-mac-dev-env.md](dev_env/2014-02-08-mac-dev-env.md)
 * [2014-02-11-css-box.md](dev_env/2014-02-11-css-box.md)
-* [2014-03-28-mac-brew.md](dev_env/2014-03-28-mac-brew.md)
 * [2014-05-13-eclipse-editor.md](dev_env/2014-05-13-eclipse-editor.md)
 * [2014-05-20-vi.md](dev_env/2014-05-20-vi.md)
 * [2014-06-14-middleman.md](dev_env/2014-06-14-middleman.md)

@@ -6,7 +6,7 @@ tags: brew, HomeBrew
 
 # summaries
 
-```
+```sh
 brew update # brew version update
 brew tap homebrew/dupes # brew repository 追加
 brew install libxml2 libxslt # libxml2, libxsltをインストール

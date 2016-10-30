@@ -310,7 +310,7 @@ RestoreするまえにDBがなかったら先に作っておく
 
 `createdb db_name -O owner`
 
-### Restore
+### Restore commands
 
 ```
 pg_dump -U db_user db_name > /pgdata/your_db_$date.sql
@@ -337,6 +337,13 @@ psql -U db_user db_name -f yourdump.dump
 ```
 この方法を使う `C`や`c`optionでdumpを作成するとできない
 
+
+# Drop Database
+
+```
+dropdb database_name -U username
+dropdb test -U postgres
+```
 
 # Setting
 
