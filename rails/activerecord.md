@@ -27,7 +27,8 @@ require "rails/test_unit/railtie"
 4. Delete migration check in test/test_helper.rb
 
 5. Delete any ActiveRecord configuration from your config/environments files (this is what is causing your error)
-=======
+
+
 # migration
 
 sample
@@ -112,3 +113,11 @@ development:
 
 `export DYLD_LIBRARY_PATH=${PG_HOME}/lib:$DYLD_LIBRARY_PATH # for pg gem error & gem nokogiri`
 
+
+# error message
+
+
+```sh
+@user.save
+@user.errors.full_messages
+```

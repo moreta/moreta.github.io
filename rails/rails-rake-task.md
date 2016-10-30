@@ -4,35 +4,59 @@ date: 2015-01-31
 tags: rails, rake, task
 ---
 
-# rails関連 rake
+Railsの rake tasks
+====================
+
+# task一覧
+
+```sh
+rake -T
+```
+で確認可能
+
+# カテゴリー別説明
 
 ## 情報表示
 
-```
-rake -T    rake タスク一覧を表示
-rake db:version     現在のDBのバージョンを表示
-rake db:charset    DBの文字コード表示
-rake db:collation    DBの照合順序を表示
-rake db:sessions:clear
+```sh
+rake -T            # rake タスク一覧を表示
+rake db:version    # 現在のDBのバージョンを表示
+rake db:charset    # DBの文字コード表示
+rake db:collation  # DBの照合順序を表示
+rake db:sessions:clear # session情報をclear !これをするときには注意
 ```
 
 ## DB基礎操作
 
-```
-rake db:create     database.yml の内容でデータベースを作る. sqlite のDBファイル等を作成
-rake db:drop     createの逆
-rake db:reset     drop, create, schema.rb から復帰
+```sh
+rake db:create   # database.yml の内容でデータベースを作る
+rake db:drop     # createの逆
+rake db:reset    # drop, create, schema.rb から復帰
 ```
 
-## migration
+### migration
+
+options
+
++ VERSION
++ RAILS_ENV
+
+```sh
+rake db:migraion [VERSION=バージョン番号] [オプション]
+rake db:migrate VERSION=201010190000 # 特定のバージョンのスキーマに変更
+rake db:migrate RAILS_ENV=production # production環境のマイグレーション
+```
+
+
 
 
 ### 実行されていないmigrationを表示
-```
+
+```sh
 rake db:abort_if_pending_migrations
 ```
 
-```
+```sh
 # db/migrate内のスクリプトファイルからdatabaseにテーブル作成
 # db/migrate 以下にあるmigration ファイルを実行. RAILS_ENV 未指定の場合 development 環境のみに行われる.
 rake db:migrate [VERSION=バージョン番号] [オプション]
@@ -44,9 +68,14 @@ rake db:migrate:up	指定したmigrationファイルのself.upメソッドを実
 
 ## db setup
 
-```
+```sh
 # Create the database, load the schema, and initialize with the seed data (use db:reset to also drop the db first)
 rake db:setup
+
+# これと同じ
+rake:db:create
+rake db:schema:load # schema.rbをDBに反映
+rake db:seed
 
 ```
 

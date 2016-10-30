@@ -152,6 +152,8 @@
 * [JDBC Connection](java/java-jdbc-connection.md)
 * [RxJava](java/rx-java.md)
 * [Heap Memory](java/heap-memory.md)
+* [JMX](jmx.md)
+* [JConsole](jconsole.md)
 * [2014-07-27-java-anonymous-class.md](java/2014-07-27-java-anonymous-class.md)
 * [2014-07-28-maven.md](java/2014-07-28-maven.md)
 * [2015-12-24-java-calendar.md](java/2015-12-24-java-calendar.md)
@@ -254,6 +256,9 @@
 
 ### rails
 
+* [rails commands](rails/rails-commands.md)
+* [rails rake tasks](rails/rails-rake-task.md)
+* [Activerecord](rails/activerecord.md)
 * [nokogiri libxml warning on osx](rails/nokogiri-libxml-warning-on-osx.md)
 * [2013-10-05-rails-scss-at-import-error.md](rails/2013-10-05-rails-scss-at-import-error.md)
 * [2013-11-14-rails-date.md](rails/2013-11-14-rails-date.md)
@@ -265,7 +270,6 @@
 * [2013-12-16-rails-rails4.md](rails/2013-12-16-rails-rails4.md)
 * [2013-12-17-rails-performance.md](rails/2013-12-17-rails-performance.md)
 * [2013-12-18-rails-rails3.md](rails/2013-12-18-rails-rails3.md)
-* [2013-12-24-rails-activerecord.md](rails/2013-12-24-rails-activerecord.md)
 * [2013-12-25-rails-ssl.md](rails/2013-12-25-rails-ssl.md)
 * [2014-01-01-ec2-instance-rails-setting.md](rails/2014-01-01-ec2-instance-rails-setting.md)
 * [2014-01-14-rails-search.md](rails/2014-01-14-rails-search.md)
@@ -294,7 +298,6 @@
 * [2015-01-18-rails-console-pry-awesome-print.md](rails/2015-01-18-rails-console-pry-awesome-print.md)
 * [2015-01-25-rails-draper-decorator.md](rails/2015-01-25-rails-draper-decorator.md)
 * [2015-01-29-rails-tagging.md](rails/2015-01-29-rails-tagging.md)
-* [2015-01-31-rails-rake-task.md](rails/2015-01-31-rails-rake-task.md)
 * [2015-07-12-rails-devise.md](rails/2015-07-12-rails-devise.md)
 * [2016-06-11-rails5-api.md](rails/2016-06-11-rails5-api.md)
 * [2016-06-12-rails-enviroment-config.md](rails/2016-06-12-rails-enviroment-config.md)
@@ -327,12 +330,14 @@
 * [lambda](aws/aws-lambda.md)
 * [API Gateway](aws-api-gateway.md)
 * [SNS - Simple Notification Service](aws-sns.md)
-* [2013-12-17-aws-rds.md](aws/2013-12-17-aws-rds.md)
+* [RDS](aws/aws-rds.md)
+* [AWS Deploy](aws/aws-deploy.md)
+* [AWS VPN](aws/aws-vpn.md)
+* [AWS ELB & deploy](aws/aws-elb-deploy.md)
 * [2014-05-15-aws-auth-scaling-load-balance.md](aws/2014-05-15-aws-auth-scaling-load-balance.md)
 * [2014-05-15-aws-cloudfront.md](aws/2014-05-15-aws-cloudfront.md)
 * [2014-05-21-aws-dynamoDB.md](aws/2014-05-21-aws-dynamoDB.md)
 * [2014-05-30-aws-price.md](aws/2014-05-30-aws-price.md)
-* [2014-06-07-aws-deploy.md](aws/2014-06-07-aws-deploy.md)
 * [2014-06-10-aws-elasticache.md](aws/2014-06-10-aws-elasticache.md)
 * [2014-10-20-aws-mail.md](aws/2014-10-20-aws-mail.md)
 * [2016-03-21-aws-s3.md](aws/2016-03-21-aws-s3.md)
@@ -605,6 +610,10 @@
 * [ssh](unix/ssh.md)
 * [Imagemagick](unix/imagemagick.md)
 
+### test tools
+
+* [rest api](testtools/rest-api.md)
+
 ### default
 
 * [2013-11-11-recommender-systems.md](default/2013-11-11-recommender-systems.md)
@@ -630,3 +639,7 @@
 * [2016-01-30-negative-interest-rate.md](default/2016-01-30-negative-interest-rate.md)
 * [2016-03-21-domain.md](default/2016-03-21-domain.md)
 * [2016-07-05-authentication-HMAC.md](default/2016-07-05-authentication-HMAC.md)
+
+### business
+
+* [デポジット(deposit)](business/deposit.md)

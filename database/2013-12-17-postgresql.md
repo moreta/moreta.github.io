@@ -12,13 +12,18 @@ See : 2014-10-25-mac-postgresql.md
 
 ## CentOS install
 
-`yum install postgresql postgresql-contrib postgresql-devel postgresql-server postgresql-odbc postgresql-jdbc # 9.1`
 
-`yum install postgresql9* postgresql-odbc postgresql-jdbc # 9.2`
+```sh
+# 9.1
+yum install postgresql postgresql-contrib postgresql-devel postgresql-server postgresql-odbc postgresql-jdbc
+# 9.2
+yum install postgresql9* postgresql-odbc postgresql-jdbc
+```
 
 
 ## もし、clientだけインストールする場合には以下を
-```
+
+```sh
 yum install postgresql-devel
 # or
 yum install postgresql9-devel
@@ -27,7 +32,7 @@ yum install postgresql9-devel
 
 ### service auto startに登録
 
-```
+```sh
 chkconfig --list | grep postgres
 chkconfig postgresql on
 chkconfig --list postgresql
@@ -36,7 +41,8 @@ chkconfig --list postgresql
 ### init db & start
 
 defaultは`/var/lib/pgsql9/data`
-```
+
+```sh
 service postgresql initdb
 service postgresql start
 or
@@ -45,7 +51,7 @@ or
 
 #### 手動でする場合 initdb
 
-```
+```sh
 su postgres
 initdb -D /pgdata --encoding=UTF-8 --locale=ja_JP.UTF-8
 postgres -D /pgdata
@@ -106,17 +112,18 @@ host    all             all             0.0.0.0/0               trust
 `\d`
 
 または
-```
+```sql
 SELECT
-        relname AS table_name
+  relname AS table_name
 FROM
-        pg_stat_user_tables
+  pg_stat_user_tables
 ```
 
 ## カラム名一覧
 
 テーブル一つ。これなら`\d`を使ったほうが、、
-```
+
+```sql
 SELECT  *
 FROM information_schema.columns
 WHERE  table_name = 'テーブル名'
@@ -124,14 +131,16 @@ ORDER BY ordinal_position
 ```
 
 全テーブル
-```
+
+```sql
 SELECT  table_catalog, table_schema, table_name, column_name, ordinal_position
 FROM  information_schema.columns
 ORDER BY table_name, ordinal_position
 ```
 
 全テーブルのなかで特定カラム
-```
+
+```sql
 SELECT  table_catalog, table_schema, table_name, column_name, ordinal_position
 FROM  information_schema.columns
 where column_name like '%lock_version%'
