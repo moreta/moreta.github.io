@@ -24,6 +24,7 @@
 * [file download](javascript/file-donwload.md)
 * [ES2015 - es6](javascript/es2015.md)
 * [socket.io](javascrit/socketio.md)
+* [Excel parse](javascript/excel-parse.md)
 * [2013-11-01-new-analytics-code.md](javascript/2013-11-01-new-analytics-code.md)
 * [2013-11-18-drap-and-drop-file-upload.md](javascript/2013-11-18-drap-and-drop-file-upload.md)
 * [2013-11-19-javascript-date-object.md](javascript/2013-11-19-javascript-date-object.md)
@@ -304,6 +305,10 @@
 * [2016-06-13-rails-mongodb.md](rails/2016-06-13-rails-mongodb.md)
 
 
+### zero downtime
+
+* [サーバ無停止 deploy](zerodowntime/zero-downtime-deploy.md)
+
 ### git
 
 * [git](git/git.md)
@@ -484,7 +489,6 @@
 * [2013-12-17-postgresql.md](database/2013-12-17-postgresql.md)
 * [2014-03-28-couchbase.md](database/2014-03-28-couchbase.md)
 * [2014-03-30-couchbase-sync-gateway.md](database/2014-03-30-couchbase-sync-gateway.md)
-* [2014-05-16-oracle.md](database/2014-05-16-oracle.md)
 * [2014-05-29-db-read-from-one-database-and-write-to-another.md](database/2014-05-29-db-read-from-one-database-and-write-to-another.md)
 * [2014-05-29-db-replication.md](database/2014-05-29-db-replication.md)
 * [2014-06-08-db-sharding.md](database/2014-06-08-db-sharding.md)
@@ -500,11 +504,18 @@
 * [2016-02-26-sql-tips.md](database/2016-02-26-sql-tips.md)
 * [2016-02-27-greenplum-postgresql.md](database/2016-02-27-greenplum-postgresql.md)
 * [2016-03-20-mongodb-ec.md](database/2016-03-20-mongodb-ec.md)
-* [2016-04-12-oracle-hint.md](database/2016-04-12-oracle-hint.md)
-* [2016-04-13-oracle-pivot.md](database/2016-04-13-oracle-pivot.md)
 * [2016-04-24-sql-basics.md](database/2016-04-24-sql-basics.md)
-* [2016-06-02-oracle-sqlcl.md](database/2016-06-02-oracle-sqlcl.md)
 * [2016-07-06-mysql.md](database/2016-07-06-mysql.md)
+
+### Oracle
+
+* [Oracle](oracle/oracle.md)
+* [Oracle Parallel](oracle/oracle-parallel.md)
+* [Oracle hint](oracle/oracle-hint.md)
+* [Oracle pivot](oracle/oracle-pivot.md)
+* [Oracle sqlcl](oracle/oracle-sqlcl.md)
+* [Oracle sqls](oracle/oracle-sqls.md)
+* [Oracle Performance](oracle/performance.md)
 
 ### Data Analysis
 

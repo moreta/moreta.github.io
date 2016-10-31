@@ -26,8 +26,23 @@ There are four different ways to parallelize.
   + 51~100 - chunk2
   + ...
 + これらのchunkをparallelで処理して、performanceを増加する
++ 順番は担保されない
 
 ![MULTITHREADED STEPS](https://dl.dropboxusercontent.com/u/21522805/blog/java/spring-batch-multithreaded_step.png)
+
+*example*
+
++ `taskExecutor`は直接実装するか、一番簡単なSimpleAsyncTaskExecutorを利用
++ `throttle-limit`はdefault4だけ調整する、DataSourceの許容範囲で設定すること
+
+```xml
+<step id="loading">
+  <tasklet
+    task-executor="taskExecutor"
+    throttle-limit="20">...</tasklet>
+</step>
+<bean id="taskExecutor" class="org.springframework.core.task.SimpleAsyncTaskExecutor" />
+```
 
 # PARALLEL STEPS
 
@@ -36,6 +51,48 @@ There are four different ways to parallelize.
 + parallelで進行するstepは他のstepが完了するまで待機する
 
 ![PARALLEL STEPS](https://dl.dropboxusercontent.com/u/21522805/blog/java/spring-batch-parallel-step.png)
+
+*example*
+
++ (step1, step2)が１つ、それと並列で step3が実行される
+
+```xml
+<job id="job1">
+    <split id="split1" task-executor="taskExecutor" next="step4">
+        <flow>
+            <step id="step1" parent="s1" next="step2"/>
+            <step id="step2" parent="s2"/>
+        </flow>
+        <flow>
+            <step id="step3" parent="s3"/>
+        </flow>
+    </split>
+    <step id="step4" parent="s4"/>
+</job>
+
+<bean id="taskExecutor" class="org.springframework.core.task.SimpleAsyncTaskExecutor" />
+```
+## Parallet stepを使うときには`<flow>`も合わせて使う
+
++ [5.3.5 Split Flows](http://docs.spring.io/spring-batch/reference/html/configureStep.html#split-flows)も合わせて確認しよう。
++ `<flow>`はstepをグループ化したもの。
++ 上ではflowにidをつけてないが、idつけて別jobから再利用することができる
+
+[flowの再利用例](http://docs.spring.io/spring-batch/reference/html/configureStep.html#external-flows)
+
+```xml
+<job id="job">
+    <!-- 2. 定義されているflowをparent指定して使う -->
+    <flow id="job1.flow1" parent="flow1" next="step3"/>
+    <step id="step3" parent="s3"/>
+</job>
+
+<!-- 1. flowを定義 -->
+<flow id="flow1">
+    <step id="step1" parent="s1" next="step2"/>
+    <step id="step2" parent="s2"/>
+</flow>
+```
 
 # REMOTE CHUNKING
 
@@ -65,3 +122,10 @@ This approach is good for scenarios *where the cost of I/O is small* compared to
   + This configuration doesn't require durable communication with guaranteed delivery because the JobRepository guarantees that no work is duplicated and all work is completed—unlike the remote-chunking approach
 
 ![PARTITIONING](https://dl.dropboxusercontent.com/u/21522805/blog/java/spring-batch-partitionning.png)
+
+
+# References
+
++ [7. Scaling and Parallel Processing](http://docs.spring.io/spring-batch/reference/html/scalability.html)
++ [SpringBatch：設定だけでできる処理の並列化 ](http://www.omotenashi-mind.com/index.php?title=SpringBatch%EF%BC%9A%E8%A8%AD%E5%AE%9A%E3%81%A0%E3%81%91%E3%81%A7%E3%81%A7%E3%81%8D%E3%82%8B%E5%87%A6%E7%90%86%E3%81%AE%E4%B8%A6%E5%88%97%E5%8C%96)
++ [10.並行処理（split）のサンプル](https://sites.google.com/site/soracane/home/springnitsuite/spring-batch/9-heikou-shori--split-no-sanpuru)
