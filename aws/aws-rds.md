@@ -40,7 +40,7 @@ effective_cache_size = 24GB # pgtune wizard 2012-02-14
 work_mem = 208MB # pgtune wizard 2012-02-14
 wal_buffers = 8MB # pgtune wizard 2012-02-14
 shared_buffers = 8GB # pgtune wizard 2012-02-14
-```
+```s
 
 ## パーティショニング
 <http://lets.postgresql.jp/documents/technical/partitioning/1>
@@ -48,3 +48,15 @@ shared_buffers = 8GB # pgtune wizard 2012-02-14
 ## 参考
 
 * <http://www.slideshare.net/shotamitsui/database-on-aws-jawsug-20140531>
+
+# instance作成
+
+# PostgreSQL DB インスタンスに接続する
+
+
+
+# 用語
+
+キー       | description
+-----------|------------------------------------------------------------------------------------------------------------------
+レイテンシ | レイテンシ (latency) とは、デバイスに対してデータ転送などを要求してから、その結果が返送されるまでの遅延時間のこと

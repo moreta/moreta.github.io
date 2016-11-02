@@ -485,8 +485,10 @@
 
 ### Database
 
+* [PostgreSQL](database/postgresql.md)
+* [PostgreSQL Backup & Restore](database/postgresql-backup-restore.md)
+* [percona xtradb cluster](database/percona-xtradb-cluster.md)
 * [2013-12-01-db-scheme-sample.md](database/2013-12-01-db-scheme-sample.md)
-* [2013-12-17-postgresql.md](database/2013-12-17-postgresql.md)
 * [2014-03-28-couchbase.md](database/2014-03-28-couchbase.md)
 * [2014-03-30-couchbase-sync-gateway.md](database/2014-03-30-couchbase-sync-gateway.md)
 * [2014-05-29-db-read-from-one-database-and-write-to-another.md](database/2014-05-29-db-read-from-one-database-and-write-to-another.md)
