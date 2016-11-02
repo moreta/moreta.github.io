@@ -40,6 +40,10 @@ Sketch slicing helper
 
 Quickly rename layers or artboards
 
+### butter-sketch-plugin
+
+<https://github.com/pberrecloth/butter-sketch-plugin>
+
 # Basics
 
 ## Layer
@@ -59,8 +63,8 @@ Quickly rename layers or artboards
 
 + <http://whiskers.nukos.kitchen/2015/04/08/sketch-page-layer-shortcuts.html>
 
-|                         desc                        |        shortcuts         |
-|-----------------------------------------------------|--------------------------|
+| desc                                                | shortcuts                |
+|:----------------------------------------------------|:-------------------------|
 | 上のページを選択する                                | Fn + ↑                   |
 | 下のページを選択する                                | Fn + ↓                   |
 | 上のレイヤーを選択する                              | Shift + Tab              |
@@ -78,7 +82,7 @@ Quickly rename layers or artboards
 | Ungroup                                             | cmd * shift + g          |
 | Enter Group - グループを開く・入る                  | enter                    |
 | Exit Gruop - グループを出る・アートボードを選択する | esc                      |
-| show layout                                         | ctrl + L                         |
+| show layout                                         | ctrl + L                 |
 
 
 # UI Kits
