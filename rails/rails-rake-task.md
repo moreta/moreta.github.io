@@ -79,11 +79,11 @@ rake db:seed
 
 ```
 
-## ルーティング
+## routing(ルーティング)情報
 
-```
-rake routes    ルーティングを表示
-rake routes CONTROLLER=users    usersコントローラのみのルーティングを表示
+```sh
+rake routes #ルーティングを表示
+rake routes CONTROLLER=users # usersコントローラのみのルーティングを表示
 ```
 
 

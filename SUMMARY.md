@@ -509,12 +509,12 @@
 
 ### PostgreSQL
 
-* [PostgreSQL](database/postgresql.md)
-* [PostgreSQL Backup & Restore](database/postgresql-backup-restore.md)
-* [2014-06-08-postgresql-scaling.md](database/2014-06-08-postgresql-scaling.md)
-* [2014-06-11-postgresql-vacuum.md](database/2014-06-11-postgresql-vacuum.md)
-* [2014-07-10-postgresql-security.md](database/2014-07-10-postgresql-security.md)
-* [2014-10-25-mac-postgresql.md](database/2014-10-25-mac-postgresql.md)
+* [PostgreSQL](database/postgresql/postgresql.md)
+* [PostgreSQL Backup & Restore](database/postgresql/postgresql-backup-restore.md)
+* [2014-06-08-postgresql-scaling.md](database/postgresql/postgresql-scaling.md)
+* [2014-06-11-postgresql-vacuum.md](database/postgresql/postgresql-vacuum.md)
+* [2014-07-10-postgresql-security.md](database/postgresql/postgresql-security.md)
+* [2014-10-25-mac-postgresql.md](database/postgresql/mac-postgresql.md)
 
 ### Oracle
 
@@ -636,7 +636,7 @@
 
 ### test tools
 
-* [rest api](testtools/rest-api.md)
+* [API Blueprint](testtools/api-blueprint.md)
 
 ### default
 
