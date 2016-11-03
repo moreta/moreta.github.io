@@ -316,15 +316,21 @@ passwd postgres
 >> postgres
 ```
 
-# init db
-initdb -D /pgdata --encoding=UTF-8 --locale=ja_JP.UTF-8
+## init db
 
-#以下のようなエラーがでる。postgresユーザで実行する必要がある。
+```sh
+initdb -D /pgdata --encoding=UTF-8 --locale=ja_JP.UTF-8
+```
+
+以下のようなエラーがでる。postgresユーザで実行する必要がある。
+
+```
 initdb: cannot be run as root
 Please log in (using, e.g., "su") as the (unprivileged) user that will
 own the server process.
+```
 
-# init db retry
+## init db retry
 
 ```sh
 su postgres
@@ -340,9 +346,12 @@ pg_ctl -D /pgdata -l logfile start
 
 # Start & Stop
 
-`pg_ctl start -D /pgdata`
+```
+pg_ctl start -D /pgdata
+```
 
-# PostgreSQLで各テーブルの総サイズと平均サイズを知る
+
+# 容量チェック - PostgreSQLで各テーブルの総サイズと平均サイズを知る
 
 + <http://qiita.com/awakia/items/99c3d114aa16099e825d>
 + <https://wiki.postgresql.org/images/a/ab/Pganalyze_Lightning_talk.pdf>

@@ -1,5 +1,5 @@
 ---
-title: AWS RDS
+title: AWS RDS PostgreSQL
 date: 2013-12-17
 tags: aws, rds, postgres
 ---
@@ -59,7 +59,27 @@ shared_buffers = 8GB # pgtune wizard 2012-02-14
 
 # PostgreSQL DB インスタンスに接続する
 
+# Userの追加
 
+### ユーザー(role)の確認
+
+```sql
+-- 現在ユーザーを確認
+SELECT rolname
+FROM pg_roles
+```
+
+または
+```
+-- より詳細な情報を確認できます。
+\du
+```
+
+### ユーザー(role)の追加
+
+```sql
+CREATE ROLE role_name WITH LOGIN PASSWORD 'password'
+```
 
 # 用語
 

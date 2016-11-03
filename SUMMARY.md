@@ -25,6 +25,7 @@
 * [ES2015 - es6](javascript/es2015.md)
 * [socket.io](javascrit/socketio.md)
 * [Excel parse](javascript/excel-parse.md)
+* [javascript dangers stopping event propagation](javascript/2014-05-27-javascript-dangers-stopping-event-propagation.md)
 * [2013-11-01-new-analytics-code.md](javascript/2013-11-01-new-analytics-code.md)
 * [2013-11-18-drap-and-drop-file-upload.md](javascript/2013-11-18-drap-and-drop-file-upload.md)
 * [2013-11-19-javascript-date-object.md](javascript/2013-11-19-javascript-date-object.md)
@@ -45,7 +46,6 @@
 * [2014-05-09-polymer.md](javascript/2014-05-09-polymer.md)
 * [2014-05-10-angular-dart.md](javascript/2014-05-10-angular-dart.md)
 * [2014-05-11-chrome-extension.md](javascript/2014-05-11-chrome-extension.md)
-* [javascript dangers stopping event propagation](javascript/2014-05-27-javascript-dangers-stopping-event-propagation.md)
 * [2014-06-28-svg.md](javascript/2014-06-28-svg.md)
 * [2014-07-14-websocket.md](javascript/2014-07-14-websocket.md)
 * [2014-07-27-chrome-app.md](javascript/2014-07-27-chrome-app.md)
@@ -57,21 +57,14 @@
 * [2015-07-11-javascript-basic.md](javascript/2015-07-11-javascript-basic.md)
 * [2015-07-12-javascript-event-delegation-work.md](javascript/2015-07-12-javascript-event-delegation-work.md)
 * [2015-11-24-amazon-affiliate.md](javascript/2015-11-24-amazon-affiliate.md)
-* [2015-11-24-nodejs-loopback.md](javascript/2015-11-24-nodejs-loopback.md)
-* [2015-12-01-nodejs-express.md](javascript/2015-12-01-nodejs-express.md)
-* [2015-12-01-nodejs-hapijs.md](javascript/2015-12-01-nodejs-hapijs.md)
-* [2015-12-01-nodejs-koa.md](javascript/2015-12-01-nodejs-koa.md)
 * [2015-12-02-callback-hell.md](javascript/2015-12-02-callback-hell.md)
 * [2015-12-03-babel.md](javascript/2015-12-03-babel.md)
 * [2015-12-03-mongoose-mongodb.md](javascript/2015-12-03-mongoose-mongodb.md)
 * [2015-12-04-facebook-login-with-javascript.md](javascript/2015-12-04-facebook-login-with-javascript.md)
 * [2015-12-04-hapijs-authentication.md](javascript/2015-12-04-hapijs-authentication.md)
-* [2015-12-04-nodejs-server-forever.md](javascript/2015-12-04-nodejs-server-forever.md)
 * [2015-12-05-javascript-libraries.md](javascript/2015-12-05-javascript-libraries.md)
 * [2015-12-08-gulp.md](javascript/2015-12-08-gulp.md)
 * [2015-12-08-lodash.md](javascript/2015-12-08-lodash.md)
-* [2015-12-08-nodejs-basics.md](javascript/2015-12-08-nodejs-basics.md)
-* [2015-12-09-nodejs-deploy.md](javascript/2015-12-09-nodejs-deploy.md)
 * [2015-12-14-jwt-json-web-token.md](javascript/2015-12-14-jwt-json-web-token.md)
 * [2015-12-17-js-undefined_and_null.md](javascript/2015-12-17-js-undefined_and_null.md)
 * [2015-12-24-javascritp-polyfill.md](javascript/2015-12-24-javascritp-polyfill.md)
@@ -85,15 +78,6 @@
 * [2016-01-17-javascript-multi-threading.md](javascript/2016-01-17-javascript-multi-threading.md)
 * [2016-01-19-javascript-array.md](javascript/2016-01-19-javascript-array.md)
 * [2016-01-21-osjs-Javascript-cloud-web-desktop-platform.md](javascript/2016-01-21-osjs-Javascript-cloud-web-desktop-platform.md)
-* [2016-01-22-nodejs-log.md](javascript/2016-01-22-nodejs-log.md)
-* [2016-01-29-nodejs-agenda.md](javascript/2016-01-29-nodejs-agenda.md)
-* [2016-01-29-nodejs-encryption-decryption.md](javascript/2016-01-29-nodejs-encryption-decryption.md)
-* [2016-01-29-nodejs-resque.md](javascript/2016-01-29-nodejs-resque.md)
-* [2016-01-29-npm-script.md](javascript/2016-01-29-npm-script.md)
-* [2016-01-31-nodejs-actionhero.md](javascript/2016-01-31-nodejs-actionhero.md)
-* [2016-01-31-nodejs-logging.md](javascript/2016-01-31-nodejs-logging.md)
-* [2016-01-31-nodejs-rest-frameworks.md](javascript/2016-01-31-nodejs-rest-frameworks.md)
-* [2016-02-01-nodejs-process.md](javascript/2016-02-01-nodejs-process.md)
 * [2016-02-05-d3.md](javascript/2016-02-05-d3.md)
 * [2016-02-10-javascript-this.md](javascript/2016-02-10-javascript-this.md)
 * [2016-02-10-nodejs-eventemitter.md](javascript/2016-02-10-nodejs-eventemitter.md)
@@ -112,6 +96,25 @@
 * [2016-08-28-webpack-dashboard.md](javascript/2016-08-28-webpack-dashboard.md)
 * [2016-09-10-immutablejs.md](javascript/2016-09-10-immutablejs.md)
 
+
+### node.js
+
+* [2015-11-24-nodejs-loopback.md](javascript/2015-11-24-nodejs-loopback.md)
+* [2015-12-01-nodejs-express.md](javascript/2015-12-01-nodejs-express.md)
+* [2015-12-01-nodejs-hapijs.md](javascript/2015-12-01-nodejs-hapijs.md)
+* [2015-12-01-nodejs-koa.md](javascript/2015-12-01-nodejs-koa.md)
+* [2015-12-04-nodejs-server-forever.md](javascript/2015-12-04-nodejs-server-forever.md)
+* [2015-12-08-nodejs-basics.md](javascript/2015-12-08-nodejs-basics.md)
+* [2015-12-09-nodejs-deploy.md](javascript/2015-12-09-nodejs-deploy.md)
+* [2016-01-22-nodejs-log.md](javascript/2016-01-22-nodejs-log.md)
+* [2016-01-29-nodejs-agenda.md](javascript/2016-01-29-nodejs-agenda.md)
+* [2016-01-29-nodejs-encryption-decryption.md](javascript/2016-01-29-nodejs-encryption-decryption.md)
+* [2016-01-29-nodejs-resque.md](javascript/2016-01-29-nodejs-resque.md)
+* [2016-01-29-npm-script.md](javascript/2016-01-29-npm-script.md)
+* [2016-01-31-nodejs-actionhero.md](javascript/2016-01-31-nodejs-actionhero.md)
+* [2016-01-31-nodejs-logging.md](javascript/2016-01-31-nodejs-logging.md)
+* [2016-01-31-nodejs-rest-frameworks.md](javascript/2016-01-31-nodejs-rest-frameworks.md)
+* [2016-02-01-nodejs-process.md](javascript/2016-02-01-nodejs-process.md)
 
 ### vue.js
 
@@ -191,12 +194,12 @@
 
 #### spring batch
 
-* [spring batch](spring_batch/2014-07-28-spring-batch.md)
-* [spring batch Parallelization](spring_batch/spring-batch-parallelization.md)
-* [2016-02-08-spring-batch-execution-context.md](spring/2016-02-08-spring-batch-execution-context.md)
-* [2016-04-08-spring-batch-itemreader-itemwriter.md](spring/2016-04-08-spring-batch-itemreader-itemwriter.md)
-* [2016-07-11-spring-batch-job-parameter-extractor.md](spring/2016-07-11-spring-batch-job-parameter-extractor.md)
-* [2016-08-05-spring-batch-unit-test.md](spring/2016-08-05-spring-batch-unit-test.md)
+* [spring batch](spring/batch/spring-batch.md)
+* [Parallelization](spring/batch/batch-parallelization.md)
+* [Execution context](spring/batch/batch-execution-context.md)
+* [Itemreader & Itemwriter](spring/batch/itemreader-itemwriter.md)
+* [Job parameter extractor](spring/batch/batch-job-parameter-extractor.md)
+* [Unit test](spring/batch/batch-unit-test.md)
 
 
 ### ruby
@@ -332,14 +335,14 @@
 
 ### AWS
 
-* [lambda](aws/aws-lambda.md)
-* [API Gateway](aws-api-gateway.md)
+* [AWS lambda](aws/aws-lambda.md)
+* [AWS API Gateway](aws-api-gateway.md)
 * [SNS - Simple Notification Service](aws-sns.md)
-* [RDS](aws/aws-rds.md)
+* [RDS - PostgreSQL](aws/aws-rds-postgresql.md)
 * [AWS Deploy](aws/aws-deploy.md)
 * [AWS VPN](aws/aws-vpn.md)
 * [AWS ELB & deploy](aws/aws-elb-deploy.md)
-* [2014-05-15-aws-auth-scaling-load-balance.md](aws/2014-05-15-aws-auth-scaling-load-balance.md)
+* [AWS auto scaling load balance](aws/aws-auto-scaling-load-balance.md)
 * [2014-05-15-aws-cloudfront.md](aws/2014-05-15-aws-cloudfront.md)
 * [2014-05-21-aws-dynamoDB.md](aws/2014-05-21-aws-dynamoDB.md)
 * [2014-05-30-aws-price.md](aws/2014-05-30-aws-price.md)
@@ -503,28 +506,28 @@
 
 ### Mysql
 
-* [mysql](database/mysql.md)
-* [percona xtradb cluster](database/percona-xtradb-cluster.md)
+* [mysql](database/mysql/mysql.md)
+* [percona xtradb cluster](database/mysql/percona-xtradb-cluster.md)
 
 
 ### PostgreSQL
 
 * [PostgreSQL](database/postgresql/postgresql.md)
 * [PostgreSQL Backup & Restore](database/postgresql/postgresql-backup-restore.md)
-* [2014-06-08-postgresql-scaling.md](database/postgresql/postgresql-scaling.md)
-* [2014-06-11-postgresql-vacuum.md](database/postgresql/postgresql-vacuum.md)
-* [2014-07-10-postgresql-security.md](database/postgresql/postgresql-security.md)
-* [2014-10-25-mac-postgresql.md](database/postgresql/mac-postgresql.md)
+* [Postgresql scaling](database/postgresql/postgresql-scaling.md)
+* [Postgresql vacuum](database/postgresql/postgresql-vacuum.md)
+* [Postgresql security)](database/postgresql/postgresql-security.md)
+* [MacOS postgresql](database/postgresql/mac-postgresql.md)
 
 ### Oracle
 
-* [Oracle](oracle/oracle.md)
-* [Oracle Parallel](oracle/oracle-parallel.md)
-* [Oracle hint](oracle/oracle-hint.md)
-* [Oracle pivot](oracle/oracle-pivot.md)
-* [Oracle sqlcl](oracle/oracle-sqlcl.md)
-* [Oracle sqls](oracle/oracle-sqls.md)
-* [Oracle Performance](oracle/performance.md)
+* [Oracle](database/oracle/oracle.md)
+* [Oracle Parallel](database/oracle/oracle-parallel.md)
+* [Oracle hint](database/oracle/oracle-hint.md)
+* [Oracle pivot](database/oracle/oracle-pivot.md)
+* [Oracle sqlcl](database/oracle/oracle-sqlcl.md)
+* [Oracle sqls](database/oracle/oracle-sqls.md)
+* [Oracle Performance](database/oracle/performance.md)
 
 ### Data Analysis
 
