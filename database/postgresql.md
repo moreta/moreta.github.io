@@ -342,6 +342,51 @@ pg_ctl -D /pgdata -l logfile start
 
 `pg_ctl start -D /pgdata`
 
+# PostgreSQLで各テーブルの総サイズと平均サイズを知る
+
++ <http://qiita.com/awakia/items/99c3d114aa16099e825d>
++ <https://wiki.postgresql.org/images/a/ab/Pganalyze_Lightning_talk.pdf>
+
+```sql
+SELECT
+  pgn.nspname,
+  relname,
+  pg_size_pretty(relpages :: BIGINT * 8 * 1024)                                                         AS size,
+  CASE WHEN relkind =
+            't'
+    THEN (SELECT pgd.relname
+          FROM pg_class pgd
+          WHERE pgd.reltoastrelid = pg.oid)
+  WHEN nspname =
+       'pg_toast' AND relkind = 'i'
+    THEN (SELECT pgt.relname
+          FROM pg_class pgt
+          WHERE SUBSTRING(pgt.relname
+                          FROM 10) = REPLACE(SUBSTRING(pg.relname FROM 10), '_index', ''))
+  ELSE (SELECT pgc.relname
+        FROM
+          pg_class pgc
+        WHERE pg.reltoastrelid = pgc.oid) END :: VARCHAR                                                AS refrelname,
+  CASE WHEN nspname =
+            'pg_toast' AND relkind = 'i'
+    THEN (SELECT pgts.relname
+          FROM pg_class pgts
+          WHERE pgts.reltoastrelid =
+                (SELECT pgt.oid
+                 FROM pg_class pgt
+                 WHERE SUBSTRING(pgt.relname FROM 10) = REPLACE(SUBSTRING(pg.relname
+                                                                          FROM 10), '_index',
+                                                                ''))) END                               AS relidxrefrelname,
+  relfilenode,
+  relkind,
+  reltuples :: BIGINT,
+  relpages
+FROM pg_class pg, pg_namespace pgn
+WHERE pg.relnamespace = pgn.oid AND pgn.nspname NOT IN
+                                    ('information_schema', 'pg_catalog')
+ORDER BY relpages DESC;
+```
+
 # 参考
 
 * <http://www.atmarkit.co.jp/ait/articles/1307/12/news004.html>

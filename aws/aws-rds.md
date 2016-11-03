@@ -4,6 +4,12 @@ date: 2013-12-17
 tags: aws, rds, postgres
 ---
 
+# read replicationの作成
+
++ source dbから作成可能
++ 作れるread replicaは5まで
++ read replicaを source db instanceに昇格することができる
+
 ## 整理
 
 * <http://www.slideshare.net/shotamitsui/database-on-aws-jawsug-20140531>
@@ -40,7 +46,7 @@ effective_cache_size = 24GB # pgtune wizard 2012-02-14
 work_mem = 208MB # pgtune wizard 2012-02-14
 wal_buffers = 8MB # pgtune wizard 2012-02-14
 shared_buffers = 8GB # pgtune wizard 2012-02-14
-```s
+```
 
 ## パーティショニング
 <http://lets.postgresql.jp/documents/technical/partitioning/1>

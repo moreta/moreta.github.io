@@ -153,10 +153,10 @@
 * [JDBC Connection](java/java-jdbc-connection.md)
 * [RxJava](java/rx-java.md)
 * [Heap Memory](java/heap-memory.md)
-* [JMX](jmx.md)
-* [JConsole](jconsole.md)
+* [JMX](java/jmx.md)
+* [JConsole](java/jconsole.md)
+* [Maven](java/maven.md)
 * [2014-07-27-java-anonymous-class.md](java/2014-07-27-java-anonymous-class.md)
-* [2014-07-28-maven.md](java/2014-07-28-maven.md)
 * [2015-12-24-java-calendar.md](java/2015-12-24-java-calendar.md)
 * [2016-04-12-java-multi-threading.md](java/2016-04-12-java-multi-threading.md)
 * [2016-04-14-java-thread.md](java/2016-04-14-java-thread.md)
@@ -174,6 +174,7 @@
 ### spring
 
 * [Configuring Spring Scheduler At run time based on db values](spring/spring-scheduler-by-db-value.md)
+* [Annotation](spring/spring-annotation.md)
 * [2014-07-27-spring-framework.md](spring/2014-07-27-spring-framework.md)
 * [2015-01-14-spring-transaction.md](spring/2015-01-14-spring-transaction.md)
 * [2016-03-22-spring-with-ibatis.md](spring/2016-03-22-spring-with-ibatis.md)
@@ -182,7 +183,6 @@
 * [2016-06-29-spring-HATEOAS.md](spring/2016-06-29-spring-HATEOAS.md)
 * [2016-07-25-spring-mvc.md](spring/2016-07-25-spring-mvc.md)
 * [2016-07-28-spring-autowire.md](spring/2016-07-28-spring-autowire.md)
-* [2016-08-13-spring-annotation.md](spring/2016-08-13-spring-annotation.md)
 * [2016-08-29-spring-mvc.md](spring/2016-08-29-spring-mvc.md)
 * [2016-08-30-spring-boot-rest.md](spring/2016-08-30-spring-boot-rest.md)
 * [spring JPA](spring/2016-08-30-spring-jpa.md)
@@ -485,29 +485,36 @@
 
 ### Database
 
-* [PostgreSQL](database/postgresql.md)
-* [PostgreSQL Backup & Restore](database/postgresql-backup-restore.md)
-* [percona xtradb cluster](database/percona-xtradb-cluster.md)
 * [2013-12-01-db-scheme-sample.md](database/2013-12-01-db-scheme-sample.md)
 * [2014-03-28-couchbase.md](database/2014-03-28-couchbase.md)
 * [2014-03-30-couchbase-sync-gateway.md](database/2014-03-30-couchbase-sync-gateway.md)
 * [2014-05-29-db-read-from-one-database-and-write-to-another.md](database/2014-05-29-db-read-from-one-database-and-write-to-another.md)
 * [2014-05-29-db-replication.md](database/2014-05-29-db-replication.md)
 * [2014-06-08-db-sharding.md](database/2014-06-08-db-sharding.md)
-* [2014-06-08-postgresql-scaling.md](database/2014-06-08-postgresql-scaling.md)
-* [2014-06-11-postgresql-vacuum.md](database/2014-06-11-postgresql-vacuum.md)
-* [2014-07-10-postgresql-security.md](database/2014-07-10-postgresql-security.md)
 * [2014-07-27-hypersql.md](database/2014-07-27-hypersql.md)
 * [2014-09-02-sqlite.md](database/2014-09-02-sqlite.md)
 * [2014-09-06-sql-grouping-data-by-time-interval.md](database/2014-09-06-sql-grouping-data-by-time-interval.md)
-* [2014-10-25-mac-postgresql.md](database/2014-10-25-mac-postgresql.md)
 * [2015-03-26-mongodb.md](database/2015-03-26-mongodb.md)
 * [2016-02-26-sql-cardinality.md](database/2016-02-26-sql-cardinality.md)
 * [2016-02-26-sql-tips.md](database/2016-02-26-sql-tips.md)
 * [2016-02-27-greenplum-postgresql.md](database/2016-02-27-greenplum-postgresql.md)
 * [2016-03-20-mongodb-ec.md](database/2016-03-20-mongodb-ec.md)
 * [2016-04-24-sql-basics.md](database/2016-04-24-sql-basics.md)
-* [2016-07-06-mysql.md](database/2016-07-06-mysql.md)
+
+### Mysql
+
+* [mysql](database/mysql.md)
+* [percona xtradb cluster](database/percona-xtradb-cluster.md)
+
+
+### PostgreSQL
+
+* [PostgreSQL](database/postgresql.md)
+* [PostgreSQL Backup & Restore](database/postgresql-backup-restore.md)
+* [2014-06-08-postgresql-scaling.md](database/2014-06-08-postgresql-scaling.md)
+* [2014-06-11-postgresql-vacuum.md](database/2014-06-11-postgresql-vacuum.md)
+* [2014-07-10-postgresql-security.md](database/2014-07-10-postgresql-security.md)
+* [2014-10-25-mac-postgresql.md](database/2014-10-25-mac-postgresql.md)
 
 ### Oracle
 

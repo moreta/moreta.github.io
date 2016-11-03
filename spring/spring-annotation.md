@@ -155,3 +155,8 @@ private ExampleService exampleService;
 
 
 # `@Scope`
+
+# `@Component`、`@Service`、`@Repository`、`@Controller`の違い
+
++ 全部おなじ
++ 役割を区分したいからだけ

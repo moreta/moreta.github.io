@@ -61,3 +61,7 @@ pg_dump -U db_user db_name > /pgdata/your_db_$date.sql
 psql -U db_user db_name -f yourdump.dump
 ```
 この方法を使う `C`や`c`optionでdumpを作成するとできない
+
+# References
+
++ [9.4 - pg_restore](https://www.postgresql.jp/document/9.4/html/app-pgrestore.html)
