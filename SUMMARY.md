@@ -29,7 +29,6 @@
 * [2013-11-01-new-analytics-code.md](javascript/2013-11-01-new-analytics-code.md)
 * [2013-11-18-drap-and-drop-file-upload.md](javascript/2013-11-18-drap-and-drop-file-upload.md)
 * [2013-11-19-javascript-date-object.md](javascript/2013-11-19-javascript-date-object.md)
-* [2013-11-28-nodejs-nvm.md](javascript/2013-11-28-nodejs-nvm.md)
 * [2013-12-17-jquery-select-click.md](javascript/2013-12-17-jquery-select-click.md)
 * [2014-01-22-emberjs-fileupload.md](javascript/2014-01-22-emberjs-fileupload.md)
 * [2014-02-05-jquery-resize-window.md](javascript/2014-02-05-jquery-resize-window.md)
@@ -99,6 +98,7 @@
 
 ### node.js
 
+* [NVM](javascript/nodejs/nodejs-nvm.md)
 * [2015-11-24-nodejs-loopback.md](javascript/2015-11-24-nodejs-loopback.md)
 * [2015-12-01-nodejs-express.md](javascript/2015-12-01-nodejs-express.md)
 * [2015-12-01-nodejs-hapijs.md](javascript/2015-12-01-nodejs-hapijs.md)
@@ -340,9 +340,11 @@
 * [SNS - Simple Notification Service](aws-sns.md)
 * [RDS - PostgreSQL](aws/aws-rds-postgresql.md)
 * [AWS Deploy](aws/aws-deploy.md)
-* [AWS VPN](aws/aws-vpn.md)
+* [AWS VPC](aws/aws-vpc.md)
+* [AWS VPC VPN](aws/aws-vpc-vpn.md)
 * [AWS ELB & deploy](aws/aws-elb-deploy.md)
 * [AWS auto scaling load balance](aws/aws-auto-scaling-load-balance.md)
+* [AWS SDK for Node.js](aws/aws-sdk-for-nodejs.md)
 * [2014-05-15-aws-cloudfront.md](aws/2014-05-15-aws-cloudfront.md)
 * [2014-05-21-aws-dynamoDB.md](aws/2014-05-21-aws-dynamoDB.md)
 * [2014-05-30-aws-price.md](aws/2014-05-30-aws-price.md)

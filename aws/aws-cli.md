@@ -41,7 +41,7 @@ aws configure --profile=PROFILE_NAME
 
 `~/.aws/credentials`
 
-```
+```sh
 [default]
 aws_access_key_id=AKIAIOSFODNN7EXAMPLE
 aws_secret_access_key=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
@@ -49,9 +49,9 @@ aws_secret_access_key=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 
 `~/.aws/config`
 
-```
+```sh
 [default]
-region=us-west-2
+region=ap-northeast-1
 output=json
 ```
 
