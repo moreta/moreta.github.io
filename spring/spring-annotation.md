@@ -52,9 +52,14 @@ public static class Config {
 }
 ```
 
- + これは完全にまちがい
- + SimpleBeanConsumer will get a link to singleton SimpleBean. But unfortunately, it **doesn’t work in signed enviroment.**
+### 間違った例
+
++ 下の例はこれは完全にまちがい
++ SimpleBeanConsumer will get a link to singleton SimpleBean. But unfortunately, it **doesn’t work in signed enviroment.**
++ `@Component`は `@Bean`と同じレベルのものconstructorでinitializeされるので、`@Component`でなかで`@Bean`を使うのは間違い
+
 ```java
+// これは間違った例
 @Component
 public static class Config {
 
@@ -71,7 +76,8 @@ public static class Config {
 ```
 
 
-+ `@Component`を使うの場合にはこれがただしい
+`@Component`を使うの場合にはこれがただしい
+
 ```java
 @Component
 public static class Config {

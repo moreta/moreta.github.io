@@ -144,7 +144,7 @@
 
 ### java
 
-* [java8 basic](java/2016-08-25-java8.md)
+* [java8 basic](java/java8.md)
 * [java8 stream api](java/java8-stream-api.md)
 * [generic](java/java-generic.md)
 * [OkHttp](java/java-okhttp.md)
@@ -181,6 +181,7 @@
 
 * [multi threading](java/thread/java-multi-threading.md)
 * [thread basic](java/thread/java-thread.md)
+* [BlockingQueue](java/thread/blocking-queue.md)
 
 #### mybatis & ibatis
 
