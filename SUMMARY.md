@@ -335,13 +335,15 @@
 
 ### AWS
 
-* [AWS lambda](aws/aws-lambda.md)
-* [AWS API Gateway](aws-api-gateway.md)
+* [Lambda](aws/aws-lambda.md)
+* [API Gateway](aws-api-gateway.md)
 * [SNS - Simple Notification Service](aws-sns.md)
-* [RDS - PostgreSQL](aws/aws-rds-postgresql.md)
+* [RDS - Relational Database Service](aws/aws-rds.md)
+* [RDS -> PostgreSQL](aws/aws-rds-postgresql.md)
+* [VPC](aws/aws-vpc.md)
+* [VPCへVPN接続](aws/aws-vpc-vpn.md)
+* [ELB - Elastic Load Balancing](aws/aws-elb.md)
 * [AWS Deploy](aws/aws-deploy.md)
-* [AWS VPN](aws/aws-vpn.md)
-* [AWS ELB & deploy](aws/aws-elb-deploy.md)
 * [AWS auto scaling load balance](aws/aws-auto-scaling-load-balance.md)
 * [2014-05-15-aws-cloudfront.md](aws/2014-05-15-aws-cloudfront.md)
 * [2014-05-21-aws-dynamoDB.md](aws/2014-05-21-aws-dynamoDB.md)

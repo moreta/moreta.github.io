@@ -1,5 +1,5 @@
-AWS VPN
-==========
+AWS VPCへVPN接続
+===============
 
 # VPN接続Option
 
@@ -24,10 +24,10 @@ AWS VPN
 
 ### Comparison of Security Gruops and Network ACLs
 
-Security Group                                          | Network ACL
---------------------------------------------------------|-------------------------------------------------------
-Operates at the instance level (first layer of defense) | Operates at the subnet level (second layer of defense)
-Supports allow rules only | Supports allow rules and deny rules
+| Security Group                                          | Network ACL                                            |
+|:--------------------------------------------------------|:-------------------------------------------------------|
+| Operates at the instance level (first layer of defense) | Operates at the subnet level (second layer of defense) |
+| Supports allow rules only                               | Supports allow rules and deny rules                    |
 
 
 # 接続イメージ
