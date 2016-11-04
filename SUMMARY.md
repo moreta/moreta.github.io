@@ -147,22 +147,15 @@
 * [java8 basic](java/2016-08-25-java8.md)
 * [java8 stream api](java/java8-stream-api.md)
 * [generic](java/java-generic.md)
-* [Unit Test - junit](java/unit-test-junit.md)
-* [Unit Test - mockito](java/unit-test-mockito.md)
-* [Unit Test - powermock](java/unit-test-powermock.md)
 * [OkHttp](java/java-okhttp.md)
 * [Httpclient](java/java-httpclient.md)
 * [JCE](java/java-jce.md)
 * [JDBC Connection](java/java-jdbc-connection.md)
 * [RxJava](java/rx-java.md)
-* [Heap Memory](java/heap-memory.md)
-* [JMX](java/jmx.md)
 * [JConsole](java/jconsole.md)
 * [Maven](java/maven.md)
 * [2014-07-27-java-anonymous-class.md](java/2014-07-27-java-anonymous-class.md)
 * [2015-12-24-java-calendar.md](java/2015-12-24-java-calendar.md)
-* [2016-04-12-java-multi-threading.md](java/2016-04-12-java-multi-threading.md)
-* [2016-04-14-java-thread.md](java/2016-04-14-java-thread.md)
 * [2016-05-11-jdbc-resultset.md](java/2016-05-11-jdbc-resultset.md)
 * [2016-05-13-java-exception.md](java/2016-05-13-java-exception.md)
 * [2016-06-30-scala-sbt.md](java/2016-06-30-scala-sbt.md)
@@ -171,8 +164,27 @@
 * [2016-08-04-java-lamba-function.md](java/2016-08-04-java-lamba-function.md)
 * [2016-08-04-java-try-with-resources.md](java/2016-08-04-java-try-with-resources.md)
 * [2016-08-12-java-optional.md](java/2016-08-12-java-optional.md)
-* [2016-09-14-java-async.md](java/2016-09-14-java-async.md)
-* [2016-09-12-mybatis.md](java/2016-09-12-mybatis.md)
+
+#### Unit Test
+
+* [Unit Test - junit](java/unittest/unit-test-junit.md)
+* [Unit Test - mockito](java/unittest/unit-test-mockito.md)
+* [Unit Test - powermock](java/unittest/unit-test-powermock.md)
+
+#### Java VM
+
+* [JVM](java/vm/jvm.md)
+* [Heap Memory](java/vm/heap-memory.md)
+* [JMX](java/vm/jmx.md)
+
+#### java thread
+
+* [multi threading](java/thread/java-multi-threading.md)
+* [thread basic](java/thread/java-thread.md)
+
+#### mybatis & ibatis
+
+* [2016-09-12-mybatis.md](java/mybatis/mybatis.md)
 
 ### spring
 
@@ -191,6 +203,10 @@
 * [spring JPA](spring/2016-08-30-spring-jpa.md)
 * [2016-09-15-spring-scheduling.md](spring/2016-09-15-spring-scheduling.md)
 * [2016-09-16-spring-rest-template.md](spring/2016-09-16-spring-rest-template.md)
+
+#### spring async
+
++ [Executor]()
 
 #### spring batch
 
@@ -578,38 +594,59 @@
 
 ### Dev environment
 
-* [xcode.md](dev_env/xcode.md)
-* [atom editor](dev_env/atom-editor.md)
 * [Current directory server](dev_env/current-directory-server.md)
 * [2013-11-05-mac-ip.md](dev_env/2013-11-05-mac-ip.md)
-* [2013-11-20-emacs-command.md](dev_env/2013-11-20-emacs-command.md)
-* [2013-11-20-emacs.md](dev_env/2013-11-20-emacs.md)
 * [2013-11-30-console-color.md](dev_env/2013-11-30-console-color.md)
 * [2013-12-04-mac-port.md](dev_env/2013-12-04-mac-port.md)
 * [2013-12-05-mac-tip.md](dev_env/2013-12-05-mac-tip.md)
 * [2014-02-08-mac-dev-env.md](dev_env/2014-02-08-mac-dev-env.md)
 * [2014-02-11-css-box.md](dev_env/2014-02-11-css-box.md)
-* [2014-05-13-eclipse-editor.md](dev_env/2014-05-13-eclipse-editor.md)
-* [2014-05-20-vi.md](dev_env/2014-05-20-vi.md)
 * [2014-06-14-middleman.md](dev_env/2014-06-14-middleman.md)
 * [2014-07-14-engineer-blog.md](dev_env/2014-07-14-engineer-blog.md)
-* [2014-09-10-jetbrain-rubymine.md](dev_env/2014-09-10-jetbrain-rubymine.md)
 * [2014-09-10-mac-xcode-commandline.md](dev_env/2014-09-10-mac-xcode-commandline.md)
 * [2014-09-23-redmine_with_postgresql.md](dev_env/2014-09-23-redmine_with_postgresql.md)
 * [2014-09-23-redmine_with_sqlite3.md](dev_env/2014-09-23-redmine_with_sqlite3.md)
 * [2015-01-27-alfred.md](dev_env/2015-01-27-alfred.md)
-* [2015-12-15-jetbrain-editor-custom-shortcut.md](dev_env/2015-12-15-jetbrain-editor-custom-shortcut.md)
 * [2015-12-26-api-test-tools.md](dev_env/2015-12-26-api-test-tools.md)
-* [2016-02-08-jetbrain-editor-settings-and-tip.md](dev_env/2016-02-08-jetbrain-editor-settings-and-tip.md)
-* [2016-02-11-jetbrain-editor-watcher.md](dev_env/2016-02-11-jetbrain-editor-watcher.md)
-* [2016-04-12-emacs-cua-mode-column-mode.md](dev_env/2016-04-12-emacs-cua-mode-column-mode.md)
-* [2016-04-13-emacs-org-mode.md](dev_env/2016-04-13-emacs-org-mode.md)
-* [2016-05-11-atom-nuclide.md](dev_env/2016-05-11-atom-nuclide.md)
 * [2016-06-15-mac-iterm2.md](dev_env/2016-06-15-mac-iterm2.md)
 * [2016-06-24-mac-caffeinate.md](dev_env/2016-06-24-mac-caffeinate.md)
 * [2016-08-13-dotfiles.md](dev_env/2016-08-13-dotfiles.md)
 * [2016-08-28-programming-news.md](dev_env/2016-08-28-programming-news.md)
 * [2016-09-14-develope-cost-calculate.md](dev_env/2016-09-14-develope-cost-calculate.md)
+
+### editor
+
+#### jetbrain
+
+* [custom shortcut](dev_env/editor/jetbrain/custom-shortcut.md)
+* [settings & tip](dev_env/editor/jetbrain/settings-and-tip.md)
+* [editor watcher](dev_env/editor/jetbrain/watcher.md)
+* [Live Template](dev_env/editor/jetbrain/live-template.md)
+* [rubymine](dev_env/editor/jetbrain/rubymine.md)
+
+#### emacs
+
+* [emacs.md](dev_env/2013-11-20-emacs.md)
+* [emacs-command.md](dev_env/2013-11-20-emacs-command.md)
+* [emacs-cua-mode-column-mode.md](dev_env/2016-04-12-emacs-cua-mode-column-mode.md)
+* [emacs-org-mode.md](dev_env/2016-04-13-emacs-org-mode.md)
+
+#### atom
+
+* [atom editor](dev_env/atom-editor.md)
+* [atom nuclide](dev_env/2016-05-11-atom-nuclide.md)
+
+#### xcode
+
+* [xcode.md](dev_env/xcode.md)
+
+#### vi
+
+* [vi](dev_env/2014-05-20-vi.md)
+
+#### eclipse
+
+* [eclipse](dev_env/2014-05-13-eclipse-editor.md)
 
 ### Excel
 
