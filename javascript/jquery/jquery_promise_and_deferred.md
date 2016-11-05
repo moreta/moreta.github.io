@@ -5,8 +5,8 @@ tags: js, ember, jquery, promise, deffered
 ---
 
 
-promise and more (jquery deferred, when)
-==================================
+Jquery promise and deferred
+===========================
 
 + Promise インターフェースは作成時点では分からなくてもよい値へのプロキシです
 + Promiseを用いることで非同期アクションの成功や失敗に対するハンドラを関連付けることができます

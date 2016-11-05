@@ -17,8 +17,6 @@ commitメッセージで release noteを自動生成できる
 + <https://github.com/fteem/git-semantic-commits>
 
 
-
-
 # commit prefixをつける方法
 
 git hookを利用
