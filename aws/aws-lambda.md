@@ -30,8 +30,14 @@ tags: aws, lambda
   + [Serverless](https://serverless.com/)
   + Flourish
 
+# node.js 4.3 support
+
+[祝 LambdaのNode v4対応記念 -AWS SDK for Node.jsの処理をPromiseを使って書いてみた](http://qiita.com/toshihirock/items/4e4231c04332c209e31d)
+
 # References
 
 + [AWS Lambdaを使うときに注意する３つ](http://qiita.com/imafuku/items/55844535dcc8e3861bd0)
 + <https://aws.amazon.com/jp/lambda/faqs/>
 + <http://docs.aws.amazon.com/lambda/latest/dg/intro-core-components.html#intro-core-components-event-sources>
++ [AWS LambdaでNode.js 4.3.2が利用可能になりました](http://aws.typepad.com/sajp/2016/04/node-js-4-3-2-runtime-now-available-on-lambda.html)
++ [祝 LambdaのNode v4対応記念 -AWS SDK for Node.jsの処理をPromiseを使って書いてみた](http://qiita.com/toshihirock/items/4e4231c04332c209e31d)
