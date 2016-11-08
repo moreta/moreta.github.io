@@ -22,14 +22,21 @@ Java BlockingQueue
 + 3 つめは操作が正常に完了するまで現在のスレッドを無期限にブロックし、
 + 4 つめは処理を中止するまで指定された制限時間内のみブロックします。これらのメソッドについて、次の表にまとめます。
 
-# BlockingQueue의 종류와 특징
+# BlockingQueueの種類と特徴
 
 ## 1. ArrayBlockingQueue
 
-- 고정배열에 일반적인 Queue를 구현한 클래스, 생성 후 크기변경 불가
-- 꽉찼을때 추가 block, 비었을때 추출 block
++  固定配列に一般的なQueueを実装したクラス。
++ 生成後、サイズの変更はできない
++ queueがいっぱいのときに追加(put)をblock, 空のときに抽出(put)をblock
 - 선택적으로 공평성 정책을 두어 block한 thread들의 순차적 대기열 생성
   (대기열 처리에 대해 정확한 순서 보장 X, 공평성 따짐 - throughput 감소되나 variability를 줄이고 starvation을 해소한다.)
+
+### いつblockされるのか？
+
++ queueが埋まっているときに`put`したら、blockされる(そこから進まない)
++ 空のqueueから`take`しようとしたら、blockされる(そこから進まない)
+
 
 ## 2. LinkedBlockingQueue
 

@@ -25,10 +25,11 @@ curl -v -H "Accept: application/json" -H "Content-type: application/json" -X POS
 
 # upload
 
-+ -T
++ -T , --upload-file
 
 ```
-curl -T - http://www.upload.com/myfile
+curl -T your_file http://www.example.com/your_file
+curl -T "{file1,file2}" http://www.example.com
 ```
 
 # --verbose
