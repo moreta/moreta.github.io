@@ -3,19 +3,28 @@ Spring Batch Parallelization
 
 Spring Batch provides a number of parallelization options
 
-There are four different ways to parallelize.
+## Distribute Complex processing
+
+There are four(five?) different ways to parallelize.
+
 
 *single jvm上の処理では*
 
-+ dividing work via multithreaded steps
-+ parallel execution of full steps
++ Multi-threaded steps - dividing work via multithreaded steps
++ Parallel Step - parallel execution of full steps
++ Local partitioning
 
 *multiple jvm上の処理では*
 
-+ remote chunking
-+ partitioning
++ Remote chunking
++ Remote partitioning
 
 がある
+
+## Asynchronous Item processing support
+
++ AsyncItemProcessor
++ AsyncItemWriter
 
 # MULTITHREADED STEPS
 
@@ -29,6 +38,7 @@ There are four different ways to parallelize.
 + 順番は担保されない
 
 ![MULTITHREADED STEPS](https://dl.dropboxusercontent.com/u/21522805/blog/java/spring-batch-multithreaded_step.png)
+![MULTITHREADED STEPS 2](https://dl.dropboxusercontent.com/u/21522805/blog/java/spring-batch-multithreaded_step_02.png)
 
 *example*
 
@@ -41,8 +51,20 @@ There are four different ways to parallelize.
     task-executor="taskExecutor"
     throttle-limit="20">...</tasklet>
 </step>
+
+
+<step id="processImages">
+  <tasklet task-executor="taskExecutor">
+    <chunk reader="itemReader" processor="itemProcessor" writer="itemWriter" commit-interval="500"/>
+  </tasklet>
+</step>
+
 <bean id="taskExecutor" class="org.springframework.core.task.SimpleAsyncTaskExecutor" />
 ```
+
+# partitioning Step
+
+![Partitioning Step](https://dl.dropboxusercontent.com/u/21522805/blog/java/spring-batch-partitioned-step.png)
 
 # PARALLEL STEPS
 
@@ -72,7 +94,7 @@ There are four different ways to parallelize.
 
 <bean id="taskExecutor" class="org.springframework.core.task.SimpleAsyncTaskExecutor" />
 ```
-## Parallet stepを使うときには`<flow>`も合わせて使う
+## Parallel stepを使うときには`<flow>`も合わせて使う
 
 + [5.3.5 Split Flows](http://docs.spring.io/spring-batch/reference/html/configureStep.html#split-flows)も合わせて確認しよう。
 + `<flow>`はstepをグループ化したもの。
@@ -129,3 +151,8 @@ This approach is good for scenarios *where the cost of I/O is small* compared to
 + [7. Scaling and Parallel Processing](http://docs.spring.io/spring-batch/reference/html/scalability.html)
 + [SpringBatch：設定だけでできる処理の並列化 ](http://www.omotenashi-mind.com/index.php?title=SpringBatch%EF%BC%9A%E8%A8%AD%E5%AE%9A%E3%81%A0%E3%81%91%E3%81%A7%E3%81%A7%E3%81%8D%E3%82%8B%E5%87%A6%E7%90%86%E3%81%AE%E4%B8%A6%E5%88%97%E5%8C%96)
 + [10.並行処理（split）のサンプル](https://sites.google.com/site/soracane/home/springnitsuite/spring-batch/9-heikou-shori--split-no-sanpuru)
++ [Parallel batch processing with spring batch slideshare by accenture](http://www.slideshare.net/mortenag/parallel-batch-processing-with-spring-batch-slideshare)
+
+## sample source
+
++ [SpringOne2GX-2014/spring-batch-performance-tuning](https://github.com/SpringOne2GX-2014/spring-batch-performance-tuning)
