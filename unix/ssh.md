@@ -18,6 +18,19 @@ ssh keyを生成するときには idをしていするのがいい
 ssh-keygen -t rsa -C "id"
 ```
 
+# config
+
+## keyの指定
+
+```
+Host host1.xxx
+    User ssh_user
+    IdentityFile ~/.ssh/xxx_rsa⏎
+Host host1.xxx host2.xxx
+    User ssh_user
+    IdentityFile ~/.ssh/xxx_rsa
+```
+
 
 # 多段ssh
 
@@ -82,8 +95,10 @@ Host *example.com
 
 `authorized_keys`にpubキーの内容を入れる
 
+```
 chmod 700 .ssh
 chmod 600 .ssh/*
+```
 
 
 # 参考
