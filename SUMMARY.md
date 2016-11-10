@@ -432,8 +432,6 @@
 * [2016-07-22-centos.md](infra/2016-07-22-centos.md)
 * [2016-07-26-mongodb-with-docker.md](infra/2016-07-26-mongodb-with-docker.md)
 * [2016-08-29-falcor.md](infra/2016-08-29-falcor.md)
-* [2016-09-06-oracle-RAC.md](infra/2016-09-06-oracle-RAC.md)
-* [2016-09-07-docker-oracle.md](infra/2016-09-07-docker-oracle.md)
 
 
 ### security
@@ -553,6 +551,10 @@
 * [Oracle sqlcl](database/oracle/oracle-sqlcl.md)
 * [Oracle sqls](database/oracle/oracle-sqls.md)
 * [Oracle Performance](database/oracle/performance.md)
+* [Oracle RAC](database/oracle/oracle-RAC.md)
+* [Oracle docker](database/oracle/oracle-docker.md)
+* [Oracle session](database/oracle/oracle-session.md)
+
 
 ### Data Analysis
 

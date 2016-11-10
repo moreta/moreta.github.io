@@ -5,6 +5,33 @@ tags: java, date
 ---
 
 
+# java.util.time
+
++ `Instant`
+  + An Instant represents a point in time (similar to java.util.Date) with nanoseconds precision (unlike the old Date which has milliseconds precision)
+  + `Instant.toString()` returns a ISO8601 formatted string -> 2013-06-25T16:22:52.966Z
++ `LocalDate`
+  + LocalDate represents a date without a time zone
+  + 1-1-2000
++ `LocalTime`
+  + LocalTime represents time without a time zone
+  + 04:44:59.12
++ `LocalDateTime`
+
+# `LocalDate` & `LocalTime`
+
+```java
+LocalDate localDate = LocalDate.now();
+localDate = LocalDate.ofYearDay(2005, 86); // The 86th day of 2005 (27-Mar-2005)
+localDate = LocalDate.of(2013, Month.AUGUST, 10); //10th of Aug 2013
+
+LocalTime localTime = LocalTime.of(22, 33); //10:33 PM
+localTime = LocalTime.now();
+localTime = LocalTime.ofSecondOfDay(4503); // The 4,503 second in a day (1:15:30 AM)
+```
+
+# `LocalDateTime`
+
 <https://matsumana.info/blog/2014/06/17/jsr310-parse-from-string/>
 
 
@@ -38,3 +65,8 @@ public void 厳密モード() {
     assertThat(actual, is(expected));
 }
 ```
+
+
+# References
+
++ [Java 8 APIs: java.util.time - Instant, LocalDate, LocalTime, and LocalDateTime](https://dzone.com/articles/java-8-apis-javautiltime)
