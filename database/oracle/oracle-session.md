@@ -8,7 +8,7 @@ SELECT
   a.WAIT_CLASS,
   a.EVENT,
   --  b.SQL_FULLTEXT,
-  trunc((sysdate - a.SQL_EXEC_START) * 24 * 60 * 60, 2) AS "elapsed time",
+  trunc((sysdate - a.SQL_EXEC_START) * 24 * 60 * 60, 2) AS elapsed_time,
   a.WAIT_TIME,
   substr(b.SQL_TEXT, 1, 150)                            AS sql_head
 FROM
@@ -27,7 +27,7 @@ ORDER BY a.INST_ID, a.SQL_EXEC_START;
 SELECT DISTINCT
   sdi,
   sql_id,
-  "elapsed time",
+  elapsed_time,
   sql_head,
   WAIT_TIME
 FROM (
@@ -39,7 +39,7 @@ FROM (
     a.WAIT_CLASS,
     a.EVENT,
     --     b.SQL_FULLTEXT,
-    trunc((sysdate - a.SQL_EXEC_START) * 24 * 60 * 60, 2) AS "elapsed time",
+    trunc((sysdate - a.SQL_EXEC_START) * 24 * 60 * 60, 2) AS elapsed_time,
     a.WAIT_TIME,
     substr(b.SQL_TEXT, 1, 150)                            AS sql_head
   FROM
@@ -48,8 +48,8 @@ FROM (
   WHERE 1 = 1
         AND status = 'ACTIVE'
         AND a.INST_ID = b.INST_ID
-        AND a.SQL_ID = b.SQL_ID
-  ORDER BY a.INST_ID, a.SQL_EXEC_START);
+        AND a.SQL_ID = b.SQL_ID)
+ORDER BY elapsed_time DESC;
 ```
 
 ### 上のクエリでsidを確認してsqlをkillする

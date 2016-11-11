@@ -21,10 +21,15 @@ There are four(five?) different ways to parallelize.
 
 がある
 
-## Asynchronous Item processing support
+## Asynchronous Item processing support !!!!!!!!!!!
 
 + AsyncItemProcessor
 + AsyncItemWriter
+
+references
+
++ <http://docs.spring.io/spring-batch/trunk/reference/html/springBatchIntegration.html#asynchronous-processors>
++ <http://stackoverflow.com/questions/27801989/multithreading-in-spring-batch>
 
 # MULTITHREADED STEPS
 
@@ -61,10 +66,20 @@ There are four(five?) different ways to parallelize.
 
 <bean id="taskExecutor" class="org.springframework.core.task.SimpleAsyncTaskExecutor" />
 ```
+## multithreaded stepで注意
+
+以下のlinkに既存cursor item readerを使ってMulti-threadedへ変更したときのケースが載っている
+<http://stackoverflow.com/questions/28719836/spring-batch-problems-mix-data-when-converting-to-multithread>
+
++ item readerはthread safeではない
 
 # partitioning Step
 
 ![Partitioning Step](https://dl.dropboxusercontent.com/u/21522805/blog/java/spring-batch-partitioned-step.png)
+
+tutorial
+
+<https://www.mkyong.com/spring-batch/spring-batch-partitioning-example/>
 
 # PARALLEL STEPS
 
