@@ -205,7 +205,7 @@
 * [2016-07-28-spring-autowire.md](java/spring/2016-07-28-spring-autowire.md)
 * [2016-08-29-spring-mvc.md](java/spring/2016-08-29-spring-mvc.md)
 * [2016-08-30-spring-boot-rest.md](java/spring/2016-08-30-spring-boot-rest.md)
-* [spring JPA](java/spring/2016-08-30-spring-jpa.md)
+* [spring JPA](java/spring/spring-jpa.md)
 * [2016-09-15-spring-scheduling.md](java/spring/2016-09-15-spring-scheduling.md)
 * [2016-09-16-spring-rest-template.md](java/spring/2016-09-16-spring-rest-template.md)
 
