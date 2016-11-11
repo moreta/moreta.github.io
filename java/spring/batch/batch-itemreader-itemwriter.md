@@ -20,13 +20,15 @@ tags: spring-framework, java, batch, spring-batch
 
 ## Item Reader
 
-TODO: 整理
-
-http://blog.ksug.org/48
+<http://blog.ksug.org/48>
 
 JdbcCursorItemReader
 DrivingQueryItemReader
 IbatisDrivingQueryItemReader
+
+## MyBatisPagingItemReader
+
+<http://www.mybatis.org/spring/ja/batch.html>
 
 ## Item Writer
 

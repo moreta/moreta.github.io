@@ -132,6 +132,26 @@ VPCにVPN Gatewayを追加して外部と接続可能にする
 + これはAWSの冗長性確保の思想によるもの
 + 1つのトンネルに障害が発生し使用出来なくなった場合、仮想プライベートゲートウェイは自動的にもう1つのトンネルにルーティングする
 
+# setup-ipsec-vpnで設置してみる
+
+Option 1: Have the script generate random VPN credentials for you (will be displayed when finished):
+
+centosを利用
+
+```sh
+yum update
+wget https://git.io/vpnsetup-centos -O vpnsetup.sh && sudo sh vpnsetup.sh
+```
+
+ubuntuを利用
+
+```sh
+apt-get update && apt-get dist-upgrade
+wget https://git.io/vpnsetup -O vpnsetup.sh && sudo sh vpnsetup.sh
+```
+
+UDP ports 500 & 4500, and TCP port 22を許可
+
 # References
 
 + [Amazon VPC とは?](http://docs.aws.amazon.com/ja_jp/AmazonVPC/latest/UserGuide/VPC_Introduction.html)

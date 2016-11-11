@@ -11,9 +11,17 @@ tags: unix, user
 + /etc/shadow - 安全なユーザアカウント情報
 + /etc/group  - グループ情報
 
-# passwd
+## ユーザーリスト
 
+```sh
+cat /etc/passwd
+```
+
+# パスワード変更 - passwd
+
+```sh
 passwd app
+```
 
 # usermod
 
@@ -22,23 +30,18 @@ passwd app
 # user list
 
 
-```
+```sh
 cat /etc/passwd
 ```
 
 # user delete
 
-```
+```sh
 userdel user-name
 ```
 
 # group関連
 
-```
-s
-```
-
-
-```
+```sh
 usermod -aG docker your_username
 ```

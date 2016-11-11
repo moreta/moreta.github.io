@@ -18,6 +18,7 @@ There are four(five?) different ways to parallelize.
 
 + Remote chunking
 + Remote partitioning
+  + <https://www.youtube.com/watch?v=CYTj5YT7CZU>
 
 がある
 
@@ -156,3 +157,8 @@ This approach is good for scenarios *where the cost of I/O is small* compared to
 ## sample source
 
 + [SpringOne2GX-2014/spring-batch-performance-tuning](https://github.com/SpringOne2GX-2014/spring-batch-performance-tuning)
+
+## stack overflow
+
++ [Spring Batch : Tasklet with multi threaded executor has very bad performances related to Throttling algorithm](http://stackoverflow.com/questions/18262857/spring-batch-tasklet-with-multi-threaded-executor-has-very-bad-performances-re)
++ [Spring Batch: Which ItemReader implementation to use for high volume & low latency](http://stackoverflow.com/questions/20386642/spring-batch-which-itemreader-implementation-to-use-for-high-volume-low-laten)

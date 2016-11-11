@@ -31,6 +31,13 @@ Host host1.xxx host2.xxx
     IdentityFile ~/.ssh/xxx_rsa
 ```
 
+# 接続
+
+
+port指定
+```
+ssh root@sv10.sixcore.ne.jp -p 2222
+```
 
 # 多段ssh
 
