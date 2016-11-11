@@ -4,6 +4,12 @@ data: 2016-08-30
 tags: spring, spring-boot, jpa
 ---
 
+# Query methods & Query creation
+
+`findByFooAndBar`のようなことをクエリを作成さずに利用できる
+
+<http://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.query-creation>
+
 # Anootation
 
 
