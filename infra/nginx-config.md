@@ -4,16 +4,52 @@ date: 2014-01-01
 tags: nginx, config
 ---
 
+# nginx.conf の構成
+
+Nginx の基本的なモジュールは大きく分けて、以下の4つのモジュールがあります。
+
++ Mainモジュール： プロセス管理やセキュリティなどの基本機能を提供します。
++ Eventsモジュール： ネットワーク機能の内部メカニズムを設定します。
++ Configurationモジュール： ファイルのインクルードを実現します。
++ HTTPモジュール： HTTPサーバの基本ブロック、ディレクティブ、変数を格納しているコンポーネントです。
+
+
+```
+(Mainモジュールのディレクティブを定義）
+
+events {
+  eventsブロック（Eventsモジュールのディレクティブを定義）
+}
+
+http {
+  httpブロック（HTTPモジュールのディレクティブを定義）
+  # ほとんどは以下のincludeでserverモジュールをinclude
+  include /etc/nginx/conf.d/*.conf;
+}
+```
+
+httpはさらに以下のように
+
+```
+http {
+  server {
+    serverブロック（Webサイトごとの設定を定義）
+    location {
+      locationブロック（Webサイトの特定の位置にだけに適用される設定を定義）
+    }
+  }
+}
+```
 
 ## non-www to www
 
 ```
-    server {
-        listen 80;
-        listen 443 ssl;
-        server_name yourdomain.com;
-        return 301 $scheme://www.yourdomain.com$request_uri;
-    }
+server {
+    listen 80;
+    listen 443 ssl;
+    server_name yourdomain.com;
+    return 301 $scheme://www.yourdomain.com$request_uri;
+}
 ```
 
 `www to non-www`は設定を反対にすればOK
@@ -64,8 +100,9 @@ EC2の ECUの数に合わせればOK
 
 ## basic auth(basic認証)
 
-### .htpasswd file
-##### openssl利用
+### .htpasswd fileを生成
+
+##### openssl利用して作る
 
 `printf "username:$(openssl passwd -crypt password)\n" | sudo tee .htpasswd`
 
@@ -74,7 +111,7 @@ EC2の ECUの数に合わせればOK
 
 `printf "username:$(openssl passwd -1 password)\n" | sudo tee .htpasswd`
 
-##### apache利用
+##### apache利用して作る
 
 `sudo htpasswd -c htpasswd <username>`
 のあとにpassword入力
@@ -93,6 +130,31 @@ server {
   location /proxy_path {
     # ここに置くと pathに一致する requestに認証がかかる
   }
+}
+```
+
+### nginxのbasic認証で特定IPは認証を外したい
+
+`satify [all|any]`を利用
+
+
+     | allow            | deny
+------------|---------------|--------------
+satisfy any | 認証なし      | Basic認証あり
+satisfy all | Basic認証あり | アクセス拒否
+
+
+```
+server {
+    #....
+        location / {
+            satisfy any;
+            allow 100.100.100.100;
+            # ここにbasic認証を掛けたくないIPを追加していく
+            deny all;
+            auth_basic "basic authentication";
+            auth_basic_user_file /etc/nginx/.htpasswd;
+        }
 }
 ```
 

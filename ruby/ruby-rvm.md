@@ -60,6 +60,14 @@ rvm install 2.2.0
 rvm remove 2.1.4
 ```
 
+# gemset
+
+```sh
+rvm gemset create [gemset_name] # 生成
+rvm gemset delete [gemset_name] # 削除
+rvm gemset use [gemset_name]
+```
+
 # Trouble Shooting
 
 ## なんらかインストールがうまくいかないときやcompileされないとき

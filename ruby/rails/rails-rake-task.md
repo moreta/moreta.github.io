@@ -76,7 +76,18 @@ rake db:setup
 rake:db:create
 rake db:schema:load # schema.rbをDBに反映
 rake db:seed
+```
 
+### schema.rbよりstucture.sqlを !!
+
+development.rbに以下を設置すると`schema.rb`の代わりに`structure.sql`が生成される
+```ruby
+config.active_record.schema_format = :sql
+```
+
+```sh
+rake db:structure:load # databaseへ反映
+rake db:structure:dump # databaseからstructure.sqlを生成
 ```
 
 ## routing(ルーティング)情報

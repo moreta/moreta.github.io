@@ -1,66 +1,14 @@
 ---
-title: Ruby & Rails Gem List
+title: Rails Debug Gem List
 date: 2014-10-13
 tags: ruby, rails, gem
 ---
-
-## debug & console
-
-
-### awesome_print
-
-
-<https://github.com/michaeldv/awesome_print>
-
-`gem install awesome_print`
-
-
-コード上で利用
-
-```
-require "awesome_print"
-ap object, options = {}
-```
-
-pryで
-
-~/.prycに以下を追加
-```
-require "awesome_print"
-AwesomePrint.pry!
-```
-
-#### 設定によって出力を変える
-
-.aprcを使うか
-```
-# ~/.aprc file.
-AwesomePrint.defaults = {
-  :indent => -2,
-  :color => {
-    :hash  => :pale,
-    :class => :white
-  }
-}
-```
-
-optionsを利用、以下の例では `:indent`
-```
-require "awesome_print"
-data = { :now => Time.now, :class => Time.now.class, :distance => 42e42 }
-ap data, :indent => -2  # <-- Left align hash keys.
-```
-
 
 
 ### paranoia
 
 論理削除の手助けをしてくれる
 uniqバリデーションで、論理削除されたものを対象に含めたくないならこれも入れとくといい paranoia_uniqueness_validator
-
-
-
-Ruby - Railsで定数を環境ごとに管理するrails_config - Qiita
 
 ### remotipart
 
@@ -79,7 +27,8 @@ Active RecordでBULK INSERTする時に 詳しくはこちらの方のまとめ�
 * [Ruby - ActiveRecordで複数レコード、BULK INSERTする方法とパフォーマンスについて - Qiita](http://qiita.com/xend/items/79184ded56158ea1b97a)
 
 例)
-```
+
+```ruby
 books = []
 10.times do |i|
   books << Book.new(:name => "book #{i}")
@@ -115,7 +64,7 @@ Decorators/View-Models for Rails Applications
 
 Railsで悩まれるヘルパー周りをスッキリさせてくれる
 
-```
+```ruby
 # app/models/user.rb
 class User < ActiveRecord::Base
   # first_name:string last_name:string website:string
@@ -154,57 +103,30 @@ end
 
 ### rails-erd
 
+<https://github.com/voormedia/rails-erd>
+
 モデルの関連図をPDFで書きだしてくれます
 
-### quiet_assets
-
-開発中にうっとうしいassets系のログを出さないように
-
-### pry-rails
-
-consoleからpryが使えるようになる
-
-pry-byebug
-hirb
-hirb-unicode
-この辺りも入れるといいかも
-特にpry-byebugは、任意の箇所にブレークポイントを設置することができるので、デバックのつよーい味方
-rack-mini-profiler
-
-DBへのアクセスとかViewの表示速度とかをWebページ上に表示してくれる
-重いページやクエリ等の発見に
+1. Install Graphviz 2.22
+2. install gem
+```
+gem install rails-erd
+```
+3. run `bundle exec erd`
 
 ### annotate
 
 Modelにどんなカラムがあるかをモデルファイルの先頭に書き出してくれる
+
+```sh
+annotate --exclude tests,fixtures,factories,serializers
+```
 
 ### letter_opener_web
 
 開発中に送信したメールを実際には送信せずに、ブラウザから見ることができる。
 開発中のメール誤爆防止に
 
-### bullet
-
-N + 1問題を起こしている箇所を検出して教えてくれる
-N+1の解決方法はこちらがすごく良くまとめてくれています。
-
-
-
-Rails - ActiveRecordのjoinsとpreloadとincludesとeager_loadの違い - Qiita
-
-### rack-dev-mark
-
-develop環境でwebページに「開発環境だよー」ってわかるようにラベルを張ってくれる
-powを使ってたりすると重宝するのかな？
-powについてはこちらのブログがまとめてくれています。
-
-
-
-開発サーバをThinからPowに切り替えて開発効率アップ！ (Mac限定) - 酒と泪とRubyとRailsと
-
-### better_errors
-
-説明いらないでしょう
 
 
 ## Ohters

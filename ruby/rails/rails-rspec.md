@@ -20,6 +20,7 @@ rspec --init
 
 
 ## db
+
 `rake db:test:prepare`
 
 もし、DBにdependencyな処理があるのであれば`scheme.rb`からテーブル作成したらテストが失敗する
@@ -31,6 +32,7 @@ development.rbに以下を入れて
 `rake db:migrate`すると`db/structure.sql`が生成されるのでその後テストを実行すれば大丈夫
 
 ## gem
+
 ```
 group :development, :test do
   gem "rspec", "2.4.0"
@@ -49,7 +51,19 @@ rails generate rspec:install
 
 ## sample code
 
-```
+```ruby
+# sample 1
+describe 'FizzBuzz' do
+  describe '#run' do
+    context '3の倍数' do
+      example 'Fizzという文字列を返すこと' do
+        expect(FizzBuzz.run(3)).to eq('Fizz')
+        expect(FizzBuzz.run(6)).to eq('Fizz')
+      end
+    end
+  end
+end
+# sample 2
 describe Array do
   context "空の場合" do
     before do
@@ -71,16 +85,24 @@ end
 
 # Rspec機能
 
-## describe, context
+## describe, context, example, it
 
-* describe はテスト対象(クラス、メソッド)を記述 する
-* context はテスト対象の状態や状況を記述する
-
++ describe
+  + はテスト対象(クラス、メソッド)を記述 する
+  + テストの対象
++ context
+  + はテスト対象の状態や状況を記述する
+  + 特定の条件
++ example & it
+  + アウトプット
+  + 日本語にするときにはexample
+  + 英語でするときにはit
 
 ## before、after
 
 サンプルグループの 単位で一度だけ実行したい場合
-```
+
+```rb
 before(:all)
 after(:all)
 ```
@@ -121,7 +143,8 @@ guard設定ファイル
 <https://github.com/thoughtbot/factory_girl/blob/master/GETTING_STARTED.md>
 
 ## rspec setting
-```
+
+```rb
 # rspec (spec_helper.rb)
 RSpec.configure do |config|
   config.include FactoryGirl::Syntax::Methods
@@ -133,7 +156,7 @@ end
 
 ### get、post、put、delete
 
-```
+```ruby
 get 'index'
 post 'create', { :name => "名前" }
 ```
@@ -142,7 +165,7 @@ post 'create', { :name => "名前" }
 
 アクションを呼び出した際の HTTP レスポンスを取得するためのメソッド
 
-```
+```ruby
 response.should be_success
 response.should redirect_to(root_path)
 ```
@@ -155,7 +178,7 @@ response.should redirect_to(root_path)
 
 ###  flash、session、cookie
 
-```
+```sh
 flash[:notice].should == "完了しました。"
 session[:user_id].should == "xxx"
 ```
@@ -166,7 +189,8 @@ session[:user_id].should == "xxx"
 * <https://groups.google.com/forum/#!topic/urug/tHggdJNBPFI>
 
 stubで追加
-```
+
+```rb
 @current_user = build(:user)
 helper.stub(:current_user) { @current_user }
 ```
@@ -176,7 +200,7 @@ helper.stub(:current_user) { @current_user }
 
 <http://murayama.hatenablog.com/entry/2014/05/11/104108>
 
-```
+```rb
 group :development, :test do
   gem 'spring-commands-rspec'
   gem 'rspec-rails'
@@ -184,3 +208,8 @@ group :development, :test do
   gem 'rb-fsevent' if `uname` =~ /Darwin/
 end
 ```
+
+# References
+
++ [RSpecの(describe/context/example/it)の使い分け](http://qiita.com/uchiko/items/d34c5d1298934252f58f)
++ [](http://betterspecs.org/jp/)

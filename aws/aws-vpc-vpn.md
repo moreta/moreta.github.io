@@ -175,5 +175,5 @@ UDP ports 500 & 4500, and TCP port 22を許可
 
 ## VPN basic
 
-  + [VPN接続時に接続先が認識するIPについて](http://d.hatena.ne.jp/japanrock_pg/20090526/1243339020)
-  + [L2TP/IPsec VPN プロトコルを用いた筑波大学 VPN サービスへの接続方法](http://campus-vpn.cc.tsukuba.ac.jp/ja/howto_l2tp.aspx#mac)
++ [VPN接続時に接続先が認識するIPについて](http://d.hatena.ne.jp/japanrock_pg/20090526/1243339020)
++ [L2TP/IPsec VPN プロトコルを用いた筑波大学 VPN サービスへの接続方法](http://campus-vpn.cc.tsukuba.ac.jp/ja/howto_l2tp.aspx#mac)
