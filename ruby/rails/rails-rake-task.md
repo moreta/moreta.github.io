@@ -86,6 +86,8 @@ config.active_record.schema_format = :sql
 ```
 
 ```sh
+rake db:schema:load # databaseへ反映
+rake db:schema:dump # databaseからschema.rbを生成
 rake db:structure:load # databaseへ反映
 rake db:structure:dump # databaseからstructure.sqlを生成
 ```
