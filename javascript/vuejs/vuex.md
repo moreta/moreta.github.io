@@ -9,7 +9,7 @@ Vuex
   + vuexではinjectを利用して、すべての子componentへ`store`変数として使えるようにしてくれる。
 
 
-以下のようにroot instanceへinjectされる
+以下のようにroot instanceへinjectして、child componentでは`this.$store`で参照する
 
 ```js
 const app = new Vue({
