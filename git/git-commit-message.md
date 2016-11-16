@@ -11,10 +11,30 @@ tags: git, commit, message, semantic-commit
 commitメッセージで release noteを自動生成できる
 
 
-# Semantic Commit Message
+## Semantic Commit Message
 
 + <https://seesparkbox.com/foundry/semantic_commit_messages>
 + <https://github.com/fteem/git-semantic-commits>
+
+
+# いいコミットメッセージのための設定
+
+## Separate subject from body with a blank line / タイトルと本部に改行を入れる
+
++ `git log --oneline`が見やすくなる
++ `git shortlog`でユーザー別ログが見やすくなる
++ `git commit -m`では難しいのでeditorなどを利用
++ titleは 50文字
++ 本部は72文字
+
+### editor setting
+
+```sh
+git config --global core.editor emacs # editor setting
+git config --global commit.template ~/.gitmessage.txt # git commit message template setting
+git config commit.template ~/.gitmessage.txt # specific repository
+git commit
+```
 
 
 # commit prefixをつける方法
@@ -39,3 +59,11 @@ curl https://gist.githubusercontent.com/moreta/9802039/raw/5c065eab4595f1a5d696d
 chmod +x .git/hooks/commit-msg
 
 ```
+
+
+
+# References
+
++ [Git 커밋 메시지 작성법](https://item4.github.io/2016-11-01/How-to-Write-a-Git-Commit-Message/)
+  + [原文 - How to Write a Git Commit Message](http://chris.beams.io/posts/git-commit/)
+  + [8.1 Customizing Git - Git Configurationのgitmessage.txt部分](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)

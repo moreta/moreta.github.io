@@ -196,6 +196,8 @@
 
 * [Configuring Spring Scheduler At run time based on db values](java/spring/spring-scheduler-by-db-value.md)
 * [Annotation](java/spring/spring-annotation.md)
+* [spring JPA](java/spring/spring-jpa.md)
+* [spring async(非同期)](java/spring/spring-async.md)
 * [2014-07-27-spring-framework.md](java/spring/2014-07-27-spring-framework.md)
 * [2015-01-14-spring-transaction.md](java/spring/2015-01-14-spring-transaction.md)
 * [2016-03-22-spring-with-ibatis.md](java/spring/2016-03-22-spring-with-ibatis.md)
@@ -206,13 +208,8 @@
 * [2016-07-28-spring-autowire.md](java/spring/2016-07-28-spring-autowire.md)
 * [2016-08-29-spring-mvc.md](java/spring/2016-08-29-spring-mvc.md)
 * [2016-08-30-spring-boot-rest.md](java/spring/2016-08-30-spring-boot-rest.md)
-* [spring JPA](java/spring/spring-jpa.md)
-* [2016-09-15-spring-scheduling.md](java/spring/2016-09-15-spring-scheduling.md)
-* [2016-09-16-spring-rest-template.md](java/spring/2016-09-16-spring-rest-template.md)
-
-#### spring async
-
-+ [Executor]()
+* [scheduling](java/spring/spring-scheduling.md)
+* [Rest Template](java/spring/spring-rest-template.md)
 
 #### spring batch
 
@@ -374,6 +371,7 @@
 * [AWS ELB & deploy](aws/aws-elb-deploy.md)
 * [AWS auto scaling load balance](aws/aws-auto-scaling-load-balance.md)
 * [AWS SDK for Node.js](aws/aws-sdk-for-nodejs.md)
+* [ACM - ssl証明書](aws/acm.md)
 * [2014-05-15-aws-cloudfront.md](aws/2014-05-15-aws-cloudfront.md)
 * [2014-05-21-aws-dynamoDB.md](aws/2014-05-21-aws-dynamoDB.md)
 * [2014-05-30-aws-price.md](aws/2014-05-30-aws-price.md)
