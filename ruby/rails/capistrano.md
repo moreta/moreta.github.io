@@ -4,9 +4,36 @@ date: 2013-11-22
 tags: rails, deploy, capistrano, passenger, nginx, rvm
 ---
 
+
+# cli
+
+```sh
+# list all available tasks
+$ bundle exec cap -T
+
+# deploy to the staging environment
+$ bundle exec cap staging deploy
+
+# deploy to the production environment
+$ bundle exec cap production deploy
+
+# simulate deploying to the production environment
+# does not actually do anything
+$ bundle exec cap production deploy --dry-run
+
+# list task dependencies
+$ bundle exec cap production deploy --prereqs
+
+# trace through task invocations
+$ bundle exec cap production deploy --trace
+
+# lists all config variable before deployment tasks
+$ bundle exec cap production deploy --print-config-variables
+```
+
 # before install
 
-```
+```sh
 yum install emacs
 yum install -y git gcc-c++ autoconf automake make patch
 yum install -y bzip2 readline readline-devel zlib zlib-devel libyaml-devel libffi-devel openssl-devel iconv-devel
@@ -18,7 +45,7 @@ yum install -y postgresql-devel sqlite-devel
 
 # rvm install
 
-``` sh
+```sh
 rvm get stable
 rvm list known
 rvm install ruby-2.0.0-p353
@@ -154,7 +181,7 @@ bundle exec capify .
 rvm-capistranoを使って
 <https://github.com/wayneeseguin/rvm-capistrano>
 
-``` ruby
+```ruby
 before 'deploy:setup', 'rvm:install_rvm'
 before 'deploy:setup', 'rvm:install_ruby'
 set :rvm_type, :user # rvmの環境変数を~/.rvm(ユーザーことに)
@@ -163,13 +190,14 @@ set :rvm_ruby_version, 'ruby-2.0.0-p353@yourgemset'
 ```
 
 
-``` sh
+```sh
 cap deploy:setup
 ```
 
 ##### もし`Permission denied (publickey).`がでるなら
 
-サーバの **.ssh folderの権限**とその以下のファイルの権限をチェックすること。
+サーバの **.ssh folderの権限** とその以下のファイルの権限をチェックすること。
+
 * .sshディレクトリのPermissionを700に変更
 * 公開鍵ファイルのPermissionも644から600に変更
 
@@ -205,7 +233,7 @@ su - 는 사용자만 바꾸는것이 아니고 새로 로그인 하는 효과�
 
 *Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.*
 
-```
+```ruby
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'execjs'
 gem 'therubyracer', platforms: :ruby
@@ -218,7 +246,7 @@ gem 'therubyracer', platforms: :ruby
 
 **deploy.rb**
 
-```
+```rb
 namespace :rake do
   desc 'Run a task on a remote server.'
   # run like: cap staging rake:invoke task=yoour:rake:take:name
@@ -229,11 +257,8 @@ end
 ```
 
 
-## 参考
+## References
 
-<http://tk0miya.hatenablog.com/entry/2013/02/14/172254>
-
-* apache + passenger
-
-<http://itmemo.net-luck.com/linux-centos-apache-passenger/>
-
++ <http://tk0miya.hatenablog.com/entry/2013/02/14/172254>
++ apache + passenger
+  + <http://itmemo.net-luck.com/linux-centos-apache-passenger/>

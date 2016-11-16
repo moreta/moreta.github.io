@@ -14,6 +14,13 @@
     + [Restoring From a DB Snapshot](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_RestoreFromSnapshot.html)
     + [RDSの4つのグループと復元時の注意点](http://www.simpline.co.jp/tech/?p=1014)
 
+# 一時的にはMulti-AZを利用して
+
+<http://blog.serverworks.co.jp/tech/2014/10/08/tgi-multi-az-pattern/>
+
+# aurora
+
+<https://www.nimbo.com/blog/aws-aurora-tco-performance-migration/>
 
 # References
 
