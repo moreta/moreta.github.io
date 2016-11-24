@@ -604,6 +604,7 @@
 * [brew](macos/mac-brew.md)
 * [brew Packages](macos/mac-brew-packages.md)
 * [macOS mavericks java6 Reinstall](macos/mac-mavericks-java6-reinstall.md)
+* [macOS speed](macos/mac-speed.md)
 
 ### Dev environment
 
