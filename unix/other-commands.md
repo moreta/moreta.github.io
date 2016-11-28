@@ -215,3 +215,9 @@ cat /etc/issue.net
 cat /etc/redhat-release
 cat /etc/debian_version
 ```
+
+# ディスクの使用状況を表示する
+
+```sh
+
+```
