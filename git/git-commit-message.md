@@ -11,6 +11,17 @@ tags: git, commit, message, semantic-commit
 commitメッセージで release noteを自動生成できる
 
 
+## convention
+
+```
+<type>(<scope>): <subject>
+<BLANK LINE>
+<body>
+<BLANK LINE>
+<footer>
+```
+
+
 ## Semantic Commit Message
 
 + <https://seesparkbox.com/foundry/semantic_commit_messages>

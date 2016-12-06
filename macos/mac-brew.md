@@ -108,6 +108,12 @@ $ brew services list | grep mongodb
 $ brew services start mongodb
 $ brew services stop mongodb
 
+# homebrewで複数のversionを使う方法
+
+<http://stackoverflow.com/questions/3987683/homebrew-install-specific-version-of-formula>
+
++ 
+
 # homebrew-cask
 
 ## brew bundle & cask

@@ -56,7 +56,7 @@ account1.attributesは
 
 <http://snippets.aktagon.com/snippets/257-how-to-use-activerecord-without-rails>
 
-```
+```ruby
 require 'active_record'
 require 'sqlite3'
 require 'logger'
@@ -86,7 +86,7 @@ end
 
 database.yml:
 
-```
+```yml
 development:
   adapter: sqlite3
   database: db/data.sqlite3
@@ -121,3 +121,39 @@ development:
 @user.save
 @user.errors.full_messages
 ```
+
+# 大量データのselect
+
+## find と find_each
+
+* find: 全データをメモリに展開してから処理
+* find_each: 少しずつデータをメモリに展開しつつ処理
+
+## find_eachとfind_in_batches
+
+* find_each: 取ってきたデータは1件ずつ処理 (yield) される
+* find_in_batches: 取ってきたデータは配列でまとめて処理 (yield) される
+
+# Bulk insert
+
+[activerecord importを利用](https://github.com/zdennis/activerecord-import)
+
+```ruby
+CSV.open("hogehoge.csv", "wb").each_with_index do |row, i|
+
+   # 配列にtmp_recordを挿入
+   tmp_records << TmpRecord.new(hoge: row[0], fuga: row[1])
+
+   # 1000件毎にBULK INSERT
+   if i % 1000 == 0 && i.nonzero?
+     TmpRecord.import(tmp_records)
+     tmp_records = []
+   end
+ end
+```
+
+
+# References
+
++ [Railsで大量のデータを更新してみる](http://qiita.com/soudai_s/items/b8b7a34ed23693cb6950)
++ [ActiveRecordで複数レコード、BULK INSERTする方法とパフォーマンスについて](http://qiita.com/xend/items/79184ded56158ea1b97a)

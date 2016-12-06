@@ -396,6 +396,37 @@ WHERE pg.relnamespace = pgn.oid AND pgn.nspname NOT IN
 ORDER BY relpages DESC;
 ```
 
+# database size
+
+```sql
+SELECT pg_database_size('hogehoge');
+```
+
+# psqlでqueryを実行
+
+```sh
+psql -U username -d mydatabase -c 'SELECT * FROM mytable'
+```
+
+* -c command
+  * --command=command
+  * psqlに対し、commandという1つのコマンド文字列を実行し、終了するよう指示します。 このコマンドはシェルスクリプト内で有用です。 このオプションを使用すると起動ファイル（psqlrc and ~/.psqlrc）は無視されます
+
+## fileから読み込ませるには
+
+```sh
+psql -U username -d mydatabase -f query.sql
+```
+
+# VACUUMする前に
+
+```sql
+select relname, n_live_tup, n_dead_tup, round(n_dead_tup*100/n_live_tup,2) AS ratio
+from pg_stat_user_tables
+where n_dead_tup > 1000
+and n_live_tup > 0;
+```
+
 # 参考
 
 * <http://www.atmarkit.co.jp/ait/articles/1307/12/news004.html>
