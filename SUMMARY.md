@@ -2,16 +2,6 @@
 
 * [Introduction](README.md)
 
-### Design & UI
-
-* [check - 決済関連](design/checkout.md)
-* [sketch3](design/sketch3.md)
-
-### Chat Bot
-
-* [Facebook Messenger Bot](chatbot/facebook_messenger_bot.md)
-* [LINE Bot](chatbot/line_bot.md)
-
 
 ### javascript
 
@@ -515,6 +505,9 @@
 
 ### Database
 
+* [flyway db migration](database/flyway-db-migration.md)
+* [mongodb ec](database/mongodb-ec.md)
+* [sql basics](database/sql-basics.md)
 * [2013-12-01-db-scheme-sample.md](database/2013-12-01-db-scheme-sample.md)
 * [2014-03-28-couchbase.md](database/2014-03-28-couchbase.md)
 * [2014-03-30-couchbase-sync-gateway.md](database/2014-03-30-couchbase-sync-gateway.md)
@@ -527,9 +520,10 @@
 * [2015-03-26-mongodb.md](database/2015-03-26-mongodb.md)
 * [2016-02-26-sql-cardinality.md](database/2016-02-26-sql-cardinality.md)
 * [2016-02-26-sql-tips.md](database/2016-02-26-sql-tips.md)
-* [2016-02-27-greenplum-postgresql.md](database/2016-02-27-greenplum-postgresql.md)
-* [2016-03-20-mongodb-ec.md](database/2016-03-20-mongodb-ec.md)
-* [2016-04-24-sql-basics.md](database/2016-04-24-sql-basics.md)
+
+### hbase
+
+* [hbase](database/hbase/hbase.md)
 
 ### Mysql
 
@@ -545,6 +539,7 @@
 * [Postgresql vacuum](database/postgresql/postgresql-vacuum.md)
 * [Postgresql security)](database/postgresql/postgresql-security.md)
 * [MacOS postgresql](database/postgresql/mac-postgresql.md)
+* [greenplum](database/greenplum-postgresql.md)
 
 ### Oracle
 
@@ -689,10 +684,11 @@
 * [network-connection](unix/network-connection.md)
 * [ssh](unix/ssh.md)
 * [Imagemagick](unix/imagemagick.md)
+* [temp directory](unix/temp-directory.md)
 
-### test tools
+### API
 
-* [API Blueprint](testtools/api-blueprint.md)
+* [API Blueprint](api/api-blueprint.md)
 
 ### default
 
@@ -723,3 +719,13 @@
 ### business
 
 * [デポジット(deposit)](business/deposit.md)
+
+### Design & UI
+
+* [check - 決済関連](design/checkout.md)
+* [sketch3](design/sketch3.md)
+
+### Chat Bot
+
+* [Facebook Messenger Bot](chatbot/facebook_messenger_bot.md)
+* [LINE Bot](chatbot/line_bot.md)

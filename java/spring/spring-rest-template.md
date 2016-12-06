@@ -23,7 +23,12 @@ tags: spring, rest, spring-boot
 | RssChannelHttpMessageConverter     | ROME の Feed API を使って RSS フィードを読み書きします。メディア・タイプ application/rss+xml のデータを変換します。                                                                |
 
 
+# Unit test
+
+## MockRestServiceServerを使う
+
 
 
 # References
 + <http://www.baeldung.com/rest-template>
++ [SpringのRestTemplateを使うコンポーネントのJUnitテストはこう書く！！](http://qiita.com/kazuki43zoo/items/fa9fea1c813f76080fe7)
