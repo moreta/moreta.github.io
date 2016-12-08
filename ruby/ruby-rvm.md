@@ -26,9 +26,13 @@ brew link --force openssl
 
 ```
 gpg2 --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
-curl -sSL https://get.rvm.io | bash
+curl -sSL https://get.rvm.io | bash -s stable
 ```
+※ gpg2が入っていない場合は以下のコマンド
 
+```
+brew install gpg2
+```
 
 ```
 rvm get stable
@@ -69,6 +73,17 @@ rvm gemset use [gemset_name]
 ```
 
 # Trouble Shooting
+
+## shell_session_update: command not found 
+
+```
+/var/folders/jp/vhlgbc4x3f3bb6551hybl5f80000gp/T/rvm.fish.XXXXXXXXXX.Znu6IC3C: shell_session_update: command not found
+```
+がでたときには
+
+```
+rvm get stable
+```
 
 ## なんらかインストールがうまくいかないときやcompileされないとき
 
@@ -150,4 +165,12 @@ echo "rvm default" >> ~/.config/fish/config.fish
 brew install openssl
 brew link --force openssl
 bundle install
+```
+
+
+# Uninstall
+
+```
+rvm implode
+rvm 
 ```
