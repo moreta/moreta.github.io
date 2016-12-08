@@ -201,6 +201,7 @@ cask 'google-chrome'
 ```
 brew install postgresql
 brew info postgresql
+brew services start postgresql # launchd start postgresql
 ```
 
 #### brew upgradeなどしたらpostgresqlが起動しない場合

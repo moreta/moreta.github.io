@@ -1,3 +1,22 @@
+# timezoneを設定しているとcron実行時間がずれることがある
+
+<http://memo-off.blogspot.jp/2011/11/timezonecron.html>
+
+
+```
+# Timezoneを変更してみて
+ln -sf /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
+# 時間確認
+date  
+2016年 12月  9日 金曜日 01:10:31 JST  
+```
+
+JSTで出るようになったのですが、cronの判定時間がどうもJSTに変化してないみたいです。 確認のために、こんな設定をcronに仕込んでみます
+
+```
+service crond restart
+```
+
 # list
 
 ```sh

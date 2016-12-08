@@ -4,6 +4,12 @@ date: 2014-09-02
 tags: ruby, db, migration
 ---
 
+# example code
+
+
+```
+rails g migration CreateTableName a_column:string b_column:string
+```
 
 
 ## dataタイプが違う場合にchange_column
