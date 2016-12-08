@@ -182,11 +182,16 @@
 
 * [2016-09-12-mybatis.md](java/mybatis/mybatis.md)
 
+#### jpa & hibernate
+
+* [spring JPA](java/jpa/spring-jpa.md)
+* [hibernate](java/jpa/hibernate.md)
+
 #### spring
 
 * [Configuring Spring Scheduler At run time based on db values](java/spring/spring-scheduler-by-db-value.md)
 * [Annotation](java/spring/spring-annotation.md)
-* [spring JPA](java/spring/spring-jpa.md)
+
 * [spring async(非同期)](java/spring/spring-async.md)
 * [2014-07-27-spring-framework.md](java/spring/2014-07-27-spring-framework.md)
 * [2015-01-14-spring-transaction.md](java/spring/2015-01-14-spring-transaction.md)
@@ -418,7 +423,6 @@
 * [2015-12-15-redis.md](infra/2015-12-15-redis.md)
 * [2016-01-28-linux-signal.md](infra/2016-01-28-linux-signal.md)
 * [2016-04-12-anacron.md](infra/2016-04-12-anacron.md)
-* [2016-06-28-fish-shell.md](infra/2016-06-28-fish-shell.md)
 * [2016-07-13-gcp-deploy-rails.md](infra/2016-07-13-gcp-deploy-rails.md)
 * [2016-07-13-gcp-server-setting.md](infra/2016-07-13-gcp-server-setting.md)
 * [2016-07-13-webtask.md](infra/2016-07-13-webtask.md)
@@ -601,6 +605,7 @@
 * [brew Packages](macos/mac-brew-packages.md)
 * [macOS mavericks java6 Reinstall](macos/mac-mavericks-java6-reinstall.md)
 * [macOS speed](macos/mac-speed.md)
+* [fish shell](infra/fish-shell.md)
 
 ### Dev environment
 

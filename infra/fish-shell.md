@@ -28,6 +28,17 @@ funcsave rmi
 
 # nvm setting
 
+plugin-nvmを利用
+
+<https://github.com/derekstavis/plugin-nvm>
+
+```
+omf install nvm
+```
+
+#### 以下は使わない
+
+bassで
 ```
 # nvm setting
 set -gx NVM_DIR ~/.nvm
@@ -35,6 +46,14 @@ bass source ~/.nvm/nvm.sh ';' nvm use default
 function nvm
   bass source ~/.nvm/nvm.sh ';' nvm $argv
 end
+```
+
+# rvm setting
+
+<https://github.com/oh-my-fish/plugin-rvm>
+
+```
+omf install rvm
 ```
 
 # Trouble shooting
