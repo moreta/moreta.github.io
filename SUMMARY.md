@@ -289,6 +289,7 @@
 * [Rspec](ruby/rails/rails-rspec.md)
 * [Rails5](ruby/rails/rails5.md)
 * [Rails log](ruby/rails/rails-log.md)
+* [Rail migration](ruby/rails/2014-09-02-rails-migration.md)
 * [2013-10-05-rails-scss-at-import-error.md](ruby/rails/2013-10-05-rails-scss-at-import-error.md)
 * [2013-11-14-rails-date.md](ruby/rails/2013-11-14-rails-date.md)
 * [2013-11-19-rails-exception.md](ruby/rails/2013-11-19-rails-exception.md)
@@ -314,7 +315,6 @@
 * [2014-06-04-rails-cache.md](ruby/rails/2014-06-04-rails-cache.md)
 * [2014-06-09-rails-cron-whenever.md](ruby/rails/2014-06-09-rails-cron-whenever.md)
 * [2014-06-20-rails_pluck_mutiple_column.md](ruby/rails/2014-06-20-rails_pluck_mutiple_column.md)
-* [2014-09-02-rails-migration.md](ruby/rails/2014-09-02-rails-migration.md)
 * [2014-10-13-rails-api.md](ruby/rails/2014-10-13-rails-api.md)
 * [2014-10-19-rails-active-job.md](ruby/rails/2014-10-19-rails-active-job.md)
 * [2014-12-24-rails-http-status-code.md](ruby/rails/2014-12-24-rails-http-status-code.md)
@@ -346,6 +346,7 @@
 * [git tag](git/git-tag.md)
 * [git branch](git/git-branch.md)
 * [git commit message](git/git-commit-message.md)
+* [git cherry-pick](git/git-cherry-pick.md)
 
 ### batch
 
@@ -392,6 +393,7 @@
 * [2013-11-19-mail.md](infra/2013-11-19-mail.md)
 * [2013-11-21-mail-mandrill.md](infra/2013-11-21-mail-mandrill.md)
 * [2013-12-15-ssl.md](infra/2013-12-15-ssl.md)
+* [lets-encrypt 無料ssl証明書](infra/lets-encrypt.md)
 * [2013-12-17-linux-directory.md](infra/2013-12-17-linux-directory.md)
 * [2014-04-17-network.md](infra/2014-04-17-network.md)
 * [2014-05-20-postfix.md](infra/2014-05-20-postfix.md)
