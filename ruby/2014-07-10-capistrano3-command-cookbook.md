@@ -24,7 +24,7 @@ cap deploy:finishing               # Finish the deployment, clean up server(s)
 cap deploy:finishing_rollback      # Finish the rollback, clean up server(s)
 cap deploy:log_revision            # Log details of the deploy
 cap deploy:migrate                 # Runs rake db:migrate if migrations are set
-cap deploy:normalize_assets        # Normalize asset timestamps
+cap deploy:normalize_assets        # Normalize asset timestampsz
 cap deploy:published               # Published
 cap deploy:publishing              # Publish the release
 cap deploy:restart                 # Restart application
@@ -45,3 +45,18 @@ cap install                        # Install Capistrano, cap install STAGES=stag
 ```
 
 
+# rakeを実行
+
+```rb
+namespace :rake do
+  desc "Run a task on a remote server."
+  # run like: cap staging rake:invoke task=a_certain_task
+  task :invoke do
+    run("cd #{deploy_to}/current; /usr/bin/env rake #{ENV['task']} RAILS_ENV=#{rails_env}")
+  end
+end
+```
+
+```sh
+cap staging rake:invoke task=rebuild_table_abc
+```

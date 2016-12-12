@@ -149,6 +149,7 @@
 * [RxJava](java/rx-java.md)
 * [JConsole](java/jconsole.md)
 * [Maven](java/maven.md)
+* [How to Read a Large File Efficietly with Java](java/java-read-large-file.md)
 * [2014-07-27-java-anonymous-class.md](java/2014-07-27-java-anonymous-class.md)
 * [2015-12-24-java-calendar.md](java/2015-12-24-java-calendar.md)
 * [2016-05-11-jdbc-resultset.md](java/2016-05-11-jdbc-resultset.md)
@@ -182,11 +183,16 @@
 
 * [2016-09-12-mybatis.md](java/mybatis/mybatis.md)
 
+#### jpa & hibernate
+
+* [spring JPA](java/jpa/spring-jpa.md)
+* [hibernate](java/jpa/hibernate.md)
+
 #### spring
 
 * [Configuring Spring Scheduler At run time based on db values](java/spring/spring-scheduler-by-db-value.md)
 * [Annotation](java/spring/spring-annotation.md)
-* [spring JPA](java/spring/spring-jpa.md)
+
 * [spring async(非同期)](java/spring/spring-async.md)
 * [2014-07-27-spring-framework.md](java/spring/2014-07-27-spring-framework.md)
 * [2015-01-14-spring-transaction.md](java/spring/2015-01-14-spring-transaction.md)
@@ -284,7 +290,11 @@
 * [Rspec](ruby/rails/rails-rspec.md)
 * [Rails5](ruby/rails/rails5.md)
 * [Rails log](ruby/rails/rails-log.md)
+<<<<<<< HEAD
 * [Rails N+1 query](ruby/rails/rails-n-plus-1-query.md)
+=======
+* [Rail migration](ruby/rails/2014-09-02-rails-migration.md)
+>>>>>>> 7e96ddd7a7ec608d8f48acf42d8b1ab423614f39
 * [2013-10-05-rails-scss-at-import-error.md](ruby/rails/2013-10-05-rails-scss-at-import-error.md)
 * [2013-11-14-rails-date.md](ruby/rails/2013-11-14-rails-date.md)
 * [2013-11-19-rails-exception.md](ruby/rails/2013-11-19-rails-exception.md)
@@ -310,7 +320,6 @@
 * [2014-06-04-rails-cache.md](ruby/rails/2014-06-04-rails-cache.md)
 * [2014-06-09-rails-cron-whenever.md](ruby/rails/2014-06-09-rails-cron-whenever.md)
 * [2014-06-20-rails_pluck_mutiple_column.md](ruby/rails/2014-06-20-rails_pluck_mutiple_column.md)
-* [2014-09-02-rails-migration.md](ruby/rails/2014-09-02-rails-migration.md)
 * [2014-10-13-rails-api.md](ruby/rails/2014-10-13-rails-api.md)
 * [2014-10-19-rails-active-job.md](ruby/rails/2014-10-19-rails-active-job.md)
 * [2014-12-24-rails-http-status-code.md](ruby/rails/2014-12-24-rails-http-status-code.md)
@@ -342,6 +351,7 @@
 * [git tag](git/git-tag.md)
 * [git branch](git/git-branch.md)
 * [git commit message](git/git-commit-message.md)
+* [git cherry-pick](git/git-cherry-pick.md)
 
 ### batch
 
@@ -390,6 +400,7 @@
 * [2013-11-19-mail.md](infra/2013-11-19-mail.md)
 * [2013-11-21-mail-mandrill.md](infra/2013-11-21-mail-mandrill.md)
 * [2013-12-15-ssl.md](infra/2013-12-15-ssl.md)
+* [lets-encrypt 無料ssl証明書](infra/lets-encrypt.md)
 * [2013-12-17-linux-directory.md](infra/2013-12-17-linux-directory.md)
 * [2014-04-17-network.md](infra/2014-04-17-network.md)
 * [2014-05-20-postfix.md](infra/2014-05-20-postfix.md)
@@ -421,7 +432,6 @@
 * [2015-12-15-redis.md](infra/2015-12-15-redis.md)
 * [2016-01-28-linux-signal.md](infra/2016-01-28-linux-signal.md)
 * [2016-04-12-anacron.md](infra/2016-04-12-anacron.md)
-* [2016-06-28-fish-shell.md](infra/2016-06-28-fish-shell.md)
 * [2016-07-13-gcp-deploy-rails.md](infra/2016-07-13-gcp-deploy-rails.md)
 * [2016-07-13-gcp-server-setting.md](infra/2016-07-13-gcp-server-setting.md)
 * [2016-07-13-webtask.md](infra/2016-07-13-webtask.md)
@@ -604,6 +614,7 @@
 * [brew Packages](macos/mac-brew-packages.md)
 * [macOS mavericks java6 Reinstall](macos/mac-mavericks-java6-reinstall.md)
 * [macOS speed](macos/mac-speed.md)
+* [fish shell](infra/fish-shell.md)
 
 ### Dev environment
 
@@ -696,6 +707,7 @@
 
 ### default
 
+* [checksum](default/checksum.md)
 * [2013-11-11-recommender-systems.md](default/2013-11-11-recommender-systems.md)
 * [2013-12-05-crossdomain.md](default/2013-12-05-crossdomain.md)
 * [2013-12-19-encoding.md](default/2013-12-19-encoding.md)

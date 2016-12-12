@@ -39,6 +39,12 @@ $ rails g integration_test article
       create    test/integration/article_test.rb
 ```
 
+## `rails g migration ClassName`
+
+```sh
+rails g migration ChangeColumnToUser
+```
+
 
 # References
 
