@@ -698,6 +698,7 @@
 
 ### default
 
+* [checksum](default/checksum.md)
 * [2013-11-11-recommender-systems.md](default/2013-11-11-recommender-systems.md)
 * [2013-12-05-crossdomain.md](default/2013-12-05-crossdomain.md)
 * [2013-12-19-encoding.md](default/2013-12-19-encoding.md)
