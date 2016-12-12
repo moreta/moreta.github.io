@@ -290,11 +290,8 @@
 * [Rspec](ruby/rails/rails-rspec.md)
 * [Rails5](ruby/rails/rails5.md)
 * [Rails log](ruby/rails/rails-log.md)
-<<<<<<< HEAD
 * [Rails N+1 query](ruby/rails/rails-n-plus-1-query.md)
-=======
 * [Rail migration](ruby/rails/2014-09-02-rails-migration.md)
->>>>>>> 7e96ddd7a7ec608d8f48acf42d8b1ab423614f39
 * [2013-10-05-rails-scss-at-import-error.md](ruby/rails/2013-10-05-rails-scss-at-import-error.md)
 * [2013-11-14-rails-date.md](ruby/rails/2013-11-14-rails-date.md)
 * [2013-11-19-rails-exception.md](ruby/rails/2013-11-19-rails-exception.md)
