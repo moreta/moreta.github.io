@@ -29,6 +29,8 @@ FileUtils.readLines(new File(path));
 
 + <https://www.mkyong.com/java8/java-8-stream-read-a-file-line-by-line/>
 + <http://qiita.com/nishemon/items/a96cb6e14161f3ca8ee4>
++ 順番をまもる必要があるなら`forEach`より`forEachOrdered`を利用
+  + `forEach`は concurrently
 
 ```java
 package com.mkyong.java8;
@@ -149,3 +151,4 @@ int nLines = Files.readLines(file, charset, new LineProcessor<Integer>() {
 + [apache commons-io User guide](https://commons.apache.org/proper/commons-io/description.html)
 + [API for simple File (line count) functions in Java](http://stackoverflow.com/questions/9691420/api-for-simple-file-line-count-functions-in-java)
 + [Guava: Google Core Libraries for Java](https://github.com/google/guava)
++ [Java 8 API by Example: Strings, Numbers, Math and Files](http://winterbe.com/posts/2015/03/25/java8-examples-string-number-math-files/)
