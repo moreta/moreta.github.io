@@ -79,11 +79,7 @@ nginxを reverse proxyで利用していて nginxのバックにapplication serv
 <https://github.com/Fleshgrinder/nginx>
 
 
-## block
-
-<http://eng.eelcowesemann.nl/linux-unix-android/nginx/nginx-blocking/>
-
-## IP
+# IP
 
 ### リバースプロキシを利用した場合のアクセス元アドレス
 
@@ -159,7 +155,7 @@ server {
 ```
 
 
-### rails nginx setting example
+# rails nginx setting example
 
 nginx.conf
 

@@ -8,7 +8,7 @@ tags: db, postgresql
 
 ## Mac install
 
-See : 2014-10-25-mac-postgresql.md
+See : mac-postgresql.md
 
 ## CentOS install
 
