@@ -375,13 +375,24 @@
 * [AWS auto scaling load balance](aws/aws-auto-scaling-load-balance.md)
 * [AWS SDK for Node.js](aws/aws-sdk-for-nodejs.md)
 * [ACM - ssl証明書](aws/acm.md)
-* [2014-05-15-aws-cloudfront.md](aws/2014-05-15-aws-cloudfront.md)
-* [2014-05-21-aws-dynamoDB.md](aws/2014-05-21-aws-dynamoDB.md)
-* [2014-05-30-aws-price.md](aws/2014-05-30-aws-price.md)
-* [2014-06-10-aws-elasticache.md](aws/2014-06-10-aws-elasticache.md)
-* [2014-10-20-aws-mail.md](aws/2014-10-20-aws-mail.md)
-* [2016-03-21-aws-s3.md](aws/2016-03-21-aws-s3.md)
-* [2013-12-18-aws-redis-with-rails.md](aws/2013-12-18-aws-redis-with-rails.md)
+* [CloudFront](aws/aws-cloudfront.md)
+* [CloudWatch](aws/aws-cloudwatch.md)
+* [DynamoDB](aws/aws-dynamoDB.md)
+* [AWS Price](aws/aws-price.md)
+* [Elasticache.md](aws/aws-elasticache.md)
+* [AWS Mail](aws/aws-mail.md)
+* [S3](aws/aws-s3.md)
+* [AWS redis with rails](aws/aws-redis-with-rails.md)
+
+### GCP
+
+* [2015-12-05-gcp-google-cloud-platform.md](infra/2015-12-05-gcp-google-cloud-platform.md)
+* [2015-12-07-gcp-google-sdk.md](infra/2015-12-07-gcp-google-sdk.md)
+* [2015-12-08-gcp-deploy.md](infra/2015-12-08-gcp-deploy.md)
+* [2016-07-13-gcp-deploy-rails.md](infra/2016-07-13-gcp-deploy-rails.md)
+* [2016-07-13-gcp-server-setting.md](infra/2016-07-13-gcp-server-setting.md)
+* [2016-07-20-google-cloud-sdk.md](infra/2016-07-20-google-cloud-sdk.md)
+* [2016-07-21-gcp-compute-engine.md](infra/2016-07-21-gcp-compute-engine.md)
 
 ### Infra
 
@@ -420,28 +431,21 @@
 * [2014-08-01-kerberos.md](infra/2014-08-01-kerberos.md)
 * [2014-08-02-dovecot-with-postgres.md](infra/2014-08-02-dovecot-with-postgres.md)
 * [2014-08-02-sasl.md](infra/2014-08-02-sasl.md)
-* [2014-08-03-pam-authentication.md](infra/2014-08-03-pam-authentication.md)
+* [pam authentication](infra/pam-authentication.md)
 * [2014-10-21-assets-on-cloud.md](infra/2014-10-21-assets-on-cloud.md)
 * [2014-11-04-network-ipaddress-cidr.md](infra/2014-11-04-network-ipaddress-cidr.md)
 * [2015-02-07-unbuntu-server-setting-log.md](infra/2015-02-07-unbuntu-server-setting-log.md)
 * [2015-03-08-ubuntu.md](infra/2015-03-08-ubuntu.md)
-* [2015-12-05-gcp-google-cloud-platform.md](infra/2015-12-05-gcp-google-cloud-platform.md)
-* [2015-12-07-gcp-google-sdk.md](infra/2015-12-07-gcp-google-sdk.md)
 * [2015-12-07-wordpress.md](infra/2015-12-07-wordpress.md)
-* [2015-12-08-gcp-deploy.md](infra/2015-12-08-gcp-deploy.md)
 * [2015-12-15-heroku.md](infra/2015-12-15-heroku.md)
 * [2015-12-15-redis.md](infra/2015-12-15-redis.md)
 * [2016-01-28-linux-signal.md](infra/2016-01-28-linux-signal.md)
 * [2016-04-12-anacron.md](infra/2016-04-12-anacron.md)
-* [2016-07-13-gcp-deploy-rails.md](infra/2016-07-13-gcp-deploy-rails.md)
-* [2016-07-13-gcp-server-setting.md](infra/2016-07-13-gcp-server-setting.md)
 * [2016-07-13-webtask.md](infra/2016-07-13-webtask.md)
-* [2016-07-20-google-cloud-sdk.md](infra/2016-07-20-google-cloud-sdk.md)
-* [2016-07-21-gcp-compute-engine.md](infra/2016-07-21-gcp-compute-engine.md)
 * [2016-07-22-centos.md](infra/2016-07-22-centos.md)
 * [2016-07-26-mongodb-with-docker.md](infra/2016-07-26-mongodb-with-docker.md)
 * [2016-08-29-falcor.md](infra/2016-08-29-falcor.md)
-
+* [ftp scp sftp](infra/ftp-scp-sftp.md)
 
 ### security
 
