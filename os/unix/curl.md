@@ -19,7 +19,8 @@ curl -v -X GET http://localhost:3000
 # POST
 
 json post
-```
+
+```sh
 curl -v -H "Accept: application/json" -H "Content-type: application/json" -X POST -d '{"user":{"first_name":"firstname","last_name":"lastname","email":"email@email.com","password":"app123","password_confirmation":"app123"}}'  http://localhost:3000/api/1/users
 ```
 
@@ -27,15 +28,23 @@ curl -v -H "Accept: application/json" -H "Content-type: application/json" -X POS
 
 + -T , --upload-file
 
-```
+```sh
 curl -T your_file http://www.example.com/your_file
 curl -T "{file1,file2}" http://www.example.com
 ```
 
 # --verbose
 
-```
+```sh
 curl --verbose -X POST https://xxxx -d 'key=value'
+```
+
+# proxy経由で
+
+```sh
+curl -i -X GET --proxy [proxy.server.ip:port] \
+-H "Content-Type:application/xxxx" \
+'curするurl'
 ```
 
 # References
