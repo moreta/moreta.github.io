@@ -4,6 +4,14 @@ date: 2014-04-07
 tags: ruby, gem, bundler
 ---
 
+# install & init
+
+```sh
+gem install bundler
+bundler -v
+bundle init # Gemfileを生成
+```
+
 
 # このようなエラー
 
