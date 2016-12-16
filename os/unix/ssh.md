@@ -88,6 +88,22 @@ Host *example.com
   ForwardAgent yes
 ```
 
+# ssh loginの自動化
+
+```sh
+#!/bin/sh
+
+PW="Password"
+
+expect -c "
+set timeout 5
+spawn env LANG=C /usr/bin/ssh hoge@ServerName
+expect \"password:\"
+send \"${PW}\n\"
+expect \"$\"
+exit 0
+"
+```
 
 # TODO
 
@@ -108,8 +124,9 @@ chmod 600 .ssh/*
 ```
 
 
-# 参考
+# References
 
++ [Linuxの対話がめんどくさい?そんな時こそ自動化だ！-expect編-](http://qiita.com/ine1127/items/cd6bc91174635016db9b)
 * <http://www.xmisao.com/2013/10/08/ssh-proxy-command.html>
 * <http://qiita.com/ik-fib/items/12e4fab4478e360a82a1>
 * <http://d.hatena.ne.jp/tkng/20110225/1298596697>
