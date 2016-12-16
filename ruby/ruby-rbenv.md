@@ -40,7 +40,7 @@ rbenv version # 現在versionだけ？
 ## global
 
 ```sh
-rbenv global 1.8.7-p352 # ~/.rbenv/versionに記録
+Zrbenv global 1.8.7-p352 # ~/.rbenv/versionに記録
 ```
 
 ## local
