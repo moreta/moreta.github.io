@@ -283,9 +283,9 @@
 * [Rails commands](ruby/rails/rails-commands.md)
 * [Rails rake tasks](ruby/rails/rails-rake-task.md)
 * [Capistrano](ruby/rails/capistrano.md)
-* [Activerecord](ruby/rails/activerecord.md)
-* [Activerecord with arel](ruby/rails/activerecrod-with-arel.md)
-* [Activerecord scope](ruby/rails/activerecord-scope.md)
+* [ActiveRecord](ruby/rails/activerecord.md)
+* [ActiveRecord with arel](ruby/rails/activerecrod-with-arel.md)
+* [ActiveRecord scope](ruby/rails/activerecord-scope.md)
 * [Rails gem for Debug](ruby/rails/rails-gem-debug.md)
 * [Rails gem](ruby/rails/rails-gem-common.md)
 * [Rails Helper](ruby/rails/helper.md)
@@ -296,7 +296,7 @@
 * [Rails5](ruby/rails/rails5.md)
 * [Rails log](ruby/rails/rails-log.md)
 * [Rails N+1 query](ruby/rails/rails-n-plus-1-query.md)
-* [Rail migration](ruby/rails/2014-09-02-rails-migration.md)
+* [Rails migration](ruby/rails/rails-migration.md)
 * [Rails Cache](ruby/rails/rails-cache.md)
 * [2013-10-05-rails-scss-at-import-error.md](ruby/rails/2013-10-05-rails-scss-at-import-error.md)
 * [2013-11-14-rails-date.md](ruby/rails/2013-11-14-rails-date.md)
@@ -384,6 +384,7 @@
 * [AWS Mail](aws/aws-mail.md)
 * [S3](aws/aws-s3.md)
 * [AWS redis with rails](aws/aws-redis-with-rails.md)
+* [AWS Hosting by S3 & CloudFront](aws/aws-s3-cloudfront-hosting.md)
 
 ### GCP
 
@@ -568,7 +569,7 @@
 * [Postgresql scaling](database/postgresql/postgresql-scaling.md)
 * [Postgresql vacuum](database/postgresql/postgresql-vacuum.md)
 * [Postgresql security)](database/postgresql/postgresql-security.md)
-* [MacOS postgresql](database/postgresql/mac-postgresql.md)
+* [MacOS postgresql](database/postgresql/macos-postgresql.md)
 * [greenplum](database/greenplum-postgresql.md)
 
 ### Oracle

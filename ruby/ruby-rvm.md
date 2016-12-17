@@ -34,7 +34,7 @@ curl -sSL https://get.rvm.io | bash -s stable
 brew install gpg2
 ```
 
-```
+```sh
 rvm get stable
 rvm list known
 rvm install 1.9.3-p327
@@ -74,7 +74,7 @@ rvm gemset use [gemset_name]
 
 # Trouble Shooting
 
-## shell_session_update: command not found 
+## shell_session_update: command not found
 
 ```
 /var/folders/jp/vhlgbc4x3f3bb6551hybl5f80000gp/T/rvm.fish.XXXXXXXXXX.Znu6IC3C: shell_session_update: command not found
@@ -172,5 +172,5 @@ bundle install
 
 ```
 rvm implode
-rvm 
+rvm
 ```
