@@ -2,6 +2,18 @@ AWS Hosting by S3 & CloudFont
 ============================
 
 
+
+# S3をcloudfontをoriginに指定するときの注意点
+
++ 入力formからsuggestされるs3を選択したらだめ。！！！！！！！！！！！！！！１１
++ 必ず以下の部分のurlを入れること
+
+静的ウェブサイトホスティングの
+
+```
+エンドポイント :xxxxxxxxxxxxxxx-ap-northeast-1.amazonaws.com << この部分
+```
+
 # 許可するUserAgentはCloudFontからだけにする
 
 # IAM設定

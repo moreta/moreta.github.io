@@ -629,7 +629,7 @@
 ### Dev environment
 
 * [Current directory server](dev_env/current-directory-server.md)
-* [2013-11-05-mac-ip.md](dev_env/2013-11-05-mac-ip.md)
+* [ip check](dev_env/ip-check.md)
 * [2013-11-30-console-color.md](dev_env/2013-11-30-console-color.md)
 * [2013-12-04-mac-port.md](dev_env/2013-12-04-mac-port.md)
 * [2013-12-05-mac-tip.md](dev_env/2013-12-05-mac-tip.md)

@@ -124,11 +124,13 @@ no-response-timeout: 15 # defaut 5分を変更する max 60分
 3. werckerでbuildされた
 
 
-## deploy to s3
+# deploy to s3
 
 reference
 
-+ http://devcenter.wercker.com/docs/deploy/s3.html
++ <http://devcenter.wercker.com/docs/deploy/s3.html>
++ [s3sync](https://github.com/wercker/step-s3sync)
++ [Werckerを使ってMiddlemanサイトをビルド・デプロイする](http://tech.foodison.jp/blog/2015/12/16/middleman-wercker-deploy/)
 
 react appをs3へdeployしてみる
 

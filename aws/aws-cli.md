@@ -63,6 +63,8 @@ output=json
 
 ## s3関連
 
+<http://docs.aws.amazon.com/cli/latest/reference/s3/index.html#cli-aws-s3t/reference/s3/sync.html>
+
 ### bucket 一覧
 
 ```sh
