@@ -351,7 +351,7 @@ git commit -e
   smudge = git lfs smudge %f
   required = true
 [push]
-	default = upstream
+  default = upstream
 [pager]
   log = diff-highlight | less
   show = diff-highlight | less

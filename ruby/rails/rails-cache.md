@@ -24,13 +24,13 @@ query stringの場合URL単位で cacheされない
 
 
 ### Page Caching
- 
+
 * cacheしたhtmlを publicに保存
-* 一度cacheしたら filterなどは無視される 
- 
+* 一度cacheしたら filterなどは無視される
+
 ### Action Caching
 
-* 
+*
 * filterは適用される
 
 action cacheでparameterでcacheをそれぞれ保存したい
@@ -44,5 +44,7 @@ action cacheでparameterでcacheをそれぞれ保存したい
 
 # 参考
 
+* [Railsアプリを66％スピードアップ ― Railsキャッシュの完全ガイド](http://postd.cc/the-complete-guide-to-rails-caching/)
 * <http://www.codebeerstartups.com/2013/02/how-to-implement-action-caching-in-ruby-on-rails-with-ajax-enabled>
 * <http://blog.modsaid.com/2012/03/utilizing-page-caching-while-using.html>
+* [Caching with Rails: An Overview](http://guides.rubyonrails.org/caching_with_rails.html)

@@ -8,7 +8,7 @@ tags: db, postgresql
 
 ## Mac install
 
-See : 2014-10-25-mac-postgresql.md
+See : mac-postgresql.md
 
 ## CentOS install
 
@@ -71,7 +71,7 @@ PGDATA=/pgdata # for custom
 PGLOG=/pgdata/pgstartup.log
 ```
 
-```
+```sh
 sudo su
 /etc/init.d/postgresql start
 ```
@@ -102,9 +102,11 @@ host    all             all             0.0.0.0/0               trust
 
 ```
 
-### start & stop
+### centos start & stop
 
-`/etc/init.d/postgresql start | restart | stop`
+```
+/etc/init.d/postgresql start | restart | stop
+```
 
 
 ## テーブル一覧取得
@@ -425,6 +427,14 @@ select relname, n_live_tup, n_dead_tup, round(n_dead_tup*100/n_live_tup,2) AS ra
 from pg_stat_user_tables
 where n_dead_tup > 1000
 and n_live_tup > 0;
+```
+
+
+# other
+
+
+```
+ln -sfn /Library/PostgreSQL/9.2/bin/pg_dump /usr/local/bin/pg_dump
 ```
 
 # 参考

@@ -41,7 +41,18 @@ done
 上記のリンクのcapistranoのgemで`capistrano-ext`は`capistrano`にmergeされているのでいらない
 
 
-### Auto scalingでのdeploy
+# Auto scalingでのdeploy
+
++ [オートスケール時のデプロイを User Data と Capistrano を使って行う（BootStrap パターン）](http://dev.classmethod.jp/cloud/auto-scaling-deploy-userdata-capistrano/)
++ [Capistrano 3とaws-sdk 2でELB配下にあるインスタンスへデプロイする奴](http://qiita.com/anoworl/items/52dfc2d286110fd10a19)
++ [AWSでデプロイとスケーリングを自動化する方法まとめ](http://qiita.com/hiro_koba/items/eb438945d64c3d765e04)
+
+方法としては以下の方法がある
+
++ EC2 + User Data
++ Elastic Beanstalk
++ OpsWorks
++ CodeDeploy
 
 User Dataにshell scriptを入れてinstanceを生成し、起動するとき(最初の1回)に実行される
 

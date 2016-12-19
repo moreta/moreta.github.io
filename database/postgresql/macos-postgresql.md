@@ -7,44 +7,41 @@ tags: mac, postgresql
 
 # Install
 
-```
+```sh
 brew install postgresql
 ```
 
-brewを利用して特定versionをインストールしたいなら
+## 旧version install
+
 ```
-cd /usr/local/Library/Formula/
-brew versions postgresql
-# 9.3.1    git checkout 89b2d08 /usr/local/Library/Formula/postgresql.rb
-# 9.3.0    git checkout ae59e09 /usr/local/Library/Formula/postgresql.rb
-# 9.2.4    git checkout e3ac215 /usr/local/Library/Formula/postgresql.rb
-git checkout e3ac215 /usr/local/Library/Formula/postgresql.rb
-brew install postgres
+
+brew install homebrew/versions/postgresql94
 ```
+
 
 ### Initialize database cluster
 
-```
+```sh
 initdb /usr/local/var/postgres -E utf8
 ```
 
 
 ### Run postgres
 
-```
+```sh
 postgres -D /usr/local/var/postgres
 ```
 
 #### demonとl logファイルを設定して起動したい場合
 
-```
+```sh
 pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
 ```
 
 
-#### ログインした時に自動で起動したいなら
+#### ログインした時に自動で起動
 
-```
+```sh
 ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 ```
@@ -55,7 +52,7 @@ nomal user
 
 + -d : create db
 
-```
+```sh
 createuser -d -P
 # 必要によって postgresユーザーでしないとだめな場合がある
 createuser -d -P -U postgres
@@ -63,11 +60,13 @@ createuser -d -P -U postgres
 
 super user
 
-`createuser -s username`
+```sql
+createuser -s username
+```
 
 ### user password変更
 
-```
+```sql
 psql -U postgres postgres
 postgres=# ALTER USER ユーザ名 WITH PASSWORD '新しいパスワード';
 ALTER ROLE
@@ -75,7 +74,7 @@ ALTER ROLE
 
 ### create db
 
-```
+```sql
 createdb --help
 createdb dbname -U username
 ```
@@ -125,7 +124,7 @@ or
 
 ### brewでインストールした場合
 
-```
+```sh
 brew info postgresql
 > If you want to install the postgres gem, including ARCHFLAGS is recommended:
 > env ARCHFLAGS="-arch x86_64" gem install pg
@@ -144,17 +143,17 @@ brew info postgresql
 
 ### Homebrew uninstall
 
-```
+```sh
 brew remove postgresql
 ```
 
 ### Postgres.app uninstall
 
-```
-Quit Postgres.app
-Drag Postgres.app to the Trash
-Delete the data directory (default location: ~/Library/Application Support/Postgres/var-9.3)
-```
+
+1. Quit Postgres.app
+2. Drag Postgres.app to the Trash
+3. Delete the data directory (default location: ~/Library/Application Support/Postgres/var-9.3)
+
 
 ## FATAL: no pg_hba.conf entry for host “fe80::1%lo0”
 
@@ -170,9 +169,13 @@ Delete the data directory (default location: ~/Library/Application Support/Postg
 
 ## Console Util - Pgcli
 
-`brew install pgcli`
+```sh
+brew install pgcli
+```
 
-`pgcli -h localhost -U postgres db_name`
+```sh
+pgcli -h localhost -U postgres db_name
+```
 
 ## 参照
 
