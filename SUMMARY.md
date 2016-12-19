@@ -283,9 +283,9 @@
 * [Rails commands](ruby/rails/rails-commands.md)
 * [Rails rake tasks](ruby/rails/rails-rake-task.md)
 * [Capistrano](ruby/rails/capistrano.md)
-* [Activerecord](ruby/rails/activerecord.md)
-* [Activerecord with arel](ruby/rails/activerecrod-with-arel.md)
-* [Activerecord scope](ruby/rails/activerecord-scope.md)
+* [ActiveRecord](ruby/rails/activerecord.md)
+* [ActiveRecord with arel](ruby/rails/activerecrod-with-arel.md)
+* [ActiveRecord scope](ruby/rails/activerecord-scope.md)
 * [Rails gem for Debug](ruby/rails/rails-gem-debug.md)
 * [Rails gem](ruby/rails/rails-gem-common.md)
 * [Rails Helper](ruby/rails/helper.md)
@@ -296,7 +296,7 @@
 * [Rails5](ruby/rails/rails5.md)
 * [Rails log](ruby/rails/rails-log.md)
 * [Rails N+1 query](ruby/rails/rails-n-plus-1-query.md)
-* [Rail migration](ruby/rails/2014-09-02-rails-migration.md)
+* [Rails migration](ruby/rails/rails-migration.md)
 * [Rails Cache](ruby/rails/rails-cache.md)
 * [2013-10-05-rails-scss-at-import-error.md](ruby/rails/2013-10-05-rails-scss-at-import-error.md)
 * [2013-11-14-rails-date.md](ruby/rails/2013-11-14-rails-date.md)
@@ -384,6 +384,7 @@
 * [AWS Mail](aws/aws-mail.md)
 * [S3](aws/aws-s3.md)
 * [AWS redis with rails](aws/aws-redis-with-rails.md)
+* [AWS Hosting by S3 & CloudFront](aws/aws-s3-cloudfront-hosting.md)
 
 ### GCP
 
@@ -406,14 +407,14 @@
 * [Port forward](infra/port-forward.md)
 * [VPN](infra/vpn.md)
 * [Nginx config](infra/nginx-config.md)
+* [ssl](infra/ssl.md)
+* [lets-encrypt 無料ssl証明書](infra/lets-encrypt.md)
 * [Nginx block access](infra/nginx-block-access.md)
 * [Nginx log](infra/nginx-log.md)
 * [2013-11-19-google-api.md](infra/2013-11-19-google-api.md)
 * [2013-11-19-google-map-api.md](infra/2013-11-19-google-map-api.md)
 * [2013-11-19-mail.md](infra/2013-11-19-mail.md)
 * [2013-11-21-mail-mandrill.md](infra/2013-11-21-mail-mandrill.md)
-* [2013-12-15-ssl.md](infra/2013-12-15-ssl.md)
-* [lets-encrypt 無料ssl証明書](infra/lets-encrypt.md)
 * [2013-12-17-linux-directory.md](infra/2013-12-17-linux-directory.md)
 * [2014-04-17-network.md](infra/2014-04-17-network.md)
 * [2014-05-20-postfix.md](infra/2014-05-20-postfix.md)
@@ -568,7 +569,7 @@
 * [Postgresql scaling](database/postgresql/postgresql-scaling.md)
 * [Postgresql vacuum](database/postgresql/postgresql-vacuum.md)
 * [Postgresql security)](database/postgresql/postgresql-security.md)
-* [MacOS postgresql](database/postgresql/mac-postgresql.md)
+* [MacOS postgresql](database/postgresql/macos-postgresql.md)
 * [greenplum](database/greenplum-postgresql.md)
 
 ### Oracle
@@ -628,7 +629,7 @@
 ### Dev environment
 
 * [Current directory server](dev_env/current-directory-server.md)
-* [2013-11-05-mac-ip.md](dev_env/2013-11-05-mac-ip.md)
+* [ip check](dev_env/ip-check.md)
 * [2013-11-30-console-color.md](dev_env/2013-11-30-console-color.md)
 * [2013-12-04-mac-port.md](dev_env/2013-12-04-mac-port.md)
 * [2013-12-05-mac-tip.md](dev_env/2013-12-05-mac-tip.md)

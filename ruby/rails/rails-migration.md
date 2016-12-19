@@ -1,8 +1,11 @@
----
-title: Rails Migration
-date: 2014-09-02
-tags: ruby, db, migration
----
+Rails Migration
+=======================
+
+
+# zero downtime migration
+
+[Zero Downtime Migrations with ActiveRecord and PostgreSQL
+](https://tech.lendinghome.com/zero-downtime-migrations-with-activerecord-and-postgresql-b3aca53ffbe6#.9zkwrbi67)
 
 # example code
 
@@ -25,3 +28,9 @@ sqliteを使っていたが、booleanに変更したかった。
 **string to integer**
 
 `change_column :table_name, :column_name, 'integer USING CAST(column_name AS integer)'`
+
+
+# References
+
++ [Zero Downtime Migrations with ActiveRecord and PostgreSQL
+](https://tech.lendinghome.com/zero-downtime-migrations-with-activerecord-and-postgresql-b3aca53ffbe6#.9zkwrbi67)
