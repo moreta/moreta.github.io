@@ -1,6 +1,15 @@
+Lets's ssl
+================
 
+## zero sslを利用する方法
++ [Let’s EncryptとZeroSSLで、もっと簡単にSSL証明書を用意する](http://dev.classmethod.jp/cloud/zerossl-june-2016/)
+  + [zero ssl](https://zerossl.com/)
+  + 便利だが有効期限が90日
+  
+  
+  
+## certbotを利用する方法
 
-# certbotでinstall
 
 ```bash
 wget https://dl.eff.org/certbot-auto
@@ -19,3 +28,5 @@ chmod a+x certbot-auto
 
 + [let's encrypt](https://letsencrypt.org/getting-started/)
 + [cert bot](https://certbot.eff.org/#centos6-nginx)
++ [zero ssl](https://zerossl.com/)
++ [Let’s EncryptとZeroSSLで、もっと簡単にSSL証明書を用意する](http://dev.classmethod.jp/cloud/zerossl-june-2016/)
