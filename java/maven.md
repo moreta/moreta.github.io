@@ -52,7 +52,7 @@ mvn package -DskipTests=true # testスキップ
 `mvn spring-boot:run`
 
 
-#
+# version
 
 + マルチスタイルのプロジェクトで共有するようなライブラリ*5はdependencyManagement句でバージョンを定義しておく
 
@@ -77,3 +77,6 @@ mvn package -DskipTests=true # testスキップ
   </dependency>
 </dependencies>
 ```
+
+
+# Maven Resous
