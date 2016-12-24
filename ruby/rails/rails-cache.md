@@ -48,3 +48,4 @@ action cacheでparameterでcacheをそれぞれ保存したい
 * <http://www.codebeerstartups.com/2013/02/how-to-implement-action-caching-in-ruby-on-rails-with-ajax-enabled>
 * <http://blog.modsaid.com/2012/03/utilizing-page-caching-while-using.html>
 * [Caching with Rails: An Overview](http://guides.rubyonrails.org/caching_with_rails.html)
+* [Speed Up Your Rails App by 66% - The Complete Guide to Rails Caching](https://www.speedshop.co/2015/07/15/the-complete-guide-to-rails-caching.html)
