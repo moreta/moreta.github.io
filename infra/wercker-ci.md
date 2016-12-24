@@ -25,6 +25,15 @@ workflow > pipeline > stepの単位で含まれている
 
 wercker pipeline を実行する
 
+### node version指定
+
+* <https://hub.docker.com/_/node/>ここの公式お利用
+* 以下のように`:`で指定
+
+```
+box: node:7.3.0
+```
+
 ## workflow
 
 ![wercker workflow](https://dl.dropboxusercontent.com/u/21522805/blog/cloudservice/wercker-workflow-local-dev-cloud.png)
