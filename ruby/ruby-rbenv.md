@@ -10,6 +10,8 @@ brew install rbenv
 
 ## cent os
 
+### install rbenv 本体
+
 ```sh
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv # Check out rbenv into ~/.rbenv
 cd ~/.rbenv && src/configure && make -C src # これは失敗しても大丈夫
@@ -20,12 +22,24 @@ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile # Add ~/.rbenv/bi
 type rbenv # check rbenv
 ```
 
+### install rbenv-build (rbenv installを使うため)
+
+```sh
+# install rbenv-build
+git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+~/.rbenv/bin/rbenv init
+# Load rbenv automatically by appending
+# the following to ~/.bash_profile:
+```
+
 # Install ruby versions
 
 ```sh
 rbenv install --list # インストール可能なリスト
 rbenv install -l # インストール可能なリスト
 rbenv install 2.3.3
+
+rbenv global(or local) 2.3.3
 ```
 
 ## install 確認
@@ -40,7 +54,7 @@ rbenv version # 現在versionだけ？
 ## global
 
 ```sh
-Zrbenv global 1.8.7-p352 # ~/.rbenv/versionに記録
+rbenv global 1.8.7-p352 # ~/.rbenv/versionに記録
 ```
 
 ## local
