@@ -476,6 +476,7 @@
 * [xcode](os/ios/xcode.md)
 * [swift tutorial](os/ios/swift-tutorial.md)
 * [swift & ruby compare](os/ios/swift-ruby-compare.md)
+* [webview and javascript communication](os/ios/webview-and-javascript.md)
 * [push通知](os/ios/APNS.md)
 * [realtime update](os/ios/realtime-update.md)
 * [cocoapods](os/ios/ios-cocoapods.md)
