@@ -122,7 +122,7 @@ after(:all)
 
 ## command集
 
-```
+```sh
 rails g integration_test password_reset
 ```
 

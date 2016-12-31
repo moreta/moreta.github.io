@@ -229,6 +229,7 @@
 * [bundler](ruby/bundler.md)
 * [rvm](ruby/ruby-rvm.md)
 * [rake](ruby/rake.md)
++ [module](ruby/module.md)
 * [2016-09-19-ruby-socket.md](ruby/2016-09-19-ruby-socket.md)
 * [2016-07-29-ruby-thread-and-fiber.md](ruby/2016-07-29-ruby-thread-and-fiber.md)
 * [2016-07-29-ruby-splat-operator.md](ruby/2016-07-29-ruby-splat-operator.md)
@@ -280,6 +281,7 @@
 
 #### rails
 
+* [Ruby & Rails Time, Date, DateTime, TimeWithZone](ruby/rails/ruby-rails-time-date-timezone.md)
 * [Rails commands](ruby/rails/rails-commands.md)
 * [Rails rake tasks](ruby/rails/rails-rake-task.md)
 * [Capistrano](ruby/rails/capistrano.md)
