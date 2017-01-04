@@ -66,7 +66,7 @@ function populateStorage() {
 ### remove
 
 `localStorage.removeItem(keyName);`
-
+ 
 ```js
 function populateStorage() {
   localStorage.setItem('bgcolor', 'red');

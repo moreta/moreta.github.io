@@ -54,3 +54,29 @@ computed: {
   })
 }
 ```
+
+# stateをlocalstoreへ保存
+
++ ここに Evan Youの[sample code](https://github.com/vuejs/vuex/issues/158)がある
++ 要は [Vuex.Store Instance Methods](http://vuex.vuejs.org/en/api.html)の中のsubscribe(handler: Function)を利用すること
+
+
+
+
+```js
+// action
+store.commit('SOME_MUTATION', {
+  save: 'cart'
+})
+
+
+// plugin
+store.subscribe((mutation, state) => {
+  const moduleToSave = mutation.payload.save
+  if (moduleToSave) {
+    saveModule(moduleToSave, state[moduleToSave])
+  }
+})
+```
+
+このコードを pluginしたのがこれ -> <https://github.com/robinvdvleuten/vuex-persistedstate>
