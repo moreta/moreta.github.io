@@ -6,7 +6,7 @@ tags: git
 
 # Install git by brew
 
-```
+```sh
 brew update
 brew upgrade
 brew install git
@@ -19,7 +19,8 @@ brew install git
 <http://qiita.com/uasi/items/a340bb487ec07caac799>
 
 Git 2.8以上なら
-```
+
+```sh
 git config --global user.useConfigOnly true
 ```
 をし、
@@ -29,7 +30,7 @@ git config --global user.useConfigOnly true
 
 ### 色付けする
 
-```
+```sh
 git config --global color.ui auto
 ```
 
@@ -54,26 +55,26 @@ Macユーザーの中では有名ですが、濁点つきのディレクトリ�
 
 ## tagを付ける
 
-```
+```sh
 git tag v1.0.1
 ```
 
 ## tagを削除
 
-```
+```sh
 git tag -d <tagname>
 ```
 
 
 ## tagをpush
 
-```
+```sh
 git push origin --tags
 ```
 
 ## tagからブランチを作成
 
-```
+```sh
 git checkout -b v1 refs/tags/v1.2.1
 ```
 
@@ -82,7 +83,8 @@ git checkout -b v1 refs/tags/v1.2.1
 + [引数なしのpushは危ない](http://dqn.sakusakutto.jp/2012/10/git_push.html)
 
 これだけすると全てのブランチがpushされるので、危ない
-```
+
+```sh
 git push
 ```
 
@@ -92,13 +94,14 @@ git push
 
 
 ### １：ブランチ名を明示的に指定する
-```
+
+```sh
 git push origin br1
 ```
 
 ### ２：デフォルトの挙動を"upstreamモード"に
 
-```
+```sh
 git config --global push.default upstream
 git push
 ```
@@ -107,7 +110,7 @@ git push
 
 つまり
 
-```
+```sh
 # これで設定されている場合
 git branch --set-upstream-to=origin/<branch> <branch>
 
@@ -118,7 +121,7 @@ git push -u origin <branch>
 
 ### ３：デフォルトの挙動を"currentモード"に
 
-```
+```sh
 git config --global push.default current
 git push
 ```
@@ -129,7 +132,7 @@ git push
 
 ### ４：デフォルトの挙動を"simpleモード"に変更する(ただしGit1.7.11以降のみ)
 
-```
+```sh
 git config --global push.default simple
 git push
 ```
@@ -151,12 +154,13 @@ git push
 
 指定してつかう
 
-```
+```sh
 git diff -w
 ```
 
 aliasで利用する方法
-```
+
+```sh
 # space無視
 git config --global alias.dfw 'diff --ignore-all-space'
 
@@ -168,17 +172,19 @@ git dfw
 
 <https://github.com/blog/2188-git-2-9-has-been-released>
 
-```
+```sh
 export PATH=$PATH:/usr/local/share/git-core/contrib/diff-highlight
 ```
 
 brewでインストールしたのは diff-highlightがlinkされてない
-```
+
+```sh
 ln -s /usr/local/share/git-core/contrib/diff-highlight/diff-highlight /usr/local/bin
 ```
 
-.gitconfig
-```
+`.gitconfig`
+
+```sh
 # 色付き
 git config --global pager.log 'diff-highlight | less'
 git config --global pager.show 'diff-highlight | less'
@@ -189,7 +195,7 @@ git config --global diff.compactionHeuristic true
 
 ## diff command sample
 
-```
+```sh
 git diff --help
 
 git diff --cached
@@ -209,7 +215,7 @@ git diff --staged -w # これを主に使う
 GUIツールっぽくcommit/merge履歴を表示
 基本的にはこれでも大丈夫だが
 
-```
+```sh
 git log --graph --decorate --oneline
 ```
 
@@ -229,7 +235,7 @@ git log --graph --decorate --oneline
 
 Git2.8以上
 
-```
+```sh
 git config --global user.useConfigOnly true
 git config --global --unset user.name
 git config --global --unset user.email
@@ -265,7 +271,7 @@ Don't do it if you have uncommitted work you want to keep.
 
 Alternatively, if there's work to keep:
 
-```
+```sh
 git stash
 git reset --hard 0d1d7fc32
 git stash pop
@@ -297,7 +303,7 @@ and then commit
 
 # commit message multiple line()
 
-```
+```sh
 git commit -m "this is
 > a line
 > with new lines
