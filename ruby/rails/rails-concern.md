@@ -5,7 +5,6 @@ tags: rails, concern
 ---
 
 
-
 # rails 4
 
 <http://api.rubyonrails.org/classes/ActiveSupport/Concern.html>
@@ -27,7 +26,7 @@ tags: rails, concern
 
 directory生成
 
-```
+```sh
 mkdir -p app/controllers/concerns
 touch    app/controllers/concerns/.keep
 mkdir -p app/models/concerns
@@ -36,7 +35,7 @@ touch    app/models/concerns/.keep
 
 application.rb設定
 
-```
+```rb
 config.autoload_paths                  += %W(
       #{config.root}/app/controllers/concerns
       #{config.root}/app/models/concerns
@@ -45,7 +44,7 @@ config.autoload_paths                  += %W(
 ```
 
 
-```
+```rb
 module M
   extend ActiveSupport::Concern
 
@@ -63,3 +62,24 @@ module M
 
 end
 ```
+
+
+# ActiveSupport::Concern の存在理由
+
+<http://qiita.com/castaneai/items/6dc121ce6ff100614f42>
+
+mix-inがあるのでconcernをついう利用はなにか？
+
++ mix-inの複雑な記述を省略できる
+
+## Rubyの mix-inのルール
+
++ 切り出した機能を module として作成
++ 共通メソッドを module 内に記述
++ クラスメソッドや組み込み先クラスの内部処理を module に入れたい場合は特殊なメソッドを使う必要がある
+
+ActiveSupport::Concern はこの3番目にある 特殊なメソッド の記述を簡単にしてくれます
+
+# References
+
++ [ActiveSupport::Concern の存在理由](http://qiita.com/castaneai/items/6dc121ce6ff100614f42)
