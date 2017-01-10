@@ -303,6 +303,8 @@
 * [Rails Cache](ruby/rails/rails-cache.md)
 * [Rails concern](ruby/rails/rails-concern.md)
 * [Rails exception](ruby/rails/rails-exception.md)
+* [Rails Transaction](ruby/rails/rails-transaction.md)
++ [Rails lib directory](ruby/rails/rails-lib-directory.md)
 * [2013-10-05-rails-scss-at-import-error.md](ruby/rails/2013-10-05-rails-scss-at-import-error.md)
 * [2013-11-14-rails-date.md](ruby/rails/2013-11-14-rails-date.md)
 * [2013-12-01-rails-minitest.md](ruby/rails/2013-12-01-rails-minitest.md)
@@ -335,6 +337,7 @@
 * [2015-07-12-rails-devise.md](ruby/rails/2015-07-12-rails-devise.md)
 * [2016-06-12-rails-enviroment-config.md](ruby/rails/2016-06-12-rails-enviroment-config.md)
 * [2016-06-13-rails-mongodb.md](ruby/rails/2016-06-13-rails-mongodb.md)
+
 
 
 ### zero downtime
@@ -459,11 +462,11 @@
 ### others
 
 * [socket](others/socket.md)
-* [Develope Cost Calculate](others/develope-cost-calculate.md)
+* [Developement Cost Calculate](others/develope-cost-calculate.md)
 * [parallel](others/parallel.md)
 * [coding font](others/coding-font.md)
 * [WEB PAYMENTS AT W3C](others/web-payment-at-w3c.md)
-
++ [graphql](others/graphql.md)
 
 
 ### MacOS
