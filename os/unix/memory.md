@@ -9,6 +9,12 @@
 free -tm
 ```
 
+# sar
+
+```
+sar -r
+```
+
 
 # References
 
