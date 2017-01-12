@@ -1,14 +1,4 @@
----
-title: Spring MVC
-data: 2016-08-29
-tags: spring, mvc
----
 
-# `@Controller` and `@RestController`と controllerの戻り値など
-
-<http://qiita.com/tag1216/items/3680b92cf96eb5a170f0>
-
-# `@RequestParam` and  `@RequestBody`
 
 
 # File download
