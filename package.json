@@ -7,7 +7,7 @@
     "rimraf": "^2.3.4",
     "gitbook-cli": "^2.3.0",
     "gitbook-plugin-asciitree": "^1.0.9",
-    "gitbook-plugin-page-treeview": "^2.4.4"
+    "gitbook-plugin-toc": "0.0.1"
   },
   "devDependencies": {},
   "scripts": {

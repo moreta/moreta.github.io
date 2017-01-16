@@ -4,6 +4,8 @@ data: 2016-08-30
 tags: spring, spring-boot, jpa
 ---
 
+<!-- toc -->
+
 # Query methods & Query creation
 
 `findByFooAndBar`のようなことをクエリを作成さずに利用できる
