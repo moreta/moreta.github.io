@@ -4,6 +4,8 @@ data: 2016-08-30
 tags: spring, spring-boot, jpa
 ---
 
+<!-- toc -->
+
 # Query methods & Query creation
 
 `findByFooAndBar`のようなことをクエリを作成さずに利用できる
@@ -269,6 +271,11 @@ public String getId() {
 1. `@GenericGenerator`でつかう strategyクラスを作成
 2. `@GenericGenerator`登録
 3. `@GeneratedValue`の`generator`に`@GenericGenerator`のnameを入れる
+
+
+# entity save
+
+`save` & `flush` & `saveAndFlush`
 
 # References
 
