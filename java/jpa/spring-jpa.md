@@ -272,6 +272,11 @@ public String getId() {
 2. `@GenericGenerator`登録
 3. `@GeneratedValue`の`generator`に`@GenericGenerator`のnameを入れる
 
+
+# entity save
+
+`save` & `flush` & `saveAndFlush`
+
 # References
 
 + <http://stackoverflow.com/questions/12517421/how-to-map-a-string-to-db-sequence-in-hibernate>
