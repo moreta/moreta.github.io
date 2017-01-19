@@ -106,6 +106,7 @@
 * [vue-cli](javascript/vue/vue-cli.md)
 * [vuex](javascript/vue/vuex.md)
 * [vue scroll](javascript/vue/scroll.md)
+* [vue date & time picker](javascript/vue/vu-date-time-picker.md)
 
 #### React
 
@@ -234,6 +235,7 @@
 * [rvm](ruby/ruby-rvm.md)
 * [rake](ruby/rake.md)
 + [module](ruby/module.md)
+* [enum](ruby/ruby-enum.md)
 * [2016-09-19-ruby-socket.md](ruby/2016-09-19-ruby-socket.md)
 * [2016-07-29-ruby-thread-and-fiber.md](ruby/2016-07-29-ruby-thread-and-fiber.md)
 * [2016-07-29-ruby-splat-operator.md](ruby/2016-07-29-ruby-splat-operator.md)
@@ -275,7 +277,6 @@
 * [2014-01-27-ruby-delegate.md](ruby/2014-01-27-ruby-delegate.md)
 * [2013-12-19-email-validation.md](ruby/2013-12-19-email-validation.md)
 * [2013-12-16-ruby-csv.md](ruby/2013-12-16-ruby-csv.md)
-* [2013-12-06-ruby-enumerable.md](ruby/2013-12-06-ruby-enumerable.md)
 * [2013-12-02-ruby-nil.md](ruby/2013-12-02-ruby-nil.md)
 * [2013-12-02-ruby-dynamic-dispatch.md](ruby/2013-12-02-ruby-dynamic-dispatch.md)
 * [2013-11-14-ruby-keyword-parameter.md](ruby/2013-11-14-ruby-keyword-parameter.md)
