@@ -30,6 +30,7 @@ rake db:sessions:clear # session情報をclear !これをするときには注�
 
 ```sh
 rake db:create   # database.yml の内容でデータベースを作る
+rake db:test:prepare   # database.yml の内容でテスト用データベースを作る
 rake db:drop     # createの逆
 rake db:reset    # drop, create, schema.rb から復帰
 ```

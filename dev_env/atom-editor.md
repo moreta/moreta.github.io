@@ -15,9 +15,11 @@ apm install markdown-writer
 apm install atom-beautify
 ```
 
-### markdown
+## markdown関連
 
-preview
+### markdown preview
+
+previewモード
 
 * `ctrl + shift + M`
 

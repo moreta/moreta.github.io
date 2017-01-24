@@ -1,8 +1,3 @@
----
-title: iOS TableView
-date: 2014-03-14
-tags: ios, tableview
----
 
 
 
@@ -114,3 +109,8 @@ if (theCellClicked == theStaticCell) {
 # create tableview programmatically
 
 * <http://stackoverflow.com/questions/15846707/creating-a-uitableview-programmatically>
+
+# libraries
+
++ [DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet)
+  + tableviewでデータがないとき何か表示に便利
