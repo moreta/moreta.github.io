@@ -277,6 +277,20 @@ public String getId() {
 
 `save` & `flush` & `saveAndFlush`
 
+
+# Spring Data JPA の Specificationでらくらく動的クエリ
+
+<http://qiita.com/tag1216/items/3a408d2751a6310e2948>
+
+Specification を使用するには、先ず Repositoryインターフェイスを JpaSpecificationExecutor を継承した形にする。
+
+```java
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
+public interface UserRepository extends JpaRepository<User, Long>, JpaSpecificationExecutor<User> {
+}
+```
+
 # References
 
 + <http://stackoverflow.com/questions/12517421/how-to-map-a-string-to-db-sequence-in-hibernate>

@@ -1,6 +1,5 @@
 
 
-
 # fieldでaccessするかaccessor(getter)でaccessするか？
 
 <http://stackoverflow.com/questions/594597/hibernate-annotations-which-is-better-field-or-property-access>
