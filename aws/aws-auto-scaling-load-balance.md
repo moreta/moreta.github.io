@@ -12,7 +12,7 @@ tags: aws, auto-scaling, elb, deploy, emi
 * [Scale Out Pattern](http://aws.clouddesignpattern.org/index.php/CDP:Scale_Out%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3)
 
 を見ておこう
- 
+
 
 # 実装
 
@@ -55,10 +55,10 @@ rsyncとかcapistranoを利用
 
 *HTTPS→HTTPでの場合、アプリケーションでSSL判定するにはX-Forwarded-Proto*
 
-*ELBのCross-Zone Load Balancingを*使うと上記の問題が解決する <http://okochang.hatenablog.jp/entry/2013/11/09/233732>
+*ELBのCross-Zone Load Balancingを*使うと上記の問題が解決する* <http://okochang.hatenablog.jp/entry/2013/11/09/233732>
 
 ## Create an internal load balancer :
- 
+
  <http://docs.aws.amazon.com/ElasticLoadBalancing/latest/DeveloperGuide/UserScenariosForVPC.html>
 [Create a Basic Internal Load Balancer in Amazon VPC](http://docs.aws.amazon.com/ElasticLoadBalancing/latest/DeveloperGuide/USVPC_creating_basic_lb.html)
 
