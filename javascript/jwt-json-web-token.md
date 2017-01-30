@@ -29,6 +29,7 @@ JWT - Json Web Token
  + signature
 
 
+
 改行されてるように見えるが本来は改行はない。.(dot)で繋がっている
 ```
 eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9           // header
@@ -81,10 +82,19 @@ claimを含んだuserが定義したデータ
 + JWSはJSONデータ構造とbase64urlエンコーディングを用いてデジタル署名, もしくはMACを行ったコンテンツを表現する
 + JWEはJSONデータ構造とbase64urlエンコーディングを用いて暗号化するための仕様
 
-# use JWT with hapi
 
-+ [hapi-auth-jwt](https://github.com/dwyl/hapi-auth-jwt2)
+# How to Use JWTs Securely
+
+<https://stormpath.com/blog/token-auth-spa>
+
+# Tools
 
 
++ [jwt chrome inspector](https://www.jwtinspector.io/)
 
+# References
 
++ [token auth spa](https://stormpath.com/blog/token-auth-spa)
++ [Use JWT The Right way](https://stormpath.com/blog/jwt-the-right-way)
++ [JWT(JSON Web Token)을 이용한 API 인증 #1 개념 소개](http://bcho.tistory.com/999)
++ [MSA 아키텍쳐 구현을 위한 API 게이트웨이의 이해 (API GATEWAY)](http://bcho.tistory.com/1005)
