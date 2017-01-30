@@ -8,9 +8,13 @@ scriptで
 `pg_dump -U db_user db_name > /pgdata/your_db_$date.sql`
 
 
-カスタマーアカイブで形式（こっちの方が容量は少ないが、dumpに時間がかかる)
+* カスタマーアカイブで形式（こっちの方が容量は少ないが、dumpに時間がかかる)
+* するならtarがいいかな
 
-`pg_dump -Fc -U db_user db_name > /pgdata/your_db_$date.dump`
+```sh
+pg_dump -Fc -U db_user db_name > /pgdata/your_db_$date.dump
+pg_dump -Ft -U db_user db_name > /pgdata/your_db_$date.tar
+```
 
 option
 
