@@ -538,6 +538,9 @@
 * [2014-05-04-ios-view.md](os/ios/2014-05-04-ios-view.md)
 * [2014-05-07-ios-infinite-scroll.md](os/ios/2014-05-07-ios-infinite-scroll.md)
 
+#### ios chat
+
++ [Chat app Libaraies](os/ios/chat-app-libarary.md)
 
 ### android
 
