@@ -722,7 +722,8 @@
 * [ssh](os/unix/ssh.md)
 * [Imagemagick](os/unix/imagemagick.md)
 * [temp directory](os/unix/temp-directory.md)
-* [Memory](memory.md)
+* [Memory](os/unix/memory.md)
+* [rename](os/unix/rename.md)
 
 ### API
 
