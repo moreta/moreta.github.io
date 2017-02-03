@@ -8,7 +8,7 @@ tags: webserver
 # npm/node
 
 ```
-npm install serve -g  
+npm install serve -g
 serve -p 8000
 ```
 
