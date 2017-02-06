@@ -493,6 +493,7 @@
 * [cocoapods](os/ios/ios-cocoapods.md)
 * [cocoapods libraries](os/ios/ios-cocoapods-libararies.md)
 * [Objective-C tableview](os/ios/ios-objectivec-tableview.md)
+* [UIImage](os/ios/UIImage.md)
 * [2013-10-03-ios-uicolor.md](os/ios/2013-10-03-ios-uicolor.md)
 * [2013-10-04-ios-init-chu-qi-hua.md](os/ios/2013-10-04-ios-init-chu-qi-hua.md)
 * [2013-10-05-ios-afincrementalstore.md](os/ios/2013-10-05-ios-afincrementalstore.md)
@@ -528,7 +529,6 @@
 * [2014-04-25-ios-ios7-issue.md](os/ios/2014-04-25-ios-ios7-issue.md)
 * [2014-04-25-ios-label.md](os/ios/2014-04-25-ios-label.md)
 * [2014-04-25-ios-subview-and-position.md](os/ios/2014-04-25-ios-subview-and-position.md)
-* [2014-04-25-ios-UIImage.htmlm.markdown](os/ios/2014-04-25-ios-UIImage.htmlm.markdown)
 * [2014-04-25-ios-UITabBarController.md](os/ios/2014-04-25-ios-UITabBarController.md)
 * [2014-04-28-ios-controller.md](os/ios/2014-04-28-ios-controller.md)
 * [2014-04-28-ios-sample-code.md](os/ios/2014-04-28-ios-sample-code.md)
@@ -652,7 +652,6 @@
 * [2014-02-11-css-box.md](dev_env/2014-02-11-css-box.md)
 * [2014-06-14-middleman.md](dev_env/2014-06-14-middleman.md)
 * [2014-07-14-engineer-blog.md](dev_env/2014-07-14-engineer-blog.md)
-* [2014-09-10-mac-xcode-commandline.md](dev_env/2014-09-10-mac-xcode-commandline.md)
 * [2014-09-23-redmine_with_postgresql.md](dev_env/2014-09-23-redmine_with_postgresql.md)
 * [2014-09-23-redmine_with_sqlite3.md](dev_env/2014-09-23-redmine_with_sqlite3.md)
 * [2015-01-27-alfred.md](dev_env/2015-01-27-alfred.md)
@@ -673,17 +672,28 @@
 * [Live Template](dev_env/editor/jetbrain/live-template.md)
 * [rubymine](dev_env/editor/jetbrain/rubymine.md)
 
-#### emacs
+#### visual studio code
 
-* [emacs.md](dev_env/2013-11-20-emacs.md)
-* [emacs-command.md](dev_env/2013-11-20-emacs-command.md)
-* [emacs-cua-mode-column-mode.md](dev_env/2016-04-12-emacs-cua-mode-column-mode.md)
-* [emacs-org-mode.md](dev_env/2016-04-13-emacs-org-mode.md)
+* [visual studio code](dev_env/editor/vscode/visual_studio_code.md)
 
 #### atom
 
-* [atom editor](dev_env/atom-editor.md)
-* [atom nuclide](dev_env/2016-05-11-atom-nuclide.md)
+* [atom editor](dev_env/atom/atom-editor.md)
+* [atom nuclide](dev_env/atom/atom-nuclide.md)
+
+#### xcode
+
+* [xcode](dev_env/xcode/xcode.md)
+* [xcode commandline](dev_env/xcode-commandline.md)
+
+#### emacs
+
+* [emacs.md](dev_env/emacs/emacs.md)
+* [emacs-command.md](dev_env/emacs/emacs-command.md)
+* [emacs-cua-mode-column-mode.md](dev_env/emacs/emacs-cua-mode-column-mode.md)
+* [emacs-org-mode.md](dev_env/emacs/emacs-org-mode.md)
+
+
 
 #### xcode
 
