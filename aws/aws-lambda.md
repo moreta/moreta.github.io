@@ -41,3 +41,4 @@ tags: aws, lambda
 + <http://docs.aws.amazon.com/lambda/latest/dg/intro-core-components.html#intro-core-components-event-sources>
 + [AWS LambdaでNode.js 4.3.2が利用可能になりました](http://aws.typepad.com/sajp/2016/04/node-js-4-3-2-runtime-now-available-on-lambda.html)
 + [祝 LambdaのNode v4対応記念 -AWS SDK for Node.jsの処理をPromiseを使って書いてみた](http://qiita.com/toshihirock/items/4e4231c04332c209e31d)
++ [AWS Lambdaのための関数のローカル開発とテスト](http://qiita.com/imaifactory/items/092e32b4fc0f69a94061)
