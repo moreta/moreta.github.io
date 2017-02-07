@@ -59,3 +59,21 @@ aws cognito-idp admin-confirm-sign-up --user-pool-id ＜作成したPoolId＞ --
 ## Javascript SDK
 
 <http://docs.aws.amazon.com/ja_jp/cognito/latest/developerguide/setting-up-the-javascript-sdk.html>
+
+
+# Signup & Login
+
+## Signup
+
+<http://dev.classmethod.jp/cloud/aws/singup-to-cognito-userpools-using-javascript/>
+
+JavaScript実行時に必要なのは次の情報です。
+
++ リージョン: us-east-1 （現在はVirgnia固定）
++ UserPoolId: UserPool作成後にPool Details画面で確認できます。us-east-1_で始まるIDです。
++ ClientId: UserPoolにAppsを登録するとApp client idとして確認できます。なおAppsを作るときにGenerate client secretのチェックはオフにしてください。
+
+
+## Login
+
+<http://dev.classmethod.jp/cloud/aws/login-form-by-using-aws-sdk-for-javascript/>
