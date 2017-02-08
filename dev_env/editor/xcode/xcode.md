@@ -1,11 +1,5 @@
----
-title: Xcode
-date: 2014-01-17
-tags: xcode
----
-
 Xcode
---------------
+============
 
 # Basic
 
@@ -42,3 +36,8 @@ Command + Control + ← (履歴を戻る) / Command + Control + → (履歴を�
 
 1. finderでファイルを移動
 2. file inspectorのLocationを変更
+
+
+## auto complete
+
+`ctrl + space`
