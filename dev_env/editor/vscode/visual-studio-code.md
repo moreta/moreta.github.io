@@ -43,13 +43,18 @@ column　または 範囲の選択関連キー
 
 <https://code.visualstudio.com/Docs/languages/markdown>
 
-preview in new tab 
+## preview in new tab 
 
 `shift + command + V`
 
-preview side-by-side 
+## preview side-by-side 
 
 `command + K, V`
+
+## table
+
++ Table Formatterを利用
++ publisher:"Shuzo Iwasaki"
 
 
 
