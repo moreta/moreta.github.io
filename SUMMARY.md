@@ -291,9 +291,6 @@
 * [Rails commands](ruby/rails/rails-commands.md)
 * [Rails rake tasks](ruby/rails/rails-rake-task.md)
 * [Capistrano](ruby/rails/capistrano.md)
-* [ActiveRecord](ruby/rails/activerecord.md)
-* [ActiveRecord with arel](ruby/rails/activerecrod-with-arel.md)
-* [ActiveRecord scope](ruby/rails/activerecord-scope.md)
 * [Rails gem for Debug](ruby/rails/rails-gem-debug.md)
 * [Rails gem](ruby/rails/rails-gem-common.md)
 * [Rails Helper](ruby/rails/helper.md)
@@ -343,7 +340,13 @@
 * [2016-06-12-rails-enviroment-config.md](ruby/rails/2016-06-12-rails-enviroment-config.md)
 * [2016-06-13-rails-mongodb.md](ruby/rails/2016-06-13-rails-mongodb.md)
 
+##### ActiveRecord
 
+* [ActiveRecord](ruby/rails/activerecord.md)
+* [ActiveRecord with arel](ruby/rails/activerecrod-with-arel.md)
+* [ActiveRecord scope](ruby/rails/activerecord-scope.md)
+* [ActiveRecord cursor - Postgresql](ruby/rails/activerecord-select-cursor-postgresql.md)
+* [ActiveRecord cursor - Redshift](ruby/rails/activerecord-select-cursor-redshift.md)
 
 ### zero downtime
 
@@ -357,7 +360,6 @@
 * [Github pages](git/github-pages.md)
 * [Github pages with middleman](git/github-pages-with-middleman.md)
 * [Github pages with octopress](git/github-pages-with-octopress.md)
-* [gitignore](git/gitignore.md)
 * [tig : Text-mode interface for git](git/git-tig.md)
 * [git submodule & subtree](git/git-submodule-subtree.md)
 * [git alias](git/git-alias.md)
@@ -396,6 +398,7 @@
 * [S3](aws/aws-s3.md)
 * [AWS redis with rails](aws/aws-redis-with-rails.md)
 * [AWS Hosting by S3 & CloudFront](aws/aws-s3-cloudfront-hosting.md)
+* [AWS Redshift](aws/aws-redshift.md)
 
 ### GCP
 
