@@ -783,3 +783,8 @@
 
 * [Facebook Messenger Bot](chatbot/facebook_messenger_bot.md)
 * [LINE Bot](chatbot/line_bot.md)
+
+
+### P of EAA (Patterns of Enterprise Application Architecture)
+
++ [CLASS TABLE INHERITANCE](class-table-inheritance.md)
