@@ -67,6 +67,16 @@ aws cognito-idp admin-confirm-sign-up --user-pool-id ＜作成したPoolId＞ --
 
 <http://dev.classmethod.jp/cloud/aws/singup-to-cognito-userpools-using-javascript/>
 
+## Singup準備
+
+1. User Poolの作成
+  + Apps : User Poolにアクセスできる
+2. Identity Poolの作成と User Poolつなぎ
+  + 1.で作ったUser PoolのIDが必要
+  + 1.1で作ったAppのApp client IDが必要
+
+### 開発に必要な設定情報
+
 JavaScript実行時に必要なのは次の情報です。
 
 + リージョン: us-east-1 （現在はVirgnia固定）
