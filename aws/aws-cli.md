@@ -85,8 +85,19 @@ aws s3 ls s3://mybucket --recursive --human-readable --summarize #読みやす�
 
 ### file download
 
++ <http://docs.aws.amazon.com/cli/latest/reference/s3/cp.html>
++ 基本的にはcp command
+
+#### Recursively copying S3 object to local
+
 ```
 aws s3 cp s3://mybucket . --recursive
+```
+
+#### Copying an S3 object to a local file
+
+```
+aws s3 cp s3://mybucket/test.txt test2.txt
 ```
 
 ### file upload

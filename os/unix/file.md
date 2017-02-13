@@ -26,6 +26,7 @@ tar xvf arch.tar
 
 ### 圧縮
 
+
 The following creates a new archive called file.tar.gz that contains two files source.c and source.h:
 
 ```sh
@@ -42,4 +43,24 @@ To examine the contents of an ISO 9660 cdrom image:
 
 ```sh
 tar -tf image.iso
+```
+
+#### folder 圧縮 と 解凍
+
+compress 
+
+```
+tar -zcvf archive-name.tar.gz directory-name
+```
+
++ -z : Compress archive using gzip program
++ -c: Create archive
++ -v: Verbose i.e display progress while creating archive
++ -f: Archive File name
+
+
+extract 
+
+```
+tar -zxvf prog-1-jan-2005.tar.gz
 ```
