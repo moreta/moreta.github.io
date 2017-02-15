@@ -486,8 +486,6 @@
 ### ios
 
 * [xcode](os/ios/xcode.md)
-* [swift tutorial](os/ios/swift-tutorial.md)
-* [swift & ruby compare](os/ios/swift-ruby-compare.md)
 * [webview and javascript communication](os/ios/webview-and-javascript.md)
 * [push通知](os/ios/APNS.md)
 * [realtime update](os/ios/realtime-update.md)
@@ -542,6 +540,12 @@
 #### ios chat
 
 + [Chat app Libaraies](os/ios/chat-app-libarary.md)
+
+### Swift
+
+* [swift tutorial](swift/swift-tutorial.md)
+* [swift & ruby compare](swift/swift-ruby-compare.md)
+* [swift basic](swift/swift-basic.md)
 
 ### android
 
