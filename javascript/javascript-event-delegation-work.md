@@ -1,8 +1,5 @@
----
-title: How JavaScript Event Delegation Works
-date: 2015-07-12
-tags: js,event,delegation
----
+How JavaScript Event Delegation Works
+======================================
 
 
 dynamicに作られてなくなるelementにはeventを付けづらい。
