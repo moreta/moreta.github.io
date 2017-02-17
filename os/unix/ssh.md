@@ -1,9 +1,3 @@
----
-title: ssh
-date: 2014-06-16
-tags: ssh, ssh-agent-forward, 多段ssh, ProxyCommand
----
-
 SSH
 =======
 
@@ -15,7 +9,15 @@ ssh-keygen -t rsa
 ssh keyを生成するときには idをしていするのがいい
 
 ```
-ssh-keygen -t rsa -C "id"
+ssh-keygen -t rsa -C "ここのテキストは.pubに入る"
+
+Generating public/private rsa key pair.
+Enter file in which to save the key (~/.ssh/id_rsa): id_rsa_your_id
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in id_rsa_your_id.
+Your public key has been saved in id_rsa_your_id.pub.
+The key fingerprint is:
 ```
 
 # config
@@ -25,7 +27,7 @@ ssh-keygen -t rsa -C "id"
 ```
 Host host1.xxx
     User ssh_user
-    IdentityFile ~/.ssh/xxx_rsa⏎
+    IdentityFile ~/.ssh/xxx_rsa
 Host host1.xxx host2.xxx
     User ssh_user
     IdentityFile ~/.ssh/xxx_rsa
