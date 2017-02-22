@@ -4,7 +4,36 @@ date: 2014-06-04
 tags: rails, cache
 ---
 
+# ActiveRecordの遅延評価とcache
 
+```rb
+Rails.cache.fetch(key) {
+  Model.where(flg: true).order("created_at DESC").to_a
+  # Model.where(flg: true).order("created_at DESC").to_a # NG !
+}
+```
+
++ ActiveRecordは`.to_a`や`.each`などで実際にデータを操作する段階で初めてDBにクエリを発行
++ それまではクエリの状態（どんなwhereをチェインしてるかとか）を保持しているActiveRecord::Relationを返す
++ なので、`.to_a`がないとはModelの配列ではなくActiveRecord::Relationがキャッシュされてしま
+
+
+```rb
+# bad
+# queryした結果自体がnilの場合もあるので、これはよくない
+ret = Rails.cache.read(key)
+if ret.nil?
+    ret = Model.where(flg: true).order("created_at DESC").to_a
+    Rails.cache.write(key,ret)
+end
+
+# good
+if Rails.cache.exist?(key)
+  ret = Rails.cache.read(key)
+else
+  ret = Model.where(flg: true).order("created_at DESC").to_a
+end
+```
 
 ## page cacheとquery stringについて
 

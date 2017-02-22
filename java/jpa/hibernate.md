@@ -56,3 +56,10 @@ a persistent instance has a representation in the database and an identifier val
 ## Detached
 
 a detached instance is an object that has been persistent, but its Session has been closed. The reference to the object is still valid, of course, and the detached instance might even be modified in this state. A detached instance can be reattached to a new Session at a later point in time, making it (and all the modifications) persistent again. This feature enables a programming model for long running units of work that require user think-time. We call them application transactions, i.e., a unit of work from the point of view of the user.
+
+# Trouble Shoot
+
+## application起動のときに "No identifier specified for entity"が発生
+
+`@Id`がなくて発生するエラー
+

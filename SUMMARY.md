@@ -307,7 +307,7 @@
 * [Rails exception](ruby/rails/rails-exception.md)
 * [Rails Transaction](ruby/rails/rails-transaction.md)
 * [Rails lib directory](ruby/rails/rails-lib-directory.md)
-* [ActiveRecord with arel](ruby/rails/sql-activerecord-with-arel.md)
+* [ActiveRecord with arel](ruby/rails/activerecord-sql-with-arel.md)
 * [rails-scss-at-import-error](ruby/rails/2013-10-05-rails-scss-at-import-error.md)
 * [rails-date](ruby/rails/2013-11-14-rails-date.md)
 * [rails-minitest](ruby/rails/2013-12-01-rails-minitest.md)
