@@ -161,7 +161,8 @@
 * [csv-load](java/2016-07-19-csv-load.md)
 * [java-lamba-function](java/2016-08-04-java-lamba-function.md)
 * [java-try-with-resources](java/2016-08-04-java-try-with-resources.md)
-* [java-optional](java/2016-08-12-java-optional.md)
+* [java-optional](java/java8-optional.md)
+* [java Underscores in Numeric Literals](java/jjava7-underscores-in-numeric-literals.md)
 
 #### Java File control
 
