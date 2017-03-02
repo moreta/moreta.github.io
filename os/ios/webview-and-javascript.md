@@ -4,18 +4,21 @@ Webview & Javsscript
 
 # from javascript to ios
 
+javascriptでiosのfunctionを`webkit.messageHandlers`でcall
+
 ```js
 // window.webkit.messageHandlers.[name].postMessage // syntax
 window.webkit.messageHandlers.callbackHandler.postMessage('Hello Native!');
 ```
 
+ios側で callbackHandler部分を処理するコードを作成
+
 ```swift
 func userContentController(userContentController: WKUserContentController, didReceiveScriptMessage message: WKScriptMessage) {
-
-        if(message.name == "callbackHandler") {
-            print("JavaScript is sending a message : \(message.body)")
-        }
-    }
+  if(message.name == "callbackHandler") {
+    print("JavaScript is sending a message : \(message.body)")
+  }
+}
 ```
 
 + [name]は whatever you call the script handler

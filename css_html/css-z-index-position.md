@@ -1,9 +1,7 @@
----
-title: css position & z-index
-date: 2014-02-25
-tags: css, position, z-index
----
+# z-indexは垂直位置を指定
 
++ ようはz軸を指定すること
++ z-indexに負の値を指定すればstaticの要素よりも下に表示される
 
 
 ## Stacking Order
@@ -41,3 +39,8 @@ z-index의 값이 양수(+)면 기본 레이어의 위에, 음수(-)면 아래�
 따라서 z-index를 사용하려면 요소에 position 속성과 z-index 속성을 같이 지정해야 합니다.
 
 <http://codeflow.co.kr/question/987/z-index-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0/>
+
+
+# References
+
++ [要素の重なりについて本気出して考えてみた（z-indexとか何とかとか](http://no1026.com/archives/104)

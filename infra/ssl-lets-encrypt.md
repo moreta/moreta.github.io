@@ -4,7 +4,9 @@ Lets's ssl
 ## zero sslを利用する方法
 + [Let’s EncryptとZeroSSLで、もっと簡単にSSL証明書を用意する](http://dev.classmethod.jp/cloud/zerossl-june-2016/)
   + [zero ssl](https://zerossl.com/)
-  + 便利だが有効期限が90日
+  + online toolを利用すると便利だが有効期限が90日
+    + 直接設置しないといけない
+    + 90日で有効期限が切れるが自動更新されない
   
   
   

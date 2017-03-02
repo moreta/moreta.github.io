@@ -80,6 +80,9 @@
 * [webpack-dashboard](javascript/2016-08-28-webpack-dashboard.md)
 * [immutablejs](javascript/2016-09-10-immutablejs.md)
 
+### vanilla js
+
+* [capture & bubbling](javascript/vanillajs/javascript-capture-bublling.md)
 
 ### node.js
 
@@ -231,7 +234,6 @@
 ### ruby
 
 * [gem](ruby/ruby-gem.md)
-* [TinyTDS](ruby/gem-tiny-tds-sqlserver.md)
 * [bundler](ruby/bundler.md)
 * [rvm](ruby/ruby-rvm.md)
 * [rake](ruby/rake.md)
@@ -281,7 +283,6 @@
 * [ruby-nil](ruby/2013-12-02-ruby-nil.md)
 * [ruby-dynamic-dispatch](ruby/2013-12-02-ruby-dynamic-dispatch.md)
 * [ruby-keyword-parameter](ruby/2013-11-14-ruby-keyword-parameter.md)
-* [carrierwave](ruby/2013-11-07-carrierwave.md)
 * [ruby-class](ruby/2013-11-05-ruby-class.md)
 * [ruby_open_class](ruby/2013-11-05_ruby_open_class.md)
 
@@ -340,6 +341,11 @@
 * [rails-devise](ruby/rails/2015-07-12-rails-devise.md)
 * [rails-enviroment-config](ruby/rails/2016-06-12-rails-enviroment-config.md)
 * [rails-mongodb](ruby/rails/2016-06-13-rails-mongodb.md)
+
+#### gems
+
+* [carrierwave](ruby/gems/carrierwave.md)
+* [TinyTDS](ruby/gems/tiny-tds-sqlserver.md)
 
 ##### ActiveRecord
 
@@ -423,7 +429,7 @@
 * [VPN](infra/vpn.md)
 * [Nginx config](infra/nginx-config.md)
 * [ssl](infra/ssl.md)
-* [lets-encrypt 無料ssl証明書](infra/lets-encrypt.md)
+* [lets-encrypt 無料ssl証明書](infra/ssl-lets-encrypt.md)
 * [Nginx block access](infra/nginx-block-access.md)
 * [Nginx log](infra/nginx-log.md)
 * [mail](infra/2013-11-19-mail.md)
@@ -619,6 +625,7 @@
 
 ### CSS & HTML
 
+* [css z-index and position](css_html/css-z-index-position.md)
 * [css-font](css_html/2013-11-20-css-font.md)
 * [css-img](css_html/2013-11-21-css-img.md)
 * [foundation5](css_html/2013-11-28-foundation5.md)
@@ -628,7 +635,6 @@
 * [css-ie](css_html/2014-02-04-css-ie.md)
 * [ie](css_html/2014-02-11-ie.md)
 * [css-mobile](css_html/2014-02-25-css-mobile.md)
-* [css-z-index-position](css_html/2014-02-25-css-z-index-position.md)
 * [bower](css_html/2014-02-26-bower.md)
 * [web-design](css_html/2014-03-04-web-design.md)
 * [css-animate](css_html/2014-04-11-css-animate.md)
