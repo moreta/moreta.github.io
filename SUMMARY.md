@@ -465,6 +465,9 @@
 ### security
 
 * [Web HTTPs](security/web-https.md)
+* [API Security](security/api-security.md)
+* [HMAC-SHA256](security/hmac-sha256.md)
+* [ssl-heartbleed 2014/04/10](others/2014-04-10-ssl-heartbleed.md)
 
 ### others
 
@@ -475,6 +478,29 @@
 * [WEB PAYMENTS AT W3C](others/web-payment-at-w3c.md)
 * [graphql](others/graphql.md)
 * [Web Capture by Phantomjs](others/phantomjs-capture.md)
+* [checksum](others/checksum.md)
+* [recommender-systems](others/2013-11-11-recommender-systems.md)
+* [crossdomain](others/2013-12-05-crossdomain.md)
+* [encoding](others/2013-12-19-encoding.md)
+* [i18n](others/2014-02-18-i18n.md)
+* [design-pattern](others/2014-05-10-design-pattern.md)
+* [programming-design-pattern](others/2014-05-10-programming-design-pattern.md)
+* [regexp](others/2014-05-19-regexp.md)
+* [ie-vm-test](others/2014-06-10-ie-vm-test.md)
+* [numbers](others/2014-06-29-numbers.md)
+* [svn-and-git-html](others/2014-07-17-svn-and-git-html.md)
+* [accounts-and-finance](others/2014-08-10-accounts-and-finance.md)
+* [carte-api-with-jekyll](others/2014-12-18-carte-api-with-jekyll.md)
+* [mozilla-persona-authentication](others/2015-06-27-mozilla-persona-authentication.md)
+* [oauth](others/2015-12-14-oauth.md)
+* [secret-key-password](others/2015-12-14-secret-key-password.md)
+* [60fps-mobile-web](others/2015-12-27-60fps-mobile-web.md)
+* [mesos-zookeeper-chronos](others/2016-01-24-mesos-zookeeper-chronos.md)
+* [iot](others/2016-01-27-iot.md)
+* [open-erp-system](others/2016-01-27-open-erp-system.md)
+* [negative-interest-rate](others/2016-01-30-negative-interest-rate.md)
+* [domain](others/2016-03-21-domain.md)
+* [authentication-HMAC](others/2016-07-05-authentication-HMAC.md)
 
 
 ### MacOS
@@ -744,37 +770,10 @@
 ### API
 
 * [API Blueprint](api/api-blueprint.md)
-* [API Security](api/api-security.md)
 * [google api](api/2013-11-19-google-api.md)
 * [google map api](api/2013-11-19-google-map-api.md)
 * [JWT - json web token](api/jwt-json-web-token.md)
 
-### default
-
-* [checksum](default/checksum.md)
-* [recommender-systems](default/2013-11-11-recommender-systems.md)
-* [crossdomain](default/2013-12-05-crossdomain.md)
-* [encoding](default/2013-12-19-encoding.md)
-* [i18n](default/2014-02-18-i18n.md)
-* [ssl-heartbleed](default/2014-04-10-ssl-heartbleed.md)
-* [design-pattern](default/2014-05-10-design-pattern.md)
-* [programming-design-pattern](default/2014-05-10-programming-design-pattern.md)
-* [regexp](default/2014-05-19-regexp.md)
-* [ie-vm-test](default/2014-06-10-ie-vm-test.md)
-* [numbers](default/2014-06-29-numbers.md)
-* [svn-and-git-html](default/2014-07-17-svn-and-git-html.md)
-* [accounts-and-finance](default/2014-08-10-accounts-and-finance.md)
-* [carte-api-with-jekyll](default/2014-12-18-carte-api-with-jekyll.md)
-* [mozilla-persona-authentication](default/2015-06-27-mozilla-persona-authentication.md)
-* [oauth](default/2015-12-14-oauth.md)
-* [secret-key-password](default/2015-12-14-secret-key-password.md)
-* [60fps-mobile-web](default/2015-12-27-60fps-mobile-web.md)
-* [mesos-zookeeper-chronos](default/2016-01-24-mesos-zookeeper-chronos.md)
-* [iot](default/2016-01-27-iot.md)
-* [open-erp-system](default/2016-01-27-open-erp-system.md)
-* [negative-interest-rate](default/2016-01-30-negative-interest-rate.md)
-* [domain](default/2016-03-21-domain.md)
-* [authentication-HMAC](default/2016-07-05-authentication-HMAC.md)
 
 ### business
 
@@ -791,6 +790,8 @@
 * [LINE Bot](chatbot/line_bot.md)
 
 
-### P of EAA (Patterns of Enterprise Application Architecture)
+### Design Pattern
 
-+ [CLASS TABLE INHERITANCE](class-table-inheritance.md)
+#### P of EAA (Patterns of Enterprise Application Architecture)
+
++ [CLASS TABLE INHERITANCE](design_pattern/class-table-inheritance.md)
