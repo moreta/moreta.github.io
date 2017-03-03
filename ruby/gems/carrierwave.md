@@ -90,3 +90,8 @@ end
 
 ### fog
 
+
+
+# References
+
++ [Railsでcarrierwaveを使ってAWS S3に画像をアップロードする手順を画像付きで説明する](http://qiita.com/junara/items/1899f23c091bcee3b058)
