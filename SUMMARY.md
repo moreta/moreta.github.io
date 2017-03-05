@@ -300,7 +300,7 @@
 * [Rails server](ruby/rails/rails-server.md)
 * [Rail gem install - nokogiri libxml warning on osx](ruby/rails/nokogiri-libxml-warning-on-osx.md)
 * [Rspec](ruby/rails/rails-rspec.md)
-* [Rails5](ruby/rails/rails5.md)
+* [Rails 5](ruby/rails/rails5.md)
 * [Rails log](ruby/rails/rails-log.md)
 * [Rails N+1 query](ruby/rails/rails-n-plus-1-query.md)
 * [Rails migration](ruby/rails/rails-migration.md)
@@ -332,7 +332,6 @@
 * [rails-locking](ruby/rails/2014-05-31-rails-locking.md)
 * [rails-cron-whenever](ruby/rails/2014-06-09-rails-cron-whenever.md)
 * [rails_pluck_mutiple_column](ruby/rails/2014-06-20-rails_pluck_mutiple_column.md)
-* [rails-api](ruby/rails/2014-10-13-rails-api.md)
 * [rails-active-job](ruby/rails/2014-10-19-rails-active-job.md)
 * [rails-http-status-code](ruby/rails/2014-12-24-rails-http-status-code.md)
 * [rails-api-test-rspec-factorygirl](ruby/rails/2015-01-16-rails-api-test-rspec-factorygirl.md)
@@ -780,7 +779,7 @@
 * [google map api](api/2013-11-19-google-map-api.md)
 * [JWT - json web token](api/jwt-json-web-token.md)
 * [API Keys](api/api-key.md)
-
+* [Rails API](api/rails-api.md)
 
 ### business
 
