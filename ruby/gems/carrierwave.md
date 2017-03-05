@@ -91,6 +91,10 @@ end
 ### fog
 
 
+# 使える変数
+
++ modelがモデル。ここでははphoto
++ mounted_asがカラム。ここではimage
 
 # References
 
