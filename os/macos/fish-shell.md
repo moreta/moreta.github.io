@@ -26,7 +26,9 @@ end
 funcsave rmi
 ```
 
-# nvm setting
+# oh my fish
+
+## nvm setting
 
 plugin-nvmを利用
 
@@ -48,12 +50,13 @@ function nvm
 end
 ```
 
-# rvm setting
+## rvm setting
 
 <https://github.com/oh-my-fish/plugin-rvm>
 
 ```
 omf install rvm
+omf remove rvm
 ```
 
 # Trouble shooting
@@ -67,4 +70,13 @@ TL;DR: Make sure RVM is up-to-date to at least 1.26.11 by re-installing or issui
 
 ```
 rvm get head
+```
+
+# omf packages
+
+```
+package foreign-env
+package nvm
+package rvm
+theme default
 ```

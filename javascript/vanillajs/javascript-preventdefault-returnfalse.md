@@ -9,6 +9,16 @@ preventDefaultとreturn false & stopPropagationの違い
 + 親要素へのバブリング（伝達）を保ちながら、
 + aタグのリンク機能を無効化する。
 
+
+```js
+$('#iphone_appli_item_code').val()$(function(){
+  $('a').click(function(event){
+    event.preventDefault();
+    $("div#Content").addClass("hoge");
+  });
+});
+```
+
 ## return false を使う
 
 + そのクリックイベントを親要素へ伝えない。

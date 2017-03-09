@@ -15,3 +15,19 @@ let array2 = array1 # 配列が複製される - referenceの参照ではない�
 
 + swiftでは一旦 shallow copyで処理したあと、あとで deep copyをする。これを lazy copyという。
 + dictionaryの場合にも lazy copyで動く
+
+
+# underbar(_) => wildcard
+
+```swift
+@IBAction func hello(_ sender: UIButton) {
+
+}
+```
+
+* このコードでは「引数名」は 「sender」
+* _があるので、引数名のsenderを省略できる
+
+
+# guard - else
+
