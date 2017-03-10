@@ -129,3 +129,13 @@ end
 npm install -g avn-nvm
 avn setup
 ```
+
+
+# nvm自体のアップデート
+
+
+```sh
+cd ~/.nvm
+git pull origin master
+source ~/.nvm/nvm.sh
+```
