@@ -87,3 +87,8 @@ JavaScript実行時に必要なのは次の情報です。
 ## Login
 
 <http://dev.classmethod.jp/cloud/aws/login-form-by-using-aws-sdk-for-javascript/>
+
+# Sample
+
++ [vue-auth-cognito](https://github.com/kopterio/vue-auth-cognito)
++ [study aws cognito javascript](https://github.com/moreta/study-aws-cognito-javascript)
