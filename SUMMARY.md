@@ -149,7 +149,6 @@
 * [generic](java/java-generic.md)
 * [OkHttp](java/java-okhttp.md)
 * [Httpclient](java/java-httpclient.md)
-* [JCE](java/java-jce.md)
 * [JDBC Connection](java/java-jdbc-connection.md)
 * [RxJava](java/rx-java.md)
 * [JConsole](java/jconsole.md)
@@ -470,10 +469,14 @@
 
 ### security
 
-* [Web HTTPs](security/web-https.md)
+* [Apache Shiro](security/apache-shiro.md)
+* [WebでのHTTPsについて](security/web-https.md)
 * [API Security](security/api-security.md)
+* [Auth0](security/auth0.md)
 * [HMAC-SHA256](security/hmac-sha256.md)
-* [ssl-heartbleed 2014/04/10](others/2014-04-10-ssl-heartbleed.md)
+* [Java JCE](java/java-jce.md)
+* [Java Chipher Class](security/java-chipher.md)
+* [ssl-heartbleed 2014/04/10](others/ssl-heartbleed_2014-04-10.md)
 
 ### others
 
