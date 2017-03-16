@@ -406,6 +406,7 @@
 * [AWS redis with rails](aws/aws-redis-with-rails.md)
 * [AWS Hosting by S3 & CloudFront](aws/aws-s3-cloudfront-hosting.md)
 * [AWS Redshift](aws/aws-redshift.md)
+* [AWS CLI S3](aws/aws-cli-s3.md)
 
 ### GCP
 
@@ -604,6 +605,7 @@
 * [mongodb](database/2015-03-26-mongodb.md)
 * [sql-cardinality](database/2016-02-26-sql-cardinality.md)
 * [sql-tips](database/2016-02-26-sql-tips.md)
+* [SQL on Hadoop](database/sql-on-hadoop.md)
 
 ### hbase
 
