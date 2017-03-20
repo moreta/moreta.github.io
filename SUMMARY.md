@@ -285,6 +285,7 @@
 * [ruby-keyword-parameter](ruby/2013-11-14-ruby-keyword-parameter.md)
 * [ruby-class](ruby/2013-11-05-ruby-class.md)
 * [ruby_open_class](ruby/2013-11-05_ruby_open_class.md)
+* [Ruby Builder Pattern](ruby/ruby-pattern-builder.md)
 
 #### rails
 
@@ -710,6 +711,7 @@
 
 #### jetbrain
 
+* [Intellij common](dev_env/editor/jetbrain/intellij-common.md)
 * [custom shortcut](dev_env/editor/jetbrain/custom-shortcut.md)
 * [settings & tip](dev_env/editor/jetbrain/settings-and-tip.md)
 * [editor watcher](dev_env/editor/jetbrain/watcher.md)

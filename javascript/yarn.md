@@ -26,3 +26,11 @@ yarn
 ## CLI commands comparison
 
 <https://yarnpkg.com/en/docs/migrating-from-npm>
+
+# add & remove
+
+```
+yarn add <pakage-name>
+yarn add <pakage-name> --dev
+yarn remove <pakage-name>
+```
