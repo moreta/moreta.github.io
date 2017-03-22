@@ -1,15 +1,10 @@
----
-title: "rails exception notification"
-date: 2013-11-19
-tags: rails, exception, notification
----
 
 
-# gem
+# rails exception notification gem
 <https://github.com/smartinez87/exception_notification>
 
 
-# family tree
+# Exception family tree
 
 <http://ruby.bastardsbook.com/chapters/exception-handling/>
 
@@ -84,10 +79,28 @@ def self.send_daily_summary_to_all_users
     end
   end
 end
+```
 
+# railsでどこのcustom exception classを配置するか？
+
+lib/以下に配置して
+
+```ruby
+module YourAppExceptions
+  class AuthenticationError < StandardError; end
+  class InvalidUsername < AuthenticationError; end
+end
+```
+
+以下のように使う
+
+```ruby
+raise YourAppExceptions::InvalidUsername
 ```
 
 # References
 
 + [rubyの例外についてまとめてみた](http://qiita.com/kasei-san/items/75ad2bb384fdb7e05941)
-+ [](http://qiita.com/jnchito/items/3ef95ea144ed15df3637)
++ [Railsアプリケーションにおけるエラー処理（例外設計）の考え方](http://qiita.com/jnchito/items/3ef95ea144ed15df3637)
+  + [ ] よんで
++ [Where to define custom error types in Ruby and/or Rails?](http://stackoverflow.com/questions/5200842/where-to-define-custom-error-types-in-ruby-and-or-rails)

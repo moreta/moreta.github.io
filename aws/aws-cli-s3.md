@@ -102,6 +102,12 @@ aws s3 cp s3://mybucket/test.txt test2.txt
 
 ### file upload
 
+* cpを利用
+* syncを利用
+* mvを利用
+
+の方法がある
+
 ```sh
 # ファイルを個別にアップロード
 aws s3 cp sample.txt s3://mybucketname/ --acl public-read --profile=PROFILE_NAME

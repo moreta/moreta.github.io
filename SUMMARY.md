@@ -285,6 +285,7 @@
 * [ruby-keyword-parameter](ruby/2013-11-14-ruby-keyword-parameter.md)
 * [ruby-class](ruby/2013-11-05-ruby-class.md)
 * [ruby_open_class](ruby/2013-11-05_ruby_open_class.md)
+* [Ruby Builder Pattern](ruby/ruby-pattern-builder.md)
 
 #### rails
 
@@ -405,6 +406,7 @@
 * [AWS redis with rails](aws/aws-redis-with-rails.md)
 * [AWS Hosting by S3 & CloudFront](aws/aws-s3-cloudfront-hosting.md)
 * [AWS Redshift](aws/aws-redshift.md)
+* [AWS CLI S3](aws/aws-cli-s3.md)
 
 ### GCP
 
@@ -607,6 +609,7 @@
 * [mongodb](database/2015-03-26-mongodb.md)
 * [sql-cardinality](database/2016-02-26-sql-cardinality.md)
 * [sql-tips](database/2016-02-26-sql-tips.md)
+* [SQL on Hadoop](database/sql-on-hadoop.md)
 
 ### hbase
 
@@ -708,6 +711,7 @@
 
 #### jetbrain
 
+* [Intellij common](dev_env/editor/jetbrain/intellij-common.md)
 * [custom shortcut](dev_env/editor/jetbrain/custom-shortcut.md)
 * [settings & tip](dev_env/editor/jetbrain/settings-and-tip.md)
 * [editor watcher](dev_env/editor/jetbrain/watcher.md)
