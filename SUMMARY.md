@@ -111,6 +111,7 @@
 * [vuex](javascript/vue/vuex.md)
 * [vue scroll](javascript/vue/scroll.md)
 * [vue date & time picker](javascript/vue/vu-date-time-picker.md)
+* [vue grid](javascript/vue/vue-grid.md)
 
 #### React
 
@@ -242,10 +243,11 @@
 * [ruby-socket](ruby/2016-09-19-ruby-socket.md)
 * [ruby-thread-and-fiber](ruby/2016-07-29-ruby-thread-and-fiber.md)
 * [ruby-splat-operator](ruby/2016-07-29-ruby-splat-operator.md)
+* [ruby Array](ruby/ruby-array.md)
 * [ruby-install-from-source](ruby/2016-07-07-ruby-install-from-source.md)
+* [ruby-variables](ruby/2016-01-25-ruby-variables.md)
 * [ruby-percent-notation](ruby/2016-06-26-ruby-percent-notation.md)
 * [resque-scheduler](ruby/2016-06-15-resque-scheduler.md)
-* [ruby-variables](ruby/2016-01-25-ruby-variables.md)
 * [resque](ruby/2016-01-25-resque.md)
 * [ruby-job-scheduler](ruby/2016-01-20-ruby-job-scheduler.md)
 * [gem-install-fail-on-mac](ruby/2015-12-08-gem-install-fail-on-mac.md)
@@ -258,7 +260,6 @@
 * [ruby-optionparser](ruby/2014-10-27-ruby-optionparser.md)
 * [ruby-self](ruby/2014-10-26-ruby-self.md)
 * [ruby-using-erb-in-yaml](ruby/2014-10-13-ruby-using-erb-in-yaml.md)
-* [ruby-array](ruby/2014-08-29-ruby-array.md)
 * [ruby-relative_paths](ruby/2014-08-25-ruby-relative_paths.md)
 * [ruby-include](ruby/2014-08-23-ruby-include.md)
 * [ruby-server-programming](ruby/2014-08-17-ruby-server-programming.md)
@@ -383,7 +384,8 @@
 
 ### AWS
 
-* [Lambda](aws/aws-lambda.md)
+* [AWS Study](aws/aws-study.md)
+* [AWS Lambda](aws/aws-lambda.md)
 * [API Gateway](aws-api-gateway.md)
 * [SNS - Simple Notification Service](aws-sns.md)
 * [RDS - Relational Database Service](aws/aws-rds.md)
@@ -433,6 +435,7 @@
 * [lets-encrypt 無料ssl証明書](infra/ssl-lets-encrypt.md)
 * [Nginx block access](infra/nginx-block-access.md)
 * [Nginx log](infra/nginx-log.md)
+* [robots.txt](infra/robots_txt.md)
 * [mail](infra/2013-11-19-mail.md)
 * [mail-mandrill](infra/2013-11-21-mail-mandrill.md)
 * [linux-directory](infra/2013-12-17-linux-directory.md)
@@ -673,7 +676,6 @@
 * [css-animate](css_html/2014-04-11-css-animate.md)
 * [material-design-polymer-and-dart](css_html/2014-07-11-material-design-polymer-and-dart.md)
 * [semantic-ui](css_html/2014-11-15-semantic-ui.md)
-* [robots](css_html/2014-12-29-robots.md)
 * [design-link](css_html/2015-12-12-design-link.md)
 * [css-flexbox-layout](css_html/2015-12-20-css-flexbox-layout.md)
 * [bootstrap-plugins](css_html/2016-01-26-bootstrap-plugins.md)
