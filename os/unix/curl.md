@@ -28,13 +28,21 @@ json post
 curl -v -H "Accept: application/json" -H "Content-type: application/json" -X POST -d '{"user":{"first_name":"firstname","last_name":"lastname","email":"email@email.com","password":"app123","password_confirmation":"app123"}}'  http://localhost:3000/api/1/users
 ```
 
-# upload
+# file upload
 
-+ -T , --upload-file
++ -T , --upload-file : ファイルFILEをアップロードする
 
 ```sh
 curl -T your_file http://www.example.com/your_file
 curl -T "{file1,file2}" http://www.example.com
+```
+
+# file download
+
++ -O, --remote-name : 取得したデータを標準出力ではなくファイルに出力する
+
+```
+curl -O http://www.example.com/your_file.tar # 
 ```
 
 # --verbose

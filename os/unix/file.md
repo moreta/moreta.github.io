@@ -16,12 +16,20 @@ zip -r foo website_folder -i '*.php' '*.html' '*.js' '*.css'
 ```
 
 
-# tar
+# .tar & .tar.gz & .tgz
+
++ tar : 圧縮
++ tar.gz : tarコマンドでまとめたアーカイブファイルを「gzip」コマンドで圧縮した圧縮ファイルに付く拡張子
+  + tar > gzipの順
++ tgz : tarコマンドで tar + gzipをいっぺんにしたもの
+  + tar + gzip
 
 ### 解凍
 
 ```sh
 tar xvf arch.tar
+tar zxvf arch.tar.gz
+tar zxvf arch.tgz
 ```
 
 ### 圧縮

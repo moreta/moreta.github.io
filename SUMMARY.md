@@ -647,13 +647,14 @@
 
 ### Data Analysis
 
-* [public-data](data_analysis/2016-09-13-public-data.md)
-* [pentaho](data_analysis/2016-08-03-pentaho.md)
-* [jupyter](data_analysis/2016-06-27-jupyter.md)
-* [apache-toree](data_analysis/2016-06-27-apache-toree.md)
-* [apache-drill](data_analysis/2016-05-13-apache-drill.md)
-* [spark](data_analysis/2015-06-04-spark.md)
-* [analytics](data_analysis/2013-11-18-analytics.md)
+* [GUIs & Query Engins for BigData and BI](data_analysis/data-bi-tools.md)
+* [public-data](data_analysis/public-data.md)
+* [pentaho](data_analysis/pentaho.md)
+* [jupyter](data_analysis/jupyter.md)
+* [apache-toree](data_analysis/apache-toree.md)
+* [apache-drill](data_analysis/apache-drill.md)
+* [spark](data_analysis/spark.md)
+* [analytics](data_analysis/analytics.md)
 * [Google Analytics Real Time Reporting API](google-analytics-real-time-reporting-api.md)
 
 ### CSS & HTML
@@ -779,6 +780,7 @@
 * [temp directory](os/unix/temp-directory.md)
 * [Memory](os/unix/memory.md)
 * [rename](os/unix/rename.md)
+* [nohup](os/unix/nohup.md)
 
 ### API
 
