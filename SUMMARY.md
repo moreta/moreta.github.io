@@ -782,11 +782,8 @@
 * [temp directory](os/unix/temp-directory.md)
 * [Memory](os/unix/memory.md)
 * [rename](os/unix/rename.md)
-<<<<<<< HEAD
 * [nohup](os/unix/nohup.md)
-=======
 * [expect](os/unix/expect.md)
->>>>>>> d282b1afda13adf135b17f29c33b60aed3179355
 
 ### API
 
