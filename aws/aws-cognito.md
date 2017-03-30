@@ -92,3 +92,9 @@ JavaScript実行時に必要なのは次の情報です。
 
 + [vue-auth-cognito](https://github.com/kopterio/vue-auth-cognito)
 + [study aws cognito javascript](https://github.com/moreta/study-aws-cognito-javascript)
+
+# Live
+
++ [twitch aws](https://www.twitch.tv/aws)
+  + [API Authentication with Amazon Cognito](https://gist.github.com/jfaerman/abc31d2fefca6701e87a9e3a9e885c18)
+  + <https://twitter.com/jmfaerman>
