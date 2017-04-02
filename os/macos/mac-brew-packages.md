@@ -13,7 +13,8 @@ Homebrew Formulas (Mac Brew Packages)
   + file rename
 + pgcli
   + postgresql cli
-
++ pstree
+  + psをtreeで見せる
 
 ## rename - file rename Util
 
@@ -44,4 +45,19 @@ rename -N ...01 -X -e '$_ = "File-$N"' * # This will throw away all the existing
 
 ```sh
 pgcli -h localhost -U postgres db_name
+```
+
+## pstree
+
+```sh
+pstree
+-+= 00001 root /sbin/launchd
+ |--= 00010 root /usr/libexec/kextd
+ |--= 00011 root /usr/libexec/UserEventAgent -l System
+ |--= 00012 _mdnsresponder /usr/sbin/mDNSResponder -launchd
+ |--= 00013 root /usr/libexec/opendirectoryd
+ |--= 00014 root /usr/sbin/notifyd
+ |--= 00015 root /usr/sbin/diskarbitrationd
+ |--= 00016 root /usr/libexec/configd
+ |--= 00017 root /usr/sbin/syslogd
 ```

@@ -1,9 +1,3 @@
----
-title: Apache Drill
-data: 2016-05-13
-tags: apache, drill, data
----
-
 
 # Install on Mac
 
@@ -104,4 +98,87 @@ ALTER SESSION SET `store.format`='csv';
 CREATE TABLE exprort_table_name
 AS
 SELECT ...
+```
+
+# Configuration
+
+bfs
+```json
+{
+  "type": "file",
+  "enabled": true,
+  "connection": "file:///",
+  "config": null,
+  "workspaces": {
+    "root": {
+      "location": "/",
+      "writable": true,
+      "defaultInputFormat": null
+    },
+    "csv_files": {
+    }
+    "tmp": {
+      "location": "/tmp",
+      "writable": true,
+      "defaultInputFormat": null
+    }
+  },
+  "formats": {
+    "psv": {
+      "type": "text",
+      "extensions": [
+        "tbl"
+      ],
+      "delimiter": "|"
+    },
+    "csv": {
+      "type": "text",
+      "extensions": [
+        "csv"
+      ],
+      "delimiter": ","
+    },
+    "csv2": {
+      "type": "text",
+      "extensions": [
+        "csv2"
+      ],
+      "skipFirstLine": true,
+      "delimiter": ","
+    },
+    "tsv": {
+      "type": "text",
+      "extensions": [
+        "tsv"
+      ],
+      "delimiter": "\t"
+    },
+    "parquet": {
+      "type": "parquet"
+    },
+    "json": {
+      "type": "json",
+      "extensions": [
+        "json"
+      ]
+    },
+    "avro": {
+      "type": "avro"
+    },
+    "sequencefile": {
+      "type": "sequencefile",
+      "extensions": [
+        "seq"
+      ]
+    },
+    "csvh": {
+      "type": "text",
+      "extensions": [
+        "csvh"
+      ],
+      "extractHeader": true,
+      "delimiter": ","
+    }
+  }
+}
 ```
