@@ -1,9 +1,3 @@
----
-title: Apache Drill
-data: 2016-05-13
-tags: apache, drill, data
----
-
 
 # Install on Mac
 
