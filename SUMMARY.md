@@ -288,6 +288,10 @@
 * [ruby_open_class](ruby/2013-11-05_ruby_open_class.md)
 * [Ruby Builder Pattern](ruby/ruby-pattern-builder.md)
 
+#### ruby basics
+
+
+
 #### rails
 
 * [Ruby & Rails Time, Date, DateTime, TimeWithZone](ruby/rails/ruby-rails-time-date-timezone.md)
