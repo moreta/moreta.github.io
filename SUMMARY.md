@@ -162,7 +162,7 @@
 * [scala-sbt](java/2016-06-30-scala-sbt.md)
 * [java-jsr310-date-and-time-api](java/2016-07-12-java-jsr310-date-and-time-api.md)
 * [csv-load](java/2016-07-19-csv-load.md)
-* [java-lamba-function](java/2016-08-04-java-lamba-function.md)
+* [java-lamba-function](java/java-lamba-function.md)
 * [java-try-with-resources](java/2016-08-04-java-try-with-resources.md)
 * [java-optional](java/java8-optional.md)
 * [java Underscores in Numeric Literals](java/jjava7-underscores-in-numeric-literals.md)
@@ -500,8 +500,6 @@
 * [crossdomain](others/2013-12-05-crossdomain.md)
 * [encoding](others/2013-12-19-encoding.md)
 * [i18n](others/2014-02-18-i18n.md)
-* [design-pattern](others/2014-05-10-design-pattern.md)
-* [programming-design-pattern](others/2014-05-10-programming-design-pattern.md)
 * [regexp](others/2014-05-19-regexp.md)
 * [ie-vm-test](others/2014-06-10-ie-vm-test.md)
 * [numbers](others/2014-06-29-numbers.md)
@@ -814,6 +812,8 @@
 
 
 ### Design Pattern
+
+* [programming-design-pattern](design_pattern/programming-design-pattern.md)
 
 #### P of EAA (Patterns of Enterprise Application Architecture)
 
