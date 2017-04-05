@@ -166,3 +166,92 @@ private ExampleService exampleService;
 
 + 全部おなじ
 + 役割を区分したいからだけ
+
+
+# `@Value` - プロパティファイルから設定を取得する
+
+<http://qiita.com/toshiro3/items/56a4d03658d31ef1f939>
+
+bean
+```java
+package sample.spring.beans;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class SampleBean {
+
+    @Value("${sample.name}")
+    private String name;
+
+    @Value("${sample.age}")
+    private int age;
+
+    public String getMessage() {
+        return String.format("Hello! My name is %s. I'm %d years old.", name, age);
+    }
+
+}
+```
+
+java config
+
+```java
+package sample.spring;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
+
+@Configuration
+@ComponentScan
+@PropertySource(value = {"classpath:beans.properties"})
+public class AppConfig {
+
+    @Bean
+    public static PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer() {
+        return new PropertySourcesPlaceholderConfigurer();
+    }
+
+}
+```
+
+property file
+
+```
+sample.name = spring
+sample.age = 11
+```
+
+unit test
+
+```java
+package sample.spring.beans;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+import sample.spring.AppConfig;
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(classes = {AppConfig.class})
+public class SampleBeanTest {
+
+    @Autowired
+    private SampleBean sampleBean;
+
+    @Test
+    public void greet() {
+        System.out.println(sampleBean.getMessage());
+    }
+
+}
+```
+
+# `@PropertySource` - Environmentを利用して取得する場合
