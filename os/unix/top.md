@@ -41,6 +41,15 @@ top
   c,i,S   . Toggle: 'c' cmd name/line; 'i' idle tasks; 'S' cumulative time
 ```
 
+# 表示のソート
+
+topで起動してから
+
+```
+M # メモリ使用率順
+P # CPU使用率順
+```
+
 
 # References
 

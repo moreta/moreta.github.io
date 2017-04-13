@@ -1,4 +1,9 @@
 
+# Optimise import
+
+ctrl + option + o
+
+
 
 # Editorでcopyするとstylistまでcopyされる場合
 

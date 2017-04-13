@@ -454,7 +454,7 @@
 * [vagrant](infra/2014-07-14-vagrant.md)
 * [cygwin](infra/2014-07-16-cygwin.md)
 * [linux-package](infra/2014-07-16-linux-package.md)
-* [tomcat](infra/2014-07-21-tomcat.md)
+* [tomcat](infra/tomcat.md)
 * [Dovecot](infra/2014-07-22-Dovecot.md)
 * [kerberos](infra/2014-08-01-kerberos.md)
 * [dovecot-with-postgres](infra/2014-08-02-dovecot-with-postgres.md)

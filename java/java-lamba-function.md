@@ -23,7 +23,6 @@ Supplier<T>	T get()	実装するメソッドは、何も引数として受け取
 Operator<T>	T apply(T t)	実装するメソッドは、引数としてTを受け取り、結果としてTを返すものになる。Functionを拡張したもの
 　これらの中でFunction、Consumer、Predicate、Supplierはそれ自身の名前でインターフェースとして用意されていますが、Operatorだけの名前の関数型インターフェースはないので注意してください。その代わり、1つの引数を受け取るOperatorは「UnaryOperator<T>」、2つの同じ型の引数を受け取るものは「BinaryOperator<T>」のように定義されています。
 
-
 # References
 
 + [関数型プログラミングって何、ラムダってなんだよ](http://qiita.com/lrf141/items/98ffbeaee42d30cca4dc)
