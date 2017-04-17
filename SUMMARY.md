@@ -198,6 +198,7 @@
 
 * [spring JPA](java/jpa/spring-jpa.md)
 * [hibernate](java/jpa/hibernate.md)
+* [hibernate sequence](java/jpa/hibernate-sequence.md)
 
 #### spring
 
