@@ -51,7 +51,8 @@
 * [javascript-libraries](javascript/2015-12-05-javascript-libraries.md)
 * [gulp](javascript/2015-12-08-gulp.md)
 * [lodash](javascript/2015-12-08-lodash.md)
-* [js-undefined_and_null](javascript/2015-12-17-js-undefined_and_null.md)
+* [javascript undefined & null](javascript/javascript-undefined-and-null.md)
+* [javascript types](javascript/javascript-types.md)
 * [javascritp-polyfill](javascript/2015-12-24-javascritp-polyfill.md)
 * [javascript-fetch-api](javascript/2015-12-25-javascript-fetch-api.md)
 * [electron](javascript/2015-12-26-electron.md)
@@ -60,7 +61,7 @@
 * [npm-packages](javascript/2015-12-28-npm-packages.md)
 * [javascirpt-file-api](javascript/2016-01-13-javascirpt-file-api.md)
 * [javascript-multi-threading](javascript/2016-01-17-javascript-multi-threading.md)
-* [javascript-array](javascript/2016-01-19-javascript-array.md)
+* [javascript-array](javascript/javascript-array.md)
 * [osjs-Javascript-cloud-web-desktop-platform](javascript/2016-01-21-osjs-Javascript-cloud-web-desktop-platform.md)
 * [d3](javascript/2016-02-05-d3.md)
 * [javascript-this](javascript/2016-02-10-javascript-this.md)
@@ -290,7 +291,8 @@
 
 #### ruby basics
 
-
+* [ruby erb](ruby/basic/ruby-erb.md)
+* [ruby number](ruby/basic/ruby-number.md)
 
 #### rails
 

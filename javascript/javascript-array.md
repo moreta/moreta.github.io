@@ -1,8 +1,9 @@
----
-title: Javascript Multi-Threading
-date: 2016-01-19
-tags: js, array
----
+# forEach, filter , map, reduce
+
+* 基本的なloop処理はこの４つ
+* 実装内容も難しくないので把握しておく。
+  * <https://code.tutsplus.com/tutorials/how-to-use-map-filter-reduce-in-javascript--cms-26209>
+
 
 # Remove Object from Array using JavaScript
 
