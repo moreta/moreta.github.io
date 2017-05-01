@@ -692,7 +692,7 @@
 * [html-editor](css_html/2016-08-23-html-editor.md)
 * [html-tips](css_html/2016-08-25-html-tips.md)
 * [tachyons-css](css_html/2016-08-28-tachyons-css.md)
-
+* [div-onfocus-onblur](css_html/div-onfocus-onblur.md)
 
 ### Dev environment
 
