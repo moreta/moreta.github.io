@@ -419,12 +419,11 @@
 
 ### GCP
 
-* [2015-12-05-gcp-google-cloud-platform](infra/2015-12-05-gcp-google-cloud-platform.md)
-* [2015-12-07-gcp-google-sdk](infra/2015-12-07-gcp-google-sdk.md)
+* [gcp-google-cloud-platform](infra/gcp-google-cloud-platform.md)
+* [gcp-google-sdk](infra/gcp-google-sdk.md)
 * [2015-12-08-gcp-deploy](infra/2015-12-08-gcp-deploy.md)
 * [2016-07-13-gcp-deploy-rails](infra/2016-07-13-gcp-deploy-rails.md)
 * [2016-07-13-gcp-server-setting](infra/2016-07-13-gcp-server-setting.md)
-* [2016-07-20-google-cloud-sdk](infra/2016-07-20-google-cloud-sdk.md)
 * [2016-07-21-gcp-compute-engine](infra/2016-07-21-gcp-compute-engine.md)
 
 ### Infra
