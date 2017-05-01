@@ -277,7 +277,6 @@
 * [capistrano2_upgrade_to_capistrano3](ruby/2014-06-03-capistrano2_upgrade_to_capistrano3.md)
 * [ruby-random](ruby/2014-05-28-ruby-random.md)
 * [ruby-alias](ruby/2014-03-04-ruby-alias.md)
-* [ruby-proc-lambda-block](ruby/2014-02-28-ruby-proc-lambda-block.md)
 * [barcode](ruby/2014-02-20-barcode.md)
 * [ruby-method-missing](ruby/2014-02-17-ruby-method-missing.md)
 * [ruby-delegate](ruby/2014-01-27-ruby-delegate.md)
@@ -294,6 +293,7 @@
 
 * [ruby erb](ruby/basic/ruby-erb.md)
 * [ruby number](ruby/basic/ruby-number.md)
+* [ruby proc lambda block](ruby/ruby-proc-lambda-block.md)
 
 #### rails
 

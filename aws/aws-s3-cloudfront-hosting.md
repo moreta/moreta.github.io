@@ -22,14 +22,18 @@ AWS Hosting by S3 & CloudFont
 * これはoption、確認が不便になることがあるので、
 * セキュリティ的にはおすすめ
 
-## javascript routerを使う場合
+## javascript routerを使う場合 !!!!!!!!
+
+* Vue Routerなど利用するとき
+* SPAは index.htmlしかないので、urlで指定してアクセスすると403になってします。
+* それを回避し、javascriptをrouteを使うためにcloudfrontの設定が必要
 
 [Deploying create-react-app to S3 and CloudFront](https://medium.com/@omgwtfmarc/deploying-create-react-app-to-s3-or-cloudfront-48dae4ce0af#.pz0h5qeap)
 
 s3には当該するobjectがなく、403エラーか、404エラーが発生する
 
 s3ではエラーdocumentをindex.htmlにする
-![s3](https://dl.dropboxusercontent.com/u/21522805/blog/aws/s3_for_js_router.png)
+![s3](https://www.dropbox.com/s/n52eoh1gv2s12wk/s3_for_js_router.png?dl=0)
 
 
 cloudfrontを利用する場合には Error Pagesから Create Custom Erorr Responseを設定する
