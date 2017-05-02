@@ -97,4 +97,12 @@ npmに登録するには以下のcommandで
 
 ```
 npm publish
+# same
+npm publish --tag latest
+```
+
+## beta publish
+
+```
+npm publish --tag beta
 ```
