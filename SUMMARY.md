@@ -389,42 +389,47 @@
 * [Job scheduler for Node.js](batch/job-scheduler-for-nodejs.md)
 * [Job scheduler](javascript/job-scheduler.md)
 
-### AWS
+### Cloud Service
 
-* [AWS Study](aws/aws-study.md)
-* [AWS Lambda](aws/aws-lambda.md)
+#### AWS
+
+* [AWS Study](cloud_service/aws/aws-study.md)
+* [AWS Lambda](cloud_service/aws/aws-lambda.md)
 * [API Gateway](aws-api-gateway.md)
 * [SNS - Simple Notification Service](aws-sns.md)
-* [RDS - Relational Database Service](aws/aws-rds.md)
-* [RDS -> PostgreSQL](aws/aws-rds-postgresql.md)
-* [VPC](aws/aws-vpc.md)
-* [VPCへVPN接続](aws/aws-vpc-vpn.md)
-* [ELB - Elastic Load Balancing](aws/aws-elb.md)
-* [AWS Deploy](aws/aws-deploy.md)
-* [AWS ELB & deploy](aws/aws-elb-deploy.md)
-* [AWS auto scaling load balance](aws/aws-auto-scaling-load-balance.md)
-* [AWS SDK for Node.js](aws/aws-sdk-for-nodejs.md)
-* [ACM - ssl証明書](aws/acm.md)
-* [CloudFront](aws/aws-cloudfront.md)
-* [CloudWatch](aws/aws-cloudwatch.md)
-* [DynamoDB](aws/aws-dynamoDB.md)
-* [AWS Price](aws/aws-price.md)
-* [Elasticache](aws/aws-elasticache.md)
-* [AWS Mail](aws/aws-mail.md)
-* [S3](aws/aws-s3.md)
-* [AWS redis with rails](aws/aws-redis-with-rails.md)
-* [AWS Hosting by S3 & CloudFront](aws/aws-s3-cloudfront-hosting.md)
-* [AWS Redshift](aws/aws-redshift.md)
-* [AWS CLI S3](aws/aws-cli-s3.md)
+* [RDS - Relational Database Service](cloud_service/aws/aws-rds.md)
+* [RDS -> PostgreSQL](cloud_service/aws/aws-rds-postgresql.md)
+* [VPC](cloud_service/aws/aws-vpc.md)
+* [VPCへVPN接続](cloud_service/aws/aws-vpc-vpn.md)
+* [ELB - Elastic Load Balancing](cloud_service/aws/aws-elb.md)
+* [AWS Deploy](cloud_service/aws/aws-deploy.md)
+* [AWS ELB & deploy](cloud_service/aws/aws-elb-deploy.md)
+* [AWS auto scaling load balance](cloud_service/aws/aws-auto-scaling-load-balance.md)
+* [AWS SDK for Node.js](cloud_service/aws/aws-sdk-for-nodejs.md)
+* [ACM - ssl証明書](cloud_service/aws/acm.md)
+* [CloudFront](cloud_service/aws/aws-cloudfront.md)
+* [CloudWatch](cloud_service/aws/aws-cloudwatch.md)
+* [DynamoDB](cloud_service/aws/aws-dynamoDB.md)
+* [AWS Price](cloud_service/aws/aws-price.md)
+* [Elasticache](cloud_service/aws/aws-elasticache.md)
+* [AWS Mail](cloud_service/aws/aws-mail.md)
+* [S3](cloud_service/aws/aws-s3.md)
+* [AWS redis with rails](cloud_service/aws/aws-redis-with-rails.md)
+* [AWS Hosting by S3 & CloudFront](cloud_service/aws/aws-s3-cloudfront-hosting.md)
+* [AWS Redshift](cloud_service/aws/aws-redshift.md)
+* [AWS CLI S3](cloud_service/aws/aws-cli-s3.md)
+* [AWS Batch](cloud_service/aws/aws-batch.md)
 
-### GCP
+#### GCP
 
-* [gcp-google-cloud-platform](infra/gcp-google-cloud-platform.md)
-* [gcp-google-sdk](infra/gcp-google-sdk.md)
-* [2015-12-08-gcp-deploy](infra/2015-12-08-gcp-deploy.md)
-* [2016-07-13-gcp-deploy-rails](infra/2016-07-13-gcp-deploy-rails.md)
-* [2016-07-13-gcp-server-setting](infra/2016-07-13-gcp-server-setting.md)
-* [2016-07-21-gcp-compute-engine](infra/2016-07-21-gcp-compute-engine.md)
+* [gcp-google-cloud-platform](cloud_service/gcp/gcp-google-cloud-platform.md)
+* [gcp-google-sdk](cloud_service/gcp/gcp-google-sdk.md)
+* [gcp-deploy](cloud_service/gcp/gcp-deploy.md)
+* [gcp-deploy-rails](cloud_service/gcp/gcp-deploy-rails.md)
+* [gcp-server-setting](cloud_service/gcp/gcp-server-setting.md)
+* [gcp-compute-engine](cloud_service/gcp/gcp-compute-engine.md)
+* [google cloud dataflow](cloud_service/gcp/gcp-cloud-dataflow.md)
+
 
 ### Infra
 
