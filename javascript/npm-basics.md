@@ -106,3 +106,4 @@ npm publish --tag latest
 ```
 npm publish --tag beta
 ```
+
