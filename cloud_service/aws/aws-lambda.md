@@ -34,6 +34,12 @@ tags: aws, lambda
 
 [祝 LambdaのNode v4対応記念 -AWS SDK for Node.jsの処理をPromiseを使って書いてみた](http://qiita.com/toshihirock/items/4e4231c04332c209e31d)
 
+# その他
+
+## functionのrename
+
+* renameはできない、別のfunctionを作る必要がある
+
 # References
 
 + [AWS Lambdaを使うときに注意する３つ](http://qiita.com/imafuku/items/55844535dcc8e3861bd0)
