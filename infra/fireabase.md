@@ -1,8 +1,5 @@
----
-title: Firebase
-date: 2016/09/19
-tags: firebase
----
+Firebase
+===================
 
 # What is firebase
 
