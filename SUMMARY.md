@@ -11,7 +11,6 @@
 * [High Order Compopent](javascript/high-order-component.md)
 * [grid editable table](javascript/grid-editable-table.md)
 * [pivot table](javascript/pivot-table.md)
-* [file download](javascript/file-donwload.md)
 * [ES2015 - es6](javascript/es2015.md)
 * [socket.io](javascrit/socketio.md)
 * [Excel parse](javascript/excel-parse.md)
@@ -20,6 +19,7 @@
 * [Promise](javascript/promise.md)
 * [javascript web storage](javascript/javascript-web-storage.md)
 * [webtask](javascript/webtask.md)
+* [SPA file download](javascript/spa-file-download.md)
 * [new-analytics-code](javascript/2013-11-01-new-analytics-code.md)
 * [drap-and-drop-file-upload](javascript/2013-11-18-drap-and-drop-file-upload.md)
 * [javascript-date-object](javascript/2013-11-19-javascript-date-object.md)
@@ -426,6 +426,10 @@
 * [2016-07-13-gcp-server-setting](infra/2016-07-13-gcp-server-setting.md)
 * [2016-07-20-google-cloud-sdk](infra/2016-07-20-google-cloud-sdk.md)
 * [2016-07-21-gcp-compute-engine](infra/2016-07-21-gcp-compute-engine.md)
+
+### chat
+
+* [Chat with firebase](chat/chat_with_firebase_ios.md)
 
 ### Infra
 
