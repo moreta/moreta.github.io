@@ -11,6 +11,11 @@ less file.log
 # shift fするとtailモードになる
 ```
 
+# tail mode -> normal mode
+
+`Ctrl+C`
+を入力して、通常のlessに戻れます。
+
 # tailがいいどころ
 
 + 複数fileをtailする場合には tailがいい
