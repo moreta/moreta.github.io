@@ -134,6 +134,10 @@
 * [react-context](javascript/react/react-context.md)
 * [react-style](javascript/react/react-style.md)
 
+#### libs
+
+* [js charts](javascript/libs/js-charts.md)
+
 #### jquery
 
 * [jquery Basic](javascript/jquery/jquery-basic.md)
@@ -240,8 +244,9 @@
 * [bundler](ruby/bundler.md)
 * [rvm](ruby/ruby-rvm.md)
 * [rake](ruby/rake.md)
-+ [module](ruby/module.md)
++ [module and module_function](ruby/ruby-module-and-module-function.md)
 * [enum](ruby/ruby-enum.md)
+* [include and extend](ruby/ruby-include-extend.md)
 * [ruby-socket](ruby/2016-09-19-ruby-socket.md)
 * [ruby-thread-and-fiber](ruby/2016-07-29-ruby-thread-and-fiber.md)
 * [ruby-splat-operator](ruby/2016-07-29-ruby-splat-operator.md)
@@ -263,7 +268,6 @@
 * [ruby-self](ruby/2014-10-26-ruby-self.md)
 * [ruby-using-erb-in-yaml](ruby/2014-10-13-ruby-using-erb-in-yaml.md)
 * [ruby-relative_paths](ruby/2014-08-25-ruby-relative_paths.md)
-* [ruby-include](ruby/2014-08-23-ruby-include.md)
 * [ruby-server-programming](ruby/2014-08-17-ruby-server-programming.md)
 * [ruby-mailserver](ruby/2014-08-17-ruby-mailserver.md)
 * [gem-kage](ruby/2014-08-17-gem-kage.md)
@@ -297,13 +301,14 @@
 
 #### rails
 
+* [Rails Stream download](ruby/rails/rails-stream-download.md)
 * [Ruby & Rails Time, Date, DateTime, TimeWithZone](ruby/rails/ruby-rails-time-date-timezone.md)
 * [Rails commands](ruby/rails/rails-commands.md)
 * [Rails rake tasks](ruby/rails/rails-rake-task.md)
 * [Capistrano](ruby/rails/capistrano.md)
 * [Rails gem for Debug](ruby/rails/rails-gem-debug.md)
 * [Rails gem](ruby/rails/rails-gem-common.md)
-* [Rails Helper](ruby/rails/helper.md)
+* [Rails Helper](ruby/rails/rails-helper.md)
 * [Rails pry](ruby/rails/rails-pry.md)
 * [Rails server](ruby/rails/rails-server.md)
 * [Rail gem install - nokogiri libxml warning on osx](ruby/rails/nokogiri-libxml-warning-on-osx.md)
@@ -318,6 +323,7 @@
 * [Rails Transaction](ruby/rails/rails-transaction.md)
 * [Rails lib directory](ruby/rails/rails-lib-directory.md)
 * [ActiveRecord with arel](ruby/rails/activerecord-sql-with-arel.md)
+* [Draper Decorator](ruby/rails/rails-draper-decorator.md)
 * [rails-scss-at-import-error](ruby/rails/2013-10-05-rails-scss-at-import-error.md)
 * [rails-date](ruby/rails/2013-11-14-rails-date.md)
 * [rails-minitest](ruby/rails/2013-12-01-rails-minitest.md)
@@ -327,7 +333,6 @@
 * [rails-performance](ruby/rails/2013-12-17-rails-performance.md)
 * [rails-rails3](ruby/rails/2013-12-18-rails-rails3.md)
 * [rails-ssl](ruby/rails/2013-12-25-rails-ssl.md)
-* [ec2-instance-rails-setting](ruby/rails/2014-01-01-ec2-instance-rails-setting.md)
 * [rails-search](ruby/rails/2014-01-14-rails-search.md)
 * [rails-infinite-scroll](ruby/rails/2014-03-14-rails-infinite-scroll.md)
 * [rails-validation](ruby/rails/2014-03-25-rails-validation.md)
@@ -344,7 +349,6 @@
 * [rails-http-status-code](ruby/rails/2014-12-24-rails-http-status-code.md)
 * [rails-api-test-rspec-factorygirl](ruby/rails/2015-01-16-rails-api-test-rspec-factorygirl.md)
 * [rails-console-pry-awesome-print](ruby/rails/2015-01-18-rails-console-pry-awesome-print.md)
-* [rails-draper-decorator](ruby/rails/2015-01-25-rails-draper-decorator.md)
 * [rails-tagging](ruby/rails/2015-01-29-rails-tagging.md)
 * [rails-devise](ruby/rails/2015-07-12-rails-devise.md)
 * [rails-enviroment-config](ruby/rails/2016-06-12-rails-enviroment-config.md)
@@ -389,36 +393,43 @@
 * [Job scheduler for Node.js](batch/job-scheduler-for-nodejs.md)
 * [Job scheduler](javascript/job-scheduler.md)
 
-### Cloud Service
+### Cloud Service ↓
+
+### Auth0
+
+* [Auth0](cloud_service/auth0.md)
 
 #### AWS
 
 * [AWS Study](cloud_service/aws/aws-study.md)
 * [AWS Lambda](cloud_service/aws/aws-lambda.md)
-* [API Gateway](aws-api-gateway.md)
-* [SNS - Simple Notification Service](aws-sns.md)
-* [RDS - Relational Database Service](cloud_service/aws/aws-rds.md)
-* [RDS -> PostgreSQL](cloud_service/aws/aws-rds-postgresql.md)
-* [VPC](cloud_service/aws/aws-vpc.md)
-* [VPCへVPN接続](cloud_service/aws/aws-vpc-vpn.md)
-* [ELB - Elastic Load Balancing](cloud_service/aws/aws-elb.md)
+* [AWS API Gateway](aws-api-gateway.md)
+* [AWS SNS - Simple Notification Service](aws-sns.md)
+* [AWS RDS - Relational Database Service](cloud_service/aws/aws-rds.md)
+* [AWS RDS -> PostgreSQL](cloud_service/aws/aws-rds-postgresql.md)
+* [AWS VPC](cloud_service/aws/aws-vpc.md)
+* [AWS VPCへVPN接続](cloud_service/aws/aws-vpc-vpn.md)
+* [AWS ELB - Elastic Load Balancing](cloud_service/aws/aws-elb.md)
 * [AWS Deploy](cloud_service/aws/aws-deploy.md)
 * [AWS ELB & deploy](cloud_service/aws/aws-elb-deploy.md)
 * [AWS auto scaling load balance](cloud_service/aws/aws-auto-scaling-load-balance.md)
 * [AWS SDK for Node.js](cloud_service/aws/aws-sdk-for-nodejs.md)
-* [ACM - ssl証明書](cloud_service/aws/acm.md)
-* [CloudFront](cloud_service/aws/aws-cloudfront.md)
-* [CloudWatch](cloud_service/aws/aws-cloudwatch.md)
-* [DynamoDB](cloud_service/aws/aws-dynamoDB.md)
+* [AWS ACM - ssl証明書](cloud_service/aws/acm.md)
+* [AWS CloudFront](cloud_service/aws/aws-cloudfront.md)
+* [AWS CloudWatch](cloud_service/aws/aws-cloudwatch.md)
+* [AWS DynamoDB](cloud_service/aws/aws-dynamoDB.md)
 * [AWS Price](cloud_service/aws/aws-price.md)
-* [Elasticache](cloud_service/aws/aws-elasticache.md)
+* [AWS Elasticache](cloud_service/aws/aws-elasticache.md)
 * [AWS Mail](cloud_service/aws/aws-mail.md)
-* [S3](cloud_service/aws/aws-s3.md)
 * [AWS redis with rails](cloud_service/aws/aws-redis-with-rails.md)
 * [AWS Hosting by S3 & CloudFront](cloud_service/aws/aws-s3-cloudfront-hosting.md)
 * [AWS Redshift](cloud_service/aws/aws-redshift.md)
-* [AWS CLI S3](cloud_service/aws/aws-cli-s3.md)
+* [AWS CLI - S3](cloud_service/aws/aws-cli-s3.md)
 * [AWS Batch](cloud_service/aws/aws-batch.md)
+* [AWS S3](cloud_service/aws/aws-s3.md)
+* [AWS S3 - zip download](cloud_service/aws/aws-s3-zip-download.md)
+* [AWS iops確認](cloud_service/aws/aws-iops.md)
+* [AWS On demand image resizing](cloud_service_aws/aws-on-demand-image-resizing.md)
 
 #### GCP
 
@@ -491,7 +502,6 @@
 * [Apache Shiro](security/apache-shiro.md)
 * [WebでのHTTPsについて](security/web-https.md)
 * [API Security](security/api-security.md)
-* [Auth0](security/auth0.md)
 * [HMAC-SHA256](security/hmac-sha256.md)
 * [Java JCE](java/java-jce.md)
 * [Java Chipher Class](security/java-chipher.md)
