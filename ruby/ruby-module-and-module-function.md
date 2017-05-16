@@ -104,3 +104,8 @@ end
 
 + [ActiveSupport::Concern の存在理由](http://qiita.com/castaneai/items/6dc121ce6ff100614f42)
 + [ActiveSupport::Concern でハッピーなモジュールライフを送る](http://www.techscore.com/blog/2013/03/22/activesupportconcern-%E3%81%A7%E3%83%8F%E3%83%83%E3%83%94%E3%83%BC%E3%81%AA%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%83%A9%E3%82%A4%E3%83%95%E3%82%92%E9%80%81%E3%82%8B/)
+
+## module_function
+
++ [module_function (Module)](http://ref.xaio.jp/ruby/classes/module/module_function)
++ [instance method Module#module_function](https://docs.ruby-lang.org/ja/latest/method/Module/i/module_function.html)

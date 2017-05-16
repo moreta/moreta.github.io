@@ -7,7 +7,7 @@ tags: rails, gem, decorator
 
 # Usage
 
-```
+```rb
 # app/decorators/article_decorator.rb
 class ArticleDecorator < Draper::Decorator
 # ...
@@ -16,7 +16,7 @@ end
 
 ## Generators
 
-```
+```rb
 # generate controller
 rails generate resource Article
 
@@ -26,7 +26,7 @@ rails generate decorator Article
 
 ## Decorating
 
-```
+```rb
 @article = Article.first.decorate
 
 # or initialize directly
@@ -38,7 +38,7 @@ rails generate decorator Article
 
 ## Decoration Collection
 
-```
+```rb
 @articles = ArticleDecorator.decorate_collection(Article.all)
 # If your collection is an ActiveRecord query, you can use this:
 
@@ -52,7 +52,7 @@ rails generate decorator Article
 
 # with Kaminari
 
-```
+```rb
 class PaginatingDecorator < Draper::CollectionDecorator
   delegate :current_page, :total_pages, :limit_value
 end

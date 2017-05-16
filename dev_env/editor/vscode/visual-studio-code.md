@@ -37,6 +37,7 @@ column　または 範囲の選択関連キー
 
 ### Shrink/expand selection
 
+
 ## Change Language Mode / 言語選択
 
 `command + K, M`
@@ -44,6 +45,7 @@ column　または 範囲の選択関連キー
 ## format json
 
 `shift + alt + F`
+
 
 # markdown 関連
 

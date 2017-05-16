@@ -9,8 +9,6 @@
   * [Google Map Api](api/google-map-api.md)
   * [Jwt Json Web Token](api/jwt-json-web-token.md)
   * [Rails Api](api/rails-api.md)
-- Aws
-  * [Aws S 3 Zip Download](aws/aws-s3-zip-download.md)
 - Batch
   * [Job Management](batch/job-management.md)
   * [Job Scheduler For Nodejs](batch/job-scheduler-for-nodejs.md)
@@ -25,6 +23,9 @@
 - Chrome
   * [Security Panel](chrome/security-panel.md)
 - Cloud Service
+  - [Auth 0](cloud_service/auth0/auth0.md)
+  - Auth 0
+    * [User Sync](cloud_service/auth0/user_sync.md)
   - Aws
     * [Aws Acm Ssl](cloud_service/aws/aws-acm-ssl.md)
     * [Aws Api Gateway](cloud_service/aws/aws-api-gateway.md)
@@ -42,8 +43,10 @@
     * [Aws Elasticache](cloud_service/aws/aws-elasticache.md)
     * [Aws Elb](cloud_service/aws/aws-elb.md)
     * [Aws Iam](cloud_service/aws/aws-iam.md)
+    * [Aws Iops](cloud_service/aws/aws-iops.md)
     * [Aws Lambda Html To Pdf](cloud_service/aws/aws-lambda-html-to-pdf.md)
     * [Aws Lambda](cloud_service/aws/aws-lambda.md)
+    * [Aws On Demand Image Resizing](cloud_service/aws/aws-on-demand-image-resizing.md)
     * [Aws Opsworks Rails](cloud_service/aws/aws-opsworks-rails.md)
     * [Aws Opsworks](cloud_service/aws/aws-opsworks.md)
     * [Aws Price](cloud_service/aws/aws-price.md)
@@ -53,6 +56,7 @@
     * [Aws Redshift](cloud_service/aws/aws-redshift.md)
     * [Aws Regions](cloud_service/aws/aws-regions.md)
     * [Aws S 3 Cloudfront Hosting](cloud_service/aws/aws-s3-cloudfront-hosting.md)
+    * [Aws S 3 Zip Download](cloud_service/aws/aws-s3-zip-download.md)
     * [Aws S 3](cloud_service/aws/aws-s3.md)
     * [Aws Sdk For Nodejs](cloud_service/aws/aws-sdk-for-nodejs.md)
     * [Aws Sns](cloud_service/aws/aws-sns.md)
@@ -60,8 +64,6 @@
     * [Aws Vpc Vpn](cloud_service/aws/aws-vpc-vpn.md)
     * [Aws Vpc](cloud_service/aws/aws-vpc.md)
     * [Aws Waf](cloud_service/aws/aws-waf.md)
-    * [Iops](cloud_service/aws/iops.md)
-    * [On Demand Image Resizing](cloud_service/aws/on-demand-image-resizing.md)
   - Gcp
     * [Gcp Cloud Dataflow](cloud_service/gcp/gcp-cloud-dataflow.md)
     * [Gcp Compute Engine](cloud_service/gcp/gcp-compute-engine.md)
@@ -153,11 +155,13 @@
   * [Continuous Database Integration](database/continuous-database-integration.md)
   * [Flyway Db Migration](database/flyway-db-migration.md)
   * [Mongodb Ec](database/mongodb-ec.md)
+  * [Replication And Sync Symmetricds](database/replication-and-sync_symmetricds.md)
   * [Sql Basics](database/sql-basics.md)
   * [Sql On Hadoop](database/sql-on-hadoop.md)
 - Desgin Pattern
   * [Class Table Inheritance](desgin_pattern/class-table-inheritance.md)
   * [Programming Design Pattern](desgin_pattern/programming-design-pattern.md)
+  * [temporal-patterns-履歴管理](desgin_pattern/temporal-patterns-履歴管理.md)
 - Design
   * [Checkout](design/checkout.md)
   * [Omnigraffle](design/omnigraffle.md)
@@ -434,6 +438,8 @@
     * [Jquery Resize Window](javascript/jquery/jquery-resize-window.md)
     * [Jquery Select Click](javascript/jquery/jquery-select-click.md)
     * [Jquery Validate](javascript/jquery/jquery-validate.md)
+  - Libs
+    * [Js Charts](javascript/libs/js-charts.md)
   - Nodejs
     * [Nodejs Nvm](javascript/nodejs/nodejs-nvm.md)
   - [React](javascript/react/react.md)
@@ -2049,6 +2055,7 @@
   * [Web Payment At W 3 C](others/web-payment-at-w3c.md)
 - Ruby
   - Basics
+    * [Ruby Array Cover And Include](ruby/basics/ruby-array-cover-and-include.md)
     * [Ruby Erb](ruby/basics/ruby-erb.md)
     * [Ruby Hash](ruby/basics/ruby-hash.md)
     * [Ruby Lazy And Enumerator](ruby/basics/ruby-lazy-and-enumerator.md)
@@ -2069,7 +2076,6 @@
     * [2013 12 17 Rails Performance](ruby/rails/2013-12-17-rails-performance.md)
     * [2013 12 18 Rails Rails 3](ruby/rails/2013-12-18-rails-rails3.md)
     * [2013 12 25 Rails Ssl](ruby/rails/2013-12-25-rails-ssl.md)
-    * [2014 01 01 Ec 2 Instance Rails Setting](ruby/rails/2014-01-01-ec2-instance-rails-setting.md)
     * [2014 01 14 Rails Search](ruby/rails/2014-01-14-rails-search.md)
     * [2014 03 14 Rails Infinite Scroll](ruby/rails/2014-03-14-rails-infinite-scroll.md)
     * [2014 03 25 Rails Validation](ruby/rails/2014-03-25-rails-validation.md)
@@ -2086,7 +2092,6 @@
     * [2014 12 24 Rails Http Status Code](ruby/rails/2014-12-24-rails-http-status-code.md)
     * [2015 01 16 Rails Api Test Rspec Factorygirl](ruby/rails/2015-01-16-rails-api-test-rspec-factorygirl.md)
     * [2015 01 18 Rails Console Pry Awesome Print](ruby/rails/2015-01-18-rails-console-pry-awesome-print.md)
-    * [2015 01 25 Rails Draper Decorator](ruby/rails/2015-01-25-rails-draper-decorator.md)
     * [2015 01 29 Rails Tagging](ruby/rails/2015-01-29-rails-tagging.md)
     * [2015 07 12 Rails Devise](ruby/rails/2015-07-12-rails-devise.md)
     * [2016 06 12 Rails Enviroment Config](ruby/rails/2016-06-12-rails-enviroment-config.md)
@@ -2099,15 +2104,16 @@
     * [Activerecord Sql With Arel](ruby/rails/activerecord-sql-with-arel.md)
     * [Activerecord](ruby/rails/activerecord.md)
     * [Capistrano](ruby/rails/capistrano.md)
-    * [Helper](ruby/rails/helper.md)
     * [Nokogiri Libxml Warning On Osx](ruby/rails/nokogiri-libxml-warning-on-osx.md)
     * [Rails Cache](ruby/rails/rails-cache.md)
     * [Rails Commands](ruby/rails/rails-commands.md)
     * [Rails Concern](ruby/rails/rails-concern.md)
+    * [Rails Draper Decorator](ruby/rails/rails-draper-decorator.md)
     * [Rails Exception](ruby/rails/rails-exception.md)
     * [Rails Gem Common](ruby/rails/rails-gem-common.md)
     * [Rails Gem Debug](ruby/rails/rails-gem-debug.md)
     * [Rails Gem Tree](ruby/rails/rails-gem-tree.md)
+    * [Rails Helper](ruby/rails/rails-helper.md)
     * [Rails Lib Directory](ruby/rails/rails-lib-directory.md)
     * [Rails Log](ruby/rails/rails-log.md)
     * [Rails Migration](ruby/rails/rails-migration.md)
@@ -2145,7 +2151,6 @@
   * [2014 08 17 Gem Kage](ruby/2014-08-17-gem-kage.md)
   * [2014 08 17 Ruby Mailserver](ruby/2014-08-17-ruby-mailserver.md)
   * [2014 08 17 Ruby Server Programming](ruby/2014-08-17-ruby-server-programming.md)
-  * [2014 08 23 Ruby Include](ruby/2014-08-23-ruby-include.md)
   * [2014 08 25 Ruby Relative Paths](ruby/2014-08-25-ruby-relative_paths.md)
   * [2014 10 13 Ruby Using Erb In Yaml](ruby/2014-10-13-ruby-using-erb-in-yaml.md)
   * [2014 10 26 Ruby Self](ruby/2014-10-26-ruby-self.md)
@@ -2173,8 +2178,9 @@
   * [Ruby Delegate](ruby/ruby-delegate.md)
   * [Ruby Enum](ruby/ruby-enum.md)
   * [Ruby Gem](ruby/ruby-gem.md)
+  * [Ruby Include Extend](ruby/ruby-include-extend.md)
   * [Ruby Inheritance Vs Composition](ruby/ruby-inheritance-vs-composition.md)
-  * [Ruby Module](ruby/ruby-module.md)
+  * [Ruby Module And Module Function](ruby/ruby-module-and-module-function.md)
   * [Ruby Ocr](ruby/ruby-ocr.md)
   * [Ruby Pattern Builder](ruby/ruby-pattern-builder.md)
   * [Ruby Rbenv](ruby/ruby-rbenv.md)
@@ -2183,7 +2189,6 @@
 - Security
   * [Apache Shiro](security/apache-shiro.md)
   * [Api Security](security/api-security.md)
-  * [Auth 0](security/auth0.md)
   * [Hmac Sha 256](security/hmac-sha256.md)
   * [Java Encryption](security/java-encryption.md)
   * [Java Jce](security/java-jce.md)
