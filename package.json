@@ -5,9 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "rimraf": "^2.3.4",
-    "gitbook-cli": "^2.3.0",
-    "gitbook-plugin-asciitree": "^1.0.9",
-    "gitbook-plugin-toc": "0.0.1"
+    "gitbook-cli": "^3.2.2"
   },
   "devDependencies": {},
   "scripts": {
