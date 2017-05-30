@@ -36,6 +36,16 @@ Dockerホストのクラスタを管理するツール。
 + デフォルトのタグは、「latest」
 + コンテナは1つ以上のイメージを元にして作られる
 
+### docker search
+
+<https://docs.docker.com/engine/reference/commandline/search/>
+
+[docker hub](https://hub.docker.com/)から検索される
+
+```
+docker search [OPTIONS] TERM
+```
+
 # Install
 
 ## Mac Install
@@ -85,6 +95,8 @@ sudo service docker start
 ```
 
 6 Verify docker is installed correctly by running a test image in a container.
+
+docker runすると imageがない場合 <https://cloud.docker.com/>から自動で downloadする
 
 ```
 $ sudo docker run hello-world
@@ -334,4 +346,15 @@ Successfully built 4470cd56ad65
 docker images
 
 docker run testbox env | grep foo
+```
+
+
+# remove all image
+
+```sh
+#!/bin/bash
+# Delete all containers
+docker rm $(docker ps -a -q)
+# Delete all images
+docker rmi $(docker images -q)
 ```
