@@ -40,6 +40,11 @@ SPA File donwload
 7. response s3 download URL to client
 8. download file directly from s3 by response URL.
 
+# その他libraries
+
++ [FileSaver.js](https://github.com/eligrey/FileSaver.js)
++ [StreamSaver.js](https://github.com/jimmywarting/StreamSaver.js)
+
 
 # References
 

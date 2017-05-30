@@ -37,9 +37,15 @@ column　または 範囲の選択関連キー
 
 ### Shrink/expand selection
 
-## 言語モード選択
+
+## Change Language Mode / 言語選択
 
 `command + K, M`
+
+## format json
+
+`shift + alt + F`
+
 
 # markdown 関連
 

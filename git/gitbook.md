@@ -1,8 +1,6 @@
----
-title: Gitbook
-data: 2016-09-17
-tags: git, static-generator
----
+Gitbook
+==============
+
 
 # Setup
 
@@ -28,3 +26,8 @@ ls
 ```
 
 # publish
+
+
+# SUMMARY.md generator
+
+<https://github.com/imfly/gitbook-summary>

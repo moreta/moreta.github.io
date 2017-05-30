@@ -1,9 +1,0 @@
-{
-    "plugins": ["asciitree", "toc"],
-    "pluginsConfig": {
-       "toc": {
-           "addClass": true,
-           "className": "toc"
-       }
-   }
-}

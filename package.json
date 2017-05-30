@@ -5,14 +5,12 @@
   "main": "index.js",
   "dependencies": {
     "rimraf": "^2.3.4",
-    "gitbook-cli": "^2.3.0",
-    "gitbook-plugin-asciitree": "^1.0.9",
-    "gitbook-plugin-toc": "0.0.1"
+    "gitbook-cli": "^2.3.0"
   },
   "devDependencies": {},
   "scripts": {
     "docs:clean": "rimraf _book",
-    "docs:prepare": "gitbook install",
+    "docs:prepare": "gitbook fetch 3.2.2",
     "docs:build": "npm run docs:prepare && gitbook build",
     "docs:watch": "npm run docs:prepare && gitbook serve",
     "docs:publish": "npm run docs:build && cd _book && git init && git add . && git commit -m 'update book' && git push -f git@github.com:moreta/moreta.github.io.git master"
