@@ -1,11 +1,5 @@
----
-title: emacs
-date: 2013-11-20
-tags: emacs, editor
----
-
-
-# new setting with cask
+new setting with cask
+========================
 
 ## 1. emacs インストール
 
@@ -54,8 +48,8 @@ Cask is a project management tool for Emacs that helps automate the package deve
 Start by creating a file named Cask in the project root. Use cask init command to create a Cask-file automatically, containing boilerplate code:
 
 ```
-$ cd ~/.emacs.d
-$ cask init [--dev]
+cd ~/.emacs.d
+cask init [--dev]
 ```
 Use cask init --dev, if the project is for package development!
 
@@ -74,7 +68,10 @@ If you installed Cask via Homebrew:
 
 #### To install all dependencies, run:
 
-`$ cask install`
+```
+cd ~/.emacs.d
+cask install
+```
 
 ## Cask file
 
@@ -105,7 +102,13 @@ If you installed Cask via Homebrew:
 (depends-on "smex")
 (depends-on "use-package")
 (depends-on "web-mode")
+# yaml editor
+(depends-on "yaml-mode")
+# yasnippetは、コードスニペット(code snip)を扱います。
 (depends-on "yasnippet")
+# auto-completeは、編集中に自動補完の候補を上げてくれます（参考）
+(depends-on "auto-complete")
+
 
 ;; ruby
 (depends-on "ruby-block")
@@ -176,3 +179,15 @@ If you installed Cask via Homebrew:
 (add-hook 'ruby-mode-hook 'robe-mode)
 (add-hook 'ruby-mode-hook 'ac-robe-setup)
 ```
+
+
+# References
+
++ [GitHub - cask/cask: Project management tool for Emacs](http://cask.readthedocs.io/en/latest/)
++ [Emacs - 俺がCaskで入れたパッケージを1つ1つ解説していく](http://qiita.com/aKenjiKato/items/aa8a6d9c797a4f10d9f8)
+
+
+## ほかemacs package管理 - el-get
+
++ [Caskはもう古い、これからはEl-Get - いまどきのEmacsパッケージ管理](http://tarao.hatenablog.com/entry/20150221/1424518030)
++ [Manage the external elisp bits and pieces upon which you depend! http://tapoueh.org/emacs/el-get.html](https://github.com/dimitri/el-get)

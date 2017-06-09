@@ -30,4 +30,12 @@ ls
 
 # SUMMARY.md generator
 
+```
+npm install -g gitbook-summary
+```
+
+```
+book sm
+```
+
 <https://github.com/imfly/gitbook-summary>

@@ -28,3 +28,10 @@ branchを作成して、branchでコミットしたほうがあとからmergeも
 ```
 ?w=
 ```
+
+# github checkout pull request
+
+```sh
+git fetch origin pull/ID/head:BRANCHNAME
+git checkout BRANCHNAME
+```

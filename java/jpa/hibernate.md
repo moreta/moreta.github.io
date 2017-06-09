@@ -63,3 +63,6 @@ a detached instance is an object that has been persistent, but its Session has b
 
 `@Id`がなくて発生するエラー
 
+# References
+
++ [Hibernateはどのようにして私のキャリアを破滅寸前にしたか](https://www.kaitoy.xyz/2017/02/23/how-hibernate-ruined-my-career/)
