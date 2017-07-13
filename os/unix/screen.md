@@ -43,9 +43,13 @@ Ctrl-a, S   | (split) 창을 나눔 (region)
 Ctrl-a, Tab | 다른 region으로 이동
 Ctrl-a, Q   | 현재 region을 제외한 나머지 숨기기
 
-## 그리고 마지막 명령으로 세션을 완전히 빠져 나오는 명령입니다.
+## exit - 세션을 완전히 빠져 나오는 명령입니다.
 
-exit : screen 의 쉘상에서 exit 를 치고 엔터를 하면 세션이 완전히 종료 됩니다.
+screen 의 쉘상에서 exit 를 치고 엔터를 하면 세션이 완전히 종료 됩니다.
+
+```
+exit
+```
 
 ## unix commandを新しいwindowで実行
 
