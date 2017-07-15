@@ -301,6 +301,12 @@ In Spring batch, there are six “listeners” to intercept the step execution
 5. ChunkListener
 6. SkipListener
 
+# CompositeItemProcessor
+[safarionline - Pro String Book - 8. Item Processors](https://www.safaribooksonline.com/library/view/pro-spring-batch/9781430234524/ch08.html)
+
++ Processorを複数つなげる
++ 途中でnullをreturnするとそこからはすすまない
+
 
 # References
 

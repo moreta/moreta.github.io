@@ -1,10 +1,9 @@
----
-title: "Ruby CSV"
-date: 2013-12-16
-tags: ruby, rails, csv
----
+Ruby CSV
+=========
 
+# gem - smarter csv
 
+<https://github.com/tilo/smarter_csv>
 
 ## invalid byte sequence in UTF-8
 

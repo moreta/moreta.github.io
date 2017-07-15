@@ -43,6 +43,9 @@ curl -T "{file1,file2}" http://www.example.com
 
 ```
 curl -O http://www.example.com/your_file.tar # 
+
+# checksum確認
+openssl sha1 your_file.tar
 ```
 
 # --verbose
