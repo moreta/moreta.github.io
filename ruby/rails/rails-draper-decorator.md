@@ -1,8 +1,6 @@
----
-title: Draper  - Decorators/View-Models for Rails Applications
-date: 2015-01-25
-tags: rails, gem, decorator
----
+
+Draper  - Decorators/View-Models for Rails Applications
+========================================================
 
 
 # Usage
@@ -58,7 +56,8 @@ class PaginatingDecorator < Draper::CollectionDecorator
 end
 ```
 
-## 参考
+# References
 
 * <https://github.com/drapergem/draper>
 * <https://github.com/drapergem/draper/issues/401>
++ [rails 3で使える最後のversion 1.4.0](https://github.com/drapergem/draper/tree/v1.4.0)

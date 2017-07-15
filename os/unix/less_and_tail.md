@@ -1,4 +1,4 @@
-less
+less & tail
 =======
 
 # tail -f の代わりのlessを使う

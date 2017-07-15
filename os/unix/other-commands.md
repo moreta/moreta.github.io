@@ -8,8 +8,6 @@ tags: unix, command
 
 `wc -l file_name.txt`
 
-# tail
-
 
 # メモリ
 
@@ -147,60 +145,7 @@ lsof -i @192.168.0.1:80 # interfaceとポート指定
 
 `telnet xxx.xxx.xxx.xxx 80`
 
-# tree
 
-mac install
-```
-brew install tree
-```
-
-## man page
-
-<http://mama.indstate.edu/users/ice/tree/tree.1.html>
-
-#### LISTING OPTIONS
-
-| options |                desc                |
-|---------|------------------------------------|
-| -a      | all file(include hidden file)      |
-| -d      | directories only                   |
-| -L      | Max display depth of the directory |
-|         |                                    |
-
-#### FILE OPTIONS
-
-| options |                         desc                         |
-|---------|------------------------------------------------------|
-| -u      | print the username                                   |
-| -g      | print the groupname                                  |
-| -h      | print the size of file in a more human readable way, |
-|         |                                                      |
-
-#### SORTING OPTIONS
-
-| options |                         desc                         |
-|---------|------------------------------------------------------|
-
-#### GRAPHICS OPTIONS
-
-| options |                         desc                         |
-|---------|------------------------------------------------------|
-
-
-# ln
-
-## examples
-
-
-```
-# Set up launchctl to auto start mongod
-ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents
-```
-
-
-- -s : シンボリックリンクを作成します。このオプションを省略した場合は、ハードリンクを作成します
-- -f : 作成するリンクファイルと同一名のファイルが存在しても、問い合わせなしに上書きします。(force)
-- -v : 処理内容を出力します。(verbose)
 
 
 # 重複を削除する

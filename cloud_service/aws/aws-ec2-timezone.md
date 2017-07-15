@@ -62,4 +62,4 @@ ec2のtimezon設定
 # References
 
 - [Linux タイムゾーン(Timezone)の変更](http://qiita.com/azusanakano/items/b39bd22504313884a7c3)
-- http://dev.classmethod.jp/cloud/aws/glibc-changed-timezone/
+- <http://dev.classmethod.jp/cloud/aws/glibc-changed-timezone/>

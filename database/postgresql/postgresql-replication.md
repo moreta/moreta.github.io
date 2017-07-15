@@ -1,4 +1,36 @@
 
+# read only userの作成
+replication構成で利用する read only userを作成し、権限を付与する
+
+## ユーザーの作成
+
+```
+CREATE ROLE read_only_user LOGIN REPLICATION PASSWORD 'password';
+
+-- REPLICATIONはなくてもいいか
+CREATE ROLE read_only_user LOGIN  PASSWORD 'password'; 
+```
+
+## ロールの一覧確認
+
+```
+\du
+```
+
+## 権限の付与
+
+```
+-- これだと既存のテーブルのみアクセスできる
+-- 権限付与後追加されたテーブルへの権限は付与されない
+GRANT SELECT ON ALL TABLES IN SCHEMA public TO read_only_user;
+```
+
+## 追加されるテーブルまで権限を付与するには以下
+```
+ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT SELECT ON TABLES TO read_only_user;
+```
+
+
 
 # master設定
 
@@ -17,3 +49,4 @@ wal_keep_segments = 16
 # References
 
 + [PostgreSQL9.1ためしてみた【非同期レプリケーション編】](http://d.hatena.ne.jp/hiroe_orz17/20111113/1321180635)
++ [How do you create a read-only user in PostgreSQL?](https://stackoverflow.com/questions/760210/how-do-you-create-a-read-only-user-in-postgresql)

@@ -132,8 +132,10 @@ Homebrew-caskをインストールします。インストールすることでb
 
 これは次のようにbrew tapしてインストールするのと同じです
 
-`brew tap caskroom/cask`
-`brew install brew-cask`
+```
+brew tap caskroom/cask
+brew install brew-cask
+```
 
 ## アプリを探す
 

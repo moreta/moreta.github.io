@@ -40,6 +40,41 @@ SPA File donwload
 7. response s3 download URL to client
 8. download file directly from s3 by response URL.
 
+
+# 最終的に使ったコード
+
++ <https://stackoverflow.com/questions/17696516/download-binary-files-with-javascript>
++ <https://developer.mozilla.org/ja/docs/XMLHttpRequest/Sending_and_Receiving_Binary_Data>
+
+server 部分
+
+1. file生成
+2. s3 upload
+3. 期限付き s3 URLを発行
+4. json responseへ返す
+
+js 部分
+
+```js
+someApi.createFile(order.id).then(payload => {
+    var oReq = new XMLHttpRequest()
+    oReq.open("GET", payload.fileUrl, true)
+    oReq.setRequestHeader('Content-Type', payload.contentType);
+    oReq.responseType = "arraybuffer"
+    oReq.onload = function (oEvent) {
+        if (this.status === 200) {
+            var blob = new Blob([oReq.response], { type: payload.contentType })
+            var objectUrl = URL.createObjectURL(blob)
+            let a = document.createElement('a')
+            a.download = payload.fileName
+            a.href = objectUrl
+            a.click()
+        }
+    }
+    oReq.send()
+})
+```
+
 # その他libraries
 
 + [FileSaver.js](https://github.com/eligrey/FileSaver.js)
@@ -53,3 +88,4 @@ SPA File donwload
 
 
 + [superagent - Parsing response bodies](http://visionmedia.github.io/superagent/#parsing-response-bodies)
+

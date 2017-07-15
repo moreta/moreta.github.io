@@ -34,6 +34,29 @@ end
 ModuleName.hoge_method
 ```
 
+## moudle_functionから private methodへアクセス
+
+<https://stackoverflow.com/questions/18518575/accessing-private-methods-from-module-functions-in-ruby>
+
+```rb
+module Party
+
+  def enjoy
+    puts 'hello'
+  end
+
+  def pooper
+    enjoy
+  end
+
+  private_class_method :enjoy
+  module_function :pooper
+end
+
+Party.pooper # => 'hello'
+Party.enjoy # => private method `enjoy' called for Party:Module (NoMethodError)
+```
+
 # ActiveSupport::Concern - rails
 
 Rubyには元から mix-in という処理を切り出す機能があるが、ActiveSupport::Concernを利用するといくつか利点がある

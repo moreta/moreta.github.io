@@ -27,7 +27,7 @@ tags: rmagick, carrierwave, rails, image, fog
 
 <https://github.com/carrierwaveuploader/carrierwave/wiki/How-to%3A-Recreate-and-reprocess-your-files-stored-on-fog>
 
-```
+```rb
 YourModel.all.each do |ym|
   begin
     ym.process_your_uploader_upload = true # only if you use carrierwave_backgrounder
@@ -40,6 +40,11 @@ YourModel.all.each do |ym|
   end
 end
 ```
+
+# urlでimage(file)保存
+
+`remote_[column_name]_url`を利用
+
 
 ## version & version filename
 

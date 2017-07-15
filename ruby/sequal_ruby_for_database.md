@@ -4,6 +4,14 @@
 
 <http://sequel.jeremyevans.net/rdoc/files/doc/sharding_rdoc.html>
 
+
+# Database Sharding
+
+<http://sequel.jeremyevans.net/rdoc/files/doc/sharding_rdoc.html#label-Sharding>
+
+
+
+
 # References
 
 + [documentation](http://sequel.jeremyevans.net/documentation.html)

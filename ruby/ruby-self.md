@@ -1,8 +1,8 @@
----
-title: Rubyでのself
-date: 2014-10-26
-tags: ruby, self
----
+
+Rubyでのself
+===================
+
+<http://blog.honeybadger.io/ruby-self-cheat-sheet/>
 
 
 # extend self
@@ -10,7 +10,7 @@ tags: ruby, self
 以下のように書き方は
 instance methodも class methodを定義される
 
-```
+```rb
 module Bar
   extend self
 
@@ -28,7 +28,7 @@ puts "-- singleton methods"
 puts Bar.singleton_methods.grep(/method\d/)
 ```
 
-```
+```rb
 -- instance methods
 method1
 method2
