@@ -4,8 +4,8 @@
   "description": "moreta's tech note",
   "main": "index.js",
   "dependencies": {
-    "rimraf": "^2.3.4",
-    "gitbook-cli": "^2.3.0"
+    "gitbook-cli": "^2.3.0",
+    "rimraf": "^2.3.4"
   },
   "devDependencies": {},
   "scripts": {
