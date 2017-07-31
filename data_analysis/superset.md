@@ -39,6 +39,11 @@ superset runserver
 # To start a development web server, use the -d switch
 # superset runserver -d
 ```
+application起動他
+
+```sh
+nohup superset runserver > out.log 2> error.log &
+```
 
 ## for oracle
 
