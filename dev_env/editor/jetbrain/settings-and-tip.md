@@ -1,9 +1,5 @@
----
-title: Jetbrain Editor Custom Setting & tips
-date: 2016-02-08
-tags: java, editor, setting 
----
-
+Jetbrain Editor Custom Setting & tips
+=================================
 
 
 # Live template
@@ -68,10 +64,6 @@ mv ~/...Path/Emacs_beats_vi.keylayout ~/Library/Keyboard\ Layouts/
 ```
 
 
-# settings
-
-Editor
-
 
 # Watcher setting
 
@@ -98,3 +90,10 @@ Editor
 `/**`を入力後、enter
 
 
+# Editorでcopyするとstylistまでcopyされる場合
+
+Editor > General
+
+Rich-text copyの部分で
+
+"Copy as rich text by default"のcheckを外す
