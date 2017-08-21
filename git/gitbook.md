@@ -30,6 +30,8 @@ ls
 
 # SUMMARY.md generator
 
+<https://github.com/imfly/gitbook-summary>
+
 ```
 npm install -g gitbook-summary
 ```
@@ -38,4 +40,3 @@ npm install -g gitbook-summary
 book sm
 ```
 
-<https://github.com/imfly/gitbook-summary>
