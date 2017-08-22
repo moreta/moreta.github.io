@@ -1,8 +1,7 @@
-------  ----------  --------  -------  --------
-title:  Java        Function                   
-date:   2016-08-04                             
-tags:   stream,     java,     lambda,  function
-------  ----------  --------  -------  --------
+# Lambda式の変数scope
+
+* 람다식으로부터 억세스 가능한 것은 지역변수와 블록구의 파라미터 중에 final이거나 사실상 final 판정(effectively final)을 받은 것에 한정됩니다.
+* 内部classやlambdaで外側で定義されているlocal variableを使う場合には そのローカル変数に暗黙にfinalが付いているもとみなす。
 
 # predicateと function
 
