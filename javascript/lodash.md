@@ -23,3 +23,24 @@ lodashには`extends`もあるが`assign`と同じ
 
 + [lodashがなくても実装できる](http://blog.xebia.com/you-might-not-need-lodash-in-your-es2015-project/)
 + [Official doc](https://lodash.com/)
+
+
+# nubmer判断
+
+## `isNumber` と `isFinite`
+
++ To exclude Infinity, -Infinity, and NaN, which are classified as numbers, use the _.isFinite method.
++ finite : 有限の
+
++ `isNumber`はInfinity, -Infinity, NaNの場合が **true**
++ `isFinite`はInfinity, -Infinity, NaNの場合が **false**
+
+`toNumber('a')`の場合`NaN`になるので isNumberした値を `isNumber`で判定すると trueになってしまう。
+
+es6を利用するなら
+
+
+## `toNubmer` と `toInteger`
+
+ + `toNubmer` は Infinity, -Infinity, NaNをreturn
+ + `toInteger`は Infinity, -Infinity, NaNをreturnせずに 0になる
