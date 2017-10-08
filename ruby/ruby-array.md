@@ -1,8 +1,5 @@
----
-title: ruby Array
-date: 2014-08-29
-tags: ruby, array
----
+Ruby Array
+=================
 
 ## zip
 

@@ -34,3 +34,16 @@ yarn add <pakage-name>
 yarn add <pakage-name> --dev
 yarn remove <pakage-name>
 ```
+
+# update package
+
+選択しながらやりたい場合
+
+```
+yarn upgrade-interactive
+```
+
+決まっている場合
+```
+yarn upgrade [package]
+```

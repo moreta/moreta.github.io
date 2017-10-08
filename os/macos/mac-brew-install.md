@@ -259,16 +259,6 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 
 `pgcli -h localhost -U postgres db_name`
 
-# Recommand Packages : 入れて置くべき
-
-+ ccat
-  + syntax color with cat
-+ tree
-  + tree view ls
-+ jq
-  + json parser cli
-+ rename
-  + file rename
 
 # References
 
