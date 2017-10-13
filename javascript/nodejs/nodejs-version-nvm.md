@@ -9,7 +9,7 @@ nvmを利用するとrvmとほぼ同じ感じでインストールできる
 <https://github.com/creationix/nvm>
 
 ```
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.2/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.5/install.sh | bash
 ```
 
 
@@ -98,39 +98,6 @@ nvm run 0.10.24 myApp.js    # Run myApp.js using node v0.10.24
 
 
 
-
-# nvm でinstallしたnodeのversion
-
-`node -v`
-
-
-# with Fish shell
-
-- nvm plugin for Oh My Fish, which makes nvm and its completions available in fish shell
-- bass allows to use utilities written for Bash in fish shell
-
-
-## nvm cliを使うためには
-
-in `.config/fish/functions/nvm.fish`
-
-```
-function nvm
-    bass source ~/.nvm/nvm.sh ';' nvm $argv
-end
-```
-
-
-## Automatic Version Switching for Node.js(.nvmrc)
-
-- <https://github.com/wbyoung/avn>を利用
-
-```
-npm install -g avn-nvm
-avn setup
-```
-
-
 # nvm自体のアップデート
 
 
@@ -138,4 +105,51 @@ avn setup
 cd ~/.nvm
 git pull origin master
 source ~/.nvm/nvm.sh
+```
+
+# nvm でinstallしたnodeのversion
+
+`node -v`
+
+
+# Fish shell
+
++ Note: nvm does not support Fish either (see #303). Alternatives exist, which are neither supported nor developed by us:
+  + fish shellはsupportしないので別のものをinstall
+
+## plugin-nvmがかんたん
+
+<https://github.com/derekstavis/plugin-nvm>
+
+```sh
+omf install nvm
+refresh
+```
+これでOK
+
+## Automatic Version Switching for Node.js - avn
+
++ avnもnvmで supportはしていない。別でinstall
++ rubyで.ruby-gemset, .ruby-versionがあれば自動で切り替わる感じ？
++ <https://github.com/wbyoung/avn>
+
+```sh
+npm install -g avn avn-nvm
+avn setup
+```
+
+setupすると環境設定fileに以下が追加される
+
+```
+# .bash_profile
+# .zshrc - 必要ないけどな..
+[[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
+```
+
+## .node-version file
+
+簡単
+
+```
+v8.6.0
 ```

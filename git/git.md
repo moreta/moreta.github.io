@@ -325,6 +325,13 @@ git commit -e
 `git fetch --prune`
 
 
+# Config
+
+```
+git config --global core.editor emacs # editor
+git config --global commit.template ~/.gitmessage.txt # commit template
+```
+
 # config sample
 
 ```
@@ -364,4 +371,11 @@ git commit -e
   diff = diff-highlight | less
 [diff]
   compactionHeuristic = true
+```
+# checkout
+
+## 特定fileだけ過去versionにする
+
+```sh
+git checkout xxxx[hash] filename.txt
 ```

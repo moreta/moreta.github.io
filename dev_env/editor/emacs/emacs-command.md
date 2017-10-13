@@ -37,3 +37,10 @@ Join two lines by deleting the intervening newline, along with any indentation f
 ### delete whitespace
 <http://www.emacswiki.org/emacs/DeletingWhitespace>
 
+# redo / undo
+
+## undo
+
+* `C-_`
+* `C-/`
+* `C-x u`

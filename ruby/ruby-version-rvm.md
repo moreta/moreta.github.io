@@ -10,7 +10,7 @@ tags: ruby, rvm
 
 ## macでインストールするときにあらかじめ入っていたらいいもの
 
-```
+```sh
 brew install gpg2
 brew install coreutils
 brew install openssl
@@ -173,4 +173,14 @@ bundle install
 ```
 rvm implode
 rvm
+```
+
+# Fish shell for rvm
+
+```sh
+curl --create-dirs -o ~/.config/fish/functions/rvm.fish https://raw.github.com/lunks/fish-nuggets/master/functions/rvm.fish
+
+# after curl
+emacs ~/.config/fish/config.fish
+rvm > /dev/null
 ```

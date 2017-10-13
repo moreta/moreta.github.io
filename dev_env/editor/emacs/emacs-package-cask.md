@@ -102,11 +102,12 @@ cask install
 (depends-on "smex")
 (depends-on "use-package")
 (depends-on "web-mode")
+(depends-on "yasnippet") # auto-completeは、編集中に自動補完の候補を上げてくれます（参考）
+# === ここまでintiによって defaultで入っている
+
 # yaml editor
 (depends-on "yaml-mode")
 # yasnippetは、コードスニペット(code snip)を扱います。
-(depends-on "yasnippet")
-# auto-completeは、編集中に自動補完の候補を上げてくれます（参考）
 (depends-on "auto-complete")
 
 
