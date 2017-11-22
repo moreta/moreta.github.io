@@ -34,3 +34,8 @@ s3にはfolderという概念がない
 # References
 
 + [AWS CLIのS3コマンドまとめ](http://www.task-notes.com/entry/20150904/1441335600)
+
+## aws sdk wrapper & helper example
+
++ <https://github.com/AllanTamdem/sync_server/blob/0263f4cffd300ff635e037fd5180148e389d663e/app/helpers/s3v2_helper.rb>
+  + jsonのresponseを作るときも参考にできる

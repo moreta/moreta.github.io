@@ -102,26 +102,58 @@ cask install
 (depends-on "smex")
 (depends-on "use-package")
 (depends-on "web-mode")
-(depends-on "yasnippet") # auto-completeは、編集中に自動補完の候補を上げてくれます（参考）
-# === ここまでintiによって defaultで入っている
+;; yasnippetは、コードスニペット(code snip)を扱います
+(depends-on "yasnippet") 
 
-# yaml editor
+
+;; ========= ここまでintiによって defaultで入っている ==================
+
+;; yaml
 (depends-on "yaml-mode")
-# yasnippetは、コードスニペット(code snip)を扱います。
+
+;; auto-completeは、編集中に自動補完の候補を上げてくれます（参考）
 (depends-on "auto-complete")
 
 
 ;; ruby
+(depends-on "ruby-mode")
+(depends-on "ruby-end")
+;; ruby - option
 (depends-on "ruby-block")
 (depends-on "ruby-compilation")
-(depends-on "ruby-end")
 (depends-on "ruby-interpolation")
-(depends-on "ruby-mode")
 (depends-on "ruby-test-mode")
 (depends-on "ruby-tools")
+
+;; undo/redo
+(depends-on "undo-tree")
+(depends-on "redo+")
 ```
 
 ## init.el file
+
+最近はこれだけ
+
+```el
+;; Added by Package.el.  This must come before configurations of
+;; installed packages.  Don't delete this line.  If you don't want it,
+;; just comment it out by adding a semicolon to the start of the line.
+;; You may delete these explanatory comments.
+(package-initialize)
+
+(require 'cask)
+(cask-initialize)
+
+;; undo-tree
+;; C-x u : view tree list
+;; C-S-- : default undo key(C-/ also ok)
+;; M-S-- : undo
+(require 'undo-tree)
+(global-undo-tree-mode t)
+(global-set-key (kbd "M-S--") 'undo-tree-redo)
+```
+
+以前はdeprecated
 
 ```el
 (require 'cask)
@@ -182,6 +214,19 @@ cask install
 ```
 
 
+
+
+
+# packages
+
+## undo-tree
+
++ undoをtree uiで表示してくれる (C-x u)
++ treeを移動してで変更履歴も表示される(移動後 d)
++ redoができる
+  + global ket setを登録
+  + `(global-set-key (kbd "M-/") 'undo-tree-redo)`
+
 # References
 
 + [GitHub - cask/cask: Project management tool for Emacs](http://cask.readthedocs.io/en/latest/)
@@ -192,3 +237,4 @@ cask install
 
 + [Caskはもう古い、これからはEl-Get - いまどきのEmacsパッケージ管理](http://tarao.hatenablog.com/entry/20150221/1424518030)
 + [Manage the external elisp bits and pieces upon which you depend! http://tapoueh.org/emacs/el-get.html](https://github.com/dimitri/el-get)
++ [今更Emacsで使っているパッケージを晒してみる](https://qiita.com/derui@github/items/24e0949149a61b06ac39)

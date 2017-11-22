@@ -35,6 +35,31 @@ Command + Control + ← (履歴を戻る) / Command + Control + → (履歴を�
 2. file inspectorのLocationを変更
 
 
-## auto complete
+# auto complete
 
 `ctrl + space`
+
+# fix - エラーの自動fix
+
+`Control + Command + '`
+
+# formatting code
+
+
+down vote
+Key combination to format all text on open file:
+
+`Command  + a  > Ctrl i`
+
+# rename
+
+変数を当て右クリックし、
+Refactor > renameを選択
+
+# Run (build)
+
+`Command + r`
+
+# References
+
++ [xcode shortcut](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/xcode_help-command_shortcuts/MenuCommands/MenuCommands014.html)

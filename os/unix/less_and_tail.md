@@ -5,13 +5,20 @@ less & tail
 
 ```sh
 less -F file.log
-# or
-
-less file.log
-# shift fするとtailモードになる
 ```
 
-## 他のcommand
+## tail modeへの切り替え
+
+```
+less file.log
+# shift - f するとtailモードになる
+
+# tail mode -> normal mode
+`Ctrl+C`
+を入力して、通常のlessに戻れます。
+```
+
+# 他のless command
 
 - `q`：less終了（quit）
 - `f`：次のページを見る（forward）
@@ -24,10 +31,6 @@ less file.log
 - `?キーワード`：後方検索。`n`で次の検索一致へ移動。`N`で前の検索一致へ移動。
 - `F`：監視状態。`tail -f`と同じ機能。`Ctrl + c`でless状態に戻る。
 
-# tail mode -> normal mode
-
-`Ctrl+C`
-を入力して、通常のlessに戻れます。
 
 # tailがいいどころ
 

@@ -146,7 +146,7 @@ wget https://git.io/vpnsetup-centos -O vpnsetup.sh && sudo sh vpnsetup.sh
 ubuntuを利用
 
 ```sh
-apt-get update && apt-get dist-upgrade
+sudo apt-get update && apt-get dist-upgrade
 wget https://git.io/vpnsetup -O vpnsetup.sh && sudo sh vpnsetup.sh
 ```
 

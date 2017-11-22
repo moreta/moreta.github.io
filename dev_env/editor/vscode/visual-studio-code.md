@@ -69,6 +69,17 @@ column　または 範囲の選択関連キー
 
 * vetur
 
+# change language mode(editor syntax変更)
+| key  | command              | command id                                 |
+|------|----------------------|--------------------------------------------|
+| `⌘K M` | Change Language Mode | workbench.action.editor.changeLanguageMode |
+
+# Custom
+
+以下は、私が修正したshortcut
+
+Relace : `command + R`
+
 
 # References
 

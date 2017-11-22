@@ -21,3 +21,4 @@ Check : JavaScript で File API を使用してファイルを読み取る
 # XMLHttpRequest2
 
 <http://www.html5rocks.com/en/tutorials/file/xhr2/>
+  

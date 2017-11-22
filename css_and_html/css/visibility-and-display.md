@@ -6,17 +6,15 @@ tags: css, visibility, display
 
 # visibility and display
 
-たまに間違って説明している人とか、テーブル行がウマく消えずに苦しんでる人を見かけるので、説明しようとするのだけど、いつも忘れているのでちゃんとまとめておく。
-
 ## display:none 
 
-elementを消す。DOMとしては存在するが描画されない
+* elementを消す。DOMとしては存在するが描画されない
 
 ## visibility:hidden 
 
-hidden only visually hides elements
-
-エレメントは描画させないだけ, elementは存在する
+* hidden only visually hides elements
+* エレメントは描画させないだけ, elementは存在する
+* drag and dropでfile選択ボタンを非表示にしたい時など利用する
 
 
 # visibility

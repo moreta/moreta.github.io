@@ -29,16 +29,35 @@ flexboxを使うのがおすすめ
 | flex             |                                                                                                 |
 
 
-# flex-grow
-
-
-
 ## ちなみに
 
 HTML5ではブロック要素、インライン要素という分け方はない
 displayプロパティの説明に入る前に外せないのが、この話です。
 
 HTML5以前（HTML4.1、XHTML1.0）では、HTMLにブロック（レベル）要素、インライン（レベル）要素という分け方がありました。
+
+
+# flexboxでgridを実装したときの最後itemのalign処理
+
+<https://stackoverflow.com/questions/18744164/flex-box-align-last-row-to-grid>
+
+もし、3列で10件を描画すると最後の1個が row全幅をとったりする
+これを防ぐには以下のように書く
+
+```css
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.grid:after {
+  content: "";
+  flex: auto;
+}
+```
+もしくは、gridを使うのがいいが、まだbrowser supportはまだかな
+
 
 # References
 

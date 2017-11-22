@@ -1,6 +1,19 @@
 Javascript RegExp
 ====================
 
+# RegExp object
+
+基本は
+```js
+var re = new RegExp("ab+c");
+```
+
+
+簡単に // で表現できる
+```js
+var re = /ab+c/;
+```
+
 # 正規表現でエスケープが必要な文字一覧表
 
 以下のようなコードはエラーが発生する

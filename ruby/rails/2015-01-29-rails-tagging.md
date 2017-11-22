@@ -41,3 +41,11 @@ user.tag_list.add("awesome, slick", parse: true)
 @user.reload
 @user.tags
 ```
+
+# ownership tagは少しややこしい
+
+documentがしょぼい。。
+
+# References
+
++ [acts-as-taggable-onでオーナーを設定してタグを登録する](https://qiita.com/higan/items/04f8797213ffb50effec)

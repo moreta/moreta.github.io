@@ -14,8 +14,6 @@ tags: chrome, extension
 + [Page actions](https://developer.chrome.com/extensions/pageAction)
 + [Override Pages](https://developer.chrome.com/extensions/override)
 
-<<<<<<< HEAD
-=======
 ## 他の用語(react-chrome-extension-boilerplateでの)
 
 + popup == 左上に表示されるiconから
@@ -23,7 +21,6 @@ tags: chrome, extension
 + Inject page
   + The inject script is being run by chrome/app/background/inject.js. A simple example will be inject bottom of page(https://github.com/*) if you visit
 
->>>>>>> bfbea1c3cc75e7d99ddc34dcdadb736374654ec8
 ## Override Pages
 
 以下のページを置き換えることができます。
@@ -41,9 +38,6 @@ tags: chrome, extension
 `Language & Frameworks > Javascript > Libaries`
 からDownloadをクリックし、chromeを`Download and Install`する
 
-<<<<<<< HEAD
-
-=======
 # Load unpack extension
 
 + 開発中のpackageしてないソースをchromeにロードすること
@@ -176,18 +170,12 @@ localStorageとの違い
 + <https://developer.chrome.com/extensions/samples>
 
 
-# Document翻訳
-
-TODO
->>>>>>> bfbea1c3cc75e7d99ddc34dcdadb736374654ec8
 
 # References
 
 + [Official page](https://developer.chrome.com/extensions)
 + [Chromeのオリジナル拡張機能を開発しよう（ソースコードあり）](http://liginc.co.jp/web/tool/browser/163575)
   + [source](https://github.com/xipx/link-checker)
-<<<<<<< HEAD
-=======
 + [Chrome拡張 | アーキテクチャ](http://qiita.com/tbpgr/items/168a90ba07badc86e1e6)
 + [Chrome拡張では、Background pages よりも Event pages を使用したほうが良い](http://yonchu.hatenablog.com/entry/2013/05/09/221030)
 
@@ -196,4 +184,3 @@ TODO
 
 + [vimmers-follow-status](https://github.com/yonchu/vimmers-follow-status)
 + [chrome extension samples](https://developer.chrome.com/extensions/samples)
->>>>>>> bfbea1c3cc75e7d99ddc34dcdadb736374654ec8
