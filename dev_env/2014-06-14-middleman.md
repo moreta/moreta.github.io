@@ -88,9 +88,6 @@ $ middleman deploy [--build-before]
 * middlemanのビルドファイルをS3にデプロイ
 
 ```
-```
-
-```
 middleman build
 middleman s3_sync
 ```
