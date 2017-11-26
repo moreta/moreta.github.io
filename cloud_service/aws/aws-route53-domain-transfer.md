@@ -23,3 +23,5 @@ DNS を最初に移管する理由
 
 + [ドメイン登録の Amazon Route 53 への移管](http://docs.aws.amazon.com/ja_jp/Route53/latest/DeveloperGuide/domain-transfer-to-route-53.html)
 + [既存ドメインの DNS サービスを Amazon Route 53 に移行する](http://docs.aws.amazon.com/ja_jp/Route53/latest/DeveloperGuide/MigratingDNS.html)
+
+
