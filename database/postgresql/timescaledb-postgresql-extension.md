@@ -1,0 +1,1 @@
+<https://blog.timescale.com/time-series-data-postgresql-10-vs-timescaledb-816ee808bac5>
