@@ -15,6 +15,8 @@ AWS Cloudfront
 
 [CloudFrontでマルチオリジンとCache Behavior設定してみた](http://dev.classmethod.jp/cloud/aws/cloudfront-multioriginbehavior/)
 
+# precedence & path pattern
+
 # ログの管理
 
 <http://docs.aws.amazon.com/ja_jp/AmazonCloudFront/latest/DeveloperGuide/AccessLogs.html>

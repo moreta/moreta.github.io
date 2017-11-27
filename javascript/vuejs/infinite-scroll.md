@@ -1,4 +1,31 @@
+# infinite scroll vs pagination
 
+[UX: Infinite Scrolling vs. Pagination](https://uxplanet.org/ux-infinite-scrolling-vs-pagination-1030d29376f1)
+
+これはよんで置くべき
+UXの違いとpros consで整理されている
+
+# infinite scrollでの問題
+
+## 1. history backでロードしたすべてのコンテンツが表示されない
+
+もし、scrollとurlを変更しているのであれば、browserの戻るボタンで戻ると特定ページのみに表示されるようになる
+(browserのback forward cacheが動作する場合もあるが、しないときもあるので確実ではない )
+
+## 2. SEO的によくない？
+
+## 3. scroll upへの対応
+
+infinite scrollにすると scroll upは paginationでのページ遡りと同じ。
+しかし、scroll upの対応もそう簡単ではない
+
+### scroll upでのurl changeするコードはこれを参考に
+
+<https://github.com/wataruoguchi/clever-infinite-scroll>
+
+## 4. google analticsの追加コードが必要
+
+ページ遷移のeventをanalyticsに送るため、追加のjsコードが必要
 
 # References
 

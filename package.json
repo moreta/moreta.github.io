@@ -7,7 +7,6 @@
     "gitbook-cli": "^2.3.0",
     "rimraf": "^2.3.4"
   },
-  "devDependencies": {},
   "scripts": {
     "docs:clean": "rimraf _book",
     "docs:prepare": "gitbook fetch 3.2.2",
