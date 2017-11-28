@@ -5,15 +5,10 @@
 * Dockerコンテナクラスタリングを利用する方法
 * J2EEコンテナを利用する方法
 * L7スイッチを利用する方法
-* 
 
+# AWS Elastic Beanstalkのdeploy方法は参考になる
 
-# J2EEコンテナを利用する方法
-
-## Tomcat 7 以降の Parallel Deployment
-
-
-
+<https://www.slideshare.net/AmazonWebServicesJapan/aws-black-belt-online-seminar-2017-aws-elastic-beanstalk>
 
 # References
 
