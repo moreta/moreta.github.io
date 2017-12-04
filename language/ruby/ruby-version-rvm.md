@@ -9,7 +9,7 @@ tags: ruby, rvm
 <https://rvm.io/rvm/install>
 
 ## macでインストールするときにあらかじめ入っていたらいいもの
-
+  
 ```sh
 brew install gpg2
 brew install coreutils

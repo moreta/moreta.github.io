@@ -37,6 +37,18 @@ rails g migration AddViewCountToPosts view_count:integer
 <https://github.com/DatabaseCleaner/database_cleaner/issues/445>
 
 なので以下のようにdbをセットアップする必要がある
-```
 
+# ActiveType::Object
+<https://qiita.com/jkr_2255/items/271ed85e03c0ae27d5e5>
+
+# ApplicationRecord
+
+<https://techracho.bpsinc.jp/hachi8833/2017_04_27/36050>
+
+```
+class Article < ActiveRecord::Base # Rails 4
+end
+
+class Article < ApplicationRecord  # Rails 5
+end
 ```

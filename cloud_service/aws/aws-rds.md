@@ -1,4 +1,7 @@
+# Amazon RDS のベストプラクティス
+これはよんで置こう
 
+<http://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/CHAP_BestPractices.html>
 
 # DB インスタンスを変更
 
@@ -94,4 +97,4 @@
 - [Amazon RDS のメンテナンス](http://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.Maintenance.html)
 - [**高可用性 (マルチ AZ)**](http://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html) [](http://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html)
 - [Amazon RDS のメンテナンスにどう立ち向かうべきか](https://blog.manabusakai.com/2016/01/rds-maintenance/)
-
+- [Amazon RDS のベストプラクティス](http://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/CHAP_BestPractices.html)

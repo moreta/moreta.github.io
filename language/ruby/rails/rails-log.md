@@ -49,6 +49,42 @@ logger.debug("デバッグ情報")
     end
 ```
 
+# renderログが表示させない
+
+[Railsログ中の”Rendered xxxx.html.erb”を静かにさせたかった](http://daily.belltail.jp/?p=2270)
+
+action viewのログを全部消す
+
+```rb
+# config/environments/production.rb
+MyApplication::Application.configure do
+  ...
+  # Not to show logs like Rendered xxxx.html.erb
+  config.action_view.logger = nil
+  ...
+end
+```
+
+## logrageを使う
+<https://github.com/roidrage/lograge/>
+
++ rails 3 : <https://github.com/roidrage/lograge/tree/v0.3.6>
+
+```rb
+gem 'lograge'
+```
+Enable it in an initializer or the relevant environment config:
+
+```rb
+# config/initializers/lograge.rb
+# OR
+# config/environments/production.rb
+Rails.application.configure do
+  config.lograge.enabled = true
+end
+```
+
+
 # References
 
 + [Rakeタスクの賢いロギング](http://qiita.com/naoty_k/items/0be1a055932b5b461766)

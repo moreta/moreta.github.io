@@ -1,44 +1,6 @@
 AWS VPCへVPN接続
 ===============
 
-# VPN Basic
-
-## VPN接続時に接続先が認識するIPについて
-
-いつもの インターネット
-
-```
-「自分」 -> 「ルータ(IP:xxx.xxx.xxx.xxx)」 -> 「接続先」（お！IP:xxx.xxx.xxx.xxxというやつが接続してきたぞ）
-```
-
-VPNを使ったインターネット パターン１
-
-```
-「自分」 -> 「ルータ(IP:xxx.xxx.xxx.xxx)」 -> 「VPN接続先（IP:yyy.yyy.yyy.yyy）」 -> 「接続先」（お！IP:yyy.yyy.yyy.yyyというやつが接続してきたぞ）
-```
-
-VPNを使ったインターネット パターン２
-
-```
-「自分」 -> 「ルータ(IP:xxx.xxx.xxx.xxx)」 -> 「VPN接続先（IP:yyy.yyy.yyy.yyy）」 -> 「接続先」（お！IP:xxx.xxx.xxx.xxxというやつが接続してきたぞ）
-```
-
-## パターン１，２の違いは？
-
-### パターン１
-+ VPNのIPを使うパターン
-+ 以下の設定を入れるとVPNのIPを使う
-
-windowなら
-+ TCP/IP詳細設定 -> 「全般」->「リモート ネットワークでデフォルト ゲートウェイを使う」にチェック
-
-macなら
-  + VPN設定を作った -> Advanced.. -> Send all traffic over VPN connectionのチェック
-
-### パターン２
-
-上の設定でチェックを外す
-
 
 # VPN接続Option
 
@@ -113,12 +75,6 @@ VPCにVPN Gatewayを追加して外部と接続可能にする
 
 # 用語
 
-## default VPC
-
-+ 削除しては行けない
-  + 削除するとセキュリティグループとか一緒に削除される
-+ 削除した場合には「AWS サポートに問い合わせ」する
-
 ## NAT
 
 + ネットワークアドレス変換
@@ -154,15 +110,17 @@ UDP ports 500 & 4500, and TCP port 22を許可
 
 # References
 
-+ [Amazon VPC とは?](http://docs.aws.amazon.com/ja_jp/AmazonVPC/latest/UserGuide/VPC_Introduction.html)
 + [VPN 接続](http://docs.aws.amazon.com/ja_jp/AmazonVPC/latest/UserGuide/vpn-connections.html)
-+ [AWSにOpenVPNでVPNを構築してみた](http://qiita.com/saitoxu/items/b0a265edfb11ac381c89)
 + [AWS環境にOpenVPNでVPNを構築](http://qiita.com/hideki/items/657a5701133e713fcf8c)
-+ [Amazon VPC ハードウェアVPN接続を設定する](http://dev.classmethod.jp/cloud/aws/configure-vpc-vpn-connect/)
 + [SoftEtherによるVPN(IPSec)に、IPhone及び、OS X からの接続してみた](http://dev.classmethod.jp/smartphone/softether_l2tp_over_ipsec/)
 + [Amazon EC2とOpenVPNでサーバ-多拠点クライアント間通信をセキュアに行う](http://dev.classmethod.jp/cloud/aws/ec2-ssl-vpn-use-openvpn/)
 + [Amazon VPCとGoogle Compute EngineをVPN接続する](http://dev.classmethod.jp/cloud/vpn-interconnect-amazon-vpc-and-gce/)
 + [Scripts to build your own IPsec VPN server, with IPsec/L2TP and Cisco IPsec on Ubuntu, Debian and CentOS](https://github.com/hwdsl2/setup-ipsec-vpn)
+
+## vpcへのhardware VPN接続について
+
++ [ 1 Amazon VPC- ハードウェアVPN接続についてまとめてみた](https://dev.classmethod.jp/cloud/aws/vpc-connect-hardware-vpn/)
++ [ 2 Amazon VPC ハードウェアVPN接続を設定する](http://dev.classmethod.jp/cloud/aws/configure-vpc-vpn-connect/)
 
 ## slide
 
