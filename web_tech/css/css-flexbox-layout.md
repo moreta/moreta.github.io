@@ -58,6 +58,20 @@ HTML5以前（HTML4.1、XHTML1.0）では、HTMLにブロック（レベル）�
 ```
 もしくは、gridを使うのがいいが、まだbrowser supportはまだかな
 
+## gutterが必要な場合
+
+<https://css-tricks.com/dont-overthink-flexbox-grids/>
+
+```css
+.flex-grid-thirds {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-grid-thirds .col {
+  width: 32%;
+}
+```
+
 
 # References
 

@@ -1,3 +1,12 @@
+# multilineをpasteしたいとき
+
+`edit`を使う
+
+default editorの設定
+
+```rb
+Pry.config.editor = "emacs"
+```
 
 
 # References

@@ -10,6 +10,54 @@ tags: go-lang
 brew install go
 ```
 
+## install by gvm
+
+<https://qiita.com/nrainiero/items/28ab4fbe728986bf72dd>
+
+
+fisherman install
+
+```sh
+$ curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher
+```
+
+bass install
+
+```sh
+fisher edc/bass // bassのインストール
+bash            // bash環境に入ります
+
+// 先程のgvmをインストールするコマンドを実行
+$ bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+```
+
+~/.config/fish/config.fish へgvm設定
+```sh
+function gvm
+  bass source ~/.gvm/scripts/gvm ';' gvm $argv
+end
+```
+
+install go
+```sh
+gvm install go1.4 -B # -Bしないとエラー
+gvm install go1.9.2 -B # -Bしないとエラー
+```
+
+default設定
+```
+gvm list
+gvm use go1.4 --default
+```
+
+```
+echo $GOPATH
+# /home/ec2-user/.gvm/pkgsets/go1.8.3/global
+echo $GOROOT
+# /home/ec2-user/.gvm/gos/go1.8.3
+```
+
+
 ## go path設定
 
 go getを使うためにはGOPATH設定が必要

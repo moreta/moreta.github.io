@@ -1,9 +1,3 @@
----
-title: tig
-date: 2014-04-25
-tags: ios, tig
----
-
 # brewでインストール
 
 `brew update && brew upgrade`
@@ -19,7 +13,30 @@ bind generic ^f scroll-page-down
 bind generic ^b scroll-page-up
 ```
 
+# 閉じる
+
+`q`
+
+# diffを見る
+
+入って enter
+
+# ブランチの一覧
+
+`r`
+
+# checkout
+
+`r`で入って移動後、`C`でcheckout
+
+# 2つのブランチ間の差を表示
+
+```
+tig task_brach..master
+```
+
 # 参考
 
 * [tigでgitをもっと便利に！ addやcommitも](http://qiita.com/suino/items/b0dae7e00bd7165f79ea)
 * [tig : Text-mode interface for git](https://github.com/jonas/tig)
+* [cheatsheet](https://devhints.io/tig)

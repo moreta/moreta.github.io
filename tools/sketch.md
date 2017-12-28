@@ -1,63 +1,22 @@
----
-title: Sketch
-date: 2015-12-15
-tags: sketch, design
----
 
-
-Sketch 3
-===========
-
-# plugins
-
-+ <https://designcode.io/sketch>
-
-## install
-
-<http://sketchtoolbox.com/>を利用
-
-## plugins list
-
-### Fluid
-
-+ <https://github.com/matt-curtis/Fluid-for-Sketch>
-
-### Magic Mirror
-
-+ <http://magicmirror.design/>
-
-### Content generator
-
-+ <https://github.com/timuric/Content-generator-sketch-plugin>
-
-### Slicer
-
-Sketch slicing helper
-
-+ <https://github.com/ozzik/Slicer>
-
-### Renameit
-
-Quickly rename layers or artboards
-
-### butter-sketch-plugin
-
-<https://github.com/pberrecloth/butter-sketch-plugin>
-
-# Basics
-
-## Layer
-
-### Moving Layers
+# Moving Layers
 
 + Click and Drag the layer itself
 + Use your Arrow keys to move each layer one pixel
 + Use your Shift + Arrow keys to move each layer 10 pixels
 
-### Duplicate Layter
+# Duplicate Layter
 
 + Click option and Drag the layer > duplicate layer
 
+# zoomする
+
++ Zoom In : cmd + (+)
++ Zoom out : cmd + (+)
+
+選択をzoomする
+
+drapで選択 -> cmd + 2
 
 # Shortcuts
 

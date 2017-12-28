@@ -65,6 +65,7 @@ rake db:migrate:down	指定したmigrationファイルのself.downメソッド�
 rake db:migrate:redo [STEP=ステップ数]	指定したmigrationファイルのself.downメソッドを実行
 rake db:migrate:reset	databaseを一度削除してもう一度作成し、db:migrate実行
 rake db:migrate:up	指定したmigrationファイルのself.upメソッドを実行
+rake db:migrate:status
 ```\
 
 ## db setup

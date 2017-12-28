@@ -45,6 +45,16 @@ $ rails g integration_test article
 rails g migration ChangeColumnToUser
 ```
 
+# rails console
+
+```
+rails c
+# environment指定
+RAILS_ENV=production rails c
+# fish shell
+env RAILS_ENV=production rails c
+```
+
 
 # References
 

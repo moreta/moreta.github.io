@@ -1,7 +1,7 @@
 
 # References
 + [Composing Reusable Modal Dialogs with Vue.js](https://adamwathan.me/2016/01/04/composing-reusable-modal-dialogs-with-vuejs/)
-  + これをベースでopen source作ってもいいかも
+  + これをベースでopen source作ってもいいかも!!!!!!!!!!!!!!!!!!!!!!!!!
 
 # Library
 

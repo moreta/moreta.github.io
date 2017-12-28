@@ -41,7 +41,8 @@ omf install nvm
 #### 以下は使わない
 
 bassで
-```
+
+```sh
 # nvm setting
 set -gx NVM_DIR ~/.nvm
 bass source ~/.nvm/nvm.sh ';' nvm use default
@@ -54,9 +55,18 @@ end
 
 <https://github.com/oh-my-fish/plugin-rvm>
 
-```
+```sh
 omf install rvm
 omf remove rvm
+```
+
+# environment variableを指定してcommandを実行
+
+<https://fishshell.com/docs/2.2/faq.html>のHow do I set an environment variable for just one command?
+
+```sh
+# fish shell
+env RAILS_ENV=production rails c
 ```
 
 # Trouble shooting

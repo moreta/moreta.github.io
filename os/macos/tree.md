@@ -1,6 +1,7 @@
 # tree
 
 mac install
+
 ```
 brew install tree
 ```
@@ -16,7 +17,12 @@ brew install tree
 | -a      | all file(include hidden file)      |
 | -d      | directories only                   |
 | -L      | Max display depth of the directory |
-|         |                                    |
+| -N      | 日本語が化けるときに                  |
+
+```sh
+# 1レベルのdirectoryを日本語文字化けしないで表示
+tree -LN 1
+```
 
 #### FILE OPTIONS
 

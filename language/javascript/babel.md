@@ -63,6 +63,10 @@ require("babel-core/register")({
 require("babel-core/register");
 ```
 
+# stageについて
+
+
+
 # References
 
 + [babel6での変更点　Gulp・Webpackの設定](http://qiita.com/kamijin_fanta/items/e8e5fc750b563152bbcf)

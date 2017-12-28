@@ -60,6 +60,18 @@ Refactor > renameを選択
 
 `Command + r`
 
+# find file
+
+Open Quicklyを利用する
+
+`cmd + shift + o`
+
+# show hide menu
+
+## View -> Utilities menu
+
+`Command-Option-0`
+
 # References
 
 + [xcode shortcut](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/xcode_help-command_shortcuts/MenuCommands/MenuCommands014.html)

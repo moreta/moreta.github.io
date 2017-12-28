@@ -1,8 +1,6 @@
----
-title: Rails Test with rspec
-date: 2014-04-05
-tags: ruby, unittest, rspec
----
+Rails Test with rspec
+=============================
+
 
 
 # Install & Init
@@ -196,20 +194,58 @@ helper.stub(:current_user) { @current_user }
 ```
 
 
-## Setup Rails 4.1, Spring, Rspec, and Guard
-
-<http://murayama.hatenablog.com/entry/2014/05/11/104108>
+# Rspec setup
 
 ```rb
+RSpecのセットアップ
+
+Gemfile
 group :development, :test do
-  gem 'spring-commands-rspec'
-  gem 'rspec-rails'
-  gem 'guard-rspec'
-  gem 'rb-fsevent' if `uname` =~ /Darwin/
+  gem "rspec-rails"
+  gem "factory_girl_rails"
+  gem "guard-rspec"
+  gem "spring-commands-rspec"
+end
+
+group :test do
+  gem "faker"
+  gem "capybara"
+  gem "database_cleaner"
+  gem "launchy"
+  gem "selenium-webdriver"
+  gem "shoulda-matchers"
 end
 ```
+
+* rspec-rails
+  * RSpec を含んでいる gem である。この gem は Rails 専用の機能を追加する RSpec の ラッパーライブラリになっている。
+* factory_girl_rails
+  * Rails がデフォルトで提供するフィクスチャをずっと便利な ファクトリ で置き換える。フィクスチャやファクトリはテストスイート用のテストデータを作成するために使われる。
+* guard-rspec
+  * 指定されたファイルを監視する。そして監視対象のファイルに応じてタスクを実行する。
+* spring-commands-rspec 
+  * Spring に bin/rspec コマンドのサポートを追加する。
+* faker
+  * は名前やメールアドレス、その他のプレースホルダを ファクトリ に提供する。
+* capybara
+  * ユーザと Web アプリケーションのやりとりをプログラム上で簡単にシミュレートできるようにする。
+* database_cleaner
+  * まっさらな状態で各 spec が実行できるように、テストデータベースのデータを掃除する。
+* launchy
+  * はあなたの好きなタイミングでデフォルトの webブラウザを開き、アプリケーションの表示内容を見せる。テストをデバッグするときには 大変便利である。
+* selenium-webdriver
+  * ブラウザ上で JavaScript を利用する機能を Capybara でテストできるようにする。
+* shoulda-matchers
+  * 数多くの便利なマッチャを自動的に使えるようにする。
+
 
 # References
 
 + [RSpecの(describe/context/example/it)の使い分け](http://qiita.com/uchiko/items/d34c5d1298934252f58f)
-+ [](http://betterspecs.org/jp/)
++ [Better Specs { rspec guidelines with ruby }](http://betterspecs.org/jp/)
++ [RSpecによるRailsテスト入門](https://qiita.com/Morinikiz/items/cf179583c2c5d2e24c3c)
+  + 初期設定は親切に書いてある
+
+## database_cleaer
+
+<https://qiita.com/yoshitsugu/items/3470dbcadfdd677be543>

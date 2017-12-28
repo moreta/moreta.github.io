@@ -26,3 +26,6 @@ Hoge.where(arel_table[:fuga].eq(nil))
 + [ActiveRecord4でこんなSQLクエリどう書くの? Arel編](http://labs.timedia.co.jp/2013/10/activerecord4sql-arel.html)
 + [Arelでクエリを書くのはやめた方が良い5つの理由（Rails 5.0以前の場合）](http://qiita.com/jnchito/items/630b9f038c87298b5756)
   + まあ、でもsubquery作るにはarelしかないでしょう。
++ [Arel でサブクエリ](https://qiita.com/tkawa/items/e65c8847e57a5329f336)
++ [The definitive guide to Arel, the SQL manager for Ruby](https://jpospisil.com/2014/06/16/the-definitive-guide-to-arel-the-sql-manager-for-ruby.html)
+  + これいい！！！！
