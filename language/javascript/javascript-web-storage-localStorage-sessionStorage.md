@@ -84,3 +84,7 @@ function populateStorage() {
 + [web-storage-demo :github](https://github.com/mdn/web-storage-demo)
 + [DOM Storage - 古い文書: MDN](https://developer.mozilla.org/ja/docs/DOM/Storage#Storage)
 + [HTML5 FEATURES - STORAGE](http://www.html5rocks.com/en/features/storage)
+
+## npms
+
++ [simple localStorage adapter(wrapper)](https://github.com/suprMax/local-storage-adapter)

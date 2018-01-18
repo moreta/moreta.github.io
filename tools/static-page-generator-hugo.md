@@ -1,16 +1,28 @@
 
+
+# install 
+
 ```
 brew install hugo
 hugo new site hugo-test
 ```
 
-theme
+# run 
+```
+hugo serve
+```
 
+# themes
+
+## hugo now
 ```
 cd hugo-test/themes
 git clone https://github.com/cboettig/hugo-now-ui.git
 ```
 
-```
-hugo serve
-```
+## whiteplain
+
+blogでいいかも
+
+<https://themes.gohugo.io/whiteplain/>
+
