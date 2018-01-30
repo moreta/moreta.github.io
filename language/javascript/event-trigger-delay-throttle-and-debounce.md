@@ -18,6 +18,15 @@
 めっちゃーいいsample
 <https://css-tricks.com/debouncing-throttling-explained-examples/>
 
+## debounce
+
+The Debounce technique allow us to "group" multiple sequential calls in a single one.
+
+## throttling
+
+By using _.throttle, we don't allow to our function to execute more than once every X milliseconds.
+
+
 # debounceをcancelする方法
 
 debounceにわたしがfunctionが実行されるまえに別のfunctionが実装されることによって

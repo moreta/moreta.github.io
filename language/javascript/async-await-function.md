@@ -104,3 +104,5 @@ async function getResponseSize(url) {
 # References
 
 + [Async functions - making promises friendly](https://developers.google.com/web/fundamentals/getting-started/primers/async-functions)
++ [5 Tips and Thoughts on Async / Await Functions](https://start.jcolemorrison.com/5-tips-and-thoughts-on-async-await-functions/)
+  + error handlingとtestに関するいい例がある

@@ -9,10 +9,20 @@
 
 ## gem
 
-+ drafer
-+ [Trailblazer](http://trailblazer.to/)
-+ [dry-rb](http://dry-rb.org/)
+### drafer
+  + 良さそうに見えるけど、decorate 意識的にinstanceを利用しないといけない部分が不便
 
+### Trailblazer
+
+[Trailblazer](http://trailblazer.to/)
+
+### dry-rb
+
+[dry-rb](http://dry-rb.org/)
+
+### hanami
+
+[hanami](http://hanamirb.org/)
 
 # References
 
