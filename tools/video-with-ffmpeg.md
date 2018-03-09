@@ -29,6 +29,17 @@ width 320でheightを-1にする
 ffmpeg -i input.jpg -vf scale=320:-1 output_320.png
 ```
 
+## compress
+
+<https://gist.github.com/lukehedger/277d136f68b028e22bed>
+
+```sh
+ffmpeg -i input.mp4 -vcodec h264 -acodec mp3 output.mp4 # これも？
+ffmpeg -i input.mp4 -vcodec h264 -acodec aac output.mp4 # これも？
+ffmpeg -i input.mp4 -vcodec h264 -acodec mp2 output.mp4
+ffmpeg -i input.mp4 -vcodec h264 -b:v 1000k -acodec mp2 output.mp4
+```
+
 ## crop
 
 <https://video.stackexchange.com/questions/4563/how-can-i-crop-a-video-with-ffmpeg>
