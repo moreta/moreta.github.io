@@ -6,6 +6,7 @@ tags: unix, command, top, cpu
 
 
 # multi core cpuの確認
+
 `1`を利用する
 
 ```

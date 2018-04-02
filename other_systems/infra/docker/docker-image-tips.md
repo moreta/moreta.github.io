@@ -1,0 +1,1 @@
+[お前のDockerイメージはまだ重い](https://speakerdeck.com/stormcat24/oqian-falsedockerimezihamadazhong-i)

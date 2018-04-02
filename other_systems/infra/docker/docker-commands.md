@@ -188,12 +188,59 @@ docker run testbox env | grep foo
 ```
 
 
-# remove all image
+# 削除
 
-```sh
-#!/bin/bash
-# Delete all containers
-docker rm $(docker ps -a -q)
-# Delete all images
-docker rmi $(docker images -q)
+## remove container
+
+停止しているコンテナをすべて削除する
+
 ```
+docker container prune
+```
+
+コンテナをすべて削除する - すべてのコンテナが「不要」だと判断した場合に
+
+```
+docker rm -f $(docker ps -a -q)
+```
+
+## remove image 
+
+### コンテナが使っていないイメージをすべて削除する - container基準で考える
+```
+docker image prune
+```
+
+もう一度docker imagesで確認すると、不要なimageが削除されています。
+
+
+### image 一個削除
+
+<https://docs.docker.com/engine/reference/commandline/image_rm/>
+
+
+```
+docker image rm [OPTIONS] IMAGE [IMAGE...]
+```
+
+## tagの削除 - docker tagでつけて
+
+docker tagでつけて imageはそのままで、tagだけ削除したい
+
+```
+docker rmi [REPOSITORY_ID]
+```
+
+
+# 使っていないcontainerの一括削除
+
+起動しているcontainerを確認する
+docker ps
+
+起動していないものも含め全てのcontainerを確認する
+docker ps -a
+
+使われていないcontainerを一括削除する
+docker container prune
+
+もう一度docker ps -aで確認すると、不要なcontainerが削除されてdocker psした時と同じになっているはずです。
