@@ -17,6 +17,31 @@ encoding bug関連コメント
 
 <http://d.hatena.ne.jp/temita/20130530/1369921154>
 
+# CSVの書き込みとメモリー
+
+<https://docs.ruby-lang.org/ja/latest/class/CSV.html>
+
+openを使うこと、generateは文字列を返すのでサイズが多き場合メモリが足りなくなる
+
+```rb
+require 'csv'
+
+# ファイルへ書き込み
+CSV.open("path/to/file.csv", "wb") do |csv|
+  csv << ["row", "of", "CSV", "data"]
+  csv << ["another", "row"]
+  # ...
+end
+
+# 文字列へ書き込み
+csv_string = CSV.generate do |csv|
+  csv << ["row", "of", "CSV", "data"]
+  csv << ["another", "row"]
+  # ...
+end
+```
+
+
 
 # CSVの読み込みとメモリー
 

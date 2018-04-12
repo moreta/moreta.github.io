@@ -9,7 +9,7 @@ nvmを利用するとrvmとほぼ同じ感じでインストールできる
 <https://github.com/creationix/nvm>
 
 ```
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.5/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
 ```
 
 
