@@ -44,8 +44,11 @@
 
 <http://sequel.jeremyevans.net/rdoc-plugins/files/lib/sequel/extensions/pagination_rb.html>
 
+# 大量データをselect
+
 # References
 
 + [documentation](http://sequel.jeremyevans.net/documentation.html)
 + [Sequel::Dataset](http://sequel.jeremyevans.net/rdoc/classes/Sequel/Dataset.html)
 + [Why you should stop using ActiveRecord and start using Sequel](https://mrbrdo.wordpress.com/2013/10/15/why-you-should-stop-using-activerecord-and-start-using-sequel/)
++ [sequel cheetsheet](https://devhints.io/sequel)
