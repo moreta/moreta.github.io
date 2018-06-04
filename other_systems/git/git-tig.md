@@ -35,6 +35,29 @@ bind generic ^b scroll-page-up
 tig task_brach..master
 ```
 
+# diffでignore space
+
+```
+W # でtoggle
+```
+
+# branch list (refs)
+
+```
+r
+```
+
+# tigで開くときにすべてのbranchの履歴が見えるように
+
+```
+tig -all
+```
+
+# commit
+
+まず、status viewになる
+`s` -> `C`
+
 # 参考
 
 * [tigでgitをもっと便利に！ addやcommitも](http://qiita.com/suino/items/b0dae7e00bd7165f79ea)

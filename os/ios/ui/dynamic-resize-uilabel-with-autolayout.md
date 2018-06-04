@@ -1,0 +1,1 @@
+<http://jayeshkawli.ghost.io/using-autolayout-to-dynamically-resize-uilabel/>

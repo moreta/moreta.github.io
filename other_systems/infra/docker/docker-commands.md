@@ -244,3 +244,37 @@ docker ps -a
 docker container prune
 
 もう一度docker ps -aで確認すると、不要なcontainerが削除されてdocker psした時と同じになっているはずです。
+
+
+# Makefileをつかうとcommandが便利に
+
+
+<https://codereviewvideos.com/course/docker-tutorial-for-beginners/video/docker-compose-multiple-environments>
+
+```
+docker_build:
+    @docker build \
+        --build-arg WORK_DIR=/var/www/dev/ \
+        -t docker.io/codereviewvideos/symfony.dev .
+
+docker_push:
+    @docker push docker.io/codereviewvideos/symfony.dev
+
+bp: docker_build docker_push
+
+dev:
+    @docker-compose down && \
+        docker-compose build --pull --no-cache && \
+        docker-compose \
+            -f docker-compose.yml \
+            -f docker-compose.dev.yml \
+        up -d --remove-orphans
+
+acceptance:
+    @docker-compose down && \
+        docker-compose build --pull --no-cache && \
+        docker-compose \
+            -f docker-compose.yml \
+            -f docker-compose.acceptance.yml \
+        up -d --remove-orphans
+```

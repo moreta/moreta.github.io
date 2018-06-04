@@ -4,6 +4,9 @@ date: 2016-06-19
 tags: curl
 ---
 
+# curl使うなら HTTTpieがいい
+
+<https://httpie.org/doc>
 
 # GET
 

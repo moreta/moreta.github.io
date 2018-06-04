@@ -9,6 +9,10 @@
 
 + Click option and Drag the layer > duplicate layer
 
+# Collapse All Layer Groups
+
+
+
 # zoomする
 
 + Zoom In : cmd + (+)

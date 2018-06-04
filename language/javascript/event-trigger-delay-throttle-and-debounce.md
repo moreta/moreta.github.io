@@ -60,3 +60,9 @@ var $vm = new Vue({
 
 + [How to trigger an event in input text after I stop typing/writing?](https://stackoverflow.com/questions/14042193/how-to-trigger-an-event-in-input-text-after-i-stop-typing-writing)
 + [lodashの_.throttleと_.debounceの使用例](https://qiita.com/akifo/items/4d715929934a458fb189)
+
+
+## rx swift
+
++ [Throttle vs Debounce in RxSwift](https://medium.com/@dkhuong291/throttle-vs-debounce-in-rxswift-86f8b303d5d4)
++ [RxSwiftのDebounceとThrottle](https://qiita.com/dekatotoro/items/be22a241335382ecc16e)
