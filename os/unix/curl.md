@@ -4,6 +4,9 @@ date: 2016-06-19
 tags: curl
 ---
 
+# curl使うなら HTTTpieがいい
+
+<https://httpie.org/doc>
 
 # GET
 
@@ -68,3 +71,8 @@ curl -i -X GET --proxy [proxy.server.ip:port] \
 + <http://www.hcn.zaq.ne.jp/___/unix/curl_manpage.html>
 + [curlでヘッダを見る方法いろいろ](http://qiita.com/takc923/items/1b508bb370c78b7a9d44)
 + [curlのオプション勉強したのでまとめ](http://hogem.hatenablog.com/entry/20091122/1258863440)
+
+# httpie !!
+
+curlよりは、
+これを使うこと

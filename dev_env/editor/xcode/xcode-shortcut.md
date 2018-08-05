@@ -1,11 +1,40 @@
 Xcode Shortcut
 ===================
 
+# Editor 
+
+## go to method (Show document items)
+
+`ctrl + 6`
+then type method name
+
+
+## auto complete
+
+`ctrl + space`
+
+## fix - エラーの自動fix
+
+`Control + Command + '`
+
+## formatting code
+
+down vote
+Key combination to format all text on open file:
+
+`Command  + a  > Ctrl i`
+
 ## jump to definition - GO TO Implement(カーソル下にある変数/メソッドの定義場所に移動)
 
 `command + click` 
 or 
 `Command + control + j`
+
+## history back - 開いたファイルの履歴をたどる
+
+```
+Command + Control + ← (履歴を戻る) / Command + Control + → (履歴を進む)
+```
 
 
 ## option + drag
@@ -25,31 +54,12 @@ or
 `Command + Shift + o`
 
 
-## 開いたファイルの履歴をたどる
-
-Command + Control + ← (履歴を戻る) / Command + Control + → (履歴を進む)
-
 # file moving
 
 1. finderでファイルを移動
 2. file inspectorのLocationを変更
 
 
-# auto complete
-
-`ctrl + space`
-
-# fix - エラーの自動fix
-
-`Control + Command + '`
-
-# formatting code
-
-
-down vote
-Key combination to format all text on open file:
-
-`Command  + a  > Ctrl i`
 
 # rename
 
@@ -72,7 +82,9 @@ Open Quicklyを利用する
 
 `Command-Option-0`
 
+# method list
 
+control + 6
 
 # References
 

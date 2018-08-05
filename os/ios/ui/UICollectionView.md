@@ -1,0 +1,1 @@
+[UICollectionView の Layout で悩んだら](http://techlife.cookpad.com/entry/2017/06/29/190000)

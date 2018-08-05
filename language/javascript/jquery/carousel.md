@@ -13,3 +13,7 @@ jqueryなしでのversionもある
 
 <http://owlcarousel2.github.io/OwlCarousel2/>も悪くわないけど
 jquery dependencyな部分とまだbeta
+
+## vanilla javascript
+
+<https://css-tricks.com/simple-swipe-with-vanilla-javascript/>

@@ -111,6 +111,12 @@ source ~/.nvm/nvm.sh
 
 `node -v`
 
+# update node version
+
+```
+nvm install v8.11.3 --reinstall-packages-from=v8.10.0
+```
+
 
 # Fish shell
 

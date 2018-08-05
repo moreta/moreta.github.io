@@ -47,6 +47,22 @@ git config commit.template ~/.gitmessage.txt # specific repository
 git commit
 ```
 
+### ~/.gitmessage.txt sapmle
+
+```
+feat(scope)[#x] title
+
+* desc1
+
+# feat (feature)
+# fix (bug fix)
+# docs (documentation)
+# style (formatting, missing semi colons, …)
+# refactor
+# test (when adding missing tests)
+# chore (maintain)
+```
+
 
 # commit prefixをつける方法
 

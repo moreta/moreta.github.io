@@ -1,8 +1,6 @@
-Webview & Javsscript
-=======================
+# iOS Webview & Javsscript
 
-
-# from javascript to ios
+## from javascript to ios
 
 javascriptでiosのfunctionを`webkit.messageHandlers`でcall
 
@@ -33,3 +31,5 @@ iosからjavascriptのfunctionを呼び出し
 + [Swift: Web (JavaScript) から SKWebView へメッセージを送信する](http://www.sirochro.com/note/swift-js-to-skwebview-message/)
 + [Android & iOS javascriptとネイティブの連携](http://s-prism3.seesaa.net/article/439412637.html)
 + [Using JavaScript with WKWebView in iOS 8](http://www.joshuakehn.com/2014/10/29/using-javascript-with-wkwebview-in-ios-8.html)
++ [WKWebViewにおけるSwiftとJavaScriptにおける双方向通信](https://qiita.com/mss634/items/170d3cb401eee4ec1253)
++ [Swift: WKWebView の userContentController で取得した JSON を使用する](http://www.sirochro.com/note/swift-swiftyjson-parse/)

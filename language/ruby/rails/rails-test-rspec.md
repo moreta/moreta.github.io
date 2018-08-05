@@ -96,15 +96,33 @@ end
   + 日本語にするときにはexample
   + 英語でするときにはit
 
-## before、after
+## before、after & let
 
-サンプルグループの 単位で一度だけ実行したい場合
+* サンプルグループの 単位で一度だけ実行したい場合
+
 
 ```rb
 before(:all)
 after(:all)
 ```
 のように記述
+
+### beforeで共通の前準備をする
+
+```rb
+describe User do
+  describe '#greet' do
+    before do
+      @params = { name: 'たろう' }
+    end
+  end
+end
+```
+しかし、`@params`のinstance variableより`let`syntaxを使うのがいい
+なぜなら、「遅延評価」されるため
+
+* <https://qiita.com/jnchito/items/42193d066bd61c740612#user-%E3%82%92-let-%E3%81%AB%E3%81%99%E3%82%8B>
+* [RSpecのletを使うのはどんなときか？（翻訳）](https://qiita.com/jnchito/items/cdd9eef2ed193267c651)
 
 
 ## テスト実行
@@ -245,6 +263,8 @@ end
 + [Better Specs { rspec guidelines with ruby }](http://betterspecs.org/jp/)
 + [RSpecによるRailsテスト入門](https://qiita.com/Morinikiz/items/cf179583c2c5d2e24c3c)
   + 初期設定は親切に書いてある
++ [使えるRSpec入門・その1「RSpecの基本的な構文や便利な機能を理解する」](https://qiita.com/jnchito/items/42193d066bd61c740612)
+  + これよかった2018/05/30
 
 ## database_cleaer
 
