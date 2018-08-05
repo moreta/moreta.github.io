@@ -19,9 +19,10 @@ pip install awscli
 
 ## macOS
 
+* pipを利用する
+* pipがない場合、pyenvでpythonをinstallし、pipをinstallする
+
 ```sh
-brew install awscli
-# or
 pip install awscli
 ```
 

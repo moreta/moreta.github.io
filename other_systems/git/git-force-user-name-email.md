@@ -5,6 +5,12 @@ git config --global --unset user.name
 git config --global --unset user.email
 
 cd /path/to/my_repo
+
+// not this
+git config --global user.name "My Name"
+git config --global user.email "me@example.com"
+
+// ok this
 git config user.name "My Name"
 git config user.email "me@example.com"
 

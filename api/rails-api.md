@@ -22,6 +22,13 @@ Rails API開発
 
 [Api keys](/api/api-key.md)
 
+# api fallbackにどう対応するか？ (fallbacks to previous version)
+
+[API Versioning with Ruby on Rails: What Gems Are the Best](https://yalantis.com/blog/api-versioning-with-ruby-on-rails/)
+
+ここの内容がいい
+
+
 # References
 
 * [Building the Perfect Rails 5 API Only App](http://sourcey.com/building-the-prefect-rails-5-api-only-app/)
