@@ -5,6 +5,7 @@
 ```sh
 npm install serve -g
 serve -p 8000
+open http://localhost:8000
 ```
 
 ## pushstate-server

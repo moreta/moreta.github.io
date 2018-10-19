@@ -25,6 +25,10 @@ bind generic ^b scroll-page-up
 
 `r`
 
+# add , unadd
+
+
+
 # checkout
 
 `r`で入って移動後、`C`でcheckout

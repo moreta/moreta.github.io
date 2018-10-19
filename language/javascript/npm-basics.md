@@ -106,5 +106,6 @@ npm publish --tag latest
 ```
 npm publish --tag beta
 npm publish --tag alpha
+npm publish --tag rc
 ```
 

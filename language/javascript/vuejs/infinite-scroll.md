@@ -38,5 +38,10 @@ infinite scrollにすると scroll upは paginationでのページ遡りと同�
   + <https://github.com/PeachScript/vue-infinite-loading>
 + [twitterの例](https://itsze.ro/blog/2017/04/09/infinite-list-and-react.html)
 
+## waypoints
+
++ [Waypoints is a library that makes it easy to execute a function whenever you scroll to an element.](https://github.com/imakewebthings/waypoints)
+  + infinite scrollのためではないがinfinite scroll機能もあるらしい
+
 ## DOM recyleing
 
