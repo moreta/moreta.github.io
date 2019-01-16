@@ -86,6 +86,12 @@ Open Quicklyを利用する
 
 control + 6
 
+# go back & go forward
+
+`control + command + back`
+
+`control + command + forward`
+
 # References
 
 + [xcode shortcut](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/xcode_help-command_shortcuts/MenuCommands/MenuCommands014.html)

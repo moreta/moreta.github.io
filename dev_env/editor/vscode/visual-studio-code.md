@@ -84,3 +84,4 @@ Relace : `command + R`
 # References
 
 + [Visual Studio Code チートシート](http://qiita.com/aoinu/items/681f932ce0b162cd9520)
++ [2018-12-11 マルチカーソルを使わないVSCodeはただのVSCodeだ！〜解説編〜](http://mugi1.hateblo.jp/entry/2018/12/11/215808)

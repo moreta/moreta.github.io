@@ -7,12 +7,13 @@ tags: mac, port
 
 ## ポート確認
 
-```
+```bash
 netstat -anp tcp | grep 3000
 ```
 If your netstat don't support -p, use lsof
 
-```
+```bash
+lsof -i -P | grep 8080
 lsof -i tcp:3000
 ```
 
