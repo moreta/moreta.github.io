@@ -9,6 +9,14 @@
 http
 ```
 
+# header
+
+[HTTP headers](https://httpie.org/doc#http-headers)
+
+```bash
+curl https://your_url.com x-api-key:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+```
+
 # References
 
 

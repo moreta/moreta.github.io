@@ -104,6 +104,8 @@ cask install
 (depends-on "web-mode")
 ;; yasnippetは、コードスニペット(code snip)を扱います
 (depends-on "yasnippet") 
+;; hcl
+(depends-on "hcl-mode")
 
 
 ;; ========= ここまでintiによって defaultで入っている ==================

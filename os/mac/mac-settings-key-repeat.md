@@ -1,3 +1,12 @@
+mac key repeat
+======================
+
+
+Karabinerからできてたけど、アップデートででくなくなった。
+
+# References
+
+* <https://blog.nijohando.jp/post/karabiner-elements-key-repeat-tab-is-gone/>
 
 # 環境設定から設定できる速度以上の速度に設定できる
 
@@ -10,7 +19,7 @@ defaults read -g KeyRepeat
 
 echo "キーリピート開始までの早さ 現在の設定を表示"
 defaults read -g InitialKeyRepeat
-# defaults read NSGlobalDomain InitialKeyRepeat # sale
+# defaults read NSGlobalDomain InitialKeyRepeat # same
 
 echo "キーリピートの速さ 1 に設定する(小さい程速い)"
 echo "Set a blazingly fast keyboard repeat rate, (1unit 15ms)"

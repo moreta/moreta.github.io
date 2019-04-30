@@ -27,6 +27,14 @@ bind generic ^b scroll-page-up
 
 # add , unadd
 
+1. main viewで `S` (`shift+ s`) - git status
+2. fileかgroupで `u`
+
+## 部分add
+
+上の、fileのdiff viewで
+変更groupで `u`する
+変更行で`1`すると、その行だけ
 
 
 # checkout

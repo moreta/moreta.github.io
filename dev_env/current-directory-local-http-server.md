@@ -4,8 +4,8 @@
 
 ```sh
 npm install serve -g
-serve -p 8000
-open http://localhost:8000
+serve -p 9001
+open http://localhost:9001
 ```
 
 ## pushstate-server
@@ -20,7 +20,9 @@ open http://localhost:9000
 
 ## ruby
 
-`ruby -run -e httpd . -p 8000`
+```
+ruby -run -e httpd . -p 9002
+```
 
 * <http://docs.ruby-lang.org/ja/2.1.0/library/un.html>
 * <http://docs.ruby-lang.org/ja/2.1.0/method/Kernel/i/httpd.html>
