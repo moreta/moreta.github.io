@@ -17,6 +17,23 @@ Homebrew Formulas (Mac Brew Packages)
 + pstree
   + psをtreeで見せる
 
+* bat
+  * catより便利
+* fzf
+  * cli自動完成
+
+# list
+
+```
+
+brew install fzf
+brew install bat
+
+# fira code
+brew tab caskroom/fonts
+brew install font-fira-code
+```
+
 ## rename - file rename Util
 
 <http://plasmasturm.org/code/rename/>
