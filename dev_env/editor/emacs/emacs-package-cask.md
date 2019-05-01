@@ -104,24 +104,21 @@ cask install
 (depends-on "web-mode")
 ;; yasnippetは、コードスニペット(code snip)を扱います
 (depends-on "yasnippet") 
-;; hcl
-(depends-on "hcl-mode")
-
 
 ;; ========= ここまでintiによって defaultで入っている ==================
 
+;; hcl
+(depends-on "hcl-mode")
 ;; yaml
 (depends-on "yaml-mode")
 
 ;; auto-completeは、編集中に自動補完の候補を上げてくれます（参考）
 (depends-on "auto-complete")
 
-
 ;; ruby
 (depends-on "ruby-mode")
 (depends-on "ruby-end")
 ;; ruby - option
-(depends-on "ruby-block")
 (depends-on "ruby-compilation")
 (depends-on "ruby-interpolation")
 (depends-on "ruby-test-mode")
@@ -129,7 +126,6 @@ cask install
 
 ;; undo/redo
 (depends-on "undo-tree")
-(depends-on "redo+")
 ```
 
 ## init.el file
