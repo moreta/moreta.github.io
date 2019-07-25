@@ -13,15 +13,15 @@ ec2のtimezon設定
 変更を確認
 
     # before
-    [root@restir ec2-user]# strings /etc/localtime
+    > strings /etc/localtime
     TZif2
     TZif2
     UTC0
     
     # after
-    [root@restir ec2-user]# cp /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
+    > cp /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
     cp: overwrite ‘/etc/localtime’? y
-    [root@restir ec2-user]# strings /etc/localtime
+    > strings /etc/localtime
     TZif2
     TZif2
     JST-9

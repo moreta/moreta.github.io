@@ -68,16 +68,20 @@ rake db:migrate:up	指定したmigrationファイルのself.upメソッドを実
 rake db:migrate:status
 ```\
 
-## db setup
+## initial db setup
+
+最初にdbをsetupする場合
 
 ```sh
 # Create the database, load the schema, and initialize with the seed data (use db:reset to also drop the db first)
-rake db:setup
+# rake db:setup
 
-# これと同じ
-rake:db:create
-rake db:schema:load # schema.rbをDBに反映
-rake db:seed
+# 上はこれと同じ
+# rake:db:create # 1
+
+# 注意!!!!!!!!!!!!!!!!!!!!!
+#rake db:schema:load # 2. schema.rbをDBに反映 # 危ない。普段使わない
+#rake db:seed # 3
 ```
 
 ### schema.rbよりstucture.sqlを !!
@@ -87,10 +91,19 @@ development.rbに以下を設置すると`schema.rb`の代わりに`structure.sq
 config.active_record.schema_format = :sql
 ```
 
+**load : schema fileで dbを作成** 
+危ないので使わない
+
 ```sh
-rake db:schema:load # databaseへ反映
+# rake db:schema:load # databaseへ反映 # 注意！！！DBが変更される
+# prake db:structure:load # databaseへ反映 # 注意！！！DBが変更される
+```
+
+**dump : dbからschemaを作成** 
+
+
+```sh
 rake db:schema:dump # databaseからschema.rbを生成
-rake db:structure:load # databaseへ反映
 rake db:structure:dump # databaseからstructure.sqlを生成
 ```
 

@@ -4,28 +4,21 @@
 
 `brew install tig`
 
-## vimと同じキー設定
+# usages
 
-```sh
-# ~/.tigrc
-
-bind generic ^f scroll-page-down
-bind generic ^b scroll-page-up
-```
-
-# 閉じる
+## 閉じる
 
 `q`
 
-# diffを見る
+## diffを見る
 
 入って enter
 
-# ブランチの一覧
+## ブランチの一覧
 
 `r`
 
-# add , unadd
+## add , unadd
 
 1. main viewで `S` (`shift+ s`) - git status
 2. fileかgroupで `u`
@@ -37,38 +30,42 @@ bind generic ^b scroll-page-up
 変更行で`1`すると、その行だけ
 
 
-# checkout
+## checkout
 
 `r`で入って移動後、`C`でcheckout
 
-# 2つのブランチ間の差を表示
+## 2つのブランチ間の差を表示
 
 ```
 tig task_brach..master
 ```
 
-# diffでignore space
+## diffでignore space
 
 ```
 W # でtoggle
 ```
 
-# branch list (refs)
+## branch list (refs)
 
 ```
 r
 ```
 
-# tigで開くときにすべてのbranchの履歴が見えるように
+## tigで開くときにすべてのbranchの履歴が見えるように
 
 ```
 tig -all
 ```
 
-# commit
+## commit
 
 まず、status viewになる
 `s` -> `C`
+
+# .tigrc設定
+
+git-tig-config.mdを参照
 
 # 参考
 

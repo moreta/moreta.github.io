@@ -5,8 +5,12 @@
 ```sh
 npm install serve -g
 serve -p 9001
+serve -p 9001 -s dist # SPAでclient side routingの場合 -s optionが必要 & dist folderを指定
 open http://localhost:9001
 ```
+
+### -s option
+ -s, --single                        Rewrite all not-found requests to \`index.html\`
 
 ## pushstate-server
 
