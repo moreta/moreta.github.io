@@ -67,6 +67,10 @@ tig -all
 
 git-tig-config.mdを参照
 
+
+# search commit message
+
+
 # 参考
 
 * [tigでgitをもっと便利に！ addやcommitも](http://qiita.com/suino/items/b0dae7e00bd7165f79ea)
